@@ -32,6 +32,7 @@ jobs:
           git pull
           pip3 install pandas
           pip3 install gsheets
+          pip3 install openpyxl
 
 
       - name: fetch-sheet
