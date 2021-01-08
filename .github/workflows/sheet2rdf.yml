@@ -39,6 +39,7 @@ jobs:
           echo $CLIENT > client.json
           echo $STORAGE > storage.json
           cat client.json
+          echo "$(<client.json)"
 
 #       - name: commit-artifacts
 #         run: |
