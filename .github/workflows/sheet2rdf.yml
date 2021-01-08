@@ -33,8 +33,10 @@ jobs:
           pip3 install pandas
           pip3 install gsheets
           pip3 install openpyxl
+          curl -L https://github.com/cmader/qSKOS/releases/download/2.0.3/qSKOS-cmd.jar -o qSKOS.jar
+          curl -L https://github.com/sparna-git/xls2rdf/releases/download/2.1.1/xls2rdf-app-2.1.1-onejar.jar -o xls2rdf.jar
 
-      - name: convert-sheet
+      - name: sheet2xls
         env:
           CLIENT: ${{secrets.CLIENT}}
           STORAGE: ${{secrets.STORAGE}}
@@ -42,6 +44,20 @@ jobs:
           SHEET_ID: ${{secrets.SHEET_ID}}
         run: |
           python3 ./src/sheet2xls.py
+
+      - name: xls2rdf
+        env:
+          FILE_NAME: ${{secrets.FILE_NAME}}
+        run: |
+          java -jar xls2rdf.jar convert -i $FILE_NAME.xlsx -o $FILE_NAME.ttl -l en
+          mv xls2rdf.log ./logs/
+
+      - name: rdf-test
+        env:
+          FILE_NAME: ${{secrets.FILE_NAME}}
+        run: |
+          java -jar qSKOS.jar analyze -dc mil,bl $FILE_NAME.ttl -o ./logs/rdf-test.log
+
 
       - name: commit-artifacts
         run: |
