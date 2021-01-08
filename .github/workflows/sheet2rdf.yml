@@ -60,6 +60,8 @@ jobs:
 
 
       - name: commit-artifacts
+        env:
+          FILE_NAME: ${{secrets.FILE_NAME}}
         run: |
           rm qSKOS.jar
           rm xls2rdf.jar
