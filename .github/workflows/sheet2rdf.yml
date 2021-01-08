@@ -32,12 +32,11 @@ jobs:
           git pull
 
       - name: fetch-sheet
-        env: |
+        env: 
           CLIENT: ${{secrets.CLIENT}}
-          STORAGE: ${{secrets.STORAGE}}
         run: |
           echo `CLIENT`
-          echo `STORAGE`
+#          echo `STORAGE`
 
 #       - name: commit-artifacts
 #         run: |
