@@ -30,6 +30,9 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git pull
+          pip3 install pandas
+          pip3 install gsheets
+          python3 fetch_sheet.py
 
       - name: fetch-sheet
         env: 
@@ -38,13 +41,12 @@ jobs:
         run: |
           echo $CLIENT > client.json
           echo $STORAGE > storage.json
-          cat client.json
-          echo "$(<client.json)"
-          which python
+          python3 
 
-#       - name: commit-artifacts
-#         run: |
-#           git pull
-#           git add .
-#           git diff-index --quiet HEAD || git commit -m "updated CEDAR artifacts"
-#           git push
+
+      - name: commit-artifacts
+        run: |
+          git pull
+          git add .
+          git diff-index --quiet HEAD || git commit -m "updated artifacts"
+          git push
