@@ -4,14 +4,14 @@ import os
 import json
 
 
-# client = os.environ["CLIENT"]
-# storage = os.environ["STORAGE"]
+client = json.loads(os.environ["CLIENT"])
+storage = json.loads(os.environ["STORAGE"])
 
-# with open("client.json", "w") as json_file:
-#     json.dump(client, json_file, indent=4)
+with open("client.json", "w") as json_file:
+    json.dump(client, json_file, indent=4)
 
-# with open("storage.json", "w") as json_file:
-#     json.dump(storage, json_file, indent=4)
+with open("storage.json", "w") as json_file:
+    json.dump(storage, json_file, indent=4)
 
 
 
