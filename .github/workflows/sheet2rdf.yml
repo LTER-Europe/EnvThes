@@ -34,9 +34,11 @@ jobs:
       - name: fetch-sheet
         env: 
           CLIENT: ${{secrets.CLIENT}}
+          STORAGE: ${{secrets.STORAGE}}
         run: |
-          echo $CLIENT
-#          echo `STORAGE`
+          echo $CLIENT > client.json
+          echo $STORAGE > storage.json
+          cat client.json
 
 #       - name: commit-artifacts
 #         run: |
