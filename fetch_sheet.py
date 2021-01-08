@@ -1,5 +1,18 @@
 from gsheets import Sheets
 import pandas as pd
+import os
+
+client = os.environ["CLIENT"]
+storage = os.environ["STORAGE"]
+
+with open("client.json", "w") as json_file:
+    json.dump(client, json_file, indent=4)
+
+with open("storage.json", "w") as json_file:
+    json.dump(storage, json_file, indent=4)
+
+
+
 
 data_file = "taxonomy.csv"
 sheet_id = '1zyEfkovkg66gWyzOgh8FucuE3CCVgHQCAjNEfx_kLmI'
