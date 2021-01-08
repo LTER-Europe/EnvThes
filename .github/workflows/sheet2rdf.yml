@@ -32,16 +32,14 @@ jobs:
           git pull
           pip3 install pandas
           pip3 install gsheets
-          python3 fetch_sheet.py
+
 
       - name: fetch-sheet
         env: 
           CLIENT: ${{secrets.CLIENT}}
           STORAGE: ${{secrets.STORAGE}}
         run: |
-          echo $CLIENT > client.json
-          echo $STORAGE > storage.json
-          python3 
+          python3 fetch_sheet.py
 
 
       - name: commit-artifacts
