@@ -2,7 +2,7 @@
 
 name: Sheet2RDF
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  sheet2rdf:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -34,14 +34,14 @@ jobs:
           pip3 install gsheets
           pip3 install openpyxl
 
-
-      - name: fetch-sheet
-        env: 
+      - name: convert-sheet
+        env:
           CLIENT: ${{secrets.CLIENT}}
           STORAGE: ${{secrets.STORAGE}}
+          FILE_NAME: ${{secrets.FILE_NAME}}
+          SHEET_ID: ${{secrets.SHEET_ID}}
         run: |
-          python3 fetch_sheet.py
-
+          python3 ./src/sheet2xls.py
 
       - name: commit-artifacts
         run: |
