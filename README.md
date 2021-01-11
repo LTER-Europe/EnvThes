@@ -7,7 +7,7 @@ This repository hosts automatic workflow, executed by means of Github actions, a
 - Commits conversion results and tests logs to this repository
 - and deploy RDF vocabulary to OntoStack to be served to humans and machines
 
-This workflow is an extension of [excel2rdf](https://github.com/fair-data-collective/excel2rdf-template) workflow.
+This workflow is an extension of [excel2rdf](https://github.com/fair-data-collective/excel2rdf-template).
 
 # OntoStack
 
@@ -30,7 +30,7 @@ In case you want to use **sheet2rdf** in your own work you need to:
 
 1. Follow [gsheets](https://pypi.org/project/gsheets/) Quickstart and generate client_secrets.json and storage.json
 
-2. Create following Github secrets:
+2. Create following [Github secrets](https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets):
    - **DB_USER**: user name of Jena Fuseki user account that has privilages to PUT RDF vocabulary to the database
    - **DB_PASS**: password of for the above account
    - **FILE_NAME**: name that will be used when converting of Google sheet to files such as RDF and CSB down in the workflow.
@@ -39,3 +39,7 @@ In case you want to use **sheet2rdf** in your own work you need to:
    - **SPARQL_ENDPOINT**: endpoint to which RDF vocabulary is PUT.
    - **STORAGE**: content of storage.json
    - **CLIENT**: content of client.json
+
+# License
+
+This work is licensed under [Apache 2.0 License](https://github.com/niva83/sheet2rdf/blob/main/License.md).
