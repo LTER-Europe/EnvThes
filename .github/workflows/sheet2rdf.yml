@@ -58,15 +58,15 @@ jobs:
         run: |
           java -jar qSKOS.jar analyze -dc mil,bl $FILE_NAME.ttl -o ./logs/rdf-test.log
 
-      # - name: deploy
-      #   env:
-      #     FILE_NAME: ${{secrets.FILE_NAME}}
-      #     GRAPH: ${{secrets.GRAPH}}
-      #     DB_PASS: ${{secrets.DB_PASS}}
-      #     DB_USER: ${{secrets.DB_USER}}
-      #     SPARQL_ENDPOINT: ${{secrets.SPARQL_ENDPOINT}}
-      #   # run: |
-      #   #   ./src/deploy2db.sh
+      - name: deploy
+        env:
+          FILE_NAME: ${{secrets.FILE_NAME}}
+          GRAPH: ${{secrets.GRAPH}}
+          DB_PASS: ${{secrets.DB_PASS}}
+          DB_USER: ${{secrets.DB_USER}}
+          SPARQL_ENDPOINT: ${{secrets.SPARQL_ENDPOINT}}
+        run: |
+          ./src/deploy2db.sh
 
       - name: commit-artifacts
         env:
