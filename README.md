@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/327900313.svg)](https://zenodo.org/badge/latestdoi/327900313)
-[![CI](https://github.com/niva83/sheet2rdf/workflows/Sheet2RDF/badge.svg)](https://github.com/fair-data-collective/excel2rdf-template/actions?query=workflow%3Aexcel2rdf)
+[![CI](https://github.com/niva83/sheet2rdf/workflows/Sheet2RDF/badge.svg)](https://github.com/niva83/sheet2rdf/actions?query=workflow%3ASheet2RDF)
 
 # sheet2rdf
 
