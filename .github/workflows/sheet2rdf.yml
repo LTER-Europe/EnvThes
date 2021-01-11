@@ -36,7 +36,7 @@ jobs:
           curl -L https://github.com/cmader/qSKOS/releases/download/2.0.3/qSKOS-cmd.jar -o qSKOS.jar
           curl -L https://github.com/sparna-git/xls2rdf/releases/download/2.1.1/xls2rdf-app-2.1.1-onejar.jar -o xls2rdf.jar
 
-      - name: sheet2xls
+      - name: conversion-sheet2xls
         env:
           CLIENT: ${{secrets.CLIENT}}
           STORAGE: ${{secrets.STORAGE}}
@@ -45,19 +45,28 @@ jobs:
         run: |
           python3 ./src/sheet2xls.py
 
-      - name: xls2rdf
+      - name: conversion-xls2rdf
         env:
           FILE_NAME: ${{secrets.FILE_NAME}}
         run: |
           java -jar xls2rdf.jar convert -i $FILE_NAME.xlsx -o $FILE_NAME.ttl -l en
           mv xls2rdf.log ./logs/
 
-      - name: rdf-test
+      - name: test
         env:
           FILE_NAME: ${{secrets.FILE_NAME}}
         run: |
           java -jar qSKOS.jar analyze -dc mil,bl $FILE_NAME.ttl -o ./logs/rdf-test.log
 
+      # - name: deploy
+      #   env:
+      #     FILE_NAME: ${{secrets.FILE_NAME}}
+      #     GRAPH: ${{secrets.GRAPH}}
+      #     DB_PASS: ${{secrets.DB_PASS}}
+      #     DB_USER: ${{secrets.DB_USER}}
+      #     SPARQL_ENDPOINT: ${{secrets.SPARQL_ENDPOINT}}
+      #   # run: |
+      #   #   ./src/deploy2db.sh
 
       - name: commit-artifacts
         env:
@@ -65,7 +74,7 @@ jobs:
         run: |
           rm qSKOS.jar
           rm xls2rdf.jar
-          rm $FILE_NAME.xlsx
+#          rm $FILE_NAME.xlsx
           git add .
           git diff-index --quiet HEAD || git commit -m "new .ttl from Google sheet has been generated"
           git push

@@ -38,7 +38,7 @@ column_names = [i for i in range(0, largest_column_count)]
 df = pd.read_csv(
     file_name + ".csv", header=None, delimiter=txt_delimiter, names=column_names
 )
-df.to_excel(file_name + ".xlsx", index=False)
+df.to_excel(file_name + ".xlsx", index=False, header=False)
 
 os.remove("client.json")
 os.remove("storage.json")
