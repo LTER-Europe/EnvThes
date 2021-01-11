@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/311036851.svg)](https://zenodo.org/badge/latestdoi/311036851) [![CI](https://github.com/niva83/sheet2rdf/workflows/Sheet2RDF/badge.svg)](https://github.com/fair-data-collective/excel2rdf-template/actions?query=workflow%3Aexcel2rdf)
+
 # sheet2rdf
 
 This repository hosts automatic workflow, executed by means of Github actions, and underlying shell and python scripts which:
