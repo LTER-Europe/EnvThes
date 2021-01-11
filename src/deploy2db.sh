@@ -12,9 +12,7 @@ rawurlencode() {
      esac
      encoded+="${o}"
   done
-#   echo "${encoded}"    # You can either set a return variable (FASTER)
-  ENCODED_URL="${encoded}"   #+or echo the result (EASIER)... or both... :p
-#   export REPLY="${encoded}"
+  ENCODED_URL="${encoded}" 
 }
 
 rawurlencode "$GRAPH";
