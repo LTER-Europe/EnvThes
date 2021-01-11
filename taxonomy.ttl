@@ -27,7 +27,7 @@
   pav:version "0.1"@en;
   skos:hasTopConcept wetaxtop:Economics, wetaxtop:OperationMaintenance, wetaxtop:Siting,
     wetaxtop:WindPowerPlant, wetaxtop:WindTurbine;
-  skos:prefLabel "Wind Energy Taxonomy"@en .
+  skos:prefLabel "Wind Energy Taxonomy of Topics"@en .
 
 wetaxtop:IEVref a rdf:Property;
   dct:creator <https://orcid.org/0000-0002-9381-9693>;
