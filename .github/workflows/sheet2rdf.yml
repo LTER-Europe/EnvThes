@@ -74,7 +74,6 @@ jobs:
         run: |
           rm qSKOS.jar
           rm xls2rdf.jar
-#          rm $FILE_NAME.xlsx
           git add .
           git diff-index --quiet HEAD || git commit -m "new .ttl from Google sheet has been generated"
           git push
