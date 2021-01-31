@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/327900313.svg)](https://zenodo.org/badge/latestdoi/327900313)
-[![CI](https://github.com/niva83/sheet2rdf/workflows/Sheet2RDF/badge.svg)](https://github.com/fair-data-collective/excel2rdf-template/actions?query=workflow%3Aexcel2rdf)
+[![CI](https://github.com/niva83/sheet2rdf/workflows/Sheet2RDF/badge.svg)](https://github.com/niva83/sheet2rdf/actions?query=workflow%3ASheet2RDF)
 
 # sheet2rdf
 
@@ -22,10 +22,11 @@ Some of OntoStack micro-services are:
 - [SKOSMOS](http://www.skosmos.org/) a web-based SKOS browser acting as a front-end for the vocabularies persisted by the graph database
 - [Træfik](https://doc.traefik.io/traefik/) an edge router responsible for proper serving of URL requests
 
-Currently two instances of OntoStack run on:
+Currently three instances of OntoStack are available:
 
-- DTU Wind Energy web server: http://data.windenergy.dtu.dk/ontologies
-- DeiC VM: http://ontology.deic.dk/
+- Departamental instance of [DTU Wind Energy](https://www.vindenergi.dtu.dk/english/): http://data.windenergy.dtu.dk/ontologies
+- National (Danish) instance run by [DeiC](https://deic.dk/): http://ontology.deic.dk/
+- International instance run by [FAIR Data Collective](http://fairdatacollective.org/): http://vocab.fairdatacollective.org
 
 # Configuring sheet2rdf
 
@@ -45,4 +46,12 @@ In case you want to use **sheet2rdf** in your own work you need to:
 
 # License
 
-This work is licensed under [Apache 2.0 License](https://github.com/niva83/sheet2rdf/blob/main/License.md).
+This work is licensed under [Apache 2.0 License](https://github.com/niva83/sheet2rdf/blob/main/License.md)
+
+
+# Citation
+
+In case you are using this workflow the author kindly requests you to cite this repository in your publications such as:
+> Nikola Vasiljevic. (2021, January 11). sheet2rdf: First release (Version v0.1). Zenodo. http://doi.org/10.5281/zenodo.4432136
+
+For any other citation format visit http://doi.org/10.5281/zenodo.4432136
