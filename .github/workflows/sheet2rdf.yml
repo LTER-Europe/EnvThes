@@ -18,32 +18,40 @@ jobs:
   # This workflow contains a single job called "build"
   sheet2rdf:
     # The type of runner that the job will run on
+    
+    name: Sheet2RDF
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    strategy:
+      fail-fast: false
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      - name: prepare
+      - uses: actions/checkout@v2    
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          auto-update-conda: true
+          python-version: "3.8"
+      - name: Prepare
+        shell: bash -l {0}   
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git pull
-          pip3 install pandas
-          pip3 install gsheets
-          pip3 install openpyxl
+          git pull        
+          conda create -n sheet2rdf python=3.8 pandas openpyxl
+          conda activate sheet2rdf
+          pip install gsheets
           curl -L https://github.com/cmader/qSKOS/releases/download/2.0.3/qSKOS-cmd.jar -o qSKOS.jar
-          curl -L https://github.com/sparna-git/xls2rdf/releases/download/2.1.1/xls2rdf-app-2.1.1-onejar.jar -o xls2rdf.jar
-
-      - name: conversion-sheet2xls
+          curl -L https://github.com/sparna-git/xls2rdf/releases/download/2.1.1/xls2rdf-app-2.1.1-onejar.jar -o xls2rdf.jar          
+          
+      - name: Fetch
+        shell: bash -l {0}
         env:
           CLIENT: ${{secrets.CLIENT}}
           STORAGE: ${{secrets.STORAGE}}
           FILE_NAME: ${{secrets.FILE_NAME}}
-          SHEET_ID: ${{secrets.SHEET_ID}}
+          SHEET_ID: ${{secrets.SHEET_ID}}        
         run: |
-          python3 ./src/sheet2xls.py
+          conda activate sheet2rdf          
+          python ./src/sheet2xls.py
+
 
       - name: conversion-xls2rdf
         env:
