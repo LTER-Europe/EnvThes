@@ -4,7 +4,7 @@
 
 This repository hosts automatic workflow, executed by means of Github actions, and underlying shell and python scripts which:
 
-- Fetches Google Sheet from Google Drive and stores is at `xlsx` and `csv` files
+- Fetches Google Sheet from Google Drive and stores is as `xlsx` and `csv` files
 - Converts fetched sheet to machine-actionable and FAIR RDF vocabulary using [xls2rdf](https://github.com/sparna-git/xls2rdf)
 - Tests the resulting RDF vocabulary using [qSKOS](https://github.com/cmader/qSKOS/)
 - Commits conversion results and tests logs to this repository
