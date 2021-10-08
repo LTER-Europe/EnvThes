@@ -1,0 +1,1684 @@
+@prefix covid19: <http://purl.org/zonmw/covid19/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gen: <http://purl.org/zonmw/generic/> .
+@prefix iop: <https://w3id.org/iadopt/ont/iadopt/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/zonmw/covid19/> a skos:ConceptScheme;
+  dct:contributor <https://orcid.org/0000-0002-9381-9693>;
+  dct:creator <https://orcid.org/0000-0002-7160-5942>, <https://orcid.org/0000-0003-2195-3997>;
+  dct:description "Controlled vocabulary of terms used in ZonMV COVID project content metadata template"@en;
+  dct:rights <https://spdx.org/licenses/CC0-1.0>;
+  dct:title "ZonMW Project Content Vocabulary"@en;
+  pav:createdOn "2021-02-10T11:00:00+00:00"@en;
+  pav:lastUpdatedOn "2021-08-13T22:00:00+00:00"@en;
+  pav:version "2.0.0"@en;
+  skos:hasTopConcept covid19:10000, covid19:10001, gen:10001, gen:10002, gen:10003,
+    gen:10004, gen:10005, gen:10007, gen:10013, gen:10014, gen:10021, gen:10022, gen:10023;
+  skos:prefLabel "ZonMW Project Content Vocabulary"@en .
+
+covid19:10000 a skos:Concept;
+  skos:definition "This is a set of controlled terms which are deprecated."@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "deprecated"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+covid19:10001 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10002, covid19:10009;
+  skos:prefLabel "spatial scope"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+covid19:10002 a skos:Concept;
+  skos:broader covid19:10001;
+  skos:definition "type of geographical area (rural, urban,..)"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10003, covid19:10004, covid19:10005, covid19:10006, covid19:10007,
+    covid19:10008, covid19:10017, covid19:10263;
+  skos:prefLabel "area"@en .
+
+covid19:10003 a skos:Concept;
+  skos:broader covid19:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "urban"@en .
+
+covid19:10004 a skos:Concept;
+  skos:broader covid19:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "rural"@en .
+
+covid19:10005 a skos:Concept;
+  skos:broader covid19:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "provincial"@en .
+
+covid19:10006 a skos:Concept;
+  skos:broader covid19:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "regional"@en .
+
+covid19:10007 a skos:Concept;
+  skos:broader covid19:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "national"@en .
+
+covid19:10008 a skos:Concept;
+  skos:broader covid19:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "international"@en .
+
+covid19:10009 a skos:Concept;
+  skos:broader covid19:10001;
+  skos:definition "type of environment where the care of patients is conducted"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10010, covid19:10011, covid19:10012, covid19:10013, covid19:10014,
+    covid19:10015, covid19:10016;
+  skos:prefLabel "care setting"@en .
+
+covid19:10010 a skos:Concept;
+  skos:broader covid19:10009;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "home care"@en .
+
+covid19:10011 a skos:Concept;
+  skos:broader covid19:10009;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "transmural"@en .
+
+covid19:10012 a skos:Concept;
+  skos:altLabel "general practitioner care"@en;
+  skos:broader covid19:10009;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "GP care"@en .
+
+covid19:10013 a skos:Concept;
+  skos:broader covid19:10009;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "nursing home care"@en .
+
+covid19:10014 a skos:Concept;
+  skos:broader covid19:10009;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "hospital care"@en .
+
+covid19:10015 a skos:Concept;
+  skos:broader covid19:10009;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "informal care"@en .
+
+covid19:10016 a skos:Concept;
+  skos:broader covid19:10009;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "residential care"@en .
+
+gen:10003 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10018, covid19:10023, covid19:10027, covid19:10033;
+  skos:prefLabel "temporal scope"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+covid19:10018 a skos:Concept;
+  skos:broader gen:10003;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10019, covid19:10020, covid19:10021, covid19:10022;
+  skos:prefLabel "health care phase"@en .
+
+covid19:10019 a skos:Concept;
+  skos:broader covid19:10018, gen:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "acute care"@en .
+
+covid19:10020 a skos:Concept;
+  skos:broader covid19:10018, gen:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "post-covid care"@en .
+
+covid19:10021 a skos:Concept;
+  dct:source <https://bioportal.bioontology.org/ontologies/MEDLINEPLUS?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDLINEPLUS%2FC0030231>;
+  skos:broader covid19:10018, gen:10002;
+  skos:definition "Palliative care is treatment of the discomfort, symptoms, and stress of serious illness. It provides relief from distressing symptoms including pain, shortness of breath, constipation, nausea, loss of appetite, problems with sleep. It can also help you deal with the side effects of the medical treatments you're receiving, care at the end of life, always includes palliative care. But you may receive palliative care at any stage of an illness. The goal is to make you comfortable and improve your quality of life."@en;
+  skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C101516>, <https://bioportal.bioontology.org/ontologies/MEDLINEPLUS?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDLINEPLUS%2FC0030231>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "palliative care"@en .
+
+covid19:10022 a skos:Concept;
+  dct:source <https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C15315&key=1767529850&b=1&n=null>;
+  skos:broader covid19:10018, gen:10002;
+  skos:definition "Restoration of the ability to function in a normal or near normal manner following disease, illness, or injury."@en;
+  skos:exactMatch <https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C15315&key=1767529850&b=1&n=null>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "rehabilitation"@en .
+
+covid19:10023 a skos:Concept;
+  skos:broader gen:10003;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10024, covid19:10025, covid19:10026;
+  skos:prefLabel "surveillance phase"@en .
+
+covid19:10024 a skos:Concept;
+  skos:broader covid19:10023;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "short-term impact on emotional wellbeing"@en .
+
+covid19:10025 a skos:Concept;
+  skos:broader covid19:10023;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "long-term impact on emotional wellbeing"@en .
+
+covid19:10026 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/DOID_0080848>;
+  skos:broader covid19:10023;
+  skos:definition "A Coronavirus infectious disease that is characterized by long-term persistent and fluctuating symptoms, in individuals with COVID-19, persisting beyond three to four weeks, including the loss of the ability to smell and taste, breathlessness, fatigue, difficulty in breathing, difficulty concentrating, memory loss, confusion, headache, heart palpitations, chest pain, pain with deep breaths, dizziness, and tachycardia."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/DOID_0080848>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "long COVID"@en .
+
+covid19:10027 a skos:Concept;
+  skos:broader gen:10003;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10028, covid19:10029, covid19:10030, covid19:10031, covid19:10032;
+  skos:prefLabel "regulation phase"@en .
+
+covid19:10028 a skos:Concept;
+  skos:broader covid19:10027;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "lockdown phase"@en .
+
+covid19:10029 a skos:Concept;
+  skos:broader covid19:10027;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "prevention phase"@en .
+
+covid19:10030 a skos:Concept;
+  skos:broader covid19:10027;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "social distancing phase"@en .
+
+covid19:10031 a skos:Concept;
+  skos:broader covid19:10027;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "restricted shopping phase"@en .
+
+covid19:10032 a skos:Concept;
+  skos:broader covid19:10027;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "curefew"@en .
+
+covid19:10033 a skos:Concept;
+  skos:broader gen:10003;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10034, covid19:10035, covid19:10036;
+  skos:prefLabel "COVID-19 phase"@en .
+
+covid19:10034 a skos:Concept;
+  skos:broader covid19:10033;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "first wave"@en .
+
+covid19:10035 a skos:Concept;
+  skos:broader covid19:10033;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "second wave"@en .
+
+covid19:10036 a skos:Concept;
+  skos:broader covid19:10033;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "third wave"@en .
+
+gen:10004 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10038, covid19:10051, covid19:10055, covid19:10060, covid19:10067,
+    covid19:10077, covid19:10083, covid19:10091, covid19:10098, covid19:10220;
+  skos:prefLabel "population group"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+covid19:10038 a skos:Concept;
+  skos:broader gen:10004;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10039, covid19:10040, covid19:10041, covid19:10042, covid19:10043,
+    covid19:10044, covid19:10045, covid19:10046, covid19:10047, covid19:10048, covid19:10049,
+    covid19:10050;
+  skos:prefLabel "people by age"@en .
+
+covid19:10039 a skos:Concept;
+  skos:broader covid19:10038;
+  skos:definition "less then 37 weeks gestational outcome"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "prematures"@en .
+
+covid19:10040 a skos:Concept;
+  skos:broader covid19:10038;
+  skos:definition "37 or more weeks gestational outcome"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "newborns"@en .
+
+covid19:10041 a skos:Concept;
+  skos:broader covid19:10038;
+  skos:definition "0-3 months"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "neonates"@en .
+
+covid19:10042 a skos:Concept;
+  skos:broader covid19:10038;
+  skos:definition "3-12 months"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "babies"@en .
+
+covid19:10043 a skos:Concept;
+  skos:broader covid19:10038;
+  skos:definition "1-4 years"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "small children"@en .
+
+covid19:10044 a skos:Concept;
+  skos:broader covid19:10038;
+  skos:definition "4-12 years"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "primary school children"@en .
+
+covid19:10045 a skos:Concept;
+  skos:broader covid19:10038;
+  skos:definition "12-18 years"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "teenager"@en .
+
+covid19:10046 a skos:Concept;
+  skos:broader covid19:10038;
+  skos:definition "16-27 years"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "young people"@en .
+
+covid19:10047 a skos:Concept;
+  skos:broader covid19:10038;
+  skos:definition "18-21 years"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "young adults"@en .
+
+covid19:10048 a skos:Concept;
+  skos:broader covid19:10038;
+  skos:definition "18-65 years"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "adults"@en .
+
+covid19:10049 a skos:Concept;
+  skos:broader covid19:10038;
+  skos:definition "65-80 years"@en;
+  skos:exactMatch <https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C16268&key=162882687&b=1&n=null>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "elderly"@en .
+
+covid19:10050 a skos:Concept;
+  skos:broader covid19:10038;
+  skos:definition "more than 80 years"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "very elderly"@en .
+
+covid19:10051 a skos:Concept;
+  skos:broader gen:10004;
+  skos:definition "grouping specifying the determination of an infant's sex shortly after birth"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10052, covid19:10053, covid19:10054;
+  skos:prefLabel "people by sex"@en .
+
+covid19:10052 a skos:Concept;
+  skos:broader covid19:10051;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "male"@en .
+
+covid19:10053 a skos:Concept;
+  skos:broader covid19:10051;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "female"@en .
+
+covid19:10054 a skos:Concept;
+  skos:broader covid19:10051;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "intersex"@en .
+
+covid19:10055 a skos:Concept;
+  skos:broader gen:10004;
+  skos:definition "grouping on basis of person's sense of self as a member of a particular gender"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10056, covid19:10057, covid19:10058, covid19:10059;
+  skos:prefLabel "people by gender"@en .
+
+covid19:10056 a skos:Concept;
+  skos:broader covid19:10055;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "man"@en .
+
+covid19:10057 a skos:Concept;
+  skos:broader covid19:10055;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "woman"@en .
+
+covid19:10058 a skos:Concept;
+  skos:broader covid19:10055;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "non-binary"@en .
+
+covid19:10059 a skos:Concept;
+  skos:broader covid19:10055;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "not specified"@en .
+
+covid19:10060 a skos:Concept;
+  skos:broader gen:10004;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10061, covid19:10062, covid19:10063, covid19:10064, covid19:10065,
+    covid19:10066;
+  skos:prefLabel "people by education"@en .
+
+covid19:10061 a skos:Concept;
+  skos:broader covid19:10060;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "preschooler"@en .
+
+covid19:10062 a skos:Concept;
+  skos:broader covid19:10060;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "daycare child"@en .
+
+covid19:10063 a skos:Concept;
+  skos:broader covid19:10060;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "primary school student"@en .
+
+covid19:10064 a skos:Concept;
+  skos:broader covid19:10060;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "secondary school student"@en .
+
+covid19:10065 a skos:Concept;
+  skos:broader covid19:10060;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "vocational school student"@en .
+
+covid19:10066 a skos:Concept;
+  skos:broader covid19:10060;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "university student"@en .
+
+covid19:10067 a skos:Concept;
+  skos:broader gen:10004;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10068, covid19:10069, covid19:10070, covid19:10071, covid19:10072,
+    covid19:10073, covid19:10074, covid19:10075, covid19:10076;
+  skos:prefLabel "people by employment"@en .
+
+covid19:10068 a skos:Concept;
+  skos:broader covid19:10067;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "individual with low socio-economic status"@en .
+
+covid19:10069 a skos:Concept;
+  skos:broader covid19:10067;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "individual with high socio-economic status"@en .
+
+covid19:10070 a skos:Concept;
+  skos:broader covid19:10067;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "employed person"@en .
+
+covid19:10071 a skos:Concept;
+  skos:broader covid19:10067;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "self-employed individual"@en .
+
+covid19:10072 a skos:Concept;
+  skos:broader covid19:10067;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "employee with a temporary contract"@en .
+
+covid19:10073 a skos:Concept;
+  skos:broader covid19:10067;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "informal care provider"@en .
+
+covid19:10074 a skos:Concept;
+  skos:broader covid19:10067;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "professional care provider"@en .
+
+covid19:10075 a skos:Concept;
+  skos:broader covid19:10067;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "individual living in a care home"@en .
+
+covid19:10076 a skos:Concept;
+  skos:broader covid19:10067;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "tourist"@en .
+
+covid19:10077 a skos:Concept;
+  skos:broader gen:10004;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10078, covid19:10079, covid19:10080, covid19:10081, covid19:10082;
+  skos:prefLabel "people with migration background"@en .
+
+covid19:10078 a skos:Concept;
+  skos:broader covid19:10077;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "individual with a migration background"@en .
+
+covid19:10079 a skos:Concept;
+  skos:broader covid19:10077;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "statushouder"@en .
+
+covid19:10080 a skos:Concept;
+  skos:broader covid19:10077;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "asylum seeker"@en .
+
+covid19:10081 a skos:Concept;
+  skos:broader covid19:10077;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "undocumented migrant"@en .
+
+covid19:10082 a skos:Concept;
+  skos:broader covid19:10077;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "season labour migrant"@en .
+
+covid19:10083 a skos:Concept;
+  skos:broader gen:10004;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10084, covid19:10085, covid19:10086, covid19:10087, covid19:10088,
+    covid19:10089, covid19:10090;
+  skos:prefLabel "people by COVID-19 risk factors"@en .
+
+covid19:10084 a skos:Concept;
+  skos:broader covid19:10083;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "individual with a chronic illness"@en .
+
+covid19:10085 a skos:Concept;
+  skos:broader covid19:10083;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "individual with underlying disease(s)"@en .
+
+covid19:10086 a skos:Concept;
+  skos:broader covid19:10083;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "patient with (covid-19 associated) thrombosis"@en .
+
+covid19:10087 a skos:Concept;
+  skos:broader covid19:10083;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "individual with obesity"@en .
+
+covid19:10088 a skos:Concept;
+  skos:broader covid19:10083;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "patient using anticoagulants"@en .
+
+covid19:10089 a skos:Concept;
+  skos:broader covid19:10083;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "surgical patient"@en .
+
+covid19:10090 a skos:Concept;
+  skos:broader covid19:10083;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "blood donor"@en .
+
+covid19:10091 a skos:Concept;
+  skos:broader gen:10004;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10092, covid19:10093, covid19:10094, covid19:10095;
+  skos:prefLabel "COVID-19 patient grouping"@en .
+
+covid19:10092 a skos:Concept;
+  skos:broader covid19:10091;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "hospitalised covid-19 patient"@en .
+
+covid19:10093 a skos:Concept;
+  skos:broader covid19:10091;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "non-hospitalised covid-19 patient"@en .
+
+covid19:10094 a skos:Concept;
+  skos:broader covid19:10091;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "long-covid-19 patient"@en .
+
+covid19:10095 a skos:Concept;
+  skos:broader covid19:10091;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "Individual after first infection"@en .
+
+covid19:10096 a skos:Concept;
+  skos:broader covid19:10220;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "individual with sars-cov-2 vaccination"@en .
+
+covid19:10097 a skos:Concept;
+  skos:broader covid19:10220;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "individual refusing sars-cov-2 vaccination"@en .
+
+covid19:10098 a skos:Concept;
+  skos:broader gen:10004;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10099, covid19:10100, covid19:10101, covid19:10102, covid19:10103,
+    covid19:10104, covid19:10105, covid19:10106;
+  skos:prefLabel "target group of policy interventions"@en .
+
+covid19:10099 a skos:Concept;
+  skos:broader covid19:10098;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "homeless"@en .
+
+covid19:10100 a skos:Concept;
+  skos:broader covid19:10098;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "victim of domestic violence"@en .
+
+covid19:10101 a skos:Concept;
+  skos:broader covid19:10098;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "illiterate people"@en .
+
+covid19:10102 a skos:Concept;
+  skos:broader covid19:10098;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "physical disabled"@en .
+
+covid19:10103 a skos:Concept;
+  skos:broader covid19:10098;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "intellectual disabled"@en .
+
+covid19:10104 a skos:Concept;
+  skos:broader covid19:10098;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "mental health patient"@en .
+
+covid19:10105 a skos:Concept;
+  skos:broader covid19:10098;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "policy-maker"@en .
+
+covid19:10106 a skos:Concept;
+  skos:broader covid19:10098;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "single household person"@en .
+
+gen:10005 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10108, covid19:10118, covid19:10124, covid19:10125, covid19:10127,
+    covid19:10128, covid19:10132, covid19:10135, covid19:10221, covid19:10222, covid19:10223,
+    covid19:10244, covid19:10262;
+  skos:prefLabel "data"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+covid19:10108 a skos:Concept;
+  skos:broader gen:10005;
+  skos:definition "Data that refer to a person's state of physical, mental and social well-being"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10109, covid19:10110, covid19:10111, covid19:10112, covid19:10113,
+    covid19:10114, covid19:10115, covid19:10116, covid19:10117;
+  skos:prefLabel "health data"@en .
+
+covid19:10109 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/ERO_0001177>;
+  skos:broader covid19:10108;
+  skos:definition "Data that contains patient health information generated by one or more encounters in any care delivery setting. Included in this information are patient demographics, progress notes, problems, medications, vital signs, past medical history, immunizations, laboratory data and radiology reports."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/ERO_0001177>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "health record data"@en .
+
+covid19:10110 a skos:Concept;
+  dct:source <http://doe-generated-ontology.com/OntoAD#C0262926>;
+  skos:broader covid19:10108;
+  skos:definition "A collection of information about a person's health. It may include information about allergies, illnesses and surgeries, and dates and results of physical exams, tests, screenings, and immunizations. It may also include information about medicines taken and about diet and exercise"@en;
+  skos:exactMatch <http://doe-generated-ontology.com/OntoAD#C0262926>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "medical history data"@en .
+
+covid19:10111 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/OGMS_0000073>;
+  skos:broader covid19:10108;
+  skos:definition "The representation of a conclusion of a diagnostic process."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/OGMS_0000073>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "diagnostic data"@en .
+
+covid19:10112 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/ERO_0001186>;
+  skos:broader covid19:10108;
+  skos:definition "Data related to physiological recording or monitoring."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/ERO_0001186>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "physiological data"@en .
+
+covid19:10113 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/OGMS_0000018>;
+  skos:broader covid19:10108;
+  skos:definition "A representation of a quality of a specimen that is the output of a laboratory test and that can support an inference to an assertion about some quality of the patient."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/OGMS_0000018>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "laboratory data"@en .
+
+covid19:10114 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/OGMS_0000090>;
+  skos:broader covid19:10108;
+  skos:definition "A planned process whose completion is hypothesized by a health care provider to eliminate, prevent, or alleviate a disorder, the signs and symptoms of a disorder, or a pathological process"@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/OGMS_0000090>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "treatment data"@en .
+
+covid19:10115 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/CHEBI_52217>;
+  skos:altLabel "pharmaceutical"@en;
+  skos:broader covid19:10108;
+  skos:definition "Any substance introduced into a living organism with therapeutic or diagnostic purpose."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/CHEBI_52217>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "medication data"@en .
+
+covid19:10116 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/ERO_0100354>;
+  skos:broader covid19:10108;
+  skos:definition "Data that is about molecules or phenomena occurring at a molecular level (e.g. processes such as molecular interactions, chemical reactions, gene expression etc)."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/ERO_0100354>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "molecular data"@en .
+
+covid19:10117 a skos:Concept;
+  dct:source <http://semanticscience.org/resource/SIO_010028>;
+  skos:broader covid19:10108;
+  skos:definition "Data is data pertaining to genetics."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/ERO_0100359>, <http://semanticscience.org/resource/SIO_010028>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "genetic data"@en .
+
+covid19:10118 a skos:Concept;
+  skos:broader gen:10005;
+  skos:definition "Information obtained via any method that uses a visual display of structural or functional patterns of organs or tissues for diagnostic evaluation."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/HL7/C001192>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10119, covid19:10120, covid19:10121, covid19:10122, covid19:10123;
+  skos:prefLabel "diagnostic imaging"@en .
+
+covid19:10119 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C16809&key=1826977516&b=1&n=null>;
+  skos:altLabel "MRI"@en;
+  skos:broader covid19:10118;
+  skos:definition "Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C16809&key=1826977516&b=1&n=null>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "magnetic resonance imaging"@en .
+
+covid19:10120 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C38101&key=1939144925&b=1&n=null>;
+  skos:altLabel "X-ray"@en;
+  skos:broader covid19:10118;
+  skos:definition "An image of the structure penetrated by the radiation using the emission of x-rays"@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C38101&key=1939144925&b=1&n=null>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "X-ray imaging"@en .
+
+covid19:10121 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C64384&key=168018700&b=1&n=null>;
+  skos:broader covid19:10118;
+  skos:definition "High frequency sound, generally with a frequency greater than 20,000 Hz."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C64384&key=168018700&b=1&n=null>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "ultrasound"@en .
+
+covid19:10122 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C17204&key=1418861988&b=1&n=null>;
+  skos:altLabel "CT"@en;
+  skos:broader covid19:10118;
+  skos:definition "A method of examining structures within the body by scanning them with X rays and using a computer to construct a series of cross-sectional scans along a single axis."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C17204&key=1418861988&b=1&n=null>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "computed tomography"@en .
+
+covid19:10123 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C62663>;
+  skos:broader covid19:10118;
+  skos:definition "In medicine, a procedure in which an infrared camera (one that senses heat) is used to measure temperature differences on the surface of the body. The camera makes pictures that show areas of possible abnormal cell growth because abnormal tissue gives off more heat than normal tissue does."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C62663>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "infrared thermography"@en .
+
+covid19:10124 a skos:Concept;
+  skos:broader gen:10005;
+  skos:definition "Data that refer to human society and its members"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10138;
+  skos:prefLabel "social data"@en .
+
+covid19:10125 a skos:Concept;
+  skos:broader gen:10005;
+  skos:definition "A data set that contains the outcome of a survey."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/OMIABIS_0000060>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "survey data"@en .
+
+covid19:10126 a skos:Concept;
+  skos:broader covid19:10221;
+  skos:closeMatch <https://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C15843>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "COVID policy and prevention measures"@en .
+
+covid19:10127 a skos:Concept;
+  skos:broader gen:10005;
+  skos:definition "Data that refer to the external elements and conditions which surround, influence, and affect the life and development of an organism or population."@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "environmental data"@en .
+
+covid19:10128 a skos:Concept;
+  skos:broader gen:10005;
+  skos:definition "Data which refer to a place on the Earth, by its name or by its geographical location"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10129, covid19:10130, covid19:10131;
+  skos:prefLabel "geographical data"@en .
+
+covid19:10129 a skos:Concept;
+  skos:broader covid19:10128;
+  skos:exactMatch <http://purl.jp/bio/4/id/200906051703202632>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "aerial photography"@en .
+
+covid19:10130 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C43433&key=n1963439227&b=1&n=null>;
+  skos:broader covid19:10128;
+  skos:definition "A usually 2-dimensional diagrammatic representation of an object or area."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C43433&key=n1963439227&b=1&n=null>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "map"@en .
+
+covid19:10131 a skos:Concept;
+  skos:broader covid19:10128;
+  skos:definition "Data produced by a system designed to capture, store, update, manipulate, analyze and display data that are linked to location."@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "GIS data"@en;
+  skos:relatedMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C15754&key=n1963476518&b=1&n=null> .
+
+covid19:10132 a skos:Concept;
+  skos:broader gen:10005;
+  skos:definition "Information that is communicated through recordings of sight and/or sound"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10133, covid19:10134;
+  skos:prefLabel "audiovisual data"@en .
+
+covid19:10133 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C54273&key=1753678631&b=1&n=null>;
+  skos:broader covid19:10132;
+  skos:definition "A visual representation of an object, scene, person or abstraction."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C54273&key=1753678631&b=1&n=null>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "picture"@en .
+
+covid19:10134 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C91063>;
+  skos:broader covid19:10132;
+  skos:definition "The storing or preserving of video images to be displayed later."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C91063>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "video recording"@en .
+
+covid19:10135 a skos:Concept;
+  skos:broader gen:10005;
+  skos:definition "Information that cannot be represented through numbers and is instead expressed through descriptive means"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10136, covid19:10137, covid19:10139, covid19:10140;
+  skos:prefLabel "qualitative data"@en .
+
+covid19:10136 a skos:Concept;
+  skos:broader covid19:10135;
+  skos:definition "The text of notes taken in the field about an event."@en;
+  skos:exactMatch <http://rs.tdwg.org/dwc/terms/fieldNotes>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "field note"@en .
+
+covid19:10137 a skos:Concept;
+  skos:broader covid19:10135;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "focus group discussion"@en;
+  skos:relatedMatch <http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#focus_group> .
+
+covid19:10138 a skos:Concept;
+  skos:broader covid19:10124;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "social media data"@en;
+  skos:relatedMatch <http://purl.bioontology.org/ontology/MESH/D061108> .
+
+covid19:10139 a skos:Concept;
+  skos:broader covid19:10135;
+  skos:definition "Work consisting of records, usually private, of writers' experiences, observations, feelings, attitudes, etc. They may also be works marked in calendar order in which to note appointments and the like."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/MESH/D019497>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "diaries"@en .
+
+covid19:10140 a skos:Concept;
+  skos:broader covid19:10135;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "interview data"@en;
+  skos:relatedMatch <http://purl.obolibrary.org/obo/FBcv_0000205> .
+
+covid19:10142 a skos:Concept;
+  dct:source <https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C15320&key=1850760702&b=1&n=null>;
+  skos:broader gen:10006;
+  skos:definition "A plan detailing how a study will be performed in order to represent the phenomenon under examination, to answer the research questions that have been asked, and defining the methods of data analysis. Study design is driven by research hypothesis being posed, study subject/population/sample available, logistics/resources: technology, support, networking, collaborative support, etc."@en;
+  skos:exactMatch <https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C15320&key=1850760702&b=1&n=null>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "study design"@en .
+
+covid19:10143 a skos:Concept;
+  skos:broader gen:10006;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "prototype description"@en .
+
+gen:10007 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower gen:10008, gen:10009, gen:10010, gen:10011;
+  skos:prefLabel "biomaterial"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+gen:10008 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/OBI_0100026>;
+  skos:broader gen:10007;
+  skos:definition "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/OBI_0100026>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10146, gen:10024, gen:10025;
+  skos:prefLabel "organism"@en .
+
+covid19:10146 a skos:Concept;
+  dct:source <https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C14225&key=1926508693&b=1&n=null>;
+  skos:broader gen:10008;
+  skos:definition "The bipedal primate mammal, Homo sapiens; belonging to man or mankind; pertaining to man or to the race of man; use of man as experimental subject or unit of analysis in research."@en;
+  skos:exactMatch <https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C14225&key=1926508693&b=1&n=null>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "human"@en .
+
+covid19:10147 a skos:Concept;
+  dct:source <http://purl.bioontology.org/ontology/MESH/D008907>;
+  skos:broader gen:10025;
+  skos:definition "Carnivores of genus Mustela of the family MUSTELIDAE. The European mink, which has white upper and lower lips, was widely trapped for commercial purposes and is classified as endangered. The American mink, lacking a white upper lip, is farmed commercially."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/MESH/D008907>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "mink"@en .
+
+covid19:10148 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14238>;
+  skos:broader gen:10025;
+  skos:definition "Any of numerous species of small rodents belonging to the genus Mus and various related genera of the family Muridae."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14238>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "mouse"@en .
+
+covid19:10149 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C160998>;
+  skos:broader gen:10025;
+  skos:definition "Any of numerous species of rodents belonging to the genus Rattus and/or various related genera of the family Muridae."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C160998>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "rat"@en .
+
+gen:10010 a skos:Concept;
+  dct:source <https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C45306&key=n1938058024&b=1&n=null>;
+  skos:broader gen:10007;
+  skos:definition "Any matter of defined composition that has discrete existence, whose origin may be biological, mineral or chemical."@en;
+  skos:exactMatch <https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C45306&key=n1938058024&b=1&n=null>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10154, covid19:10155, covid19:10156, covid19:10157, covid19:10158,
+    covid19:10159, covid19:10160, covid19:10161, covid19:10162, covid19:10163, covid19:10164,
+    covid19:10165, covid19:10166, covid19:10167, covid19:10168;
+  skos:prefLabel "substance"@en .
+
+covid19:10154 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C12434>;
+  skos:broader gen:10010;
+  skos:definition "A liquid tissue; its major function is to transport oxygen throughout the body. It also supplies the tissues with nutrients, removes waste products, and contains various components of the immune system defending the body against infection. Several hormones also travel in the blood."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C12434>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "blood"@en .
+
+covid19:10155 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C94552>;
+  skos:broader gen:10010;
+  skos:definition "The air that is inhaled and exhaled during respiration."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C94552>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "breath"@en .
+
+covid19:10156 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13234>;
+  skos:broader gen:10010;
+  skos:definition "The material discharged from the bowel during defecation. It consists of undigested food, intestinal mucus, epithelial cells, and bacteria."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/39477002>, <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13234>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "feces"@en .
+
+covid19:10157 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13356>;
+  skos:broader gen:10010;
+  skos:definition "Plasma is the fluid (noncellular) portion of the circulating blood, as distinguished from the serum that is the fluid portion of the blood obtained by removal of the fibrin clot and blood cells after coagulation."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/50863008>, <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13356>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "plasma"@en .
+
+covid19:10158 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13275>;
+  skos:broader gen:10010;
+  skos:definition "The watery fluid in the mouth made by the salivary glands. Saliva moistens food to help digestion and it helps protect the mouth against infections."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/256897009>, <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13275>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "saliva"@en .
+
+covid19:10159 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13277>;
+  skos:broader gen:10010;
+  skos:definition "The thick, whitish secretion of the male reproductive organs. It is composed of spermatozoa in their nutrient plasma, secretions from the prostate, seminal vesicles, and various other glands, epithelial cells, and minor constituents."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13277>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "semen"@en .
+
+covid19:10160 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13325>;
+  skos:broader gen:10010;
+  skos:definition "The clear portion of the blood that remains after the removal of the blood cells and the clotting proteins."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/67922002>, <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13325>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "serum"@en .
+
+covid19:10161 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/ENVO_00002018>;
+  skos:broader gen:10010;
+  skos:definition "Wastewater that is contaminated with feces or urine"@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_00002018>, <https://en.wikipedia.org/wiki/Sewage>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "sewage"@en .
+
+covid19:10162 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13278>;
+  skos:broader gen:10010;
+  skos:definition "Material containing mucus, cellular debris, microorganisms and sometimes blood or pus. It is ejected through the mouth from the lungs, bronchi, and trachea."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13278>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "sputum"@en .
+
+covid19:10163 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C33739>;
+  skos:broader gen:10010;
+  skos:definition "A fluid containing oils, mucin, and proteins, which is secreted by the lacrimal gland and cleans and lubricates the eye."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C33739>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "tear"@en .
+
+covid19:10164 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C12801>;
+  skos:broader gen:10010;
+  skos:definition "An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C12801>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "tissue"@en .
+
+covid19:10165 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13283>;
+  skos:broader gen:10010;
+  skos:definition "The fluid that is excreted by the kidneys. It is stored in the bladder and discharged through the urethra."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13283>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "urine"@en .
+
+covid19:10166 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C173496>;
+  skos:broader gen:10010;
+  skos:definition "A peripheral blood cell with a single nucleus. This category includes lymphocytes and monocytes."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C173496>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "peripheral blood mononuclear cell"@en .
+
+covid19:10167 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C28294>;
+  skos:broader gen:10010;
+  skos:definition "A group of materials of either plant, animal or artificial origin containing essential body nutrients that can be ingested by an organism to produce energy, stimulate growth, and maintain life."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C28294>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "nutrition"@en .
+
+covid19:10168 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C150892>;
+  skos:broader gen:10010;
+  skos:definition "The watery fluid, consisting of vulvar gland, endometrium, and oviduct secretions, cervical mucus, vaginal wall plasma transudate, exfoliated cells, and bacterial and immune cell products, that hydrates and forms an antimicrobial barrier for the mucosa of the lower female genital tract."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C150892>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "cervicovaginal secretion"@en .
+
+gen:10009 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C19157>;
+  skos:broader gen:10007;
+  skos:definition "A part of a thing, or of several things, taken to demonstrate or to determine the character of the whole, e.g. a substance, or portion of material obtained for use in testing, examination, or study; particularly, a preparation of tissue or bodily fluid taken for examination or diagnosis."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/123038009>, <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C19157>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10170, covid19:10171, covid19:10172, covid19:10173, covid19:10174,
+    covid19:10175, covid19:10176, covid19:10177, covid19:10178, covid19:10179, covid19:10245,
+    covid19:10246;
+  skos:prefLabel "specimen"@en .
+
+covid19:10170 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C16403>;
+  skos:broader gen:10009;
+  skos:definition "A permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C16403>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "cell line"@en .
+
+covid19:10171 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/OBI_0000971>;
+  skos:broader gen:10009;
+  skos:definition "a specimen that is output of a specimen creation process used for an investigation without storage."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/OBI_0000971>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "fresh specimen"@en .
+
+covid19:10172 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/OBI_0000922>;
+  skos:broader gen:10009;
+  skos:definition "A specimen that has been frozen in order to store it."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/OBI_0000922>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "frozen specimen"@en .
+
+covid19:10173 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C132119>;
+  skos:altLabel "nose specimen"@en, "nose swab"@en;
+  skos:broader gen:10009;
+  skos:definition "A method used to collect biological material from within the nasal passages. A cotton swab is inserted into the nasal opening and rotated against the anterior nasal mucosa and them withdrawn."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C132119>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "nasal swab"@en .
+
+covid19:10174 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/IAO_0000122>;
+  skos:broader gen:10009;
+  skos:definition "A specimen that is collected with a swab from the surface of a nasopharynx."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/IAO_0000122>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "nasopharyngeal swab specimen"@en .
+
+covid19:10175 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C155835>;
+  skos:broader gen:10009;
+  skos:definition "A biospecimen collected from the oropharynx by swabbing."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/258529004>, <http://purl.bioontology.org/ontology/SNOMEDCT/461911000124106>,
+    <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C155835>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "oropharyngeal swab specimen"@en .
+
+covid19:10176 a skos:Concept;
+  dct:source <http://purl.bioontology.org/ontology/SNOMEDCT/119376003>;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/119376003>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "tissue specimen"@en .
+
+covid19:10177 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/OBI_0002611>;
+  skos:broader gen:10009;
+  skos:definition "A specimen that is collected with a swab from the surface of a vagina."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/OBI_0002611>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "vaginal swab specimen"@en .
+
+covid19:10178 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/OBI_1200000>;
+  skos:broader gen:10009;
+  skos:definition "A specimen that has been fixed in formalin and embedded in paraffin."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/OBI_1200000>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "FFPE tissue specimen"@en .
+
+covid19:10179 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.obolibrary.org/obo/FBbi_00000011>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "glutaraldehyde fixed tissue specimen"@en .
+
+gen:10011 a skos:Concept;
+  skos:broader gen:10007;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10181, covid19:10182, covid19:10183, covid19:10184, covid19:10185;
+  skos:prefLabel "macromolecule"@en .
+
+covid19:10181 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C324>;
+  skos:broader gen:10011;
+  skos:definition "Single-stranded DNA that is complementary to messenger RNA or DNA that has been synthesized from messenger RNA by reverse transcriptase."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C324>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "cDNA"@en .
+
+covid19:10182 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C449>;
+  skos:altLabel "deoxyribonucleic acid"@en;
+  skos:broader gen:10011;
+  skos:definition "A long linear double-stranded polymer formed from nucleotides attached to a deoxyribose backbone and found in the nucleus of a cell; associated with the transmission of genetic information."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/24851008>, <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C449>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "DNA"@en .
+
+covid19:10183 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C812>;
+  skos:altLabel "ribonucleic acid"@en;
+  skos:broader gen:10011;
+  skos:definition "Single-stranded long chain of nucleotides containing ribose. It is the end product of DNA transcription by the enzyme RNA polymerase. It is essential in protein synthesis."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/27888000>, <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C812>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "RNA"@en .
+
+covid19:10184 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C17021>;
+  skos:broader gen:10011;
+  skos:definition "A group of complex organic macromolecules composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons. Proteins are fundamental genetically encoded components of living cells with specific structures and functions dictated by amino acid sequence."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/88878007>, <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C17021>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "protein"@en .
+
+covid19:10185 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C16295>;
+  skos:broader gen:10011;
+  skos:definition "A type of protein made by B lymphocytes in response to a foreign substance (antigen). Each antibody only binds to a specific antigen, helping to destroy the antigen directly or by assisting white blood cells to destroy the antigen."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/68498002>, <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C16295>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "antibody"@en .
+
+gen:10013 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10187, covid19:10208, covid19:10209, covid19:10210, covid19:10211,
+    covid19:10235;
+  skos:prefLabel "service"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+covid19:10187 a skos:Concept;
+  skos:broader gen:10013;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10188, covid19:10189, covid19:10190, covid19:10191, covid19:10192,
+    covid19:10193, covid19:10194, covid19:10195, covid19:10196, covid19:10197, covid19:10198,
+    covid19:10199, covid19:10200, covid19:10201, covid19:10202, covid19:10203, covid19:10204,
+    covid19:10205, covid19:10206, covid19:10207;
+  skos:prefLabel "laboratory service"@en .
+
+covid19:10188 a skos:Concept;
+  dct:source <https://www.utwente.nl/.uc/fb9dbdab80102e9e99b00eeb5220284e61d13c337a78900/short-manual-gmo.pdf>;
+  skos:broader covid19:10187;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "ML-1 laboratory"@en .
+
+covid19:10189 a skos:Concept;
+  dct:source <https://www.utwente.nl/.uc/fb9dbdab80102e9e99b00eeb5220284e61d13c337a78900/short-manual-gmo.pdf>;
+  skos:broader covid19:10187;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "ML-2 laboratory"@en .
+
+covid19:10190 a skos:Concept;
+  dct:source <https://www.utwente.nl/.uc/fb9dbdab80102e9e99b00eeb5220284e61d13c337a78900/short-manual-gmo.pdf>;
+  skos:broader covid19:10187;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/409600007>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "ML-3 laboratory"@en .
+
+covid19:10191 a skos:Concept;
+  dct:source <https://www.labmanager.com/lab-health-and-safety/biosafety-levels-1-2-3-4-19123>;
+  skos:broader covid19:10187;
+  skos:definition "Biosafety level one, the lowest level, applies to work with agents that usually pose a minimal potential threat to laboratory workers and the environment and do not consistently cause disease in healthy adults."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/409603009>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "BSL-1 laboratory"@en .
+
+covid19:10192 a skos:Concept;
+  dct:source <https://www.labmanager.com/lab-health-and-safety/biosafety-levels-1-2-3-4-19123>;
+  skos:broader covid19:10187;
+  skos:definition """Biosafety level two would cover work with agents associated with human 
+disease, in other words, pathogenic or infectious organisms posing a 
+moderate hazard."""@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/409604003>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "BSL-2 laboratory"@en .
+
+covid19:10193 a skos:Concept;
+  dct:source <https://www.labmanager.com/lab-health-and-safety/biosafety-levels-1-2-3-4-19123>;
+  skos:broader covid19:10187;
+  skos:definition "Yellow fever, St. Louis encephalitis and West Nile virus are examples of agents requiring biosafety level 3 practices and containment. Work with these agents is strictly controlled and must be registered with all appropriate government agencies."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/409605002>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "BSL-3 laboratory"@en .
+
+covid19:10194 a skos:Concept;
+  dct:source <https://www.labmanager.com/lab-health-and-safety/biosafety-levels-1-2-3-4-19123>;
+  skos:broader covid19:10187;
+  skos:definition "Agents requiring BSL 4 facilities and practices are extremely dangerous pand pose a high risk of life-threatening disease. Examples are the Ebola virus, the Lassa virus, and any agent with unknown risks of pathogenicity and transmission."@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "BSL-4 laboratory"@en .
+
+covid19:10195 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:definition "helps researchers produce custom antibodies"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "antibody facility"@en .
+
+covid19:10196 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "proteomics facility"@en .
+
+covid19:10197 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:definition "complete analytical platform, coupled to advanced extraction techniques, sample prep methods and vast experience, allows to offer non-targetted or targetted metabolomic studies, metabolomic fingerprinting or footprinting studies"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "metabolomics facility"@en .
+
+covid19:10198 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:definition "Keeping and breeding of test animals for the purpose of scientific research and education"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "animal facility (breeding/transgenesis)"@en .
+
+covid19:10199 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:definition "accommodates all research and diagnostic flow cytometry equipment"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "flow cytometry facility"@en .
+
+covid19:10200 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:definition "connect clinical and biological research with microscopy and image analysis developments, offer support and provide training and education to make use of the facility"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "microscopy facility"@en .
+
+covid19:10201 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:definition "provides support for Next Generation Sequencing (NGS) based research"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "sequencing facility"@en .
+
+covid19:10202 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:definition "human induced Pluripotent Stem Cell (hiPSC) facility: generation of research grade hiPSCs from different tissue sources"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "hiPSC facility"@en .
+
+covid19:10203 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "GMP facility"@en .
+
+covid19:10204 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:definition "offers advice on advanced quantitative, statistical and computational methods for biomedical and clinical researchers"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "data analytics facility"@en .
+
+covid19:10205 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:definition "A facility or core that provides storage for any type of biospecimen."@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "biobank facility"@en .
+
+covid19:10206 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "viral vector facility"@en .
+
+covid19:10207 a skos:Concept;
+  skos:broader covid19:10187;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "pharmacy"@en .
+
+covid19:10208 a skos:Concept;
+  skos:broader gen:10013;
+  skos:definition "an online service that enables you to upload and query, view and download data"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "repository"@en .
+
+covid19:10209 a skos:Concept;
+  skos:broader gen:10013;
+  skos:definition "A physical store of biological samples, and an online service that enables you to request the samples and data about them"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "biobank"@en .
+
+covid19:10210 a skos:Concept;
+  skos:broader gen:10013;
+  skos:definition "an online service that enables you to query and/or download datasets"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "data catalogue"@en .
+
+covid19:10211 a skos:Concept;
+  skos:broader gen:10013;
+  skos:definition "service facilitating compliance with regulatory requirements and best practice standards relating to ethical, legal and societal issues (ELSI)"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "ELSI service"@en .
+
+gen:10014 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower gen:10015, gen:10016, gen:10017, gen:10018, gen:10019, gen:10020;
+  skos:prefLabel "standard"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+gen:10015 a skos:Concept;
+  skos:broader gen:10014;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "metadata standard"@en .
+
+gen:10016 a skos:Concept;
+  skos:broader gen:10014;
+  skos:definition "is the overarching name for any set of fixed denotations that are used to describe something with the goal to reduce ambiguity and facilitate machine interoperability. It can range from a simple controlled vocabulary (a simple list of terms) to a complex ontology (formal definitions of terms and their relations semantically expressed in a machine-readable way). This term may also include taxonomies, thesauri, conceptual models or any other kinds of knowledge organization sources."@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "semantic artefact"@en .
+
+gen:10017 a skos:Concept;
+  skos:broader gen:10014;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "technical standard"@en .
+
+gen:10018 a skos:Concept;
+  skos:broader gen:10014;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "conceptual model"@en .
+
+gen:10019 a skos:Concept;
+  skos:broader gen:10014;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "guideline"@en .
+
+gen:10020 a skos:Concept;
+  skos:broader gen:10014;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "framework"@en .
+
+covid19:10220 a skos:Concept;
+  skos:broader gen:10004;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10096, covid19:10097;
+  skos:prefLabel "COVID-19 vaccination grouping"@en .
+
+covid19:10221 a skos:Concept;
+  skos:broader gen:10005;
+  skos:definition "Data about activities concerned with governmental policies, functions, etc."@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10126;
+  skos:prefLabel "political data"@en .
+
+covid19:10222 a skos:Concept;
+  skos:broader gen:10005;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "economic data"@en .
+
+covid19:10223 a skos:Concept;
+  skos:broader gen:10005;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "socio-economic data"@en .
+
+gen:10001 a skos:Concept;
+  skos:definition "ZonMw specific focus areas"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10226, covid19:10227, covid19:10228, covid19:10229, covid19:10249,
+    covid19:10250, covid19:10251, covid19:10252, covid19:10253, covid19:10254, covid19:10255,
+    covid19:10256, covid19:10257, covid19:10258, covid19:10259, covid19:10260, covid19:10261;
+  skos:prefLabel "focus area"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+covid19:10226 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "predictive diagnostics and treatment - treatment"@en .
+
+covid19:10227 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "virus, immunity and immune response - vaccine studies"@en .
+
+covid19:10228 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "care and prevention - organisation of care and prevention"@en .
+
+covid19:10229 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "effects on society - impacts of measurements and strategies"@en .
+
+gen:10002 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10019, covid19:10020, covid19:10021, covid19:10022, covid19:10231,
+    covid19:10232, covid19:10233, covid19:10234, covid19:10235, covid19:10236, covid19:10237,
+    covid19:10238, covid19:10239, covid19:10240, covid19:10264;
+  skos:prefLabel "subject"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+covid19:10231 a skos:Concept;
+  skos:broader gen:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "organisation of care and prevention"@en .
+
+covid19:10232 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/OGMS_0000073>;
+  skos:broader gen:10002;
+  skos:definition "Het diagnostisch proces"@nl, "The representation of a conclusion of a diagnostic process."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/OGMS_0000073>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "Diagnostiek"@nl, "diagnostics"@en .
+
+covid19:10233 a skos:Concept;
+  skos:broader gen:10002;
+  skos:definition "De impact van de 1,5m maatregel"@nl, "The impact of the social distancing measures"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "De Impact Van Maatregels En Strategieen"@nl, "impact of measures and strategies"@en .
+
+covid19:10234 a skos:Concept;
+  skos:broader gen:10002;
+  skos:definition "The use of healthcare, 1st line and 2nd line."@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "Gezondheidszorg"@nl, "healthcare"@en .
+
+covid19:10235 a skos:Concept;
+  dct:source <https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C16529&key=2040663473&b=1&n=null>;
+  skos:broader gen:10002, gen:10013;
+  skos:definition "The activities of educating or instructing or teaching; activities that impart knowledge or skill."@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "Onderwijs"@nl, "education"@en .
+
+covid19:10236 a skos:Concept;
+  dct:source <http://purl.obolibrary.org/obo/OGMS_0000090>;
+  skos:broader gen:10002;
+  skos:definition "A planned process whose completion is hypothesized by a health care provider to eliminate, prevent, or alleviate a disorder, the signs and symptoms of a disorder, or a pathological process"@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/OGMS_0000090>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "Behandeling"@nl, "therapy"@en .
+
+covid19:10237 a skos:Concept;
+  skos:broader gen:10002;
+  skos:definition "The process of assessing the likelihood of the risk of admission to the Emergency Department of a COVID patient"@en;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "Risico Analyse"@nl, "risk analysis"@en .
+
+covid19:10238 a skos:Concept;
+  dct:source <https://scigraph.springernature.com/ontologies/subjects/prognosis>;
+  skos:broader gen:10002;
+  skos:definition "Prognosis is the prediction of the probable outcome of an individual's current medical condition. A prognosis is made on the basis of the normal course of a disease, the individual's physical and psychological condition, and additional factors such as therapeutic approach."@en;
+  skos:exactMatch <https://scigraph.springernature.com/ontologies/subjects/prognosis>;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "Prognose"@nl, "prognosis"@en .
+
+covid19:10239 a skos:Concept;
+  skos:broader gen:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "Immunologie"@nl, "immunology"@en .
+
+covid19:10240 a skos:Concept;
+  skos:broader gen:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "Gedrag"@nl, "behaviour"@en .
+
+gen:10021 a skos:Concept;
+  dct:source iop:variable;
+  skos:definition "A description of something observed or derived, minimally consisting of an ObjectOfInterest and its Property."@en;
+  skos:exactMatch iop:variable;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10265, covid19:10266;
+  skos:prefLabel "variable"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+gen:10022 a skos:Concept;
+  dct:source iop:property;
+  skos:definition "A type of a characteristic of the ObjectOfInterest."@en;
+  skos:exactMatch iop:property;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "property"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+gen:10023 a skos:Concept;
+  dct:source iop:constraint;
+  skos:definition "A Constraint limits the scope of the observation and confines the context to a particular state. It describes properties of the involved entities that are relevant to the particular observation."@en;
+  skos:exactMatch iop:constraint;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "constraint"@en;
+  skos:topConceptOf <http://purl.org/zonmw/covid19/> .
+
+covid19:10244 a skos:Concept;
+  skos:broader gen:10005;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "genomics data"@en, "sequencing data"@nl .
+
+covid19:10245 a skos:Concept;
+  skos:broader gen:10009;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "perineal swab"@en .
+
+covid19:10246 a skos:Concept;
+  skos:broader gen:10009;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "cloacal swab"@en .
+
+gen:10024 a skos:Concept;
+  skos:broader gen:10008;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "microorganism"@en .
+
+gen:10025 a skos:Concept;
+  skos:broader gen:10008;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:narrower covid19:10147, covid19:10148, covid19:10149;
+  skos:prefLabel "animal"@en .
+
+covid19:10249 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "predictive diagnostics and treatment - risk analysis and prognostics"@en .
+
+covid19:10250 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "predictive diagnostics and treatment - studies into clinical treatments"@en .
+
+covid19:10251 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "predictive diagnostics and treatment - recovery and rehabilitation"@en .
+
+covid19:10252 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "predictive diagnostics and treatment - Long COVID"@en .
+
+covid19:10253 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "care and prevention - care and prevention for vulnerable citizens"@en .
+
+covid19:10254 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "care and prevention - transmission and epidemiology"@en .
+
+covid19:10255 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "care and prevention - palliative care and bereavement"@en .
+
+covid19:10256 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "effects on society - economic resilience"@en .
+
+covid19:10257 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "effects on society - ethical issues"@en .
+
+covid19:10258 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "virus, immunity and immune response - animal free innovations"@en .
+
+covid19:10259 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "virus, immunity and immune response - immunology"@en .
+
+covid19:10260 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "virus, immunity and immune response - immune compromised"@en .
+
+covid19:10261 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "virus, immunity and immune response - safety and side effects"@en .
+
+covid19:10262 a skos:Concept;
+  skos:broader gen:10005;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "personal information data"@en .
+
+covid19:10263 a skos:Concept;
+  skos:broader covid19:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "neighbourhood"@en .
+
+covid19:10017 a skos:Concept;
+  skos:broader covid19:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "local"@en .
+
+covid19:10264 a skos:Concept;
+  skos:broader gen:10002;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "genomics"@en .
+
+covid19:10265 a skos:Concept;
+  skos:broader gen:10021;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "sequence length"@en .
+
+covid19:10266 a skos:Concept;
+  skos:broader gen:10021;
+  skos:inScheme <http://purl.org/zonmw/covid19/>;
+  skos:prefLabel "genetic variation"@en .
+
+gen:10006 skos:narrower covid19:10142, covid19:10143 .

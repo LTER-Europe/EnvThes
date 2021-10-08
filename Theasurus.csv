@@ -1,0 +1,314 @@
+ConceptScheme URI,http://purl.org/zonmw/covid19/
+PREFIX,covid19,http://purl.org/zonmw/covid19/
+PREFIX,gen,http://purl.org/zonmw/generic/
+PREFIX,pav,http://purl.org/pav/
+PREFIX,dct,http://purl.org/dc/terms/
+PREFIX,owl,http://www.w3.org/2002/07/owl#
+PREFIX,xsd,http://www.w3.org/2001/XMLSchema#
+PREFIX,iop,https://w3id.org/iadopt/ont/iadopt/
+skos:prefLabel,ZonMW Project Content Vocabulary
+dct:title,ZonMW Project Content Vocabulary
+dct:description,Controlled vocabulary of terms used in ZonMV COVID project content metadata template
+dct:creator,https://orcid.org/0000-0003-2195-3997
+dct:creator,https://orcid.org/0000-0002-7160-5942
+dct:contributor,https://orcid.org/0000-0002-9381-9693 
+dct:rights,https://spdx.org/licenses/CC0-1.0 
+pav:version,2.0.0
+pav:createdOn,2021-02-10T11:00:00+00:00
+pav:lastUpdatedOn,2021-08-13T22:00:00+00:00
+
+
+
+
+
+
+
+Identifier,skos:prefLabel@en,skos:prefLabel@nl,"skos:altLabel(separator="","")",skos:definition@en,skos:definition@nl,"dct:source(separator="","")","skos:broader(separator="","")","skos:closeMatch(separator="","")","skos:exactMatch(separator="","")","skos:relatedMatch(separator="","")",owl:deprecated^^xsd:boolean,dct:isReplacedBy,skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")",iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")"
+covid19:10000,deprecated,,,This is a set of controlled terms which are deprecated.,,,,, 
+covid19:10001,spatial scope
+covid19:10002,area ,,,"type of geographical area (rural, urban,..)",,,covid19:10001
+covid19:10003,urban,,,,,,covid19:10002
+covid19:10004,rural,,,,,,covid19:10002
+covid19:10005,provincial,,,,,,covid19:10002
+covid19:10006,regional,,,,,,covid19:10002
+covid19:10007,national,,,,,,covid19:10002
+covid19:10008,international,,,,,,covid19:10002
+covid19:10009,care setting,,,type of environment where the care of patients is conducted,,,covid19:10001
+covid19:10010,home care,,,,,,covid19:10009
+covid19:10011,transmural,,,,,,covid19:10009
+covid19:10012,GP care,,general practitioner care,,,,covid19:10009
+covid19:10013,nursing home care,,,,,,covid19:10009
+covid19:10014,hospital care,,,,,,covid19:10009
+covid19:10015,informal care,,,,,,covid19:10009
+covid19:10016,residential care,,,,,,covid19:10009
+gen:10003,temporal scope
+covid19:10018,health care phase,,,,,,gen:10003
+covid19:10019,acute care,,,,,,"covid19:10018, gen:10002"
+covid19:10020,post-covid care,,,,,,"covid19:10018, gen:10002"
+covid19:10021,palliative care,,,"Palliative care is treatment of the discomfort, symptoms, and stress of serious illness. It provides relief from distressing symptoms including pain, shortness of breath, constipation, nausea, loss of appetite, problems with sleep. It can also help you deal with the side effects of the medical treatments you're receiving, care at the end of life, always includes palliative care. But you may receive palliative care at any stage of an illness. The goal is to make you comfortable and improve your quality of life.",,https://bioportal.bioontology.org/ontologies/MEDLINEPLUS?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDLINEPLUS%2FC0030231,"covid19:10018, gen:10002",,"https://bioportal.bioontology.org/ontologies/MEDLINEPLUS?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDLINEPLUS%2FC0030231,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C101516"
+covid19:10022,rehabilitation,,,"Restoration of the ability to function in a normal or near normal manner following disease, illness, or injury.",,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C15315&key=1767529850&b=1&n=null,"covid19:10018, gen:10002",,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C15315&key=1767529850&b=1&n=null
+covid19:10023,surveillance phase,,,,,,gen:10003
+covid19:10024,short-term impact on emotional wellbeing,,,,,,covid19:10023
+covid19:10025,long-term impact on emotional wellbeing,,,,,,covid19:10023
+covid19:10026,long COVID,,,"A Coronavirus infectious disease that is characterized by long-term persistent and fluctuating symptoms, in individuals with COVID-19, persisting beyond three to four weeks, including the loss of the ability to smell and taste, breathlessness, fatigue, difficulty in breathing, difficulty concentrating, memory loss, confusion, headache, heart palpitations, chest pain, pain with deep breaths, dizziness, and tachycardia.",,http://purl.obolibrary.org/obo/DOID_0080848,covid19:10023,,http://purl.obolibrary.org/obo/DOID_0080848
+covid19:10027,regulation phase,,,,,,gen:10003
+covid19:10028,lockdown phase,,,,,,covid19:10027
+covid19:10029,prevention phase,,,,,,covid19:10027
+covid19:10030,social distancing phase,,,,,,covid19:10027
+covid19:10031,restricted shopping phase,,,,,,covid19:10027
+covid19:10032,curefew,,,,,,covid19:10027
+covid19:10033,COVID-19 phase,,,,,,gen:10003
+covid19:10034,first wave,,,,,,covid19:10033
+covid19:10035,second wave,,,,,,covid19:10033
+covid19:10036,third wave,,,,,,covid19:10033
+gen:10004,population group
+covid19:10038,people by age,,,,,,gen:10004
+covid19:10039,prematures,,,less then 37 weeks gestational outcome,,,covid19:10038
+covid19:10040,newborns,,,37 or more weeks gestational outcome,,,covid19:10038
+covid19:10041,neonates,,,0-3 months,,,covid19:10038
+covid19:10042,babies,,,3-12 months,,,covid19:10038
+covid19:10043,small children,,,1-4 years,,,covid19:10038
+covid19:10044,primary school children,,,4-12 years,,,covid19:10038
+covid19:10045,teenager,,,12-18 years,,,covid19:10038
+covid19:10046,young people,,,16-27 years,,,covid19:10038
+covid19:10047,young adults,,,18-21 years,,,covid19:10038
+covid19:10048,adults,,,18-65 years,,,covid19:10038
+covid19:10049,elderly,,,65-80 years,,,covid19:10038,,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C16268&key=162882687&b=1&n=null
+covid19:10050,very elderly,,,more than 80 years,,,covid19:10038
+covid19:10051,people by sex,,,"grouping specifying the determination of an infant's sex shortly after birth
+",,,gen:10004
+covid19:10052,male,,,,,,covid19:10051
+covid19:10053,female,,,,,,covid19:10051
+covid19:10054,intersex,,,,,,covid19:10051
+covid19:10055,people by gender,,,"grouping on basis of person's sense of self as a member of a particular gender
+",,,gen:10004
+covid19:10056,man,,,,,,covid19:10055
+covid19:10057,woman,,,,,,covid19:10055
+covid19:10058,non-binary,,,,,,covid19:10055
+covid19:10059,not specified,,,,,,covid19:10055
+covid19:10060,people by education,,,,,,gen:10004
+covid19:10061,preschooler,,,,,,covid19:10060
+covid19:10062,daycare child,,,,,,covid19:10060
+covid19:10063,primary school student,,,,,,covid19:10060
+covid19:10064,secondary school student,,,,,,covid19:10060
+covid19:10065,vocational school student,,,,,,covid19:10060
+covid19:10066,university student,,,,,,covid19:10060
+covid19:10067,people by employment,,,,,,gen:10004
+covid19:10068,individual with low socio-economic status,,,,,,covid19:10067
+covid19:10069,individual with high socio-economic status,,,,,,covid19:10067
+covid19:10070,employed person,,,,,,covid19:10067
+covid19:10071,self-employed individual,,,,,,covid19:10067
+covid19:10072,employee with a temporary contract,,,,,,covid19:10067
+covid19:10073,informal care provider,,,,,,covid19:10067
+covid19:10074,professional care provider,,,,,,covid19:10067
+covid19:10075,individual living in a care home,,,,,,covid19:10067
+covid19:10076,tourist,,,,,,covid19:10067
+covid19:10077,people with migration background,,,,,,gen:10004
+covid19:10078,individual with a migration background,,,,,,covid19:10077
+covid19:10079,statushouder,,,,,,covid19:10077
+covid19:10080,asylum seeker,,,,,,covid19:10077
+covid19:10081,undocumented migrant,,,,,,covid19:10077
+covid19:10082,season labour migrant,,,,,,covid19:10077
+covid19:10083,people by COVID-19 risk factors,,,,,,gen:10004
+covid19:10084,individual with a chronic illness,,,,,,covid19:10083
+covid19:10085,individual with underlying disease(s),,,,,,covid19:10083
+covid19:10086,patient with (covid-19 associated) thrombosis,,,,,,covid19:10083
+covid19:10087,individual with obesity,,,,,,covid19:10083
+covid19:10088,patient using anticoagulants,,,,,,covid19:10083
+covid19:10089,surgical patient,,,,,,covid19:10083
+covid19:10090,blood donor,,,,,,covid19:10083
+covid19:10091,COVID-19 patient grouping,,,,,,gen:10004
+covid19:10092,hospitalised covid-19 patient,,,,,,covid19:10091
+covid19:10093,non-hospitalised covid-19 patient,,,,,,covid19:10091
+covid19:10094,long-covid-19 patient,,,,,,covid19:10091
+covid19:10095,Individual after first infection,,,,,,covid19:10091
+covid19:10096,individual  with sars-cov-2 vaccination,,,,,,covid19:10220
+covid19:10097,individual refusing sars-cov-2 vaccination,,,,,,covid19:10220
+covid19:10098,target group of policy interventions,,,,,,gen:10004
+covid19:10099,homeless,,,,,,covid19:10098
+covid19:10100,victim of domestic violence,,,,,,covid19:10098
+covid19:10101,illiterate people,,,,,,covid19:10098
+covid19:10102,physical disabled,,,,,,covid19:10098
+covid19:10103,intellectual disabled,,,,,,covid19:10098
+covid19:10104,mental health patient,,,,,,covid19:10098
+covid19:10105,policy-maker,,,,,,covid19:10098
+covid19:10106,single household person,,,,,,covid19:10098
+gen:10005,data
+covid19:10108,health data,,,"Data that refer to a person's state of physical, mental and social well-being",,,gen:10005
+covid19:10109,health record data,,,"Data that contains patient health information generated by one or more encounters in any care delivery setting. Included in this information are patient demographics, progress notes, problems, medications, vital signs, past medical history, immunizations, laboratory data and radiology reports.",,http://purl.obolibrary.org/obo/ERO_0001177,covid19:10108,,http://purl.obolibrary.org/obo/ERO_0001177
+covid19:10110,medical history data,,,"A collection of information about a person's health. It may include information about allergies, illnesses and surgeries, and dates and results of physical exams, tests, screenings, and immunizations. It may also include information about medicines taken and about diet and exercise",,http://doe-generated-ontology.com/OntoAD#C0262926,covid19:10108,,http://doe-generated-ontology.com/OntoAD#C0262926
+covid19:10111,diagnostic data ,,,The representation of a conclusion of a diagnostic process.,,http://purl.obolibrary.org/obo/OGMS_0000073,covid19:10108,,http://purl.obolibrary.org/obo/OGMS_0000073
+covid19:10112,physiological data,,,Data related to physiological recording or monitoring.,,"http://purl.obolibrary.org/obo/ERO_0001186
+",covid19:10108,,"http://purl.obolibrary.org/obo/ERO_0001186
+"
+covid19:10113,laboratory data,,,A representation of a quality of a specimen that is the output of a laboratory test and that can support an inference to an assertion about some quality of the patient.,,http://purl.obolibrary.org/obo/OGMS_0000018 ,covid19:10108,,http://purl.obolibrary.org/obo/OGMS_0000018 
+covid19:10114,treatment data,,,"A planned process whose completion is hypothesized by a health care provider to eliminate, prevent, or alleviate a disorder, the signs and symptoms of a disorder, or a pathological process",,"http://purl.obolibrary.org/obo/OGMS_0000090
+",covid19:10108,,"http://purl.obolibrary.org/obo/OGMS_0000090
+"
+covid19:10115,medication data,,pharmaceutical,Any substance introduced into a living organism with therapeutic or diagnostic purpose.,,http://purl.obolibrary.org/obo/CHEBI_52217,covid19:10108,,http://purl.obolibrary.org/obo/CHEBI_52217
+covid19:10116,molecular data,,,"Data that is about molecules or phenomena occurring at a molecular level (e.g. processes such as molecular interactions, chemical reactions, gene expression etc).",,http://purl.obolibrary.org/obo/ERO_0100354,covid19:10108,,http://purl.obolibrary.org/obo/ERO_0100354
+covid19:10117,genetic data,,,Data is data pertaining to genetics.,,"
+
+http://semanticscience.org/resource/SIO_010028",covid19:10108,,"http://purl.obolibrary.org/obo/ERO_0100359,
+http://semanticscience.org/resource/SIO_010028"
+covid19:10118,diagnostic imaging,,,Information obtained via any method that uses a visual display of structural or functional patterns of organs or tissues for diagnostic evaluation.,,,gen:10005,,http://purl.bioontology.org/ontology/HL7/C001192
+covid19:10119,magnetic resonance imaging,,MRI,"Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C16809&key=1826977516&b=1&n=null,covid19:10118,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C16809&key=1826977516&b=1&n=null
+covid19:10120,X-ray imaging,,X-ray,An image of the structure penetrated by the radiation using the emission of x-rays,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C38101&key=1939144925&b=1&n=null,covid19:10118,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C38101&key=1939144925&b=1&n=null
+covid19:10121,ultrasound,,,"High frequency sound, generally with a frequency greater than 20,000 Hz.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C64384&key=168018700&b=1&n=null,covid19:10118,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C64384&key=168018700&b=1&n=null
+covid19:10122,computed tomography ,,CT,A method of examining structures within the body by scanning them with X rays and using a computer to construct a series of cross-sectional scans along a single axis.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C17204&key=1418861988&b=1&n=null,covid19:10118,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C17204&key=1418861988&b=1&n=null
+covid19:10123,infrared thermography,,,"In medicine, a procedure in which an infrared camera (one that senses heat) is used to measure temperature differences on the surface of the body. The camera makes pictures that show areas of possible abnormal cell growth because abnormal tissue gives off more heat than normal tissue does.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C62663,covid19:10118,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C62663
+covid19:10124,social data,,,Data that refer to human society and its members,,,gen:10005
+covid19:10125,survey data,,,A data set that contains the outcome of a survey.,,,gen:10005,,http://purl.obolibrary.org/obo/OMIABIS_0000060
+covid19:10126,COVID policy and prevention measures,,,,,,covid19:10221,https://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C15843
+covid19:10127,environmental data,,,"Data that refer to the external elements and conditions which surround, influence, and affect the life and development of an organism or population.",,,gen:10005
+covid19:10128,geographical data,,,"Data which refer to a place on the Earth, by its name or by its geographical location",,,gen:10005
+covid19:10129,aerial photography,,,,,,covid19:10128,,http://purl.jp/bio/4/id/200906051703202632
+covid19:10130,map,,,A usually 2-dimensional diagrammatic representation of an object or area.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C43433&key=n1963439227&b=1&n=null,covid19:10128,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C43433&key=n1963439227&b=1&n=null
+covid19:10131,GIS data,,,"Data produced by a system designed to capture, store, update, manipulate, analyze and display data that are linked to location.",,,covid19:10128,,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C15754&key=n1963476518&b=1&n=null
+covid19:10132,audiovisual data,,,Information that is communicated through recordings of sight and/or sound,,,gen:10005
+covid19:10133,picture,,,"A visual representation of an object, scene, person or abstraction.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C54273&key=1753678631&b=1&n=null,covid19:10132,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.03e&ns=ncit&code=C54273&key=1753678631&b=1&n=null
+covid19:10134,video recording,,,The storing or preserving of video images to be displayed later.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C91063,covid19:10132,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C91063
+covid19:10135,qualitative data,,,Information that cannot be represented through numbers and is instead expressed through descriptive means,,,gen:10005
+covid19:10136,field note,,,The text of notes taken in the field about an event.,,,covid19:10135,,http://rs.tdwg.org/dwc/terms/fieldNotes
+covid19:10137,focus group discussion,,,,,,covid19:10135,,,"
+http://ontologies.dbmi.pitt.edu/edda/StudyDesigns.owl#focus_group"
+covid19:10138,social media data,,,,,,covid19:10124,,,http://purl.bioontology.org/ontology/MESH/D061108
+covid19:10139,diaries,,,"Work consisting of records, usually private, of writers' experiences, observations, feelings, attitudes, etc. They may also be works marked in calendar order in which to note appointments and the like.",,,covid19:10135,,http://purl.bioontology.org/ontology/MESH/D019497
+covid19:10140,interview data,,,,,,covid19:10135,,,http://purl.obolibrary.org/obo/FBcv_0000205
+covid19:10142,study design,,,"A plan detailing how a study will be performed in order to represent the phenomenon under examination, to answer the research questions that have been asked, and defining the methods of data analysis. Study design is driven by research hypothesis being posed, study subject/population/sample available, logistics/resources: technology, support, networking, collaborative support, etc.",,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C15320&key=1850760702&b=1&n=null,gen:10006,,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C15320&key=1850760702&b=1&n=null
+covid19:10143,prototype description,,,,,,gen:10006
+gen:10007,biomaterial
+gen:10008,organism,,,"A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.",,http://purl.obolibrary.org/obo/OBI_0100026,gen:10007,,http://purl.obolibrary.org/obo/OBI_0100026
+covid19:10146,human,,,"The bipedal primate mammal, Homo sapiens; belonging to man or mankind; pertaining to man or to the race of man; use of man as experimental subject or unit of analysis in research.",,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C14225&key=1926508693&b=1&n=null,gen:10008,,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C14225&key=1926508693&b=1&n=null
+covid19:10147,mink,,,"Carnivores of genus Mustela of the family MUSTELIDAE. The European mink, which has white upper and lower lips, was widely trapped for commercial purposes and is classified as endangered. The American mink, lacking a white upper lip, is farmed commercially.",,http://purl.bioontology.org/ontology/MESH/D008907,gen:10025,,http://purl.bioontology.org/ontology/MESH/D008907
+covid19:10148,mouse,,,Any of numerous species of small rodents belonging to the genus Mus and various related genera of the family Muridae.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14238,gen:10025,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14238
+covid19:10149,rat,,,Any of numerous species of rodents belonging to the genus Rattus and/or various related genera of the family Muridae.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C160998,gen:10025,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C160998
+gen:10010,substance,,,"Any matter of defined composition that has discrete existence, whose origin may be biological, mineral or chemical.",,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C45306&key=n1938058024&b=1&n=null,gen:10007,,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C45306&key=n1938058024&b=1&n=null
+covid19:10154,blood,,,"A liquid tissue; its major function is to transport oxygen throughout the body. It also supplies the tissues with nutrients, removes waste products, and contains various components of the immune system defending the body against infection. Several hormones also travel in the blood.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C12434,gen:10010,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C12434
+covid19:10155,breath,,,The air that is inhaled and exhaled during respiration.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C94552,gen:10010,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C94552
+covid19:10156,"feces
+",,,"The material discharged from the bowel during defecation. It consists of undigested food, intestinal mucus, epithelial cells, and bacteria.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13234,gen:10010,,"https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13234,
+http://purl.bioontology.org/ontology/SNOMEDCT/39477002"
+covid19:10157,plasma,,,"Plasma is the fluid (noncellular) portion of the circulating blood, as distinguished from the serum that is the fluid portion of the blood obtained by removal of the fibrin clot and blood cells after coagulation.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13356,gen:10010,,"https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13356,
+http://purl.bioontology.org/ontology/SNOMEDCT/50863008"
+covid19:10158,saliva,,,The watery fluid in the mouth made by the salivary glands. Saliva moistens food to help digestion and it helps protect the mouth against infections.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13275,gen:10010,,"https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13275,
+http://purl.bioontology.org/ontology/SNOMEDCT/256897009 "
+covid19:10159,semen,,,"The thick, whitish secretion of the male reproductive organs. It is composed of spermatozoa in their nutrient plasma, secretions from the prostate, seminal vesicles, and various other glands, epithelial cells, and minor constituents.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13277,gen:10010,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13277
+covid19:10160,serum,,,The clear portion of the blood that remains after the removal of the blood cells and the clotting proteins.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13325,gen:10010,,"https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13325,
+http://purl.bioontology.org/ontology/SNOMEDCT/67922002"
+covid19:10161,sewage,,,Wastewater that is contaminated with feces or urine,,http://purl.obolibrary.org/obo/ENVO_00002018,gen:10010,,"http://purl.obolibrary.org/obo/ENVO_00002018,https://en.wikipedia.org/wiki/Sewage"
+covid19:10162,sputum,,,"Material containing mucus, cellular debris, microorganisms and sometimes blood or pus. It is ejected through the mouth from the lungs, bronchi, and trachea.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13278,gen:10010,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13278
+covid19:10163,tear,,,"A fluid containing oils, mucin, and proteins, which is secreted by the lacrimal gland and cleans and lubricates the eye.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C33739,gen:10010,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C33739
+covid19:10164,tissue,,,"An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C12801,gen:10010,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C12801
+covid19:10165,urine,,,The fluid that is excreted by the kidneys. It is stored in the bladder and discharged through the urethra.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13283,gen:10010,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C13283
+covid19:10166,peripheral blood mononuclear cell,,,A peripheral blood cell with a single nucleus. This category includes lymphocytes and monocytes.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C173496,gen:10010,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C173496
+covid19:10167,nutrition,,,"A group of materials of either plant, animal or artificial origin containing essential body nutrients that can be ingested by an organism to produce energy, stimulate growth, and maintain life.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C28294,gen:10010,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C28294
+covid19:10168,cervicovaginal secretion,,,"The watery fluid, consisting of vulvar gland, endometrium, and oviduct secretions, cervical mucus, vaginal wall plasma transudate, exfoliated cells, and bacterial and immune cell products, that hydrates and forms an antimicrobial barrier for the mucosa of the lower female genital tract.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C150892,gen:10010,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C150892
+gen:10009,specimen,,,"A part of a thing, or of several things, taken to demonstrate or to determine the character of the whole, e.g. a substance, or portion of material obtained for use in testing, examination, or study; particularly, a preparation of tissue or bodily fluid taken for examination or diagnosis.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C19157,gen:10007,,"https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C19157,
+http://purl.bioontology.org/ontology/SNOMEDCT/123038009"
+covid19:10170,cell line,,,A permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C16403,gen:10009,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C16403
+covid19:10171,fresh specimen,,,a specimen that is output of a specimen creation process used for an investigation without storage.,,http://purl.obolibrary.org/obo/OBI_0000971,gen:10009,,http://purl.obolibrary.org/obo/OBI_0000971
+covid19:10172,frozen specimen,,,A specimen that has been frozen in order to store it.,,http://purl.obolibrary.org/obo/OBI_0000922,gen:10009,,http://purl.obolibrary.org/obo/OBI_0000922
+covid19:10173,nasal swab ,,"nose specimen, nose swab",A method used to collect biological material from within the nasal passages. A cotton swab is inserted into the nasal opening and rotated against the anterior nasal mucosa and them withdrawn.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C132119,gen:10009,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C132119
+covid19:10174,nasopharyngeal swab specimen,,,A specimen that is collected with a swab from the surface of a nasopharynx.,,http://purl.obolibrary.org/obo/IAO_0000122,gen:10009,,http://purl.obolibrary.org/obo/IAO_0000122
+covid19:10175,oropharyngeal swab specimen,,,A biospecimen collected from the oropharynx by swabbing.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C155835,gen:10009,,"https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C155835,
+http://purl.bioontology.org/ontology/SNOMEDCT/461911000124106,
+http://purl.bioontology.org/ontology/SNOMEDCT/258529004"
+covid19:10176,tissue specimen,,,,,http://purl.bioontology.org/ontology/SNOMEDCT/119376003,gen:10009,,http://purl.bioontology.org/ontology/SNOMEDCT/119376003
+covid19:10177,vaginal swab specimen,,,A specimen that is collected with a swab from the surface of a vagina.,,http://purl.obolibrary.org/obo/OBI_0002611,gen:10009,,http://purl.obolibrary.org/obo/OBI_0002611
+covid19:10178,FFPE tissue specimen,,,A specimen that has been fixed in formalin and embedded in paraffin.,,http://purl.obolibrary.org/obo/OBI_1200000,gen:10009,,http://purl.obolibrary.org/obo/OBI_1200000
+covid19:10179,glutaraldehyde fixed tissue specimen,,,,,,gen:10009,,http://purl.obolibrary.org/obo/FBbi_00000011
+gen:10011,macromolecule,,,,,,gen:10007
+covid19:10181,cDNA,,,Single-stranded DNA that is complementary to messenger RNA or DNA that has been synthesized from messenger RNA by reverse transcriptase.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C324,gen:10011,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C324
+covid19:10182,DNA,,deoxyribonucleic acid,A long linear double-stranded polymer formed from nucleotides attached to a deoxyribose backbone and found in the nucleus of a cell; associated with the transmission of genetic information.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C449,gen:10011,,"https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C449,
+http://purl.bioontology.org/ontology/SNOMEDCT/24851008"
+covid19:10183,RNA,,ribonucleic acid,Single-stranded long chain of nucleotides containing ribose. It is the end product of DNA transcription by the enzyme RNA polymerase. It is essential in protein synthesis.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C812,gen:10011,,"https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C812,
+http://purl.bioontology.org/ontology/SNOMEDCT/27888000"
+covid19:10184,protein,,,A group of complex organic macromolecules composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons. Proteins are fundamental genetically encoded components of living cells with specific structures and functions dictated by amino acid sequence.,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C17021,gen:10011,,"https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C17021,
+http://purl.bioontology.org/ontology/SNOMEDCT/88878007"
+covid19:10185,antibody,,,"A type of protein made by B lymphocytes in response to a foreign substance (antigen). Each antibody only binds to a specific antigen, helping to destroy the antigen directly or by assisting white blood cells to destroy the antigen.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C16295,gen:10011,,"https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C16295,
+http://purl.bioontology.org/ontology/SNOMEDCT/68498002"
+gen:10013,service
+covid19:10187,laboratory service,,,,,,gen:10013
+covid19:10188,ML-1 laboratory,,,,,https://www.utwente.nl/.uc/fb9dbdab80102e9e99b00eeb5220284e61d13c337a78900/short-manual-gmo.pdf,covid19:10187
+covid19:10189,ML-2 laboratory,,,,,https://www.utwente.nl/.uc/fb9dbdab80102e9e99b00eeb5220284e61d13c337a78900/short-manual-gmo.pdf,covid19:10187
+covid19:10190,ML-3 laboratory,,,,,https://www.utwente.nl/.uc/fb9dbdab80102e9e99b00eeb5220284e61d13c337a78900/short-manual-gmo.pdf,covid19:10187,,http://purl.bioontology.org/ontology/SNOMEDCT/409600007
+covid19:10191,BSL-1 laboratory,,,"Biosafety level one, the lowest level, applies to work with agents that usually pose a minimal potential threat to laboratory workers and the environment and do not consistently cause disease in healthy adults.",,https://www.labmanager.com/lab-health-and-safety/biosafety-levels-1-2-3-4-19123,covid19:10187,,http://purl.bioontology.org/ontology/SNOMEDCT/409603009
+covid19:10192,BSL-2 laboratory,,,"Biosafety level two would cover work with agents associated with human 
+disease, in other words, pathogenic or infectious organisms posing a 
+moderate hazard.",,https://www.labmanager.com/lab-health-and-safety/biosafety-levels-1-2-3-4-19123,covid19:10187,,http://purl.bioontology.org/ontology/SNOMEDCT/409604003
+covid19:10193,BSL-3 laboratory,,,"Yellow fever, St. Louis encephalitis and West Nile virus are examples of agents requiring biosafety level 3 practices and containment. Work with these agents is strictly controlled and must be registered with all appropriate government agencies.",,https://www.labmanager.com/lab-health-and-safety/biosafety-levels-1-2-3-4-19123,covid19:10187,,http://purl.bioontology.org/ontology/SNOMEDCT/409605002
+covid19:10194,BSL-4 laboratory,,,"Agents requiring BSL 4 facilities and practices are extremely dangerous pand pose a high risk of life-threatening disease. Examples are the Ebola  virus, the Lassa virus, and any agent with unknown risks of pathogenicity and transmission. ",,https://www.labmanager.com/lab-health-and-safety/biosafety-levels-1-2-3-4-19123,covid19:10187
+covid19:10195,antibody facility,,,helps researchers produce custom antibodies,,,covid19:10187
+covid19:10196,proteomics facility,,,,,,covid19:10187
+covid19:10197,metabolomics facility,,,"complete analytical platform, coupled to advanced extraction techniques, sample prep methods and vast experience, allows to offer non-targetted or targetted metabolomic studies, metabolomic fingerprinting or footprinting studies",,,covid19:10187
+covid19:10198,animal facility (breeding/transgenesis),,,Keeping and breeding of test animals for the purpose of scientific research and education,,,covid19:10187
+covid19:10199,flow cytometry facility,,,accommodates all research and diagnostic flow cytometry equipment,,,covid19:10187
+covid19:10200,microscopy facility,,,"connect clinical and biological research with microscopy and image analysis developments, offer support and provide training and education to make use of the facility",,,covid19:10187
+covid19:10201,sequencing facility,,,provides support for Next Generation Sequencing (NGS) based research,,,covid19:10187
+covid19:10202,hiPSC facility,,,human induced Pluripotent Stem Cell (hiPSC) facility: generation of research grade hiPSCs from different tissue sources,,,covid19:10187
+covid19:10203,GMP facility,,,,,,covid19:10187
+covid19:10204,data analytics facility,,,"offers advice on advanced quantitative, statistical and computational methods for biomedical and clinical researchers",,,covid19:10187
+covid19:10205,biobank facility,,,A facility or core that provides storage for any type of biospecimen.,,,covid19:10187
+covid19:10206,viral vector facility,,,,,,covid19:10187
+covid19:10207,pharmacy,,,,,,covid19:10187
+covid19:10208,repository,,,"an online service that enables you to upload and query, view and download data",,,gen:10013
+covid19:10209,biobank,,,"A physical store of biological samples, and an online service that enables you to request the samples and data about them",,,gen:10013
+covid19:10210,data catalogue,,,an online service that enables you to query and/or download datasets ,,,gen:10013
+covid19:10211,ELSI service,,,"service facilitating compliance with regulatory requirements and best practice standards relating to ethical, legal and societal issues (ELSI)",,,gen:10013
+gen:10014,standard 
+gen:10015,metadata standard,,,,,,gen:10014
+gen:10016,semantic artefact,,,"is the overarching name for any set of fixed denotations that are used to describe something with the goal to reduce ambiguity and facilitate machine interoperability. It can range from a simple controlled vocabulary (a simple list of terms) to a complex ontology (formal definitions of terms and their relations semantically expressed in a machine-readable way). This term may also include taxonomies, thesauri, conceptual models or any other kinds of knowledge organization sources.",,,gen:10014
+gen:10017,technical standard,,,,,,gen:10014
+gen:10018,conceptual model,,,,,,gen:10014
+gen:10019,guideline,,,,,,gen:10014
+gen:10020,framework,,,,,,gen:10014
+covid19:10220,COVID-19 vaccination grouping,,,,,,gen:10004
+covid19:10221,political data,,,"Data about activities concerned with governmental policies, functions, etc.",,,gen:10005
+covid19:10222,economic data,,,,,,gen:10005
+covid19:10223,socio-economic data,,,,,,gen:10005
+gen:10001,focus area,,,ZonMw specific focus areas
+covid19:10226,predictive diagnostics and treatment - treatment,,,,,,gen:10001
+covid19:10227,"virus, immunity and immune response - vaccine studies",,,,,,gen:10001
+covid19:10228,care and prevention - organisation of care and prevention,,,,,,gen:10001
+covid19:10229,effects on society - impacts of measurements and strategies,,,,,,gen:10001
+gen:10002,subject
+covid19:10231,organisation of care and prevention,,,,,,gen:10002
+covid19:10232,diagnostics,Diagnostiek,,The representation of a conclusion of a diagnostic process.,Het diagnostisch proces,http://purl.obolibrary.org/obo/OGMS_0000073,gen:10002,,http://purl.obolibrary.org/obo/OGMS_0000073
+covid19:10233,impact of measures and strategies,De Impact Van Maatregels En Strategieen,,The impact of the social distancing measures,"De impact van de 1,5m maatregel",,gen:10002
+covid19:10234,healthcare,Gezondheidszorg,,"The use of healthcare, 1st line and 2nd line.",,,gen:10002
+covid19:10235,education,Onderwijs,,The activities of educating or instructing or teaching; activities that impart knowledge or skill.,,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C16529&key=2040663473&b=1&n=null,"gen:10002, gen:10013"
+covid19:10236,therapy,Behandeling,,"A planned process whose completion is hypothesized by a health care provider to eliminate, prevent, or alleviate a disorder, the signs and symptoms of a disorder, or a pathological process",,"http://purl.obolibrary.org/obo/OGMS_0000090
+",gen:10002,,"http://purl.obolibrary.org/obo/OGMS_0000090
+"
+covid19:10237,risk analysis,Risico Analyse,,The process of assessing the likelihood of the risk of admission to the Emergency Department of a COVID patient,,,gen:10002
+covid19:10238,prognosis,Prognose,,"Prognosis is the prediction of the probable outcome of an individual's current medical condition. A prognosis is made on the basis of the normal course of a disease, the individual's physical and psychological condition, and additional factors such as therapeutic approach.",,https://scigraph.springernature.com/ontologies/subjects/prognosis,gen:10002,,https://scigraph.springernature.com/ontologies/subjects/prognosis
+covid19:10239,immunology,Immunologie,,,,,gen:10002
+covid19:10240,behaviour,Gedrag,,,,,gen:10002
+gen:10021,variable,,,"A description of something observed or derived, minimally consisting of  an ObjectOfInterest and its Property.",,https://w3id.org/iadopt/ont/iadopt/variable,,,https://w3id.org/iadopt/ont/iadopt/variable
+gen:10022,property,,,A type of a characteristic of the ObjectOfInterest.,,https://w3id.org/iadopt/ont/iadopt/property,,,https://w3id.org/iadopt/ont/iadopt/property
+gen:10023,constraint,,,A Constraint limits the scope of the observation and confines the context to a particular state. It describes properties of the involved entities that are relevant to the particular observation.,,https://w3id.org/iadopt/ont/iadopt/constraint,,,https://w3id.org/iadopt/ont/iadopt/constraint
+covid19:10244,genomics data,sequencing data,,,,,gen:10005
+covid19:10245,perineal swab,,,,,,gen:10009
+covid19:10246,cloacal swab,,,,,,gen:10009
+gen:10024,microorganism,,,,,,gen:10008
+gen:10025,animal,,,,,,gen:10008
+covid19:10249,predictive diagnostics and treatment - risk analysis and prognostics,,,,,,gen:10001
+covid19:10250,predictive diagnostics and treatment - studies into clinical treatments,,,,,,gen:10001
+covid19:10251,predictive diagnostics and treatment - recovery and rehabilitation,,,,,,gen:10001
+covid19:10252,predictive diagnostics and treatment - Long COVID,,,,,,gen:10001
+covid19:10253,care and prevention - care and prevention for vulnerable citizens,,,,,,gen:10001
+covid19:10254,care and prevention - transmission and epidemiology,,,,,,gen:10001
+covid19:10255,care and prevention - palliative care and bereavement,,,,,,gen:10001
+covid19:10256,effects on society - economic resilience,,,,,,gen:10001
+covid19:10257,effects on society - ethical issues,,,,,,gen:10001
+covid19:10258,"virus, immunity and immune response - animal free innovations",,,,,,gen:10001
+covid19:10259,"virus, immunity and immune response - immunology",,,,,,gen:10001
+covid19:10260,"virus, immunity and immune response - immune compromised",,,,,,gen:10001
+covid19:10261,"virus, immunity and immune response - safety and side effects",,,,,,gen:10001
+covid19:10262,personal information data,,,,,,gen:10005
+covid19:10263,neighbourhood,,,,,,covid19:10002
+covid19:10017,local,,,,,,covid19:10002
+covid19:10264,genomics,,,,,,gen:10002
+covid19:10265,sequence length,,,,,,gen:10021
+covid19:10266,genetic variation,,,,,,gen:10021
