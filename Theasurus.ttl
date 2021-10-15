@@ -8975,7 +8975,9 @@ EnvThes:22060 a skos:Concept;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_693>, <http://en.wikipedia.org/wiki/atmospheric_pressure>,
     <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/11840>, <https://vocab.lternet.edu/vocab/vocab/?tema=50>;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "atmospheric pressure"@en .
+  skos:prefLabel "atmospheric pressure"@en;
+  iop:hasObjectOfInterest EnvThes:2190;
+  iop:hasProperty EnvThes:21557 .
 
 EnvThes:10321 a skos:Concept;
   skos:broader EnvThes:20937;
