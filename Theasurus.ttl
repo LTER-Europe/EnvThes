@@ -11411,7 +11411,7 @@ EnvThes:22060 dct:created "2016-03-31T00:00:00Z"@en;
     <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/11840>, <https://vocab.lternet.edu/vocab/vocab/?tema=50>;
   skos:prefLabel "atmospheric pressure"@en, "ατμοσφαιρική πίεση"@el;
   skos:scopeNote "US LTER controlled vocabulary"@en;
-  iop:hasObjectOfInterest EnvThes:2190;
+  iop:hasObjectOfInterest EnvThes:21920;
   iop:hasProperty EnvThes:21557 .
 
 EnvThes:10321 dct:created "2016-11-24T15:30:27.218+00:00"@en;
@@ -15634,7 +15634,10 @@ EnvThes:30124 dct:created "2018-11-27T11:57:34.956+00:00"@en;
   dct:modified "2018-11-27T11:58:15.303+00:00"@en;
   skos:altLabel "content of total phosphorus"@en;
   skos:broader EnvThes:20947;
-  skos:prefLabel "concentration of total phosphorus"@en .
+  skos:prefLabel "concentration of total phosphorus"@en;
+  iop:hasConstraint "Envthes:22023"@en;
+  iop:hasObjectOfInterest EnvThes:20854;
+  iop:hasProperty EnvThes:10073 .
 
 EnvThes:30125 dct:created "2018-11-27T11:59:45.494+00:00"@en;
   dct:creator "mark.frenzel"@en;
@@ -25495,25 +25498,25 @@ EnvThes:10313 a skos:Concept;
   skos:definition "This concept is a flat list without any parents. The character of constraint is indicated by being mostly an adjective, e.g. NT altitudinal, apical, seasonal, biochemical. This term list can be combined with a property or an object of interest. &nbsp;"@en;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53452>;
   skos:narrower EnvThes:10062, EnvThes:10229, EnvThes:10314, EnvThes:10315, EnvThes:10316,
-    EnvThes:10317, EnvThes:10318, EnvThes:10319, EnvThes:10320, EnvThes:10322;
+    EnvThes:10317, EnvThes:10318, EnvThes:10319, EnvThes:10320, EnvThes:10322, EnvThes:10323;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower EnvThes:10323, EnvThes:10324, EnvThes:10325, EnvThes:10326, EnvThes:10328,
-    EnvThes:10329, EnvThes:10330, EnvThes:10331, EnvThes:10334, EnvThes:10339, EnvThes:10342,
-    EnvThes:10345, EnvThes:10346, EnvThes:10347, EnvThes:10348, EnvThes:10349, EnvThes:10367,
-    EnvThes:10371, EnvThes:10378, EnvThes:10383, EnvThes:10398, EnvThes:10399, EnvThes:21785,
-    EnvThes:21804, EnvThes:21821, EnvThes:21873, EnvThes:21880, EnvThes:21952, EnvThes:21953,
-    EnvThes:21954, EnvThes:21955, EnvThes:21956, EnvThes:21957, EnvThes:21958, EnvThes:21959,
-    EnvThes:21960, EnvThes:21961, EnvThes:21962, EnvThes:21963, EnvThes:21964, EnvThes:21965,
-    EnvThes:21966, EnvThes:21967, EnvThes:21968, EnvThes:21969, EnvThes:21970, EnvThes:21971,
-    EnvThes:21972, EnvThes:21973, EnvThes:21974, EnvThes:21975, EnvThes:21976, EnvThes:21977,
-    EnvThes:21978, EnvThes:21979, EnvThes:21980, EnvThes:21981, EnvThes:21982, EnvThes:21983,
-    EnvThes:21984, EnvThes:21985, EnvThes:21986, EnvThes:21987, EnvThes:21988, EnvThes:21989,
-    EnvThes:21990, EnvThes:21991, EnvThes:21992, EnvThes:21993, EnvThes:21994, EnvThes:21995,
-    EnvThes:21996, EnvThes:21997, EnvThes:21998, EnvThes:21999, EnvThes:22000, EnvThes:22001,
-    EnvThes:22002, EnvThes:22003, EnvThes:22004, EnvThes:22005, EnvThes:22006, EnvThes:22007,
-    EnvThes:22008, EnvThes:22009, EnvThes:22010, EnvThes:22011, EnvThes:22012, EnvThes:22013,
-    EnvThes:22014, EnvThes:22015, EnvThes:22016, EnvThes:22017, EnvThes:22018, EnvThes:22019,
-    EnvThes:22020, EnvThes:22022, EnvThes:22023, EnvThes:22024;
+  skos:narrower EnvThes:10324, EnvThes:10325, EnvThes:10326, EnvThes:10328, EnvThes:10329,
+    EnvThes:10330, EnvThes:10331, EnvThes:10334, EnvThes:10339, EnvThes:10342, EnvThes:10345,
+    EnvThes:10346, EnvThes:10347, EnvThes:10348, EnvThes:10349, EnvThes:10367, EnvThes:10371,
+    EnvThes:10378, EnvThes:10383, EnvThes:10398, EnvThes:10399, EnvThes:21785, EnvThes:21804,
+    EnvThes:21821, EnvThes:21873, EnvThes:21880, EnvThes:21952, EnvThes:21953, EnvThes:21954,
+    EnvThes:21955, EnvThes:21956, EnvThes:21957, EnvThes:21958, EnvThes:21959, EnvThes:21960,
+    EnvThes:21961, EnvThes:21962, EnvThes:21963, EnvThes:21964, EnvThes:21965, EnvThes:21966,
+    EnvThes:21967, EnvThes:21968, EnvThes:21969, EnvThes:21970, EnvThes:21971, EnvThes:21972,
+    EnvThes:21973, EnvThes:21974, EnvThes:21975, EnvThes:21976, EnvThes:21977, EnvThes:21978,
+    EnvThes:21979, EnvThes:21980, EnvThes:21981, EnvThes:21982, EnvThes:21983, EnvThes:21984,
+    EnvThes:21985, EnvThes:21986, EnvThes:21987, EnvThes:21988, EnvThes:21989, EnvThes:21990,
+    EnvThes:21991, EnvThes:21992, EnvThes:21993, EnvThes:21994, EnvThes:21995, EnvThes:21996,
+    EnvThes:21997, EnvThes:21998, EnvThes:21999, EnvThes:22000, EnvThes:22001, EnvThes:22002,
+    EnvThes:22003, EnvThes:22004, EnvThes:22005, EnvThes:22006, EnvThes:22007, EnvThes:22008,
+    EnvThes:22009, EnvThes:22010, EnvThes:22011, EnvThes:22012, EnvThes:22013, EnvThes:22014,
+    EnvThes:22015, EnvThes:22016, EnvThes:22017, EnvThes:22018, EnvThes:22019, EnvThes:22020,
+    EnvThes:22022, EnvThes:22023, EnvThes:22024, EnvThes:30202;
   skos:prefLabel "constraint"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -25568,9 +25571,9 @@ EnvThes:30201 a skos:Concept;
   iop:hasProperty EnvThes:21557 .
 
 EnvThes:30202 a skos:Concept;
+  skos:broader EnvThes:10313;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "at 2 m height"@en;
-  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
+  skos:prefLabel "at 2 m height"@en .
 
 EnvThes:10351 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
@@ -32605,4 +32608,4 @@ EnvThes:21083 a skos:Concept;
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept EnvThes:1, EnvThes:10001, EnvThes:10002, EnvThes:10195, EnvThes:10313,
-    EnvThes:20104, EnvThes:20935, EnvThes:21603, EnvThes:30202 .
+    EnvThes:20104, EnvThes:20935, EnvThes:21603 .
