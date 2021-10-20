@@ -5,7 +5,7 @@ PREFIX,pav,http://purl.org/pav/
 PREFIX,dct,http://purl.org/dc/terms/
 PREFIX,owl,http://www.w3.org/2002/07/owl#
 PREFIX,xsd,http://www.w3.org/2001/XMLSchema#
-PREFIX,iop,https://w3id.org/iadopt/ont/iadopt/
+PREFIX,iop,https://w3id.org/iadopt/ont/
 skos:prefLabel,EnvThes
 dct:title,Environmental Thesaurus
 dct:description,"Thesaurus for long term ecological research, monitoring, experiments"
@@ -2837,3 +2837,8 @@ EnvThes:10195,infrastructure,,observational and experimental facilities and rela
 EnvThes:30200,concentratiion of total phoshorus in horizon A,,concentration of all phosphorus fractions (total soluble phosphorus and particulate phosphorus) in soil horizon A,EnvThes:30124,,,,,EnvThes:10073,EnvThes:20854,EnvThes:41,,Envthes:22023
 EnvThes:30201,atmospheric pressure at 2m height,,"The amount of force exerted over a surface area, caused by the weight of air molecules above it measured at the height of 2m above the ground level.",EnvThes:22060,,,,,EnvThes:21557,EnvThes:21920,,,EnvThes:30202
 EnvThes:30202,at 2 m height,,,EnvThes:10313
+EnvThes:30203,soil loss,,loss of the life-supporting land resource though soil erosion,EnvThes:20944,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,EnvThes:21286
+EnvThes:30204,soil loss from 4-8% arable land,,loss of the life-supporting land resource through soil erosion from arable land of a catchment with 4-8% slope,EnvThes:30203,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,EnvThes:21287,http://purl.obolibrary.org/obo/ENVO_01001177,EnvThes:10092,EnvThes:30205
+EnvThes:30205,4-8% slope
+EnvThes:30206,delivery ratio of soil erosion in sediment of catchment,,"Share of eroded sediment (soil loss) that is transported to the surface water (depends on slope, distance from Surface water, soil texture)",EnvThes:20944,,,,,EnvThes:30207,EnvThes:21287,EnvThes:20899,EnvThes:10092
+EnvThes:30207,portion

@@ -5,7 +5,7 @@
 @prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gen: <http://purl.org/zonmw/generic/> .
-@prefix iop: <https://w3id.org/iadopt/ont/iadopt/> .
+@prefix iop: <https://w3id.org/iadopt/ont/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
@@ -25575,6 +25575,46 @@ EnvThes:30202 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:prefLabel "at 2 m height"@en .
 
+EnvThes:30203 a skos:Concept;
+  skos:broader EnvThes:20944;
+  skos:definition "loss of the life-supporting land resource though soil erosion"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower EnvThes:30204;
+  skos:prefLabel "soil loss"@en;
+  iop:hasObjectOfInterest EnvThes:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+
+EnvThes:30204 a skos:Concept;
+  skos:broader EnvThes:30203;
+  skos:definition "loss of the life-supporting land resource through soil erosion from arable land of a catchment with 4-8% slope"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "soil loss from 4-8% arable land"@en;
+  iop:hasConstraint EnvThes:30205;
+  iop:hasContextObject EnvThes:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest EnvThes:21287;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+
+EnvThes:30205 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "4-8% slope"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
+
+EnvThes:30206 a skos:Concept;
+  skos:broader EnvThes:20944;
+  skos:definition "Share of eroded sediment (soil loss) that is transported to the surface water (depends on slope, distance from Surface water, soil texture)"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "delivery ratio of soil erosion in sediment of catchment"@en;
+  iop:hasContextObject EnvThes:10092;
+  iop:hasMatrix EnvThes:20899;
+  iop:hasObjectOfInterest EnvThes:21287;
+  iop:hasProperty EnvThes:30207 .
+
+EnvThes:30207 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "portion"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
+
 EnvThes:10351 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower EnvThes:10016, EnvThes:10030, EnvThes:10033, EnvThes:10044, EnvThes:10046,
@@ -29827,8 +29867,8 @@ EnvThes:20944 a skos:Concept;
     EnvThes:22275, EnvThes:22277, EnvThes:22278, EnvThes:22279, EnvThes:22280, EnvThes:22281,
     EnvThes:22282, EnvThes:22283, EnvThes:22295, EnvThes:22296, EnvThes:22297, EnvThes:22299,
     EnvThes:30034, EnvThes:30035, EnvThes:30036, EnvThes:30037, EnvThes:30065, EnvThes:30066,
-    EnvThes:30067, EnvThes:30068, EnvThes:30069, EnvThes:30073, EnvThes:60023, EnvThes:60024,
-    EnvThes:60025 .
+    EnvThes:30067, EnvThes:30068, EnvThes:30069, EnvThes:30073, EnvThes:30203, EnvThes:30206,
+    EnvThes:60023, EnvThes:60024, EnvThes:60025 .
 
 EnvThes:20939 a skos:Concept;
   skos:narrower EnvThes:10018, EnvThes:10020, EnvThes:10021, EnvThes:10043, EnvThes:10048,
@@ -32608,4 +32648,4 @@ EnvThes:21083 a skos:Concept;
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept EnvThes:1, EnvThes:10001, EnvThes:10002, EnvThes:10195, EnvThes:10313,
-    EnvThes:20104, EnvThes:20935, EnvThes:21603 .
+    EnvThes:20104, EnvThes:20935, EnvThes:21603, EnvThes:30205, EnvThes:30207 .
