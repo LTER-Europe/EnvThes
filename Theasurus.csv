@@ -1875,7 +1875,7 @@ EnvThes:20817,total inorganic carbon,TIC,,EnvThes:20947,,,,,,,,,,,,,MS Academic 
 EnvThes:20904,sediment oxygen demand,SOD,,EnvThes:20947,,,,,,,,,,,,,MS Academic Keywords,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-10-12T13:41:35.252+01:00,Barbara.magagna,2019-02-17T20:17:41.772+00:00
 EnvThes:21575,retention time,RT,,EnvThes:20947,,,,,,,,,,,,,MS Academic Keywords,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-10-12T13:41:35.252+01:00,Barbara.magagna,2019-02-17T20:14:14.182+00:00
 EnvThes:22135,inorganic carbon content,"inorganic C content,content of inorganic carbon",,EnvThes:20947,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-03-31T00:00:00Z,herbert.schentz@umweltbundesamt.at,2018-11-12T13:27:15.188+00:00
-EnvThes:30124,concentration of total phosphorus ,content of total phosphorus,,EnvThes:20947,,,,,EnvThes:10073,EnvThes:20854,,,Envthes:22023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2018-11-27T11:57:34.956+00:00,mark.frenzel,2018-11-27T11:58:15.303+00:00
+EnvThes:30124,concentration of total phosphorus ,content of total phosphorus,,EnvThes:20947,,,,,EnvThes:10073,EnvThes:20854,,,EnvThes:22023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2018-11-27T11:57:34.956+00:00,mark.frenzel,2018-11-27T11:58:15.303+00:00
 EnvThes:30125,soluble reactive phosphorus content,content of soluble reactive phosphorus,,EnvThes:20947,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2018-11-27T11:59:45.494+00:00,mark.frenzel,2018-11-27T12:00:53.372+00:00
 EnvThes:30122,particulate organic carbon content,content of particulate organic carbon,,EnvThes:20947,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2018-11-27T11:40:00.325+00:00,mark.frenzel,2018-11-27T11:42:07.686+00:00
 EnvThes:22138,insoluble organic carbon content,content of insoluble organic carbon,,EnvThes:20947,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-03-31T00:00:00Z,herbert.schentz@umweltbundesamt.at,2018-06-18T12:34:46.136+01:00
@@ -2838,10 +2838,10 @@ EnvThes:30200,concentration of total phoshorus in horizon A,,concentration of al
 EnvThes:30201,atmospheric pressure at 2m height,,"The amount of force exerted over a surface area, caused by the weight of air molecules above it measured at the height of 2m above the ground level.",EnvThes:22060,,,,,EnvThes:21557,EnvThes:21920,,,EnvThes:30202
 EnvThes:30202,at 2 m height,,,EnvThes:10313
 EnvThes:30203,soil loss,,loss of the life-supporting land resource though soil erosion,EnvThes:20944,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,EnvThes:21286
-EnvThes:30204,soil loss from 4-8% arable land,,loss of the life-supporting land resource through soil erosion from arable land of a catchment with 4-8% slope,EnvThes:30203,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,EnvThes:21287,http://purl.obolibrary.org/obo/ENVO_01001177,EnvThes:10092,EnvThes:30205
-EnvThes:30205,4-8% slope
-EnvThes:30206,delivery ratio of soil erosion in sediment of catchment,,"Share of eroded sediment (soil loss) that is transported to the surface water (depends on slope, distance from Surface water, soil texture)",EnvThes:20944,,,,,EnvThes:30207,EnvThes:21287,EnvThes:20899,EnvThes:10092
-EnvThes:30207,portion
+EnvThes:30204,soil loss from 4-8% arable land,,loss of the life-supporting land resource through soil erosion from arable land of a catchment with 4-8% slope,EnvThes:30203,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,EnvThes:21286,http://purl.obolibrary.org/obo/ENVO_01001177,EnvThes:10092,EnvThes:30205
+EnvThes:30205,4-8% slope,,,EnvThes:10313
+EnvThes:30206,delivery ratio of soil erosion in sediment of catchment,,"Share of eroded sediment (soil loss) that is transported to the surface water (depends on slope, distance from Surface water, soil texture)",EnvThes:20944,,,,,EnvThes:30207,EnvThes:21286,EnvThes:20899,EnvThes:10092
+EnvThes:30207,portion,,,EnvThes:10351
 EnvThes:30208,concentration of substance in organism,,,EnvThes:20940,,,,,EnvThes:10073,EnvThes:20746,EnvThes:26
 EnvThes:30209,concentration of endosulfane sulfate in wet flesh of ostrea edulis,,,EnvThes:30208,http://vocab.nerc.ac.uk/collection/P01/current/IC000344/,,,,EnvThes:10073,http://vocab.nerc.ac.uk/collection/S27/current/CS003625/,http://vocab.nerc.ac.uk/collection/S12/current/S1214/,http://www.marinespecies.org/aphia.php?p=taxdetails&id=140658,http://purl.obolibrary.org/obo/PATO_0001823
 EnvThes:30210,sample,,,EnvThes:20504
