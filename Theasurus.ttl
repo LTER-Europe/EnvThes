@@ -25555,8 +25555,9 @@ EnvThes:30200 a skos:Concept;
   skos:broader EnvThes:30124;
   skos:definition "concentration of all phosphorus fractions (total soluble phosphorus and particulate phosphorus) in soil horizon A"@en;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "concentratiion of total phoshorus in horizon A"@en;
+  skos:prefLabel "concentration of total phoshorus in horizon A"@en;
   iop:hasConstraint "Envthes:22023"@en;
+  iop:hasContextObject EnvThes:30211;
   iop:hasMatrix EnvThes:41;
   iop:hasObjectOfInterest EnvThes:20854;
   iop:hasProperty EnvThes:10073 .
@@ -25635,6 +25636,17 @@ EnvThes:30209 a skos:Concept;
   iop:hasObjectOfInterest <http://vocab.nerc.ac.uk/collection/S27/current/CS003625/>;
   iop:hasProperty EnvThes:10073 .
 
+EnvThes:30210 a skos:Concept;
+  skos:broader EnvThes:20504;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower EnvThes:30211;
+  skos:prefLabel "sample"@en .
+
+EnvThes:30211 a skos:Concept;
+  skos:broader EnvThes:30210;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "soil sample"@en .
+
 EnvThes:10351 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower EnvThes:10016, EnvThes:10030, EnvThes:10033, EnvThes:10044, EnvThes:10046,
@@ -25679,7 +25691,8 @@ EnvThes:10056 a skos:Concept;
 
 EnvThes:20504 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower EnvThes:10003, EnvThes:20700, EnvThes:20746, EnvThes:26, EnvThes:30000 .
+  skos:narrower EnvThes:10003, EnvThes:20700, EnvThes:20746, EnvThes:26, EnvThes:30000,
+    EnvThes:30210 .
 
 EnvThes:20543 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
