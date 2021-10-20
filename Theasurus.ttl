@@ -25615,6 +25615,26 @@ EnvThes:30207 a skos:Concept;
   skos:prefLabel "portion"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
+EnvThes:30208 a skos:Concept;
+  skos:broader EnvThes:20940;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower EnvThes:30209;
+  skos:prefLabel "concentration of substance in organism"@en;
+  iop:hasMatrix EnvThes:26;
+  iop:hasObjectOfInterest EnvThes:20746;
+  iop:hasProperty EnvThes:10073 .
+
+EnvThes:30209 a skos:Concept;
+  skos:broader EnvThes:30208;
+  skos:exactMatch <http://vocab.nerc.ac.uk/collection/P01/current/IC000344/>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "concentration of endosulfane sulfate in wet flesh of ostrea edulis"@en;
+  iop:hasConstraint <http://purl.obolibrary.org/obo/PATO_0001823>;
+  iop:hasContextObject <http://www.marinespecies.org/aphia.php?p=taxdetails&id=140658>;
+  iop:hasMatrix <http://vocab.nerc.ac.uk/collection/S12/current/S1214/>;
+  iop:hasObjectOfInterest <http://vocab.nerc.ac.uk/collection/S27/current/CS003625/>;
+  iop:hasProperty EnvThes:10073 .
+
 EnvThes:10351 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower EnvThes:10016, EnvThes:10030, EnvThes:10033, EnvThes:10044, EnvThes:10046,
@@ -29794,25 +29814,25 @@ EnvThes:20940 a skos:Concept;
     EnvThes:21164, EnvThes:21165, EnvThes:21166, EnvThes:21201, EnvThes:21211, EnvThes:21221,
     EnvThes:21316, EnvThes:21320, EnvThes:21323, EnvThes:21353, EnvThes:21354, EnvThes:21355,
     EnvThes:21362, EnvThes:21363, EnvThes:21364, EnvThes:21365, EnvThes:21366, EnvThes:21367,
-    EnvThes:21368, EnvThes:21369, EnvThes:21379, EnvThes:21380, EnvThes:21177;
+    EnvThes:21368, EnvThes:21369, EnvThes:21379, EnvThes:21380, EnvThes:21177, EnvThes:21385;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower EnvThes:21385, EnvThes:21388, EnvThes:21391, EnvThes:21393, EnvThes:21396,
-    EnvThes:21397, EnvThes:21398, EnvThes:21415, EnvThes:21419, EnvThes:21420, EnvThes:21421,
-    EnvThes:21422, EnvThes:21426, EnvThes:21428, EnvThes:21429, EnvThes:21433, EnvThes:21434,
-    EnvThes:21435, EnvThes:21436, EnvThes:21437, EnvThes:21438, EnvThes:21439, EnvThes:21442,
-    EnvThes:21443, EnvThes:21444, EnvThes:21471, EnvThes:21472, EnvThes:21493, EnvThes:21538,
-    EnvThes:22067, EnvThes:22068, EnvThes:22071, EnvThes:22072, EnvThes:22073, EnvThes:22075,
-    EnvThes:22076, EnvThes:22078, EnvThes:22079, EnvThes:22080, EnvThes:22081, EnvThes:22085,
-    EnvThes:22093, EnvThes:22094, EnvThes:22096, EnvThes:22097, EnvThes:22098, EnvThes:22099,
-    EnvThes:22113, EnvThes:22114, EnvThes:22123, EnvThes:22124, EnvThes:22132, EnvThes:22153,
-    EnvThes:22155, EnvThes:22156, EnvThes:22158, EnvThes:22159, EnvThes:22160, EnvThes:22161,
-    EnvThes:22162, EnvThes:22168, EnvThes:22174, EnvThes:22187, EnvThes:22188, EnvThes:22189,
-    EnvThes:22190, EnvThes:22192, EnvThes:22193, EnvThes:22194, EnvThes:22197, EnvThes:22198,
-    EnvThes:22199, EnvThes:22215, EnvThes:22216, EnvThes:22217, EnvThes:22218, EnvThes:22219,
-    EnvThes:22228, EnvThes:22229, EnvThes:22230, EnvThes:22231, EnvThes:22232, EnvThes:22233,
-    EnvThes:22234, EnvThes:22235, EnvThes:22236, EnvThes:22237, EnvThes:22300, EnvThes:22301,
-    EnvThes:22302, EnvThes:22303, EnvThes:22304, EnvThes:22305, EnvThes:22325, EnvThes:30104,
-    EnvThes:30164, EnvThes:30169, EnvThes:30171, EnvThes:30176, EnvThes:60030 .
+  skos:narrower EnvThes:21388, EnvThes:21391, EnvThes:21393, EnvThes:21396, EnvThes:21397,
+    EnvThes:21398, EnvThes:21415, EnvThes:21419, EnvThes:21420, EnvThes:21421, EnvThes:21422,
+    EnvThes:21426, EnvThes:21428, EnvThes:21429, EnvThes:21433, EnvThes:21434, EnvThes:21435,
+    EnvThes:21436, EnvThes:21437, EnvThes:21438, EnvThes:21439, EnvThes:21442, EnvThes:21443,
+    EnvThes:21444, EnvThes:21471, EnvThes:21472, EnvThes:21493, EnvThes:21538, EnvThes:22067,
+    EnvThes:22068, EnvThes:22071, EnvThes:22072, EnvThes:22073, EnvThes:22075, EnvThes:22076,
+    EnvThes:22078, EnvThes:22079, EnvThes:22080, EnvThes:22081, EnvThes:22085, EnvThes:22093,
+    EnvThes:22094, EnvThes:22096, EnvThes:22097, EnvThes:22098, EnvThes:22099, EnvThes:22113,
+    EnvThes:22114, EnvThes:22123, EnvThes:22124, EnvThes:22132, EnvThes:22153, EnvThes:22155,
+    EnvThes:22156, EnvThes:22158, EnvThes:22159, EnvThes:22160, EnvThes:22161, EnvThes:22162,
+    EnvThes:22168, EnvThes:22174, EnvThes:22187, EnvThes:22188, EnvThes:22189, EnvThes:22190,
+    EnvThes:22192, EnvThes:22193, EnvThes:22194, EnvThes:22197, EnvThes:22198, EnvThes:22199,
+    EnvThes:22215, EnvThes:22216, EnvThes:22217, EnvThes:22218, EnvThes:22219, EnvThes:22228,
+    EnvThes:22229, EnvThes:22230, EnvThes:22231, EnvThes:22232, EnvThes:22233, EnvThes:22234,
+    EnvThes:22235, EnvThes:22236, EnvThes:22237, EnvThes:22300, EnvThes:22301, EnvThes:22302,
+    EnvThes:22303, EnvThes:22304, EnvThes:22305, EnvThes:22325, EnvThes:30104, EnvThes:30164,
+    EnvThes:30169, EnvThes:30171, EnvThes:30176, EnvThes:30208, EnvThes:60030 .
 
 EnvThes:20945 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;

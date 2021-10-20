@@ -2842,3 +2842,5 @@ EnvThes:30204,soil loss from 4-8% arable land,,loss of the life-supporting land 
 EnvThes:30205,4-8% slope
 EnvThes:30206,delivery ratio of soil erosion in sediment of catchment,,"Share of eroded sediment (soil loss) that is transported to the surface water (depends on slope, distance from Surface water, soil texture)",EnvThes:20944,,,,,EnvThes:30207,EnvThes:21287,EnvThes:20899,EnvThes:10092
 EnvThes:30207,portion
+EnvThes:30208,concentration of substance in organism,,,EnvThes:20940,,,,,EnvThes:10073,EnvThes:20746,EnvThes:26
+EnvThes:30209,concentration of endosulfane sulfate in wet flesh of ostrea edulis,,,EnvThes:30208,http://vocab.nerc.ac.uk/collection/P01/current/IC000344/,,,,EnvThes:10073,http://vocab.nerc.ac.uk/collection/S27/current/CS003625/,http://vocab.nerc.ac.uk/collection/S12/current/S1214/,http://www.marinespecies.org/aphia.php?p=taxdetails&id=140658,http://purl.obolibrary.org/obo/PATO_0001823
