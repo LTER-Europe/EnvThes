@@ -18,7 +18,47 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+iop:constrains rdf:type owl:ObjectProperty ;
+rdfs:domain iop:Constraint ;
+rdfs:range iop:Entity ;
+rdfs:comment "A Constraint constrains an Entity having a role in the Variable description." ;
+rdfs:label "constrains" .
+
+iop:hasConstraint rdf:type owl:ObjectProperty ;
+rdfs:domain iop:Variable ;
+rdfs:range iop:Constraint ;
+rdfs:comment "A Variable has a Constraint, that confines an Entity involved in the observation." ;
+rdfs:label "hasConstraint" .
+
+iop:hasContextObject rdf:type owl:ObjectProperty ;
+rdfs:domain iop:Variable ;
+rdfs:range iop:Entity ;
+rdfs:comment "A Variable has an Entity that provides additional background information regarding the ObjectOfInterest." ;
+rdfs:label "hasContextObject" . 
+
+iop:hasMatrix rdf:type owl:ObjectProperty ;
+rdfs:subPropertyOf iop:hasContextObject ;
+rdfs:domain iop:Variable ;
+rdfs:range iop:Entity ;
+rdfs:comment "A Variable might have an Entity in which the ObjectOfInterest is contained." ;
+rdfs:label "hasMatrix" .
+
+iop:hasObjectOfInterest rdf:type owl:ObjectProperty ;
+rdfs:domain iop:Variable ;
+rdfs:range iop:Entity ;
+rdfs:comment "A Variable has an Entity whose Property is observed." ;
+rdfs:label "hasObjectOfInterest" .
+
+iop:hasProperty rdf:type owl:ObjectProperty ;
+rdfs:domain iop:Variable ;
+rdfs:range iop:Property ;
+rdfs:comment "A Variable has a Property that characterizes an Entity." ;
+rdfs:label "hasProperty" .    
+
+
 
 <http://vocabs.lter-europe.net/EnvThes/> dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:description "Thesaurus for long term ecological research, monitoring, experiments"@en;
