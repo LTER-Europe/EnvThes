@@ -56,7 +56,7 @@ jobs:
       - name: conversion-xls2rdf
         env:
           FILE_NAME: ${{secrets.FILE_NAME}}
-          FILE_NAME: ${{secrets.FDC_CFG}}
+          FDC_CFG: ${{secrets.FDC_CFG}}
         run: |
           java -jar xls2rdf.jar convert -i $FILE_NAME.xlsx -o $FILE_NAME.ttl -l en
           mv xls2rdf.log ./logs/
