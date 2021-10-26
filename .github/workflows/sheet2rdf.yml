@@ -56,9 +56,11 @@ jobs:
       - name: conversion-xls2rdf
         env:
           FILE_NAME: ${{secrets.FILE_NAME}}
+          FILE_NAME: ${{secrets.FDC_CFG}}
         run: |
           java -jar xls2rdf.jar convert -i $FILE_NAME.xlsx -o $FILE_NAME.ttl -l en
           mv xls2rdf.log ./logs/
+          python ./src/cfg.py
 
       - name: test
         env:
@@ -67,6 +69,16 @@ jobs:
           java -jar qSKOS.jar analyze -dc mil,bl $FILE_NAME.ttl -o ./logs/rdf-test.log
    
      
+      - name: commit-artifacts
+        env:
+          FILE_NAME: ${{secrets.FILE_NAME}}
+        run: |
+          rm qSKOS.jar
+          rm xls2rdf.jar
+          git add .
+          git diff-index --quiet HEAD || git commit -m "new .ttl from Google sheet has been generated"
+          git push
+
       - name: commit-artifacts
         env:
           FILE_NAME: ${{secrets.FILE_NAME}}
