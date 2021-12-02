@@ -2846,3 +2846,8 @@ et:30208,concentration of substance in organism,,,et:20940,,,,,et:10073,et:20746
 et:30209,concentration of endosulfane sulfate in wet flesh of ostrea edulis,,,et:30208,http://vocab.nerc.ac.uk/collection/P01/current/IC000344/,,,,et:10073,http://vocab.nerc.ac.uk/collection/S27/current/CS003625/,http://vocab.nerc.ac.uk/collection/S12/current/S1214/,http://www.marinespecies.org/aphia.php?p=taxdetails&id=140658,http://purl.obolibrary.org/obo/PATO_0001823
 et:30210,sample,,,et:20504
 et:30211,soil sample,,,et:30210
+et:30212,catchment area,,,et:20935,,,,,et:21533,et:10092
+et:30213,slope <1%,,,et:10313
+et:30214,slope 1-2%,,,et:10313
+et:30215,slope 3-4%,,,et:10313
+et:30216,slope >8%,,,et:10313

@@ -25473,20 +25473,20 @@ et:10313 a skos:Concept;
   skos:definition "This concept is a flat list without any parents. The character of constraint is indicated by being mostly an adjective, e.g. NT altitudinal, apical, seasonal, biochemical. This term list can be combined with a property or an object of interest. &nbsp;"@en;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53452>;
   skos:narrower et:10062, et:10229, et:10314, et:10315, et:10316, et:10317, et:10318,
-    et:10319, et:10320, et:10322, et:10323, et:10324;
+    et:10319, et:10320, et:10322, et:10323, et:10324, et:10325, et:10326, et:10328, et:10329;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10325, et:10326, et:10328, et:10329, et:10330, et:10331, et:10334,
-    et:10339, et:10342, et:10345, et:10346, et:10347, et:10348, et:10349, et:10367, et:10371,
-    et:10378, et:10383, et:10398, et:10399, et:21785, et:21804, et:21821, et:21873, et:21880,
-    et:21952, et:21953, et:21954, et:21955, et:21956, et:21957, et:21958, et:21959, et:21960,
-    et:21961, et:21962, et:21963, et:21964, et:21965, et:21966, et:21967, et:21968, et:21969,
-    et:21970, et:21971, et:21972, et:21973, et:21974, et:21975, et:21976, et:21977, et:21978,
-    et:21979, et:21980, et:21981, et:21982, et:21983, et:21984, et:21985, et:21986, et:21987,
-    et:21988, et:21989, et:21990, et:21991, et:21992, et:21993, et:21994, et:21995, et:21996,
-    et:21997, et:21998, et:21999, et:22000, et:22001, et:22002, et:22003, et:22004, et:22005,
-    et:22006, et:22007, et:22008, et:22009, et:22010, et:22011, et:22012, et:22013, et:22014,
-    et:22015, et:22016, et:22017, et:22018, et:22019, et:22020, et:22022, et:22023, et:22024,
-    et:30202, et:30205;
+  skos:narrower et:10330, et:10331, et:10334, et:10339, et:10342, et:10345, et:10346,
+    et:10347, et:10348, et:10349, et:10367, et:10371, et:10378, et:10383, et:10398, et:10399,
+    et:21785, et:21804, et:21821, et:21873, et:21880, et:21952, et:21953, et:21954, et:21955,
+    et:21956, et:21957, et:21958, et:21959, et:21960, et:21961, et:21962, et:21963, et:21964,
+    et:21965, et:21966, et:21967, et:21968, et:21969, et:21970, et:21971, et:21972, et:21973,
+    et:21974, et:21975, et:21976, et:21977, et:21978, et:21979, et:21980, et:21981, et:21982,
+    et:21983, et:21984, et:21985, et:21986, et:21987, et:21988, et:21989, et:21990, et:21991,
+    et:21992, et:21993, et:21994, et:21995, et:21996, et:21997, et:21998, et:21999, et:22000,
+    et:22001, et:22002, et:22003, et:22004, et:22005, et:22006, et:22007, et:22008, et:22009,
+    et:22010, et:22011, et:22012, et:22013, et:22014, et:22015, et:22016, et:22017, et:22018,
+    et:22019, et:22020, et:22022, et:22023, et:22024, et:30202, et:30205, et:30213, et:30214,
+    et:30215, et:30216;
   skos:prefLabel "constraint"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -25498,7 +25498,7 @@ et:20935 a skos:Concept;
   skos:definition "Parameter in EnvThes is a compound concept built by an observed property for an object of interest. For example, temperature (observed property) of air (the object of interest) results in the compound concept air temperature. As temperature can be measured in different media (e.g. water, soil, air), it is necessary to use compound concepts."@en;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20936, et:20937, et:20938, et:20939, et:20940, et:20941, et:20942,
-    et:20943, et:20944, et:20945, et:20946, et:20947;
+    et:20943, et:20944, et:20945, et:20946, et:20947, et:30212;
   skos:prefLabel "variable"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -25615,6 +25615,33 @@ et:30211 a skos:Concept;
   skos:broader et:30210;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:prefLabel "soil sample"@en .
+
+et:30212 a skos:Concept;
+  skos:broader et:20935;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "catchment area"@en;
+  iop:hasObjectOfInterest et:10092;
+  iop:hasProperty et:21533 .
+
+et:30213 a skos:Concept;
+  skos:broader et:10313;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "slope <1%"@en .
+
+et:30214 a skos:Concept;
+  skos:broader et:10313;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "slope 1-2%"@en .
+
+et:30215 a skos:Concept;
+  skos:broader et:10313;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "slope 3-4%"@en .
+
+et:30216 a skos:Concept;
+  skos:broader et:10313;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "slope >8%"@en .
 
 et:10351 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
