@@ -25498,8 +25498,7 @@ et:20935 a skos:Concept;
   skos:definition "Parameter in EnvThes is a compound concept built by an observed property for an object of interest. For example, temperature (observed property) of air (the object of interest) results in the compound concept air temperature. As temperature can be measured in different media (e.g. water, soil, air), it is necessary to use compound concepts."@en;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20936, et:20937, et:20938, et:20939, et:20940, et:20941, et:20942,
-    et:20943, et:20944, et:20945, et:20946, et:20947, et:30212, et:30217, et:30218, et:30219,
-    et:30220, et:30221;
+    et:20943, et:20944, et:20945, et:20946, et:20947, et:30212, et:30217;
   skos:prefLabel "variable"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -25649,42 +25648,6 @@ et:30217 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:prefLabel "area of slope <1% arable land of catchment"@en;
   iop:hasConstraint et:30213;
-  iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
-  iop:hasProperty et:21533 .
-
-et:30218 a skos:Concept;
-  skos:broader et:20935;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "area of slope 1-2% arable land of catchment"@en;
-  iop:hasConstraint et:30214;
-  iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
-  iop:hasProperty et:21533 .
-
-et:30219 a skos:Concept;
-  skos:broader et:20935;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "area of slope 3-4% arable land of catchment"@en;
-  iop:hasConstraint et:30215;
-  iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
-  iop:hasProperty et:21533 .
-
-et:30220 a skos:Concept;
-  skos:broader et:20935;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "area of slope 4-8% arable land of catchment"@en;
-  iop:hasConstraint et:30205;
-  iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
-  iop:hasProperty et:21533 .
-
-et:30221 a skos:Concept;
-  skos:broader et:20935;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "area of slope >8% arable land of catchment"@en;
-  iop:hasConstraint et:30216;
   iop:hasContextObject et:10092;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
   iop:hasProperty et:21533 .
