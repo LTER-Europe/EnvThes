@@ -2851,3 +2851,8 @@ et:30213,slope <1%,,,et:10313
 et:30214,slope 1-2%,,,et:10313
 et:30215,slope 3-4%,,,et:10313
 et:30216,slope >8%,,,et:10313
+et:30217,area of slope <1% arable land of catchment,,,et:20935,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30213
+et:30218,area of slope 1-2% arable land of catchment,,,et:20935,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30214
+et:30219,area of slope 3-4% arable land of catchment,,,et:20935,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30215
+et:30220,area of slope 4-8% arable land of catchment,,,et:20935,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30205
+et:30221,area of slope >8% arable land of catchment,,,et:20935,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30216
