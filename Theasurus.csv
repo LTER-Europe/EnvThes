@@ -1,5 +1,5 @@
 ConceptScheme URI,http://vocabs.lter-europe.net/EnvThes/
-PREFIX,EnvThes,http://vocabs.lter-europe.net/EnvThes/
+PREFIX,et,http://vocabs.lter-europe.net/EnvThes/
 PREFIX,gen,http://purl.org/zonmw/generic/
 PREFIX,pav,http://purl.org/pav/
 PREFIX,dct,http://purl.org/dc/terms/
