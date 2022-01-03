@@ -14674,13 +14674,6 @@ et:21544 dct:created "2016-08-03T00:00:00Z"@en;
   skos:prefLabel "available water capacity"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
-et:10300 dct:created "2016-10-11T11:20:23.066+01:00"@en;
-  dct:creator "Barbara.magagna"@en;
-  dct:modified "2018-11-12T13:40:51.830+00:00"@en;
-  skos:altLabel "acid neutralizing capacity of soil"@en;
-  skos:broader et:20944;
-  skos:prefLabel "acid neutralising capacity of soil"@en .
-
 et:22203 dct:created "2016-10-12T13:41:35.252+01:00"@en;
   dct:creator "Barbara.magagna"@en;
   dct:modified "2019-02-18T11:31:38.335+00:00"@en;
@@ -18568,12 +18561,10 @@ et:21083 dct:created "2016-08-03T00:00:00Z"@en;
   skos:prefLabel "forest growth"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
-et:21034 a skos:Concept;
-  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+et:21034 dct:created "2016-10-12T13:41:35.252+01:00"@en;
   dct:creator "Barbara.magagna"@en;
   dct:modified "2019-02-17T17:45:29.260+00:00"@en;
   skos:broader et:20982;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:prefLabel "vegetative growth"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
@@ -29859,18 +29850,17 @@ et:20936 a skos:Concept;
 
 et:20944 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10017, et:10039, et:10051, et:10071, et:10072, et:10076, et:10300,
-    et:10302, et:10394, et:10396, et:21515, et:21544, et:21552, et:21909, et:22031, et:22038,
-    et:22045, et:22046, et:22047, et:22051, et:22061, et:22083, et:22089, et:22136, et:22181,
-    et:22182, et:22183, et:22184, et:22185, et:22200, et:22201, et:22202, et:22203, et:22207,
-    et:22209, et:22212, et:22213, et:22214, et:22221, et:22222, et:22243, et:22244, et:22245,
-    et:22246, et:22247, et:22248, et:22249, et:22250, et:22251, et:22252, et:22254, et:22255,
-    et:22256, et:22257, et:22258, et:22259, et:22260, et:22261, et:22262, et:22263, et:22264,
-    et:22265, et:22266, et:22267, et:22268, et:22269, et:22270, et:22271, et:22272, et:22273,
-    et:22274, et:22275, et:22277, et:22278, et:22279, et:22280, et:22281, et:22282, et:22283,
-    et:22295, et:22296, et:22297, et:22299, et:30034, et:30035, et:30036, et:30037, et:30065,
-    et:30066, et:30067, et:30068, et:30069, et:30073, et:30203, et:30206, et:60023, et:60024,
-    et:60025 .
+  skos:narrower et:10017, et:10039, et:10051, et:10071, et:10072, et:10076, et:10302,
+    et:10394, et:10396, et:21515, et:21544, et:21552, et:21909, et:22031, et:22038, et:22045,
+    et:22046, et:22047, et:22051, et:22061, et:22083, et:22089, et:22136, et:22181, et:22182,
+    et:22183, et:22184, et:22185, et:22200, et:22201, et:22202, et:22203, et:22207, et:22209,
+    et:22212, et:22213, et:22214, et:22221, et:22222, et:22243, et:22244, et:22245, et:22246,
+    et:22247, et:22248, et:22249, et:22250, et:22251, et:22252, et:22254, et:22255, et:22256,
+    et:22257, et:22258, et:22259, et:22260, et:22261, et:22262, et:22263, et:22264, et:22265,
+    et:22266, et:22267, et:22268, et:22269, et:22270, et:22271, et:22272, et:22273, et:22274,
+    et:22275, et:22277, et:22278, et:22279, et:22280, et:22281, et:22282, et:22283, et:22295,
+    et:22296, et:22297, et:22299, et:30034, et:30035, et:30036, et:30037, et:30065, et:30066,
+    et:30067, et:30068, et:30069, et:30073, et:30203, et:30206, et:60023, et:60024, et:60025 .
 
 et:20939 a skos:Concept;
   skos:narrower et:10018, et:10020, et:10021, et:10043, et:10048, et:10081, et:10082,
@@ -31202,9 +31192,6 @@ et:22244 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:21544 a skos:Concept;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10300 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:22203 a skos:Concept;
@@ -32608,6 +32595,9 @@ et:21425 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:21083 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21034 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
