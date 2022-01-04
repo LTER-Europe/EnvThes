@@ -25464,20 +25464,21 @@ et:10313 a skos:Concept;
   skos:definition "This concept is a flat list without any parents. The character of constraint is indicated by being mostly an adjective, e.g. NT altitudinal, apical, seasonal, biochemical. This term list can be combined with a property or an object of interest. &nbsp;"@en;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53452>;
   skos:narrower et:10062, et:10229, et:10314, et:10315, et:10316, et:10317, et:10318,
-    et:10319, et:10320, et:10322, et:10323, et:10324, et:10325, et:10326, et:10328, et:10329;
+    et:10319, et:10320, et:10322, et:10323, et:10324, et:10325, et:10326, et:10328, et:10329,
+    et:10330, et:10331, et:10334;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10330, et:10331, et:10334, et:10339, et:10342, et:10345, et:10346,
-    et:10347, et:10348, et:10349, et:10367, et:10371, et:10378, et:10383, et:10398, et:10399,
-    et:21785, et:21804, et:21821, et:21873, et:21880, et:21952, et:21953, et:21954, et:21955,
-    et:21956, et:21957, et:21958, et:21959, et:21960, et:21961, et:21962, et:21963, et:21964,
-    et:21965, et:21966, et:21967, et:21968, et:21969, et:21970, et:21971, et:21972, et:21973,
-    et:21974, et:21975, et:21976, et:21977, et:21978, et:21979, et:21980, et:21981, et:21982,
-    et:21983, et:21984, et:21985, et:21986, et:21987, et:21988, et:21989, et:21990, et:21991,
-    et:21992, et:21993, et:21994, et:21995, et:21996, et:21997, et:21998, et:21999, et:22000,
-    et:22001, et:22002, et:22003, et:22004, et:22005, et:22006, et:22007, et:22008, et:22009,
-    et:22010, et:22011, et:22012, et:22013, et:22014, et:22015, et:22016, et:22017, et:22018,
-    et:22019, et:22020, et:22022, et:22023, et:22024, et:30202, et:30205, et:30213, et:30214,
-    et:30215, et:30216;
+  skos:narrower et:10339, et:10342, et:10345, et:10346, et:10347, et:10348, et:10349,
+    et:10367, et:10371, et:10378, et:10383, et:10398, et:10399, et:21785, et:21804, et:21821,
+    et:21873, et:21880, et:21952, et:21953, et:21954, et:21955, et:21956, et:21957, et:21958,
+    et:21959, et:21960, et:21961, et:21962, et:21963, et:21964, et:21965, et:21966, et:21967,
+    et:21968, et:21969, et:21970, et:21971, et:21972, et:21973, et:21974, et:21975, et:21976,
+    et:21977, et:21978, et:21979, et:21980, et:21981, et:21982, et:21983, et:21984, et:21985,
+    et:21986, et:21987, et:21988, et:21989, et:21990, et:21991, et:21992, et:21993, et:21994,
+    et:21995, et:21996, et:21997, et:21998, et:21999, et:22000, et:22001, et:22002, et:22003,
+    et:22004, et:22005, et:22006, et:22007, et:22008, et:22009, et:22010, et:22011, et:22012,
+    et:22013, et:22014, et:22015, et:22016, et:22017, et:22018, et:22019, et:22020, et:22022,
+    et:22023, et:22024, et:30202, et:30205, et:30213, et:30214, et:30215, et:30216, et:30222,
+    et:30223, et:30227;
   skos:prefLabel "constraint"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -25680,6 +25681,352 @@ et:30221 a skos:Concept;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
   iop:hasProperty et:21533 .
 
+et:30222 a skos:Concept;
+  skos:broader et:10313;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "under conservation tillage"@en .
+
+et:30223 a skos:Concept;
+  skos:broader et:10313, et:20504;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:30224;
+  skos:prefLabel "abstract entity"@en, "accumulated surplus"@en .
+
+et:30224 a skos:Concept;
+  skos:broader et:30223;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "R-factor"@en .
+
+et:30225 a skos:Concept;
+  skos:broader et:21463;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "correction"@en .
+
+et:30226 a skos:Concept;
+  skos:broader et:21463;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "enrichment ratio"@en .
+
+et:30227 a skos:Concept;
+  skos:broader et:10313;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "natural"@en .
+
+et:30228 a skos:Concept;
+  skos:broader et:20746;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "diffuse sources"@en .
+
+et:30229 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "area of grassland of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest et:21855;
+  iop:hasProperty et:21533 .
+
+et:30230 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "area of woodland and forest of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest et:53;
+  iop:hasProperty et:21533 .
+
+et:30231 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "area of unvegetated land of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest et:55;
+  iop:hasProperty et:21533 .
+
+et:30232 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "area of glacier of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_00000133>;
+  iop:hasProperty et:21533 .
+
+et:30233 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "slope of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasObjectOfInterest et:10092;
+  iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_00002000> .
+
+et:30234 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area per time of soil erosion in slope <1% arable land of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:30213;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+
+et:30235 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area per time of soil erosion in slope 1-2% arable land of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:30214;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+
+et:30236 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area per time of soil erosion in slope 3-4% arable land of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:30215;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+
+et:30237 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area per time of soil erosion in slope 4-8% arable land of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:30205;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+
+et:30238 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area per time of soil erosion in slope >8% arable land of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:30216;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+
+et:30239 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area per time of soil erosion of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+
+et:30240 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area per time of soil erosion in grassland of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:21855;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+
+et:30241 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "area of with conservation tillage arable land of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:30222;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasProperty et:21533 .
+
+et:30242 a skos:Concept;
+  skos:definition "different types of phosphorus: organic, inorganic, which is measured as Total Posphorus"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area of accumulated surplus monoatomic phosphorus of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:30223;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+
+et:30243 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "area of arable land of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasProperty et:21533 .
+
+et:30244 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area per time of soil erosion in arable land of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+
+et:30245 a skos:Concept;
+  skos:definition "used for calculation of Im-BE; Current agricultural soil loss"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "correction of R-factor"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasObjectOfInterest et:30224;
+  iop:hasProperty et:30225 .
+
+et:30246 a skos:Concept;
+  skos:definition "used to calculate Im-BE; soil loss from arable land is modified by specific actual (2007-2013) R-factor (precipitation intensities and amounts, which are not described by long-year averages)"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area of actual soil erosion in arable land of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:10314;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+
+et:30247 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area of actual soil erosion in woodland and forest of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:10315;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:53;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+
+et:30248 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area of actual soil erosion in unvegetated land of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:10315;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:55;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+
+et:30249 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area of actual soil erosion in glacier of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:10315;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_00000133>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+
+et:30250 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area of actual soil erosion of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:10315;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+
+et:30251 a skos:Concept;
+  skos:definition "Share of eroded sediment (soil loss) that is transported to the surface water (depends on slope, distance from Surface water, soil texture)"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "portion of soil erosion in sediment of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:20899;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty et:30207 .
+
+et:30252 a skos:Concept;
+  skos:definition "Amount of soils, which enter the surface water"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area of soil erosion in sediment of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:20899;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+
+et:30253 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "content of clay in topsoil of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://sweetontology.net/realmSoil/Topsoil>;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_00002982>;
+  iop:hasProperty et:21546 .
+
+et:30254 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "content of basis monoatomic phosphorus in agricultural topsoil of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:21873;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://sweetontology.net/realmSoil/Topsoil>;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasProperty et:21546 .
+
+et:30255 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "content of monoatomic phosphorus in agricultural topsoil of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:21873;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://sweetontology.net/realmSoil/Topsoil>;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasProperty et:21546 .
+
+et:30256 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "enrichment ratio of monoatomic phosphorus in catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasProperty et:30226 .
+
+et:30257 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area of agricultural soil erosion in sediment of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:21873;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:20899;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+
+et:30258 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mass per area of agricultural soil erosion in sediment of catchment"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:21873;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:20899;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+
+et:30259 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "emission of monoatomic phosphorus from agricultural soil erosion"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:21873;
+  iop:hasContextObject et:21286;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasProperty et:21934 .
+
+et:30260 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "emission of monoatomic phosphorus from natural soil erosion"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasConstraint et:30227;
+  iop:hasContextObject et:21286;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasProperty et:21934 .
+
+et:30261 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "emission of monoatomic phosphorus from diffuse sources"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasContextObject et:30228;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasProperty et:21934 .
+
+et:30262 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "total emission of monoatomic phosphorus"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/>;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasProperty et:21934 .
+
 et:10351 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10016, et:10030, et:10033, et:10044, et:10046, et:10073, et:10080,
@@ -25695,7 +26042,7 @@ et:21463 a skos:Concept;
     et:10375, et:10381, et:20984, et:21049, et:21058, et:21081, et:21131, et:21462, et:21466,
     et:21506, et:21517, et:21518, et:21522, et:21534, et:21535, et:21536, et:21537, et:21539,
     et:21540, et:21545, et:21556, et:21563, et:21566, et:21584, et:21588, et:21589, et:21591,
-    et:21592, et:21594, et:21597, et:21601, et:21602 .
+    et:21592, et:21594, et:21597, et:21601, et:21602, et:30225, et:30226 .
 
 et:21447 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
@@ -25717,7 +26064,7 @@ et:10056 a skos:Concept;
 
 et:20504 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10003, et:20700, et:20746, et:26, et:30000, et:30210 .
+  skos:narrower et:10003, et:20700, et:20746, et:26, et:30000, et:30210, et:30223 .
 
 et:20543 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -28385,7 +28732,7 @@ et:26 a skos:Concept;
 et:20746 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10218, et:20745, et:20748, et:20770, et:20893, et:21358, et:21943,
-    et:67 .
+    et:30228, et:67 .
 
 et:10003 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
@@ -32602,4 +32949,7 @@ et:21034 a skos:Concept;
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10195, et:10313, et:20104, et:20935,
-    et:21603 .
+    et:21603, et:30229, et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236,
+    et:30237, et:30238, et:30239, et:30240, et:30241, et:30242, et:30243, et:30244, et:30245,
+    et:30246, et:30247, et:30248, et:30249, et:30250, et:30251, et:30252, et:30253, et:30254,
+    et:30255, et:30256, et:30257, et:30258, et:30259, et:30260, et:30261, et:30262 .
