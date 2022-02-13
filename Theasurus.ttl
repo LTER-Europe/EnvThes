@@ -25839,10 +25839,10 @@ et:30242 a skos:Concept;
   skos:broader et:20935;
   skos:definition "different types of phosphorus: organic, inorganic, which is measured as Total Posphorus"@en;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "mass per area of accumulated surplus monoatomic phosphorus of catchment"@en;
+  skos:prefLabel "mass per area of accumulated surplus total phosphorus of catchment"@en;
   iop:hasConstraint et:30223;
   iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasObjectOfInterest et:20863;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
 et:30243 a skos:Concept;
@@ -25952,29 +25952,29 @@ et:30253 a skos:Concept;
 et:30254 a skos:Concept;
   skos:broader et:20935;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "content of basis monoatomic phosphorus in agricultural topsoil of catchment"@en;
+  skos:prefLabel "content of basis total phosphorus in agricultural topsoil of catchment"@en;
   iop:hasConstraint et:21873;
   iop:hasContextObject et:10092;
   iop:hasMatrix <http://sweetontology.net/realmSoil/Topsoil>;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21546 .
 
 et:30255 a skos:Concept;
   skos:broader et:20935;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "content of monoatomic phosphorus in agricultural topsoil of catchment"@en;
+  skos:prefLabel "content of total phosphorus in agricultural topsoil of catchment"@en;
   iop:hasConstraint et:21873;
   iop:hasContextObject et:10092;
   iop:hasMatrix <http://sweetontology.net/realmSoil/Topsoil>;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21546 .
 
 et:30256 a skos:Concept;
   skos:broader et:20935;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "enrichment ratio of monoatomic phosphorus in catchment"@en;
+  skos:prefLabel "enrichment ratio of total phosphorus in catchment"@en;
   iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:30226 .
 
 et:30257 a skos:Concept;
@@ -26000,34 +26000,34 @@ et:30258 a skos:Concept;
 et:30259 a skos:Concept;
   skos:broader et:20935;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "emission of monoatomic phosphorus from agricultural soil erosion"@en;
+  skos:prefLabel "emission of total phosphorus from agricultural soil erosion"@en;
   iop:hasConstraint et:21873;
   iop:hasContextObject et:21286;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21934 .
 
 et:30260 a skos:Concept;
   skos:broader et:20935;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "emission of monoatomic phosphorus from natural soil erosion"@en;
+  skos:prefLabel "emission of total phosphorus from natural soil erosion"@en;
   iop:hasConstraint et:30227;
   iop:hasContextObject et:21286;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21934 .
 
 et:30261 a skos:Concept;
   skos:broader et:20935;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "emission of monoatomic phosphorus from diffuse sources"@en;
+  skos:prefLabel "emission of total phosphorus from diffuse sources"@en;
   iop:hasContextObject et:30228;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21934 .
 
 et:30262 a skos:Concept;
   skos:broader et:20935;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "total emission of monoatomic phosphorus"@en;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_33466>;
+  skos:prefLabel "total emission of total phosphorus"@en;
+  iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21934 .
 
 et:10351 a skos:Concept;

@@ -2876,7 +2876,7 @@ et:30238,mass per area per time of soil erosion in slope >8% arable land of catc
 et:30239,mass per area per time of soil erosion of catchment,,,et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,,et:10092
 et:30240,mass per area per time of soil erosion in grassland of catchment,,,et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,et:21855,et:10092
 et:30241,area of with conservation tillage arable land of catchment,,,et:20935,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30222
-et:30242,mass per area of accumulated surplus monoatomic phosphorus of catchment,,"different types of phosphorus: organic, inorganic, which is measured as Total Posphorus",et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,http://purl.obolibrary.org/obo/CHEBI_33466,,et:10092,et:30223
+et:30242,mass per area of accumulated surplus total phosphorus of catchment,,"different types of phosphorus: organic, inorganic, which is measured as Total Posphorus",et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:20863,,et:10092,et:30223
 et:30243,area of arable land of catchment,,,et:20935,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092
 et:30244,mass per area per time of soil erosion in arable land of catchment,,,et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,http://purl.obolibrary.org/obo/ENVO_01001177,et:10092
 et:30245,correction of R-factor,,used for calculation of Im-BE; Current agricultural soil loss,et:20935,,,,,et:30225,et:30224
@@ -2888,12 +2888,12 @@ et:30250,mass per area of actual soil erosion of catchment,,,et:20935,,,,,http:/
 et:30251,portion of soil erosion in sediment of catchment,,"Share of eroded sediment (soil loss) that is transported to the surface water (depends on slope, distance from Surface water, soil texture)",et:20935,,,,,et:30207,et:21286,et:20899,et:10092
 et:30252,mass per area of soil erosion in sediment of catchment,,"Amount of soils, which enter the surface water",et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:21286,et:20899,et:10092
 et:30253,content of clay in topsoil of catchment,,,et:20935,,,,,et:21546,http://purl.obolibrary.org/obo/ENVO_00002982,http://sweetontology.net/realmSoil/Topsoil,et:10092
-et:30254,content of basis monoatomic phosphorus in agricultural topsoil of catchment,,,et:20935,,,,,et:21546,http://purl.obolibrary.org/obo/CHEBI_33466,http://sweetontology.net/realmSoil/Topsoil,et:10092,et:21873
-et:30255,content of monoatomic phosphorus in agricultural topsoil of catchment,,,et:20935,,,,,et:21546,http://purl.obolibrary.org/obo/CHEBI_33466,http://sweetontology.net/realmSoil/Topsoil,et:10092,et:21873
-et:30256,enrichment ratio of monoatomic phosphorus in catchment,,,et:20935,,,,,et:30226,http://purl.obolibrary.org/obo/CHEBI_33466,,et:10092
+et:30254,content of basis total phosphorus in agricultural topsoil of catchment,,,et:20935,,,,,et:21546,et:20863,http://sweetontology.net/realmSoil/Topsoil,et:10092,et:21873
+et:30255,content of total phosphorus in agricultural topsoil of catchment,,,et:20935,,,,,et:21546,et:20863,http://sweetontology.net/realmSoil/Topsoil,et:10092,et:21873
+et:30256,enrichment ratio of total phosphorus in catchment,,,et:20935,,,,,et:30226,et:20863,,et:10092
 et:30257,mass per area of agricultural soil erosion in sediment of catchment,,,et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:21286,et:20899,et:10092,et:21873
 et:30258,mass per area of agricultural soil erosion in sediment of catchment,,,et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:21286,et:20899,et:10092,et:21873
-et:30259,emission of monoatomic phosphorus from agricultural soil erosion,,,et:20935,,,,,et:21934,http://purl.obolibrary.org/obo/CHEBI_33466,,et:21286,et:21873
-et:30260,emission of monoatomic phosphorus from natural soil erosion,,,et:20935,,,,,et:21934,http://purl.obolibrary.org/obo/CHEBI_33466,,et:21286,et:30227
-et:30261,emission of monoatomic phosphorus from diffuse sources,,,et:20935,,,,,et:21934,http://purl.obolibrary.org/obo/CHEBI_33466,,et:30228
-et:30262,total emission of monoatomic phosphorus,,,et:20935,,,,,et:21934,http://purl.obolibrary.org/obo/CHEBI_33466
+et:30259,emission of total phosphorus from agricultural soil erosion,,,et:20935,,,,,et:21934,et:20863,,et:21286,et:21873
+et:30260,emission of total phosphorus from natural soil erosion,,,et:20935,,,,,et:21934,et:20863,,et:21286,et:30227
+et:30261,emission of total phosphorus from diffuse sources,,,et:20935,,,,,et:21934,et:20863,,et:30228
+et:30262,total emission of total phosphorus,,,et:20935,,,,,et:21934,et:20863
