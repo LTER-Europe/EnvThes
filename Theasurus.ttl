@@ -77,7 +77,7 @@ et:20504 dct:created "2018-06-13 14:28:02"@en;
   dct:modified "2018-06-19T05:40:52.277+01:00"@en;
   skos:broader et:10002;
   skos:definition "This is a basket for all physical objects of interest."@en;
-  skos:prefLabel "entity"@en .
+  skos:prefLabel "material entity"@en .
 
 et:20543 dct:created "2016-10-12T13:41:35.252+01:00"@en;
   dct:creator "Barbara.magagna"@en;
@@ -6746,7 +6746,7 @@ et:20700 dct:created "2016-03-31T00:00:00Z"@en;
 et:30000 dct:created "2018-06-19T03:57:38.300+01:00"@en;
   dct:creator "Barbara.magagna"@en;
   dct:modified "2018-06-19T03:57:44.691+01:00"@en;
-  skos:broader et:20504;
+  skos:broader et:30223;
   skos:prefLabel "temporal entity"@en .
 
 et:20513 dct:created "2016-03-31T00:00:00Z"@en;
@@ -25411,8 +25411,8 @@ et:10002 a skos:Concept;
   skos:definition "[CSIRO] The substance, taxon or other physical/chemical phenomenon of the feature of interest that is being observed. E.g. Waves, Rainfall, Calluna Vulgaris, Aluminium."@en;
   skos:editorialNote "http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/D2.9_O&amp;M_Guidelines_v2.0.pdf"@en;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10056, et:20504, et:20948;
-  skos:prefLabel "object of interest"@en;
+  skos:narrower et:10056, et:20504, et:20948, et:30223;
+  skos:prefLabel "entity"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20104 a skos:Concept;
@@ -25690,10 +25690,10 @@ et:30222 a skos:Concept;
   skos:prefLabel "under conservation tillage"@en .
 
 et:30223 a skos:Concept;
-  skos:broader et:10313, et:20504;
+  skos:broader et:10002, et:10313;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30224;
-  skos:prefLabel "abstract entity"@en, "accumulated surplus"@en .
+  skos:narrower et:30000, et:30224;
+  skos:prefLabel "accumulated surplus"@en, "immaterial entity"@en .
 
 et:30224 a skos:Concept;
   skos:broader et:30223;
@@ -26067,7 +26067,7 @@ et:10056 a skos:Concept;
 
 et:20504 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10003, et:20700, et:20746, et:26, et:30000, et:30210, et:30223 .
+  skos:narrower et:10003, et:20700, et:20746, et:26, et:30210 .
 
 et:20543 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
