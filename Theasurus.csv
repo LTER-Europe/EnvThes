@@ -2856,7 +2856,7 @@ et:30219,area of slope 3-4% arable land of catchment,,,,et:20935,,,,,et:21533,ht
 et:30220,area of slope 4-8% arable land of catchment,,,,et:20935,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30205
 et:30221,area of slope >8% arable land of catchment,,,,et:20935,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30216
 et:30222,under conservation tillage,,,,et:10313
-et:30223,accumulated surplus,,,,et:10313
+et:30263,accumulated surplus,,,,et:10313
 et:30223,immaterial entity,,,,et:10002
 et:30224,R-factor,,,,et:30223
 et:30225,correction,,,,et:21463
@@ -2876,7 +2876,7 @@ et:30238,mass per area per time of soil erosion in slope >8% arable land of catc
 et:30239,mass per area per time of soil erosion of catchment,,,,et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,,et:10092
 et:30240,mass per area per time of soil erosion in grassland of catchment,,,,et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,et:21855,et:10092
 et:30241,area of with conservation tillage arable land of catchment,,,,et:20935,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30222
-et:30242,mass per area of accumulated surplus total phosphorus of catchment,,"different types of phosphorus: organic, inorganic, which is measured as Total Posphorus",,et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:20863,,et:10092,et:30223
+et:30242,mass per area of accumulated surplus total phosphorus of catchment,,"different types of phosphorus: organic, inorganic, which is measured as Total Posphorus",,et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:20863,,et:10092,et:30263
 et:30243,area of arable land of catchment,,,,et:20935,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092
 et:30244,mass per area per time of soil erosion in arable land of catchment,,,,et:20935,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,http://purl.obolibrary.org/obo/ENVO_01001177,et:10092
 et:30245,correction of R-factor,,used for calculation of Im-BE; Current agricultural soil loss,,et:20935,,,,,et:30225,et:30224
