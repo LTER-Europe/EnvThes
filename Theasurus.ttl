@@ -25689,11 +25689,6 @@ et:30222 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:prefLabel "under conservation tillage"@en .
 
-et:30263 a skos:Concept;
-  skos:broader et:10313;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "accumulated surplus"@en .
-
 et:30223 a skos:Concept;
   skos:broader et:10002;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
@@ -26034,6 +26029,11 @@ et:30262 a skos:Concept;
   skos:prefLabel "total emission of total phosphorus"@en;
   iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21934 .
+
+et:30263 a skos:Concept;
+  skos:broader et:10313;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "accumulated surplus"@en .
 
 et:10351 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
