@@ -26035,6 +26035,11 @@ et:30263 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:prefLabel "accumulated surplus"@en .
 
+et:30264 a skos:Concept;
+  skos:broader et:20538;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "surface water"@en .
+
 et:10351 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10016, et:10030, et:10033, et:10044, et:10046, et:10073, et:10080,
@@ -26108,7 +26113,7 @@ et:20535 a skos:Concept;
 et:20538 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10376, et:20539, et:20540, et:20541, et:20542, et:20914, et:20917,
-    et:20918, et:20921, et:20923, et:20924, et:31 .
+    et:20918, et:20921, et:20923, et:20924, et:30264, et:31 .
 
 et:20907 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
