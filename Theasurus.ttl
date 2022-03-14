@@ -8779,7 +8779,6 @@ et:2 dct:contributor "herbert.schentz@umweltbundesamt.at"@en;
 et:20715 dct:created "2016-03-31T00:00:00Z"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-12-18T08:53:13.492+00:00"@en;
-  skos:altLabel "populations"@en;
   skos:broader et:20708;
   skos:definition "[Henderson's] n. a group of individuals of the same species living in a certain deﬁned area."@en;
   skos:exactMatch <http://en.wikipedia.org/wiki/populations>, <https://vocab.lternet.edu/vocab/vocab/?tema=439>;
@@ -8836,7 +8835,7 @@ et:20717 dct:created "2016-03-31T00:00:00Z"@en;
 et:21908 dct:created "2016-10-12T13:41:35.252+01:00"@en;
   dct:creator "Barbara.magagna"@en;
   dct:modified "2019-02-17T16:07:52.604+00:00"@en;
-  skos:altLabel "socio-ecological systems"@en;
+  skos:altLabel "socio-ecological system"@en;
   skos:broader et:20708;
   skos:prefLabel "social ecological system"@en;
   skos:scopeNote "social ecological system"@en .
@@ -8844,7 +8843,6 @@ et:21908 dct:created "2016-10-12T13:41:35.252+01:00"@en;
 et:21810 dct:created "2016-10-12T13:41:35.252+01:00"@en;
   dct:creator "Barbara.magagna"@en;
   dct:modified "2019-02-17T16:22:27.163+00:00"@en;
-  skos:altLabel "marine systems"@en;
   skos:broader et:20708;
   skos:prefLabel "marine system"@en;
   skos:scopeNote "MS Academic Keyword"@en .
@@ -8858,7 +8856,6 @@ et:20933 dct:created "2018-06-13 14:28:02"@en;
 et:20716 dct:created "2016-10-12T13:41:35.252+01:00"@en;
   dct:creator "Barbara.magagna"@en;
   dct:modified "2019-02-17T16:07:52.604+00:00"@en;
-  skos:altLabel "Plant Populations"@en;
   skos:broader et:20715;
   skos:definition "[GEMET] The number of plants in an area."@en;
   skos:exactMatch <http://www.eionet.europa.eu/gemet/concept/10633>;
@@ -25494,7 +25491,8 @@ et:20935 a skos:Concept;
     et:30220, et:30221, et:30229, et:30230, et:30231, et:30232, et:30233, et:30234, et:30235,
     et:30236, et:30237, et:30238, et:30239, et:30240, et:30241, et:30242, et:30243, et:30244,
     et:30245, et:30246, et:30247, et:30248, et:30249, et:30250, et:30251, et:30252, et:30253,
-    et:30254, et:30255, et:30256, et:30257, et:30258, et:30259, et:30260, et:30261, et:30262;
+    et:30254, et:30255, et:30256, et:30257, et:30258, et:30259, et:30260, et:30261, et:30262,
+    et:30265;
   skos:prefLabel "variable"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -25658,6 +25656,7 @@ et:30218 a skos:Concept;
   iop:hasProperty et:21533 .
 
 et:30219 a skos:Concept;
+  dct:created "}"@en;
   skos:broader et:20935;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:prefLabel "area of slope 3-4% arable land of catchment"@en;
@@ -26039,6 +26038,11 @@ et:30264 a skos:Concept;
   skos:broader et:20538;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:prefLabel "surface water"@en .
+
+et:30265 a skos:Concept;
+  skos:broader et:20935;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "test variable"@en .
 
 et:10351 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
