@@ -23010,9 +23010,9 @@ et:20982 a skos:Concept;
     et:21066, et:21067, et:21071, et:21072, et:21073, et:21077, et:21082, et:21085, et:21086,
     et:21087, et:21091, et:21092, et:21094, et:21097, et:21102, et:21104, et:21106, et:21108,
     et:21113, et:21126, et:21132, et:21144, et:21147, et:21148, et:21150, et:21151, et:21153,
-    et:21187, et:21225, et:21226, et:21241, et:21245, et:21252, et:21255, et:21308, et:21310,
-    et:21315, et:21317, et:21318, et:21321, et:21324, et:21325, et:21326, et:21370, et:21387,
-    et:21417;
+    et:21179, et:21187, et:21225, et:21226, et:21241, et:21245, et:21252, et:21255, et:21308,
+    et:21310, et:21315, et:21317, et:21318, et:21321, et:21324, et:21325, et:21326, et:21370,
+    et:21387, et:21417;
   skos:prefLabel "biological process"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
@@ -23222,7 +23222,7 @@ et:20408 a skos:Concept;
   skos:broader et:10056;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=710>;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:20409, et:20410;
+  skos:narrower et:20409, et:20410, et:5;
   skos:prefLabel "phenological stage-change"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
@@ -23517,6 +23517,29 @@ et:22029 a skos:Concept;
   skos:note "[controlled by ] Staszewski 08.06.2013\" , \"[source of definition ] http://en.wikipedia.org/wiki/"@en;
   skos:prefLabel "acid neutralising capacity of water"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:21179 a skos:Concept;
+  dct:contributor "herbert.schentz@umweltbundesamt.at"@en;
+  dct:created "2013-02-14T11:23:24Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-12-18T08:53:13.492+00:00"@en;
+  skos:altLabel "carbon fluxes"@en;
+  skos:broader et:20982;
+  skos:definition "Movement of organic compounds through an ecosystem. Specifically, the relationship between carbon dioxide absorbed by green plants and carbon dioxide respirated by various organisms."@en;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=90>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Tomas Staszevski , 2013-06-08\" , \"[source of definition ] http://www.ecowho.com/defn/"@en;
+  skos:prefLabel "carbon flux"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:5 a skos:Concept;
+  dct:created "2013-02-13T16:18:05Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2019-02-14T12:48:48.420+00:00"@en;
+  skos:broader et:20408;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=901>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "bud burst"@en .
 
 et:USLterCV_668 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
