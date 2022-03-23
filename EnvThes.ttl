@@ -20677,7 +20677,7 @@ et:21693 a skos:Concept;
     <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/108060>, <http://www.eionet.europa.eu/gemet/concept/10128>,
     <https://vocab.lternet.edu/vocab/vocab/?tema=211>;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:21700;
+  skos:narrower et:21696, et:21700;
   skos:prefLabel "Waldökologie"@de, "bosecologie"@nl, "ecologia florestal"@pt, "ecologia forestale"@it,
     "ecologie forestieră"@ro, "ecología forestal"@es, "ekologia leśna"@pl, "ekologie lesa"@cs,
     "ekologija gozda"@sl, "ekologija šume"@hr, "erdőökológia"@hu, "forest ecology"@en,
@@ -21878,7 +21878,7 @@ et:20676 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20674, et:20677, et:20678, et:20679, et:20681, et:20683, et:20686,
     et:20687, et:20688, et:20689, et:20690, et:20691, et:20692, et:20693, et:20694, et:20695,
-    et:20696, et:20698, et:20699, et:21950;
+    et:20696, et:20698, et:20699, et:21945, et:21946, et:21950;
   skos:prefLabel "plants"@en, "植物"@ja, "植物"@zh;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
@@ -21905,7 +21905,7 @@ et:20387 a skos:Concept;
     <http://www.eionet.europa.eu/gemet/concept/6445>, <https://vocab.lternet.edu/vocab/vocab/?tema=436>;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower <http://aims.fao.org/aos/agrovoc/c_5950,https://vocab.lternet.edu/vocab/vocab/?tema=802,http://eurovoc.europa.eu/2395,http://en.wikipedia.org/wiki/plankton,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/43480,http://www.eionet.europa.eu/gemet/concept/6282>,
-    et:20389, et:20390, et:20391, et:20393, et:20394, et:20395;
+    et:20389, et:20390, et:20391, et:20392, et:20393, et:20394, et:20395;
   skos:prefLabel "Verunreinigung"@de, "contaminación"@es, "forurening"@da, "forurensning"@no,
     "förorening, miljöförstöring"@sv, "inquinamento"@it, "onesnaženje"@sl, "onečišćenje"@hr,
     "piesārņojums"@lv, "pollution"@en, "pollution"@fr, "poluare"@ro, "poluição"@pt, "reostamine, reostus, saastamine, saastus"@et,
@@ -22380,7 +22380,7 @@ et:39 a skos:Concept;
   skos:definition "[GEMET] Distinctive successive layers of soil produced by internal redistribution processes. Conventionally the layers have been divided into A, B and C horizons. The A horizon is the upper layer, containing humus and is leached and/or eluviated of many minerals. The B horizon forms a zone of deposition and is enriched with clay minerals and iron/aluminium oxides from the A layer. The C layer is the parent material for the present soil and may be partially weathered rock, transported glacial or alluvial material or an earlier soil."@en;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=523>;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:21905;
+  skos:narrower et:21905, et:40, et:41, et:42, et:43, et:44;
   skos:note "[controlled by ] Staszewski 08.06.2013"@en;
   skos:prefLabel "soil horizon"@en .
 
@@ -23004,15 +23004,16 @@ et:20982 a skos:Concept;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_330999>, <http://en.wikipedia.org/wiki/biological_processes>,
     <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/31320>, <https://vocab.lternet.edu/vocab/vocab/?tema=656>;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:20561, et:20564, et:20797, et:20952, et:21003, et:21004, et:21012,
-    et:21016, et:21017, et:21023, et:21025, et:21026, et:21028, et:21037, et:21038, et:21042,
-    et:21044, et:21045, et:21046, et:21047, et:21053, et:21055, et:21060, et:21062, et:21064,
-    et:21066, et:21067, et:21071, et:21072, et:21073, et:21077, et:21082, et:21085, et:21086,
-    et:21087, et:21091, et:21092, et:21094, et:21097, et:21102, et:21104, et:21106, et:21108,
-    et:21113, et:21126, et:21132, et:21144, et:21147, et:21148, et:21150, et:21151, et:21153,
-    et:21179, et:21187, et:21225, et:21226, et:21241, et:21245, et:21252, et:21255, et:21308,
-    et:21310, et:21315, et:21317, et:21318, et:21321, et:21324, et:21325, et:21326, et:21370,
-    et:21387, et:21417;
+  skos:narrower et:20561, et:20564, et:20797, et:20952, et:21003, et:21004, et:21006,
+    et:21012, et:21016, et:21017, et:21020, et:21023, et:21025, et:21026, et:21028, et:21035,
+    et:21037, et:21038, et:21042, et:21044, et:21045, et:21046, et:21047, et:21053, et:21055,
+    et:21059, et:21060, et:21062, et:21064, et:21066, et:21067, et:21071, et:21072, et:21073,
+    et:21074, et:21077, et:21082, et:21085, et:21086, et:21087, et:21091, et:21092, et:21094,
+    et:21097, et:21102, et:21104, et:21106, et:21108, et:21113, et:21115, et:21126, et:21127,
+    et:21132, et:21144, et:21146, et:21147, et:21148, et:21150, et:21151, et:21153, et:21179,
+    et:21187, et:21225, et:21226, et:21241, et:21245, et:21252, et:21255, et:21308, et:21310,
+    et:21312, et:21315, et:21317, et:21318, et:21321, et:21324, et:21325, et:21326, et:21341,
+    et:21370, et:21387, et:21413, et:21417;
   skos:prefLabel "biological process"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
@@ -23037,11 +23038,11 @@ et:20950 a skos:Concept;
   skos:definition "closed cycle de­scribed by elements found in living mater­ial, such as carbon, nitrogen, oxygen and sulphur, as they pass from within organ­isms (biotic phase) into the non-living environment (abiotic phase) and back again. alt. nutrient cycle."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_02500030>, <https://vocab.lternet.edu/vocab/vocab/?tema=658>;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:20405, et:20951, et:20957, et:20960, et:20994, et:21137, et:21159,
-    et:21181, et:21227, et:21229, et:21231, et:21244, et:21247, et:21248, et:21250, et:21257,
-    et:21259, et:21260, et:21262, et:21263, et:21264, et:21275, et:21276, et:21277, et:21278,
-    et:21282, et:21283, et:21284, et:21285, et:21286, et:21288, et:21289, et:21290, et:21291,
-    et:21304, et:21307, et:21509, et:21547;
+  skos:narrower et:20405, et:20406, et:20951, et:20957, et:20960, et:20994, et:21137,
+    et:21138, et:21159, et:21181, et:21227, et:21229, et:21231, et:21244, et:21247, et:21248,
+    et:21250, et:21257, et:21259, et:21260, et:21262, et:21263, et:21264, et:21275, et:21276,
+    et:21277, et:21278, et:21282, et:21283, et:21284, et:21285, et:21286, et:21288, et:21289,
+    et:21290, et:21291, et:21304, et:21307, et:21509, et:21547;
   skos:prefLabel "biogeochemical process"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
@@ -23541,6 +23542,2324 @@ et:5 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:prefLabel "bud burst"@en .
 
+et:21074 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-14T12:58:41.655+00:00"@en;
+  skos:altLabel "GPP"@en;
+  skos:broader et:20982;
+  skos:definition "[Henderson's] the total assimilation of inorganic nutrients in a plant community per unit time, cf. net primary production."@en;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=905>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "gross primary production"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:10073 a skos:Concept;
+  dct:created "2014-12-16T13:09:02Z"@en;
+  dct:creator "jww"@en;
+  dct:modified "2019-02-14T12:51:45.984+00:00"@en;
+  skos:broader et:10351;
+  skos:definition "The measured abundance of a substance in a mixture."@en;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=913>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "concentration"@en .
+
+et:21539 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2019-02-14T12:52:18.506+00:00"@en;
+  skos:altLabel "L-3M1"@en;
+  skos:broader et:21463;
+  skos:definition "[SWEET] 1. The ratio of the mass of any substance to the volume occupied by it (usually expressed in kilograms per cubic meter, but any other unit system may be used); the reciprocal of specific volume."@en;
+  skos:exactMatch <http://sweet.jpl.nasa.gov/2.3/propMass.owl#Density>, <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Density>,
+    <https://vocab.lternet.edu/vocab/vocab/?tema=916>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "density"@en, "密度"@ja, "密度"@zh .
+
+et:21933 a skos:Concept;
+  dct:contributor "herbert.schentz@umweltbundesamt.at"@en;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-12-18T08:53:13.492+00:00"@en;
+  skos:altLabel "c:n,carbon:nitrogen ratio,c:n ratio"@en;
+  skos:broader et:20947;
+  skos:definition "The C/N ratio (C:N) or carbon-to-nitrogen ratio is a ratio of the mass of carbon to the mass of nitrogen in a substance. Carbon-to-nitrogen ratios are an indicator for nitrogen limitation of plants and other organisms."@en;
+  skos:exactMatch <http://en.wikipedia.org/wiki/carbon_to_nitrogen_ratio>, <https://vocab.lternet.edu/vocab/vocab/?tema=92>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Staszewski 08.06.2013\" , \"[source of definition ] http://en.wikipedia.org/wiki/"@en;
+  skos:prefLabel "carbon to nitrogen ratio"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:20964 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2019-02-14T13:00:51.688+00:00"@en;
+  skos:broader et:20748;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=922>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "inorganic nitrogen"@en .
+
+et:20833 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-14T12:53:14.202+00:00"@en;
+  skos:altLabel "DIN"@en;
+  skos:broader et:20748;
+  skos:editorialNote "unclearbr /\\\"nitrogen\\\" did not appear in the drop down list, therefore it could not be selected! Thus nitrogen content is just a placeholder"@en;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=923>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "dissolved inorganic nitrogen"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21696 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-14T12:58:07.662+00:00"@en;
+  skos:broader et:21693;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=931>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "forest dynamics"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:10244 a skos:Concept;
+  dct:created "2015-06-09T13:16:10Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2019-02-14T12:59:44.968+00:00"@en;
+  skos:broader et:20748;
+  skos:definition "[MESH] The first chemical element in the periodic table. It has the atomic symbol H, atomic number 1, and atomic weight [1.00784; 1.00811]. It exists, under normal conditions, as a colorless, odorless, tasteless, diatomic gas. Hydrogen ions are PROTONS. Besides the common H1 isotope, hydrogen exists as the stable isotope DEUTERIUM and the unstable, radioactive isotope TRITIUM."@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/MESH/D006859>, <http://www.eionet.europa.eu/gemet/concept/4103>,
+    <https://vocab.lternet.edu/vocab/vocab/?tema=933>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "Wasserstoff"@de, "hidrogen"@ro, "hidrogén"@hu, "hidrogénio"@pt, "hidrógeno"@es,
+    "hydrogen"@da, "hydrogen"@en, "hydrogen"@no, "hydrogène"@fr, "idrogeno"@it, "vandenilis"@lt,
+    "vesinik"@et, "vety"@fi, "vodik"@hr, "vodik"@sl, "vodík"@cs, "vodík"@sk, "väte"@sv,
+    "waterstof"@nl, "wodór"@pl, "ūdeņradis"@lv, "υδρογόνο"@el, "Водород"@bg, "هيدروجين"@ar .
+
+et:20973 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T17:15:25.770+00:00"@en;
+  skos:broader et:20961;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=971>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "nitrogen limitation"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20123 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2019-08-23T21:33:50.697+01:00"@en;
+  skos:broader et:20138;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=977>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "pyranometer"@en .
+
+et:10018 a skos:Concept;
+  dct:created "2014-11-10T07:43:13Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2022-03-21T13:16:51.802+00:00"@en;
+  skos:altLabel "abundance of species,species cover,species coverage"@en;
+  skos:broader et:20939;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=990>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "species abundance"@en .
+
+et:21500 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T22:29:43.262+00:00"@en;
+  skos:broader et:21447;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=991>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "stand structure"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:22291 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T20:54:28.876+00:00"@en;
+  skos:altLabel "density of stand"@en;
+  skos:broader et:20939;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=992>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "stand density"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:22300 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2019-02-14T13:19:28.091+00:00"@en;
+  skos:altLabel "age of tree"@en;
+  skos:broader et:20939, et:20940;
+  skos:definition "The age of a tree. Each year, the tree forms new cells, arranged in concentric circles called annual rings or annual growth rings. These annual rings show the amount of wood produced during one growing season."@en;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=996>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "tree age"@en .
+
+et:20845 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T20:31:20.513+00:00"@en;
+  skos:broader et:20947;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=999>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "total dissolved nitrogen"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:USLterCV_621 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22309;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "True"@en;
+  skos:broader et:1;
+  skos:definition "Volume of water of a given volume space"@en;
+  skos:exactMatch <http://en.wikipedia.org/wiki/water_content>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/129250>;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[source of definition ] Lars Lundin\" , \"[controlled by ] Lars Lundin 20130614"@en;
+  skos:prefLabel "water content"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:21115 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-17T17:32:09.316+00:00"@en;
+  skos:broader et:20982;
+  skos:definition "[Ariane Verdy] Intraguild predation (IGP) is a widespread ecological phenomenon in which two consumers that share a resource also engage in a predator{prey interaction."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "intraguild predation"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0486 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21619;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "True"@en;
+  skos:altLabel "gene regulations,genes regulating,genes regulate,genes regulated,gene regulated,genes regulate,gene regulated,genes regulating,gene regulations"@en;
+  skos:broader et:1;
+  skos:definition "[Arvind Rao] Gene regulation is a complex process involving the role of several genomic elements which work inconcert to drive spatio-temporal expression. The experimental characterization of gene regulatoryelements is a very complex and resource-intensive process..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "gene regulation"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21619 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:21613;
+  skos:definition "[Arvind Rao] Gene regulation is a complex process involving the role of several genomic elements which work inconcert to drive spatio-temporal expression. The experimental characterization of gene regulatoryelements is a very complex and resource-intensive process..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "gene regulation"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0363 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22113;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "True"@en;
+  skos:altLabel "effect population size,effective populations size,effect population size,effective populational size,effects population sizes,effective population sizes,effective populational size,effects population sizes,effective populations size"@en;
+  skos:broader et:1;
+  skos:definition "[B. E. Rieman] Effective population size (Ne) is an important concept in the management of threatened species likebull trout Salvelinus confluentus... , \"[Phillip R. England] Effective population size (N e) is a central concept in evolutionary biology and conservationgenetics. It predicts rates of loss of neutral genetic variation, fixation of deleterious andfavourable alleles, and the increase of inbreeding experienced by a population. A method exists forthe estimation of N e from the observed linkage disequilibrium between unlinked loci in a populationsample. While an increasing number of studies have applied this method in natural and managedpopulations, its reliability has not yet been evaluated... , \"[Charles E. Taylor] Effective population size (Ne) is a single number which allows us to relate a large part of population-genetics theory built around ideal populations to real populations... , \"[Friso P. Palstra] Effective population size (Ne) is a central evolutionary concept, but its genetic estimation can besignificantly complicated by age structure... , \"[Phillip R. England] Effective population size (Ne) is a central concept in evolutionary biology and conservationgenetics. It predicts rates of loss of neutral genetic variation, fixation of deleterious andfavourable alleles, and the increase of inbreeding experienced by a population. A method exists forthe estimation of Ne from the observed linkage disequilibrium between unlinked loci in a populationsample..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "effective population size"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21946 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T16:07:52.604+00:00"@en;
+  skos:broader et:20676;
+  skos:definition "[B. W. Diers] Oilseed rape (Brassica napus) is an important oilseed crop worldwide. Cultivars have been developed\\n for many growing regions, however little is known about genetic diversity inB. napus germ plasm. The\\n purpose of the research presented here was to study the genetic diversity and relationships ofB.\\n napus accessions using restriction fragment length polymorphisms (RFLPs). Eighty threeB. napus\\n accessions were screened using 43 genomic DNA clones which revealed 161 polymorphic fragments... , \"[Jacqueline Pierre] Oilseed rape (Brassica napus L.) is an entomophilous crop... , \"[R. J. Snowdon] Oilseed rape (Brassica napus L.) is an amphidiploid species that originated from a spontaneous\\n hybridisation of Brassica rapa L... , \"[Xiaoling Song] Oilseed rape (Brassica napus L.) is an important agronomic crop used for oil, food and animal feed.\\n Glyphosate resistant B. napus is tolerant to the herbicide glyphosate and has been widely adopted\\n due to higher economic returns..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "oilseed rape"@en;
+  skos:scopeNote "oilseed rape"@en .
+
+et:21677 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T22:50:45.642+00:00"@en;
+  skos:altLabel "PD"@en;
+  skos:broader et:21673;
+  skos:definition "[Be&aacute;ta Faller] Phylogenetic diversity is a measure for describing how much of an evolutionary tree is spanned by a subset of species."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "phylogenetic diversity"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0324 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20202;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "True"@en;
+  skos:broader et:1;
+  skos:definition "[Benedicte Michel] DNA synthesis is an accurate and very processive phenomenon"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "DNA synthesis"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20202 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:20138;
+  skos:definition "[Benedicte Michel] DNA synthesis is an accurate and very processive phenomenon"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "DNA synthesis"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0773 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "True"@en;
+  skos:altLabel "Opening Access,opened access,OA,open accessible,open accessibility,opens access"@en;
+  skos:broader et:1;
+  skos:definition "[Bo-christer Björk] Open access is a new Internet-enabled model for the publishing of scientific journals, in which the\\n published articles are freely available for anyone to read. During the 1990’s hundreds of individual\\n open access journals were founded by groups of academics, supported by grants and unpaid voluntary\\n work. During the last five years other types of open access journals, funded by author charges, have\\n started to emerge... , \"[N. D. GHAWGHAWE] Open access is an essential feature in the deregulated power system. It permits all the generators\\n to transmit power into the system. Depending upon the transmission network parameters, generator\\n responses to the variation in loads differ from each other. To know these responses is important\\n from various aspects such as for determination of nodal prices which will be needed in charging\\n differential tariffs and also in congestion management..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "open access"@en .
+
+et:msa0560 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21115;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "True"@en;
+  skos:altLabel "intraguild predators,intraguild predator,intraguild predators"@en;
+  skos:broader et:1;
+  skos:definition "[Brecht Ingels] Intraguild predation (IGP) is a widespread interaction between predatory arthropods, and is influenced by several factors... , \"[Kelly E. Flynn] Intraguild predation is an important interaction in which predators feed on a shared prey as well as on each other... , \"[Ariane Verdy] Intraguild predation (IGP) is a widespread ecological phenomenon in which two consumers that share a resource also engage in a predator{prey interaction..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "intraguild predation"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa1071 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:21253;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "True"@en;
+  skos:broader et:1;
+  skos:definition "[Brent Sohngen] Tropical deforestation is a significant contributor to accumulation of greenhouse gases (GHGs) in\\r\\n the atmosphere. Previous estimates of GHG emissions from tropical deforestation have been in the\\r\\n range of 1 to 2 petagrams of carbon (Pg C) per year for the 1990s, equivalent to 15% to 30% of\\r\\n global annual GHG emissions from fossil fuels... , \"[Brent Sohngen] Tropical deforestation is a signifi cant contributor to accumulation of greenhouse gases (GHGs) in\\r\\n the atmosphere. GHG emissions from deforestation in the tropics were in the range of 1 to 2 Pg C yr\\r\\n −1 for the 1990s, which is equivalent to as much as 25% of global anthropogenic GHG emissions. While\\r\\n there is growing interest in providing incentives to avoid deforestation and consequently reduce net\\r\\n carbon emissions, there is limited information available on the potential costs of these\\r\\n activities... , \"[A. Henderson-Sellers] Tropical deforestation is a current anthropogenic change to the land surface. Tropical forests are\\r\\n known to be changing rapidly, but the rate and extent of deforestation and the resulting secondary\\r\\n cover, as would be needed for quantitative projections of future change, are difficult to establish\\r\\n now. Also necessary for climate simulations is a description of the micrometeorological processes\\r\\n within the forest canopy, including especially the processes of evapotranspiration and\\r\\n interception..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "tropical deforestation"@en .
+
+et:msa0135 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21361;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "True"@en;
+  skos:altLabel "biotic resistances,biotic resistant,biotic resistances"@en;
+  skos:broader et:1;
+  skos:definition "[Brian S. ChengKevin] Biotic resistance is the ability of native communities to repel the establishment of invasivespecies. Predation by native species may confer biotic resistance to communities, but theenvironmental context under which this form of biotic resistance occurs is not well understood..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "biotic resistance"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21361 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:21447;
+  skos:definition "[Brian S. ChengKevin] Biotic resistance is the ability of native communities to repel the establishment of invasivespecies. Predation by native species may confer biotic resistance to communities, but theenvironmental context under which this form of biotic resistance occurs is not well understood..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "biotic resistance"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0963 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:22233;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "seed yields"@en;
+  skos:broader et:1;
+  skos:definition "[Bruno Studer] Seed yield is a trait of major interest for the key grassland species Lolium perenne L. An F2\\r\\n mapping population of perennial ryegrass (VrnA), recently characterised for vernalisation response,\\r\\n was assessed in a glasshouse for traits related to seed yield based on a lattice design with four\\r\\n replications over 2 years..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "seed yield"@en .
+
+et:msa0450 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "forests biomass,forest biomasses,forest biomasses"@en;
+  skos:broader et:1;
+  skos:definition "[Byung-Hwan Um] Forest biomass is a promising resource for future biofuels and bioproducts. Pre-pulping extractionof hemicellulose by alkaline (Green Liquor) pretreatment produces a neutral-pH extract containinghemicellulose-derived oligomers. A near-term option for use of this extract is to hydrolyze theoligomers to fermentable monomer sugars. Chips of mixed northern hardwoods were cooked in a rockingdigester at 160 øC for 110 min in Green Liquor at a concentration of 3% Na2O equivalent salts on drywood..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "forest biomass"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0906 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:21720;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[Carla Khater] Restoration ecology is an emerging science dealing with applied ecology and aiming at &#34;helping\\n nature to recreate itself&#34;. This comprehensive paper presents the findings and main results\\n related to the analysis of natural vegetation dynamics on abandoned limestone quarries in\\n Mediterranean environment. It aims to answer three basic questions: where, when and how should\\n intervention by ecological restoration be achieved in abandoned limestone quarries..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "restoration ecology"@en .
+
+et:21720 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T23:00:19.865+00:00"@en;
+  skos:altLabel "ecological restoration"@en;
+  skos:broader et:21672;
+  skos:definition "[Carla Khater] Restoration ecology is an emerging science dealing with applied ecology and aiming at \\\"helping nature to recreate itself\\\". This comprehensive paper presents the findings and main results related to the analysis of natural vegetation dynamics on abandoned limestone quarries in Mediterranean environment. It aims to answer three basic questions: where, when and how should intervention by ecological restoration be achieved in abandoned limestone quarries..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "restoration ecology"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21431 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T22:26:54.055+00:00"@en;
+  skos:broader et:21447;
+  skos:definition "[Carlos Jos&eacute; Pereira de Lucena] Self-organization is a dynamic and adaptive process where components of a system acquire and maintain information about their environment and neighbors without external control."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "self organization"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:22082 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-11-22T11:04:43.839+00:00"@en;
+  skos:altLabel "CO2 concentration,concentration of carbon dioxid,carbon dioxide concentration"@en;
+  skos:broader et:20937, et:20939, et:20947;
+  skos:definition "A concentration is the amount of a substance in a given volume, thus CO2 concentration is a measure of the percentage of the atmosphere that is composed of CO2 (e.g., 380 ppm)."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "air carbon dioxide concentration"@en .
+
+et:EnvEU_260 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22082;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "CO2 concentration"@en;
+  skos:broader et:1;
+  skos:definition "A concentration is the amount of a substance in a given volume, thus CO2 concentration is a measure of the percentage of the atmosphere that is composed of CO2 (e.g., 380 ppm)."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "carbon dioxide concentration"@en .
+
+et:21216 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:20947;
+  skos:definition "is a measure of the tendency of a chemical species to acquire electrons and thereby be reduced"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Leca Stefan 14.06.2013\" , \"[source of definition ] wikipedia"@en;
+  skos:prefLabel "redox potential of water"@en .
+
+et:EnvEU_326 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21216;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "is a measure of the tendency of a chemical species to acquire electrons and thereby be reduced"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Leca Stefan 14.06.2013\" , \"[source of definition ] wikipedia"@en;
+  skos:prefLabel "Water: Redox Potential"@en .
+
+et:54 a skos:Concept;
+  dct:created "2013-02-21T12:08:33Z"@en;
+  dct:creator "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:20515;
+  skos:definition "is a shrubland habitat found mainly on low quality, acidic soils, and is characterised by open, low growing woody vegetation"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Leca Stefan 14.06.2013\" , \"[source of definition ] wikipedia"@en;
+  skos:prefLabel "heathland and shrub"@en;
+  skos:scopeNote "MAES Working Group"@en .
+
+et:53 a skos:Concept;
+  dct:created "2013-02-21T12:08:22Z"@en;
+  dct:creator "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:21819;
+  skos:definition "low-density forest forming open habitats with plenty of sunlight and limited shade. Woodlands may support an understory of shrubs and herbaceous plants including grasses. Woodland may form a transition to shrublandunder drier conditions or during early stages of primary or secondary succession. Higher densities and areas of trees, with largely closed canopy, provide extensive and nearly continuous shade and are referred to as forest."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Leca Stefan 14.06.2013\" , \"[source of definition ] wikipedia"@en;
+  skos:prefLabel "woodland and forest"@en;
+  skos:scopeNote "MAES Working Group"@en .
+
+et:22119 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-11-19T13:02:41.965+00:00"@en;
+  skos:altLabel "diversity of fauna"@en;
+  skos:broader et:20939;
+  skos:definition "(ecol) diversity of animals. See diversity"@en;
+  skos:hiddenLabel "faunistic diversity\"@en"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[source of definition ] own definition (nothing better found)\" , \"[controlled by ] Mark Frenzel, 22 May 2013"@en;
+  skos:prefLabel "fauna diversity"@en .
+
+et:EnvEU_207 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22119;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "(ecol) diversity of animals. See diversity"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[source of definition ] own definition (nothing better found)\" , \"[controlled by ] Mark Frenzel, 22 May 2013"@en;
+  skos:prefLabel "faunistic diversity"@en .
+
+et:USLterCV_351 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20304;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "(in oceanography) collection of devices, connected to a wire and anchored on the sea floor for the purpose of measuring ocean currents. (in watercraft) permanent structure to which a vessel may be secured."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Neagu Stefan 31/05/13\" , \"[source of definition ] wikipedia"@en;
+  skos:prefLabel "moorings"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:USLterCV_304 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20301;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "litter bags,litterbag"@en;
+  skos:broader et:1;
+  skos:definition "(in science) a non-rigid container used for collecting litterfall or for studying litter decomposition rate over time"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[source of definition ] www.icp-forests.org\" , \"[controlled by ] Neagu Stefan 31/05/13"@en;
+  skos:prefLabel "litterbags"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:USLterCV_105 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20289;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "chronosequence"@en;
+  skos:broader et:1;
+  skos:definition "(in forest sciences) a set of forested sites that share similar attributes but are of different ages"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[source of definition ] wikipedia\" , \"[controlled by ] Neagu Stefan 31/05/13"@en;
+  skos:prefLabel "chronosequences"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:EnvEU_320 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21221;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "(Matric potential) When water is in contact with solid particles (e.g., clay or sand particles within soil), adhesive intermolecular forces between the water and the solid can be large and important"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Leca Stefan 14.06.2013\" , \"[source of definition ] wikipedia"@en;
+  skos:prefLabel "Matrix potential"@en .
+
+et:21221 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:20940;
+  skos:definition "(Matric potential) When water is in contact with solid particles (e.g., clay or sand particles within soil), adhesive intermolecular forces between the water and the solid can be large and important"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Leca Stefan 14.06.2013\" , \"[source of definition ] wikipedia"@en;
+  skos:prefLabel "matrix potential"@en .
+
+et:msa0611 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22163;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "litter sizes,litters size,LS,litters size"@en;
+  skos:broader et:1;
+  skos:definition "[A. C. P ERIPATO] Litter size is an important reproductive trait as it makes a major contribution to fitness. Generally, traits closely related to fitness show low heritability perhaps because of the corrosive effects of directional natural selection on the additive genetic variance. Nonetheless, low heritability does not imply, necessarily, a complete absence of genetic variation because genetic interactions (epistasis and dominance) contribute to variation in traits displaying strong heterosis in crosses, such as litter size... , \"The number of offspring produced at one birth by an animal."@en;
+  skos:editorialNote "think about homonym (soil litter characteristics)"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "litter size"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20144 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "agriculture intensification"@en;
+  skos:broader et:10064;
+  skos:definition "[A. J. Shriar] Agricultural intensification is a process of raising land productivity over time through increasesin inputs of one form or another on a per unit area basis. Its study is important for severalreasons, many of which relate to agroforestry objectives..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "agricultural intensification"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0536 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20228;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "habitats management"@en;
+  skos:broader et:1;
+  skos:definition "[A. K. Fiedler] Habitat management is a type of conservation biological control that focuses on increasing natural enemy populations by providing them with plant resources such as pollen and nectar. Insects are known to respond to a variety of plant characteristics in their search for plantprovided resources. A better understanding of the speci?c characteristics used by natural enemy insects in selecting these resources could greatly improve ef?ciency in screening plants for habitat management... , \"[Livy WILLIAMS] Habitat management is a component of conservation biological control that aims to improve theavailability of resources required by natural enemies. Access to non-host foods is a criticalrequirement for many natural enemies, and one that can be manipulated via habitat management. Foodsources, usually in the form of nectar (floral or extrafloral), pollen, and honeydew supply naturalenemies with energy for maintenance and reproduction..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "habitat management"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20228 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-18T13:44:42.854+00:00"@en;
+  skos:broader et:10064;
+  skos:definition "[A. K. Fiedler] Habitat management is a type of conservation biological control that focuses on increasing natural enemy populations by providing them with plant resources such as pollen and nectar.&nbsp;"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "habitat management"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21146 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-17T17:38:58.555+00:00"@en;
+  skos:broader et:20982;
+  skos:definition "[A. K. Pandey] Environmental degradation is a burgeoning problem owing to the continual expansion of industrial production, and high-levels of energy and material consumption associated with economic growth.Cleaner Production (CP) is a preventive environmental approach, aimed at increasing resource efficiency and reducing the generation of pollution and waste at source."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "environmental degradation"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0390 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21146;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "environmentally degrading,environmental degradations,environmental degradations,environmentally degradable,environmental degradability,environmentally degradable,environmental degradability,environmentally degrading,environmentally degraded"@en;
+  skos:broader et:1;
+  skos:definition "[A. K. Pandey] Environmental degradation is a burgeoning problem owing to the continual expansion of industrialproduction, and high-levels of energy and material consumption associated with economic growth.Cleaner Production (CP) is a preventive environmental approach, aimed at increasing resourceefficiency and reducing the generation of pollution and waste at source..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "environmental degradation"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21031 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "BGE"@en;
+  skos:broader et:20940;
+  skos:definition "[A. S. Pradeep Ram] Bacterial growth efficiency (BGE) is an index of organic carbon passing through bacteria in an aquatic system..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "bacterial growth efficiency"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0092 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21031;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "BGE,bacterial growth efficiencies"@en;
+  skos:broader et:1;
+  skos:definition "[A. S. Pradeep Ram] Bacterial growth efficiency (BGE) is an index of organic carbon passing through bacteria in an aquatic system... , \"[A. S. Pradeep Ram] Bacterial growth efficiency (BGE) is a key factor in understanding bacterial influence on carbon flow in aquatic ecosystems..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "bacterial growth efficiency"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0321 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21399;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[A. V. Khrunin] DNA polymorphism is an important factor in the interindividual variations in the reactions of patients to the same drugs. In the current study, the polymorphism in the OCT2, GGT1, HO1, and DNASE1 genes were evaluated for the correlation with cisplatin nephrotoxicity in ovarian cancer patients... , \" DNA polymorphism can be defined as an inheritable genetic variant on a particular place (locus) in the genome, with a population frequency above 1% in the population. Such polymorphism can consist of one single base substitution (so called single nucleotide polymorphism or SNP), of deletions or insertions of one or several bases, or of a variable length of one repetitive DNA sequence (so called &#34 , \"[Ying-Jia Shen] DNA polymorphism is the basis to develop molecular markers that are widely used in genetic mapping today. A genome-wide rice (Oryza sativa) DNA polymorphism database has been constructed in this work using the genomes of Nipponbare, a cultivar of japonica, and 93-11, a cultivar of indica. This database contains 1,703,176 single nucleotide polymorphisms (SNPs) and 479,406 Insertion/Deletions (InDels), approximately one SNP every 268 bp and one InDel every 953 bp in rice genome. Both SNPs and InDels in the database were experimentally validated..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "DNA polymorphism"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21686 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "EF"@en;
+  skos:broader et:21672;
+  skos:definition "[ADOLFO CARBALLO PENELA] The ecological footprint (EF) is a sustainability indicator which provides a referential frameworkfor the analysis of human demand for bioproductivity, including energy issues..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "ecological footprint"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0341 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21686;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "ecological footprints,ecological footprinting,EF,ecological footprinting"@en;
+  skos:broader et:1;
+  skos:definition "[ADOLFO CARBALLO PENELA] The ecological footprint (EF) is a sustainability indicator which provides a referential frameworkfor the analysis of human demand for bioproductivity, including energy issues..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "ecological footprint"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:40 a skos:Concept;
+  dct:contributor "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:created "2013-02-21T09:31:18Z"@en;
+  dct:creator "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "organic layer,O layer"@en;
+  skos:broader et:39;
+  skos:definition "[Agren & Andersson 2012] Accumulation of litter and particular decomposed plant parts on top of the mineral soil. Often sub-divided into litter (S, L and F) and humus (H) horizons. This horizon consists mostly of organic matter. In forest soils, this horizon is often called forest floor"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Staszewski 08.06.2013"@en;
+  skos:prefLabel "O horizon"@en .
+
+et:44 a skos:Concept;
+  dct:contributor "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:created "2013-02-21T09:40:06Z"@en;
+  dct:creator "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "R layer,Bedrock horizon"@en;
+  skos:broader et:39;
+  skos:definition "[Agren & Andersson 2012] Bedrock"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Staszewski 08.06.2013"@en;
+  skos:prefLabel "R horizon"@en .
+
+et:41 a skos:Concept;
+  dct:contributor "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:created "2013-02-21T09:34:38Z"@en;
+  dct:creator "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "Eluviation (leaching) horizon,A layer"@en;
+  skos:broader et:39;
+  skos:definition "[Agren & Andersson 2012] Eluviation (leaching) horizon. Mineral soil horizon mixed with organic matter at different stages of decomposotion (Ah) and a white coloured or bleached horizon (Ae). Mineral soil horizon with inensive weathering and from which minerl elements and dissolved humus are leached."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Staszewski 08.06.2013"@en;
+  skos:prefLabel "A horizon"@en .
+
+et:42 a skos:Concept;
+  dct:contributor "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:created "2013-02-21T09:37:13Z"@en;
+  dct:creator "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "B layer,Illuvial (accumulation) horizon"@en;
+  skos:broader et:39;
+  skos:definition "[Agren & Andersson 2012] Illuvial (accumulation) horizon. Mineral soil horizon mixed with accumulation of organic and some inorganic (Al and Fe) material leached from the A horizon."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Staszewski 08.06.2013"@en;
+  skos:prefLabel "B horizon"@en .
+
+et:43 a skos:Concept;
+  dct:contributor "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:created "2013-02-21T09:39:04Z"@en;
+  dct:creator "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "Mineral horizon,C layer"@en;
+  skos:broader et:39;
+  skos:definition "[Agren & Andersson 2012] Mineral horizon largely unaffected by soil development."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[controlled by ] Staszewski 08.06.2013"@en;
+  skos:prefLabel "C horizon"@en .
+
+et:21528 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-17T20:58:57.544+00:00"@en;
+  skos:altLabel "land surface temperatures,LST"@en;
+  skos:broader et:20941;
+  skos:definition "[Ahmet Sariko] Land surface temperature is a significant parameter for energy and water cycle in the atmospheresystem.&nbsp;"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "land surface temperature"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0577 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21528;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "LST,land surface temperatures"@en;
+  skos:broader et:1;
+  skos:definition "[Ahmet Sariko‡] Land surface temperature is a significant parameter for energy and water cycle in the atmospheresystem. For that reason, different algorithms have been developed for determining the land surfacetemperature by using land and satellite data. In this study, land surface temperature was calculatedby the Price1984 algorithm by using NOAA-AVHRR satellite data and results were compared with landvalues. The results of the comparison have shown that land surface temperature can be calculatedwith a very high accuracy by using NOAA-AVHRR satellite data... , \"[Joan Miquel Galve] Land surface temperature (LST) is a key parameter in the physical study of atmosphere-landinteractions as well as hydrological, mass and energy balances and global warming monitoring. Remotesensing in the thermal infrared region is the main tool to obtain this parameter at global scalewith different spatial and temporal resolutions... , \"[Donglian Sun] Land surface temperature (LST) is an important element of the climate system. Remote sensing methods for estimating LST have been developed in the past and several of them have been implemented at large-scales... , \"[Yuanbo Liu] Land surface temperature (LST) is a key parameter in numerous environmental studies. Surfaceheterogeneity induces uncertainty in pixel-wise LST. Spatial scaling may account for theuncertainty, however, different approaches lead to differences in scaled values... , \"[Matthias Vollmer] Land surface temperature (LST) is an important component of the energy-budget of the surface. Inorder to determine LST from satellite IR-data, it is necessary to know the atmospheric influence onthe radiation measured by the satellite. The atmospheric influence can be calculated with aradiation-transfer model, e.g. MODTRAN-3, provided one has sufficient knowledge about the state ofthe atmosphere (moistureand temperature-profiles) and the surface (emissivity)..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "land surface temperature"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0574 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21899;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "land covers classification,land covers classification,land cover classifications"@en;
+  skos:broader et:1;
+  skos:definition "[Alexander Brenning] Land cover classification is a standard remote-sensing task in which typically multispectralsatellite data is used to identify features such as land use. The detection of rock glaciers is aparticularly challenging task that requires the combination of satellite data with terrain analysisdata because their spectral signature alone is not distinct enough for their classification based onsatellite imagery alone. The performance improvements that can be achieved by selecting an optimalclassifier in this particular land cover classification problem are investigated..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "land cover classification"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21899 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-17T22:56:49.412+00:00"@en;
+  skos:broader et:21672;
+  skos:definition "[Alexander Brenning] Land cover classification is a standard remote-sensing task in which typically multispectralsatellite data is used to identify features such as land use.&nbsp;"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "land cover classification"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0209 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20169;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "citizens science"@en;
+  skos:broader et:1;
+  skos:definition "[Andrea Wiggins] Citizen science is a form of research collaboration that involves the public in scientific researchto address real-world problems. Virtual citizen science projects, entirely mediated by informationand communication technologies (ICTs), are often considered a form of crowdsourcing applied toscience..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "citizen science"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20169 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-18T13:56:43.832+00:00"@en;
+  skos:broader et:20104;
+  skos:definition "[Andrea Wiggins] Citizen science is a form of research collaboration that involves the public in scientific researchto address real-world problems.&nbsp;"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "citizen science"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0759 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "Nutrition Statu,nutrition status,Nutritional Statu"@en;
+  skos:broader et:1;
+  skos:definition "[Andrew Grey] Nutritional status is an important determinant of skeletal health. Increased fat mass favorably\\n influences bone mineral density and reduces fracture risk. The mechanisms by which adiposity\\n influences skeletal health include mechanical skeletal loading, the effects of adipocyte and\\n pancreatic β-cell-derived hormones that act on bone, and neuroendocrine outputs from the\\n hypothalamus that respond to peripheral nutritional signals... , \"[Soheila Korourian] Nutritional status is a primary factor in the effects of xenobiotics and may be an important\\n consideration in development of safety standards and assessment of risk. One important xenobiotic\\n consumed daily by millions of people worldwide is alcohol. Some adverse effects of ethanol, such as\\n alcohol liver disease, have been linked to diet. For example, ethanol-induced hepatotoxicity in\\n animal models requires diets that have a high percentage of the total calories as unsaturated fat..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "nutritional status"@en .
+
+et:21614 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-17T23:05:00.751+00:00"@en;
+  skos:broader et:21613;
+  skos:definition "[Antonio S&sbquo;rgio Ramalho] Community genetics is a new discipline which aims to provide genetic services to the community as a whole.&nbsp;"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "community genetics"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0253 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21614;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "communities genetic,communications genetic,communicating genetic,communities genetic,communicating genetic,communication genetic,community genetic,community genetic,communications genetic"@en;
+  skos:broader et:1;
+  skos:definition "[Antonio S‚rgio Ramalho] Community genetics is a new discipline which aims to provide genetic services to the community as a whole. As a science, community genetics encompasses all research needed to develop and evaluate its application..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "community genetics"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0203 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21138;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "chemically weathered,chemicals weather,chemicals weather,chemical weather,chemically weathered"@en;
+  skos:broader et:1;
+  skos:definition "[Antti-Jussi Lindroos] Chemical weathering is an important neutralisation process and sourceof cations in forest soil. The presence of dissolved organic matter in the soil solution can have a considerable influence on weathering release. The aim of this study is to compare the weathering potentialof natural soil solutions, collected from Norway spruce, Scots pine and birch sites, to release Al, Ca, Mg, K, Na, and Si from the fine fraction in the C horizon of a podzol... , \"[Ulrik Smith Korsholm] Chemical weather is a field of increasing popularity and several institutes, such as EnvironmentCanada and NOAA, currently forecast both chemical and meteorological weather. Following a definition(Lawrence et al., 2005), chemical weather may be given as local, regional and global distributionsof trace gases and aerosols with corresponding variability ranging from minutes to days. Twomodeling paradigms exist for forecasting chemical weather"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "chemical weathering"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21138 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "chemically weathered,chemicals weather,chemicals weather,chemical weather,chemically weathered"@en;
+  skos:broader et:20950;
+  skos:definition "[Antti-Jussi Lindroos] Chemical weathering is an important neutralisation process and sourceof cations in forest soil. The presence of dissolved organic matter in the soil solution can have a considerable influence on weathering release. The aim of this study is to compare the weathering potentialof natural soil solutions, collected from Norway spruce, Scots pine and birch sites, to release Al, Ca, Mg, K, Na, and Si from the fine fraction in the C horizon of a podzol... , \"[Ulrik Smith Korsholm] Chemical weather is a field of increasing popularity and several institutes, such as EnvironmentCanada and NOAA, currently forecast both chemical and meteorological weather. Following a definition(Lawrence et al., 2005), chemical weather may be given as local, regional and global distributionsof trace gases and aerosols with corresponding variability ranging from minutes to days. Twomodeling paradigms exist for forecasting chemical weather"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "chemical weathering"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0797 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:20406;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "Pacific Decadal Oscill,Pacific Decadal Oscillations,PDO"@en;
+  skos:broader et:1;
+  skos:definition "[Céline Bonfils] The pacific decadal oscillation (PDO) is a mode of natural decadal climate variability, typically\\n defined as the principal component of North Pacific sea surface temperature (SST) anomalies. To\\n remove any global warming signal present in the data, the traditional definition specifies that\\n monthly-mean, global-average SST anomalies are subtracted from the local anomalies. Differences in\\n the warming rates over the globe and the PDO region may therefore be aliased into the PDO index... , \"[HE Juanxiong] Pacific Decadal Oscillation (PDO) is a long-term ENSO-like variability of the North Pacific. It is\\n the first principal component of EOF of the North Pacific SST. ENSO is the strongest signal of\\n annular change of global climate system. Empirical Mode Decomposition (EMD) method is applied to two\\n types of indices. One type of index is the Pacific Decadal Oscillation (PDO) index that represents a\\n long-term ENSO-like variability of the North Pacific..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "pacific decadal oscillation"@en .
+
+et:msa0811 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:20255;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "pests management,pests managing,pest manage,pest managers,pest manager"@en;
+  skos:broader et:1;
+  skos:definition "[CHIEN-YIH LIN] Pest management is a key factor in sustainable agriculture, particularly for an economy with limited\\n land and natural resources. In view of the general recognition and acceptance of the importance of\\n sustainable agriculture by the public, technologies of plant protection have been improved and\\n measures disseminated to farmers in Taiwan during the past two decades... , \"[Chien-Yih Lin] Pest management is a key factor in organic agriculture, especially to an economy such as Taiwan,\\n which has limited land and natural resources. Many non-chemical technologies and measures suitable\\n for plant pest management in organic crop production have been developed and improved by researchers\\n and scientists in Taiwan during the past two decades..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "pest management"@en .
+
+et:21945 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T16:07:52.604+00:00"@en;
+  skos:altLabel "oils palm,oil palms"@en;
+  skos:broader et:20676;
+  skos:definition "[Chinedum Nwajiuba] Oil palm (Elais guinensis) is the most important tree crop in the rural economy of the humid\\n rainforest of eastern Nigeria. The oil is consumed as household food, used domestically for\\n industrial purposes, and was an important foreign exchange earning export... , \"[Aykkal Riju] The oil palm is a tropical oil bearing tree. Recently EST-derived SNPs and SSRs are a free\\n by-product of the currently expanding EST (Expressed Sequence Tag) data bases. The development of\\n high-throughput methods for the detection of SNPs (Single Nucleotide Polymorphism) and small indels\\n (insertion / deletion) has led to a revolution in their use as molecular markers. Available (5452)\\n Oil palm EST sequences were mined from dbEST of NCBI. CAP3 program was used to assemble EST\\n sequences into contigs... , \"[DAE-SUNG CHOI] Oil palm is an oil producing tropical plant. While it is the highest yielding oil producing plant,\\n it takes three years to yield. Therefore there is an urgent need for controlled production for oil\\n palm suspension cells in a bioreactor to support the clonal propagation of elite planting materials.\\n The propagation of the cells is affected by various culture conditions... , \"[Totik Sri Mariani] Oil palm (Elaeis guineensis Jacq.) is a plant with highest productivity of oil among others\\n oil-producing plants with total product per year is 5-6 ton/ha. Micropropagation of oil palm by\\n somatic embryogenesis has several advantages: homogenous plants, higher production of fresh fruit\\n bunches and larger amount of high quality seeds in a relatively shorter time..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "oil palm"@en;
+  skos:scopeNote "oil palm"@en .
+
+et:msa0354 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20563;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "ecosystem engineering,ecosystem engineers"@en;
+  skos:broader et:1;
+  skos:definition "[Christopher D. G. Harley] Ecosystem engineering is an important process in a variety of ecosystems..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "ecosystem engineer"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20563 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "ecosystem engineering,ecosystem engineers"@en;
+  skos:broader et:20717;
+  skos:definition "[Christopher D. G. Harley] Ecosystem engineering is an important process in a variety of ecosystems..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "ecosystem engineer"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21035 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-17T17:28:49.093+00:00"@en;
+  skos:broader et:20982;
+  skos:definition "[Chunjiang Zhou] Leaf senescence is a developmentally programmed cell death process that constitutes the final step of leaf development, and it can be regulated by multiple environmental cues and endogenous signals."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "leaf senescence"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:10001 a skos:Concept;
+  dct:created "2014-10-17T10:06:52Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-07-05T15:17:06.744+01:00"@en;
+  skos:definition "[Complex Properties Model] The property or characteristic of the Object Of Interest that is observed during the act of observation. E.G. If the temperature of the water is measured, then the Observed Property is Temperature.&nbsp;"@en;
+  skos:editorialNote "http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/D2.9_O&amp;M_Guidelines_v2.0.pdf"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "property"@en, "財産"@ja, "财产"@zh;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21127 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-17T17:37:03.910+00:00"@en;
+  skos:broader et:20982;
+  skos:definition "[Conghe Song] Forest succession is a fundamental ecological process which can impact the functioning of many terrestrial processes, such as water and nutrient cycling and carbon sequestration. Therefore, knowing the distribution of forest successional stages over a landscape facilitates a greater understanding of terrestrial ecosystems.&nbsp;"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "forest succession"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0470 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21127;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "forest successful,forests succession,forests successful,forests successes,forests successful,forest successful,forests successes,forest successions,forest successions"@en;
+  skos:broader et:1;
+  skos:definition "[Conghe Song] Forest succession is a fundamental ecological process, which has significant implications forsustainable natural resource management as well as ecosystem biological, biophysical, andbiogeochemical processes. Remote sensing is perhaps the only viable option to monitor succession inforest ecosystems over large areas in a timely and cost efficient manner. This study integrates thegeometric-optical and radiative transfer (GORT) canopy reflectance model with the ZELIG forestecosystem dynamics model to study the manifestation of forest succession in optical imagery... , \"[Conghe Song] Forest succession is a fundamental ecological phenomenon, which has significant implications forsustainable ecosystem management as well as biological, biophysical, and biogeochemical processes.Remote sensing is perhaps the only viable option for monitoring changes in forest ecosystems overlarge areas in a timely and cost efficient manner... , \"[Conghe Song] Forest succession is a fundamental ecological process which can impact the functioning of many terrestrial processes, such as water and nutrient cycling and carbon sequestration. Therefore, knowing the distribution of forest successional stages over a landscape facilitates a greater understanding of terrestrial ecosystems. One way of characterizing forest succession over the landscape is to use satellite imagery to map forest successional stages continuously over a region..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "forest succession"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21489 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-17T20:47:01.129+00:00"@en;
+  skos:broader et:20939;
+  skos:definition "[Craig R. McClain] Habitat heterogeneity is a major structuring agent of ecological assemblages promoting beta diversity and ultimately contributing to overall higher global diversity. The exact processes by which heterogeneity increases diversity are scale dependent and encompass variation in other well-known processes, e.g., productivity, disturbance, and temperature.&nbsp;"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "habitat heterogeneity"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:10002 a skos:Concept;
+  dct:created "2014-10-17T10:58:54Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-06-20T07:37:12.961+01:00"@en;
+  skos:definition "[CSIRO] The substance, taxon or other physical/chemical phenomenon of the feature of interest that is being observed. E.g. Waves, Rainfall, Calluna Vulgaris, Aluminium."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:20948;
+  skos:prefLabel "object of interest"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:msa0788 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "Oxidatively Damaged,oxides damaged,oxide damaged,oxidation damage,oxide damage"@en;
+  skos:broader et:1;
+  skos:definition "[D. Allan Butterfield] Oxidative damage is a feature of many age-related neurodegenerative diseases, including Alzheimer&#39;s\\n disease (AD). 4-Hydroxy-2-nonenal (HNE) is a highly reactive product of the free radical-mediated\\n lipid peroxidation of unsaturated lipids, particularly arachidonic acid, in cellular membranes... , \"[Elizabeth Head] Oxidative damage is a consistent feature of brain aging in all species studied. Decline in cognitive\\n functions, which accompanies aging, may have a biological basis, and many of the disorders\\n associated with aging may be preventable through dietary modifications that incorporate specific\\n nutrient. Based on previous research and results of both laboratory and clinical studies in the\\n canine model of human aging and disease, antioxidants may be one class of nutrient that may be\\n beneficial..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "oxidative damage"@en .
+
+et:21312 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:20982;
+  skos:definition "[D. Álvarez] Compensatory growth is a phase of unusually rapid growth following a period of growth depression. This response allows animals to achieve the same size-for-age as continuously fed contemporaries..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "compensatory growth"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0148 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21367;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "bodies temperature,body temperatures,bodies temperature,BT"@en;
+  skos:broader et:1;
+  skos:definition "[D. Cuesta] Body temperature is a classical diagnostic tool for a number of diseases. However, it is usually employed as a plain binary classification function (febrile or not febrile), and therefore its diagnostic power has not been fully developed... , \"[S. F. Tsai] Body temperature is a basic vital sign of the human body, and the use of infrared ear thermometersfor medical diagnosis and health management on human bodies has been widespread nowadays. To gaincredibility and confidence in the usage of IR ear thermometers, a standard blackbody source (BBS)with a calibration traceable to ITS-90 is necessitated..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "body temperature"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0557 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21702;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "IDH"@en;
+  skos:broader et:1;
+  skos:definition "[D. W. Schwilk] The intermediate disturbance hypothesis is a widely accepted generalization regarding patterns of species diversity, but may not hold true where fire is the disturbance. In the Mediterranean-climate shrublands of South Africa, called fynbos, fire is the most importance disturbance and a controlling factor in community dynamics. The intermediate disturbance hypothesis states that diversity will be highest at sites that have had an intermediate frequency of disturbance and will be lower at sites that have experienced very high or very low disturbance frequencies... , \"[D. W. Schwilk] The intermediate disturbance hypothesis is a widely accepted generalization regarding patterns ofspecies diversity, but may not hold true where fire is the disturbance. In the Mediterranean-climateshrublands of South Africa, called fynbos, fire is the most importance disturbance and a controllingfactor in community dynamics. The intermediate disturbance hypothesis states that diversity will behighest at sites that have had an intermediate frequency of disturbance and will be lower at sitesthat have experienced very high or very low disturbance frequencies..."@en;
+  skos:editorialNote "unclear"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "intermediate disturbance hypothesis"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0766 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:21945;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "oil palms,oils palm"@en;
+  skos:broader et:1;
+  skos:definition "[DAE-SUNG CHOI] Oil palm is an oil producing tropical plant. While it is the highest yielding oil producing plant,\\n it takes three years to yield. Therefore there is an urgent need for controlled production for oil\\n palm suspension cells in a bioreactor to support the clonal propagation of elite planting materials.\\n The propagation of the cells is affected by various culture conditions... , \"[Totik Sri Mariani] Oil palm (Elaeis guineensis Jacq.) is a plant with highest productivity of oil among others\\n oil-producing plants with total product per year is 5-6 ton/ha. Micropropagation of oil palm by\\n somatic embryogenesis has several advantages: homogenous plants, higher production of fresh fruit\\n bunches and larger amount of high quality seeds in a relatively shorter time... , \"[Chinedum Nwajiuba] Oil palm (Elais guinensis) is the most important tree crop in the rural economy of the humid\\n rainforest of eastern Nigeria. The oil is consumed as household food, used domestically for\\n industrial purposes, and was an important foreign exchange earning export... , \"[Aykkal Riju] The oil palm is a tropical oil bearing tree. Recently EST-derived SNPs and SSRs are a free\\n by-product of the currently expanding EST (Expressed Sequence Tag) data bases. The development of\\n high-throughput methods for the detection of SNPs (Single Nucleotide Polymorphism) and small indels\\n (insertion / deletion) has led to a revolution in their use as molecular markers. Available (5452)\\n Oil palm EST sequences were mined from dbEST of NCBI. CAP3 program was used to assemble EST\\n sequences into contigs..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "oil palm"@en .
+
+et:msa0005 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20140;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[Daniel C. Dauwalter] Abundance estimation is an integral part of understanding the ecology and advancing the managementof fish populations and communities. Mark-recapture and removal methods are commonly used toestimate the abundance of stream fishes. Alternatively, abundance can be estimated by dividing thenumber of individuals sampled by the probability of capture..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "abundance estimate"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20140 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:20104;
+  skos:definition "[Daniel C. Dauwalter] Abundance estimation is an integral part of understanding the ecology and advancing the managementof fish populations and communities. Mark-recapture and removal methods are commonly used toestimate the abundance of stream fishes. Alternatively, abundance can be estimated by dividing thenumber of individuals sampled by the probability of capture..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "abundance estimate"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0606 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21704;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "life history theories"@en;
+  skos:broader et:1;
+  skos:definition "[Daniel J. Kruger] Life history theory (LHT) is a powerful framework for examining relationship choices and otherbehavioral strategies which integrates evolutionary, ecological, and socio-developmentalperspectives..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "life history theory"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21704 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:21769;
+  skos:definition "[Daniel J. Kruger] Life history theory (LHT) is a powerful framework for examining relationship choices and otherbehavioral strategies which integrates evolutionary, ecological, and socio-developmentalperspectives..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "life history theory"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0338 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22110;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "dryland saline,dryland salinization,dryland saline"@en;
+  skos:broader et:1;
+  skos:definition "[Daniella Csaky] Dryland salinity is a key environmental issue in Australia. Over the last 30 years, numerous studies have been undertaken in an attempt to increase our understanding and to try to remedy this growing problem. However, the extent of primary, secondary and urban salinity continues to expand. Various salinity hazard mapping methodologies have been tried, and published hazards maps and &#39 , \"[Naeem U Khan] Dryland salinity is an insidious problem which progressively degrades arable or marginally productive farming land often to the point that such land becomes incapable of sustaining agriculture in the long term. In Australia, this problem has been exacerbated by the removal of millions of trees to make way for cultivation..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "dryland salinity"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20231 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T16:30:38.953+00:00"@en;
+  skos:broader et:10127;
+  skos:definition "[David B. Wilson] Meta-analysis is a statistical method of synthesizing quantitative results across studies examining a common research question.&nbsp;"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "meta analysis"@en;
+  skos:scopeNote "MS Academic Keyword"@en .
+
+et:msa0012 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20143;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "aerial surveying,aerial surveys,aerially surveyed,aerially surveyed,aerial surveyed,aerial surveying,aerial surveyed"@en;
+  skos:broader et:1;
+  skos:definition "[David Choquenot] Aerial survey is a rapid technique for obtaining information about the abundance and distribution offeral pigs. To obtain estimates of actual pig abundance from such surveys, visibility biasassociated with counts of pig groups must be estimated and accounted for. A double-count surveytechnique was used to estimate habitat-specific visibility bias associated with counts of pigsobtained from standardised helicopter surveys conducted in the semi-arid rangelands..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "aerial survey"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20143 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:20118;
+  skos:definition "[David Choquenot] Aerial survey is a rapid technique for obtaining information about the abundance and distribution offeral pigs. To obtain estimates of actual pig abundance from such surveys, visibility biasassociated with counts of pig groups must be estimated and accounted for. A double-count surveytechnique was used to estimate habitat-specific visibility bias associated with counts of pigsobtained from standardised helicopter surveys conducted in the semi-arid rangelands..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "aerial survey"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0445 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20707;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "food chain lengths"@en;
+  skos:broader et:1;
+  skos:definition "[David J. Hoeinghaus] Food-chain length is a central characteristic of ecological communities that affects community structure and ecosystem function... , \"[M. Jake Vander Zanden] Food chain length is a fundamental ecosystem property, and plays a central role in determining ecosystem functioning. Recent advances in the field of stable isotope ecology allow the estimation of food chain length (FCL) from stable nitrogen isotope (d15N) data..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "food chain length"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20279 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-18T13:31:45.589+00:00"@en;
+  skos:broader et:20324;
+  skos:definition "[David L. Williams] Sustainable agriculture is a global philosophy guiding the development of agricultural systems that address economic, social, and environmental issues in a multidisciplinary manner. Sustainable agriculture requires a holistic, system-oriented approach to solving problems in the food and fiber industry..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "sustainable agriculture"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0348 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "ecologic restoration"@en;
+  skos:broader et:1;
+  skos:definition "[David Lamb] Ecological Restoration is the process of assisting the recovery of an ecosystem that has beendegraded, damaged or destroyed (SER 2004). Different practitioners interpret this in various ways.Some think it necessitates re-establishing the original ecosystem or trying to replicate thecommunities present in some supposed reference ecosystem... , \"[Christophe P. Henry] Ecological restoration is a recent discipline that should be conducted scientifically and rigorouslyto move from a trial-and-error process to a predictive science to increase its success and theself-sustainability of restored ecosystems. The recent research developments in ecosystem dynamicsallow scientists to provide a strong theoretical base for restoration ecology... , \"[Margaret M. Moore] Ecological restoration is the process of reestablishing the structure and function of native ecosystems and developing mutually beneficial human-wildland interactions that are compatible with the evolutionary history of those systems. Restoration is based on an ecosystem&#39"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "ecological restoration"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0081 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20769;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "atmosphere carbon dioxide,atmospheric carbon dioxid,atmosphere carbon dioxide"@en;
+  skos:broader et:1;
+  skos:definition "[Doris Do] Atmospheric carbon dioxide (CO 2) is a major green house gas contributing to global climatechange... , \"[LiXin Liu] Atmospheric carbon dioxide is an important kind of greenhouse gas which influences global temperature. Its concentration variation could indicate the distribution of human and natural activities in various regions. Through the non-dispersive infrared method, flask sampling of atmospheric CO2 concentration was measured weekly at four national background stations including Waliguan, Shangdianzi, LinÕan, and Longfengshan..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "atmospheric carbon dioxide"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0615 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21413;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "long distance dispersers,long distance dispersing,long distance dispersals,long distance dispersion,long distance dispersive,long distance dispersive,long distance dispersers,LDD,long distance dispersals,long distance dispersing"@en;
+  skos:broader et:1;
+  skos:definition "[Dries Adriaens] Long-distance dispersal is a crucial factor in the life-cycle of plants, especially in our modern,highly fragmented landscapes. Because natural herds of large animals have disappeared and grazingpractices have been abandoned, important potential vectors for seed dispersal over large distancesmay have been lost. In the context of the reestablishment of grazing management for natureconservation purposes, it is therefore important to gain insight in the ability of grazing animalsto act as seed dispersal vectors..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "long distance dispersal"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21413 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "LDD"@en;
+  skos:broader et:20982;
+  skos:definition "[Dries Adriaens] Long-distance dispersal is a crucial factor in the life-cycle of plants, especially in our modern,highly fragmented landscapes. Because natural herds of large animals have disappeared and grazingpractices have been abandoned, important potential vectors for seed dispersal over large distancesmay have been lost. In the context of the reestablishment of grazing management for natureconservation purposes, it is therefore important to gain insight in the ability of grazing animalsto act as seed dispersal vectors..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "long distance dispersal"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0569 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "IBD"@en;
+  skos:broader et:1;
+  skos:definition "[E. Crispo] Isolation by distance (IBD) is a phenomenon characterized by increasing genetic divergence anddecreasing gene flow with increasing geographic distance. IBD is often used in conservation biologyto infer the extent of gene flow among populations..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "isolation by distance"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21776 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2020-05-22T19:32:50.807+01:00"@en;
+  skos:altLabel "PAN"@en;
+  skos:broader et:10198;
+  skos:definition "[EAA] Pannonian Bio-geographical Region\"^^rdf:HTML"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "pannonian"@en;
+  skos:scopeNote "Biogeographic Region EEA"@en .
+
+et:20285 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-18T13:02:09.661+00:00"@en;
+  skos:broader et:20104;
+  skos:definition "[Eduardo G. F. Pinto] Time series is a sequence of observations of one or a few time variable of a dynamical system."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "time series"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0534 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21489;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "habitat heterogeneous,habitat heterogeneities,habitat heterogenity,habitat heterogeneities,habitat heterogenity"@en;
+  skos:broader et:1;
+  skos:definition "[Eduardo Romero-Alcaraz] Habitat heterogeneity is a determinant cause of biological diversity in natural ecosystems, andtherefore its preservation should be a priority when planning conservation strategies... , \"[Craig R. McClain] Habitat heterogeneity is a major structuring agent of ecological assemblages promoting beta diversity and ultimately contributing to overall higher global diversity. The exact processes by which heterogeneity increases diversity are scale dependent and encompass variation in other well-known processes, e.g., productivity, disturbance, and temperature. Thus, habitat heterogeneity likely triggers multiple and cascading diversity effects through ecological assemblages..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "habitat heterogeneity"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21773 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2020-05-22T19:26:06.973+01:00"@en;
+  skos:altLabel "CON"@en;
+  skos:broader et:10198;
+  skos:definition "[EEA] Continental Bio-geographical Region\"^^rdf:HTML"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "continental"@en;
+  skos:scopeNote "Biogeographic Region EEA"@en .
+
+et:21774 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2020-05-22T19:28:04.611+01:00"@en;
+  skos:altLabel "MAC"@en;
+  skos:broader et:10198;
+  skos:definition "[EEA] Macaronesian Bio-geographical Region\"^^rdf:HTML"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "macaronesian"@en;
+  skos:scopeNote "Biogeographic Region EEA"@en .
+
+et:msa0275 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21152;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "corals bleached,corals bleach,coral bleach,corals bleaching,coral bleached,corals bleach,corals bleaching,corals bleached,coral bleached"@en;
+  skos:broader et:1;
+  skos:definition "[Ehud Banin] Coral bleaching is a disease that threatens coral reefs throughout the world. The disease is correlated with higher-than-normal seawater temperatures. Data have been reported showing that bleaching of the coral Oculina patagonica during the summer in the Mediterranean Sea is the result of an infection with Vibrio shiloi. The summer temperatures induce the expression of virulence factors in the pathogen... , \"[Yael Ben-Haim] Coral bleaching is the disruption of symbioses between coral animals and their photosyntheticmicroalgal endosymbionts (zooxanthellae). It has been suggested that large-scale bleaching episodesare linked to global warming. The data presented here demonstrate that Vibrio coralliilyticus is anetiological agent of bleaching of the coral Pocillopora damicornis. This bacterium was present athigh levels in bleached P..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "coral bleaching"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0021 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20144;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "agriculture intensification"@en;
+  skos:broader et:1;
+  skos:definition "[Elena D. Concepci&mdash;n] Agricultural intensification is a major cause for biodiversity loss. It occurs at field scales through increased inputs and outputs, and at landscape scales through landscape simplification. Agri-environment schemes (AES) of the European Common Agricultural Policy (CAP) aim at reducing biodiversity loss by promoting extensification of agricultural practises mostly at field scales... , \"[Elena D. Concepci—n] Agricultural intensification is a major cause for biodiversity loss. It occurs at field scales through increased inputs and outputs, and at landscape scales through landscape simplification. Agri-environment schemes (AES) of the European Common Agricultural Policy (CAP) aim at reducing biodiversity loss by promoting extensification of agricultural practises mostly at field scales... , \"[A. J. Shriar] Agricultural intensification is a process of raising land productivity over time through increasesin inputs of one form or another on a per unit area basis. Its study is important for severalreasons, many of which relate to agroforestry objectives..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "agricultural intensification"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0893 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:20265;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "regional climate modeling,regional climate models"@en;
+  skos:broader et:1;
+  skos:definition "[Emmanouil Flaounas] Regional climate model (RCM) is a valuable scientific tool to address the mechanisms of regional\\r\\n atmospheric systems such as the West African monsoon (WAM). This study aims to improve our\\r\\n understanding of the impact of some physical schemes of RCM on the WAM representation. The weather\\r\\n research and forecasting model has been used by performing six simulations of the 2006 summer WAM\\r\\n season. These simulations use all combinations of three convective parameterization schemes (CPSs)\\r\\n and two planetary boundary layer schemes (PBLSs)..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "regional climate model"@en .
+
+et:21772 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2020-05-22T19:48:56.389+01:00"@en;
+  skos:altLabel "chaparral"@en;
+  skos:broader et:21819;
+  skos:definition "[ENVO] A shrubland area found primarily in regions with a Mediterranean climate (mild, wet winters and hot dry summers) often shaped by wildfires."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "Chaparral"@en;
+  skos:scopeNote "ILTER BIOME"@en .
+
+et:21341 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T17:51:57.823+00:00"@en;
+  skos:broader et:20982;
+  skos:definition "[F. Abbassi] Seed germination is an important phase of plant development during which soil water availability is crucial.&nbsp;"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "seed germination"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0442 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21649;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "flowering times,flower time,flower time,flowering timing,flower timing,flowering timing,flower timing"@en;
+  skos:broader et:1;
+  skos:definition "[F. Lin] Flowering time is an important trait for the adaptation of wheat to its target environments. To identify chromosome regions associated with flowering time in wheat, a whole genome scan was conducted with five sets of field trial data on a recombinant inbred lines (RIL) population derived from the cross of spring wheat cultivars ?Nanda 2419? and ?Wangshuibai?... , \"[Masaki J. Kobayashi] Flowering time is a well-studied subject in ecology, evolution and molecular biology. Long-term phenological studies have shown relationships between flowering time and environmental and endogenous factors in many species. In contrast, molecular studies using model plants have revealed a complex regulatory network of flowering..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "flowering time"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa1034 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:20279;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[F. Shahbazi] Sustainable agriculture is the main goal of land evaluation. The current study deals with land\\r\\n suitability evaluation of Ahar soils, 9000 ha approximately, located in East Azarbaijan. The\\r\\n decision support system, MicroLEIS DSS (Microcomputer land evaluation Information system) was used\\r\\n to evaluate the suitability for wheat (Triticum aestivum), maize (Zea maize), sugar beet (Beta\\r\\n vulgaris) and potato (Solanum tubersum)... , \"[Ogunsumi LUCIA OMOBOLANLE] Sustainable Agriculture is a way of farming that can be carried out for generations to come. This\\r\\n long-term approach to agriculture combines effi cient production with the wise stewardship of the\\r\\n earth&#39;s resources. It is imperative to investigate the general welfare and social well-being\\r\\n of farmers&#39; pattern of resources use as evidenced by their status relative to cassava and\\r\\n maize technologies. The main objective was to investigate the farmers&#39; personal, economic\\r\\n and sociocultural characteristics as well as the contribution to their productivity... , \"[David L. Williams] Sustainable agriculture is a global philosophy guiding the development of agricultural systems that\\r\\n address economic, social, and environmental issues in a multidisciplinary manner. Sustainable\\r\\n agriculture requires a holistic, system-oriented approach to solving problems in the food and fiber\\r\\n industry... , \"[James C. Ascough II] Sustainable agriculture is a complex problem that demands consideration of many interrelated\\r\\n factors, processes, and institutions..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "sustainable agriculture"@en .
+
+et:msa0771 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:20245;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "On Line Monitoring,on line monitor,on line monitored,on line monitors"@en;
+  skos:broader et:1;
+  skos:definition "[Feng Gao] On-line monitoring is a useful technique for ensuring system reliability. By continuously\\n supervising the system&#39;s operation, a wide range of problems, such as physical defects,\\n transient faults and design errors, can be detected. A monitor M*&#39;s behavior can be viewed\\n as an abstraction of the target system M&#39;s behavior, and can be represented by a homomorphic\\n mapping from M to M*... , \"[Feng Gao] On-line monitoring is a useful technique for ensuring system reliability. By continuously\\n supervising the system&#39;s operation, a wide range of problems, such as physical defects,\\n transient faults and design errors, can be detected. A monitor M * &#39;s behavior can be viewed\\n as an abstraction of the target system M&#39;s behavior, and can be represented by a homomorphic\\n mapping from M to M * ..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "on-line monitoring"@en .
+
+et:msa0676 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:20235;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "Modeler simulator,models simulate,modeling simulation,modeling simulating,models simulation"@en;
+  skos:broader et:1;
+  skos:definition "[FengMei Yao] Model simulation is an important way to study the effects of climate change on agriculture. Such\\n assessment is subject to a range of uncertainties because of either incomplete knowledge or model\\n technical uncertainties, impeding effective decision-making to climate change... , \"[JOHANNES CHRISTOF LEDERER] Model simulation is a recent and powerful tool in the fleld of psychology. Researchers design models\\n to prepare fleld studies and to predict human behavior even when no real life surveys can be made.\\n However, analytical examination of a psychological model revealing its features and stability has\\n never been made so far..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "model simulation"@en .
+
+et:msa0578 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21246;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "land used changed,land use changing,land used changed,land use changes,land use changed,land uses changes,LUC,land use changed,land uses changes,land use changing"@en;
+  skos:broader et:1;
+  skos:definition "[Fr‚d‚ric Barraquand] Land use change is a main driver of biodiversity erosion, especially in agricultural landscapes.Incentive-based agri-environmental policies aim at inuencing land-use pattern... , \"[Eric Koomen] Land-use change is a key factor in the development of the human and physical environment. Models ofland-use change help understand this intricate system and can provide valuable information onpossible future land-use configurations. The latter is crucial for policy makers across the globethat have to deal with such varied topics as: urbanisation, deforestation, water management, erosioncontrol and the like... , \"[Shoufan Fang] Land use change is an important research area in landscape ecology and urban development. Prediction of land use change (urban development) provides critical information for making the right policies and management plans in order to maintain and improve ecosystem and city functions. Logistic regression is a widely used method to predict binomial probabilities of land use change when just two responses (change and no-change) are considered. However, in practice, more than two types of change are encountered and multinomial probabilities are therefore needed... , \"[Qiu-Hao Huang] Land use change is an important topic in the field of global environmental change and sustainabledevelopment. Land use change modeling has attracted substantial attention because it helpsresearchers understand the mechanisms of land use change and assists regulatory bodies informulating relevant policies. Maotiao River Basin is located in the province of Guizhou, China,which has a developed agricultural industry in the karst mountain areas..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "land use change"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0857 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:21041;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "pollen dispersibility,pollen dispersed,pollen disperses,pollen dispersers,pollen dispersion"@en;
+  skos:broader et:1;
+  skos:definition "[Frederic Austerlitz] Pollen dispersal is a critical process that shapes genetic diversity in natural populations of\\n plants. Estimating the pollen dispersal curve can provide insight into the evolutionary dynamics of\\n populations and is essential background for making predictions about changes induced by\\n perturbations..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "pollen dispersal"@en .
+
+et:22113 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "effective populations size,effect population size,effect population size,size of effective population,effects population sizes,effective populational size,effective populational size,effective population sizes,effective populations size,effects populat"@en;
+  skos:broader et:20940;
+  skos:definition "[Friso P. Palstra] Effective population size (Ne) is a central evolutionary concept, but its genetic estimation can besignificantly complicated by age structure... , \"[B. E. Rieman] Effective population size (Ne) is an important concept in the management of threatened species likebull trout Salvelinus confluentus... , \"[Charles E. Taylor] Effective population size (Ne) is a single number which allows us to relate a large part of population-genetics theory built around ideal populations to real populations... , \"[Phillip R. England] Effective population size (Ne) is a central concept in evolutionary biology and conservationgenetics. It predicts rates of loss of neutral genetic variation, fixation of deleterious andfavourable alleles, and the increase of inbreeding experienced by a population. A method exists forthe estimation of Ne from the observed linkage disequilibrium between unlinked loci in a populationsample... , \"[Phillip R. England] Effective population size (N e) is a central concept in evolutionary biology and conservationgenetics. It predicts rates of loss of neutral genetic variation, fixation of deleterious andfavourable alleles, and the increase of inbreeding experienced by a population. A method exists forthe estimation of N e from the observed linkage disequilibrium between unlinked loci in a populationsample. While an increasing number of studies have applied this method in natural and managedpopulations, its reliability has not yet been evaluated..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "effective population size"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0746 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "Norway spruces"@en;
+  skos:broader et:1;
+  skos:definition "[G. Binelli] Norway spruce (Picea abies Karst.) is a most important species among European forest trees for both\\r\\n economical and ecological reasons. However, this species has suffered from a lack of information on\\r\\n the genetic side due to the scarcity of linkage data..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "norway spruce"@en .
+
+et:22225 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T22:05:01.911+00:00"@en;
+  skos:altLabel "SST,temperature of sea surface"@en;
+  skos:broader et:20945;
+  skos:definition "[G. N. Vlahakis] Sea Surface Temperature (SST) is a critical factor in the assessment of the climatic structure of a coastal region affected mainly by air temperature (AT).&nbsp;"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "sea surface temperature"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0729 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:20968;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "nitrogen avail,NITROGEN AVAILABILITIES,nitrogen available"@en;
+  skos:broader et:1;
+  skos:definition "[G. Philip Robertson] Nitrogen availability is a critical component of productivity in successional lowland rainforests,\\n and nitrogen losses from a given system may largely depend on rates of nitrification in soils of the\\n system. Two hypotheses were tested in a study of a 6-point secondary rainforest sere in the coastal\\n lowlands of Costa Rica: that nitrification and N mineralization change in a directed fashion in\\n lowland rainforest successions, and that nitrification is regulated by ammonium availability at all\\n points along the sere... , \"[Sonya T. Dyhrman] Nitrogen availability is an important factor controlling phytoplankton abundance and species\\n composition in marine waters. In addition to inorganic nitrogen, some phytoplankton species can use\\n dissolved organic nitrogen sources such as urea for growth..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "nitrogen availability"@en .
+
+et:USLterCV_231 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20603;
+  dct:modified "2022-03-21T12:34:46.136+01:20"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "grasshopper"@en;
+  skos:broader et:1;
+  skos:definition "[GEMET] A plant-eating insect with long back legs that can jump very high and makes a sharp high noise using its back legs or wings."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "grasshoppers"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:USLterCV_212 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21829;
+  dct:modified "2022-03-21T12:34:46.136+01:34"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "forest ecosystems"@en;
+  skos:broader et:1;
+  skos:definition "[GEMET] Any forest environment, in which plants and animals interact with the chemical and physical features of the environment, in which they live."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "forest ecosystem"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:USLterCV_798 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21891;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "terrestrial ecosystems"@en;
+  skos:broader et:1;
+  skos:definition "[GEMET] Any terrestrial environment, from small to large, in which plants and animals interact with the chemical and physical features of the environment."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "terrestrial ecosystem"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:USLterCV_40 a skos:Concept;
+  dct:contributor "herbert.schentz@umweltbundesamt.at"@en;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21785;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[GEMET] Any watery environment, from small to large, from pond to ocean, in which plants and animals interact with the chemical and physical features of the environment."@en;
+  skos:editorialNote "aquatic alone does not mean anything"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "aquatic"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:EnvEU_261 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22178;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "O3"@en;
+  skos:broader et:1;
+  skos:definition "[GEMET] In solutions, the mass, volume, or number of moles of solute present in proportion to the amount of solvent or total solution."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "ozone concentration"@en .
+
+et:22178 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "concentration of ozone"@en;
+  skos:broader et:20937, et:20946;
+  skos:definition "[GEMET] In solutions, the mass, volume, or number of moles of solute present in proportion to the amount of solvent or total solution."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "ozone concentration"@en .
+
+et:EnvEU_263 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "atmosphere - nitrogen oxides - concentration"@en;
+  skos:broader et:1;
+  skos:definition "[GEMET] In solutions, the mass, volume, or number of moles of solute present in proportion to the amount of solvent or total solution."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "NOx concentration"@en .
+
+et:EnvEU_262 a skos:Concept;
+  dct:contributor "kertesz.miklos@okologia.mta.hu"@en;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[GEMET] In solutions, the mass, volume, or number of moles of solute present in proportion to the amount of solvent or total solution."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "SO2 concentration"@en .
+
+et:AF_c3_2433 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "biogeochem cycles,biogeochemical cycling,biochemical cycles"@en;
+  skos:broader et:1;
+  skos:definition "[GEMET] Movement of chemical elements in a circular pathway, from organisms to physical environment, back to organisms. The process is termed a nutrient cycle if the elements concerned are trace elements, which are essential to life. A biogeochemical cycle occurs when vegetation decomposes and minerals are incorporated naturally in the humus for future plant growth"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "biogeochemical cycle"@en .
+
+et:EnvEU_248 a skos:Concept;
+  dct:contributor "kath"@en;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22045;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "DOC in soil,dissolved organic carbon in soil"@en;
+  skos:broader et:1;
+  skos:definition "[GEMET] The fraction of total organic carbon (all carbon atoms covalently bonded in organic molecules) in water that passes through a 0.45 micron pore-diameter filter"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrowMatch <http://onto.nerc.ac.uk/CAST/19>, <http://onto.nerc.ac.uk/GBASEvocabulary/205>;
+  skos:prefLabel "amount of dissolved organic carbon in soil"@en .
+
+et:22045 a skos:Concept;
+  dct:contributor "kath"@en;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "amount of dissolved organic carbon in soil,DOC in soil"@en;
+  skos:broader et:20936, et:20944, et:20947;
+  skos:definition "[GEMET] The fraction of total organic carbon (all carbon atoms covalently bonded in organic molecules) in water that passes through a 0.45 micron pore-diameter filter"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrowMatch <http://onto.nerc.ac.uk/CAST/19>, <http://onto.nerc.ac.uk/GBASEvocabulary/205>;
+  skos:prefLabel "dissolved organic carbon in soil"@en .
+
+et:AF_c3_2475 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[GEMET] The nature and proportions of the elements comprising a chemical compound of the plant part"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "plant part chemical composition"@en .
+
+et:USLterCV_292 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22161;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "leaf nutrients"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's, modified] n. any substance in leaves used or required by an organism as food. see also macro­nutrients, micronutrients."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "leaf nutrient"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:USLterCV_290 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20953;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's, modified] n. decay of organic material of leaves, mediated by microorganisms."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "leaf decomposition"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:USLterCV_303 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20955;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's, modified] n. decay of organic material of litter, mediated by microorganisms."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "litter decomposition"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:USLterCV_476 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20956;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's, modified] n. decay of organic material of roots, mediated by microorganisms."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "root decomposition"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:USLterCV_5 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21072;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's, modified] the aboveground compartment of carbon assimilated and fixated by autotrophs"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "aboveground production"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:USLterCV_53 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21073;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's, modified] the assimilation and ﬁxation of carbon by bacteria"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "bacterial production"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:msa0492 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21623;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "genetically drifting,genetic drifting,genetic drifting,genetically drifting,genetic drifts"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] (1) random changes in gene frequency in small isolated populations owing to factors other than natural selection, such as sampling of only a small number of gametes in each generation. alt. Sewall Wright effect; (2) random nucleotide changes in a gene not subject to natural selection; (3) small changes in the genome of the inﬂuenza virus that cause annual outbreaks but not serious epidemics or pandemics. cf. genetic shift."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "genetic drift"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21623 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:21613;
+  skos:definition "[Henderson's] (1) random changes in gene frequency in small isolated populations owing to factors other than natural selection, such as sampling of only a small number of gametes in each generation. alt. Sewall Wright effect; (2) random nucleotide changes in a gene not subject to natural selection; (3) small changes in the genome of the inﬂuenza virus that cause annual outbreaks but not serious epidemics or pandemics. cf. genetic shift."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "genetic drift"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:37 a skos:Concept;
+  dct:created "2013-02-21T09:27:11Z"@en;
+  dct:creator "johannes.peterseil@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:21900;
+  skos:definition "[Henderson's] a horizontal ecological stratum of a plant community comprising the herba­ceous plants. alt. ﬁeld layer."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "herb layer"@en .
+
+et:USLterCV_141 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20365;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] a. device for measuring small changes in the diameter of a tree trunk, such as the minute amounts of shrinkage and swelling that accompany the daily ﬂuctuations in transpiration."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:note "[comments ] the Hendersons definition is for \\\"dendrometer bands\\\", but the new definition does not exclude such devices\" , \"[controlled by ] Neagu Stefan 31/05/13\" , \"[source of definition ] wikipedia"@en;
+  skos:prefLabel "dendrometer"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:21365 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "body mass indexing,BMI"@en;
+  skos:broader et:20940;
+  skos:definition "[Henderson's] a measure of the amount of body fat for humans, calculated from the body weight (in kilograms) divided by the height (in metres) squared. “Normal” values for adults range from 18.5 to 24.9, with a value of greater than 30 being clas­siﬁed as clinical obesity."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "body mass index"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0145 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21364;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "bodies mass,bodies masses,bodies masses,body masses,body masses,BM"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] a measure of the amount of body fat for humans, calculated from the body weight (in kilograms) divided by the height (in metres) squared. “Normal” values for adults range from 18.5 to 24.9, with a value of greater than 30 being clas­siﬁed as clinical obesity."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "body mass"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0312 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21513;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] a measure of the biological diversity (generally the species diversity) within an environment. There are various types of diversity index, which are calcu&shy;lated in various ways from the number of species present and their relative abund&shy;ance (see e.g. Simpson diversity index). Such indices can be used to detect eco&shy;logical changes due e.g. to stress on an environment. cf. biotic index."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "diversity index"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:22039 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "frequency of allele"@en;
+  skos:broader et:20942;
+  skos:definition "[Henderson's] a measure of the com­monness of an allele in a population, being the proportion of a given allele in"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "allele frequency"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0033 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22039;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "alleles frequencies,alleles frequency,alleles frequency,allelic frequency,allelic frequencies,allelic frequencies,alleles frequencies,allele frequencies,allelic frequency"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] a measure of the com­monness of an allele in a population, being the proportion of a given allele in"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "allele frequency"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0491 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21622;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "genetical distances,genetics distances,genetic distancing,genetic distancing,genetics distance,genetic distances,genetical distances,GD,genetics distances,genetics distance"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] a measure of the difference between two DNAs from different species, which is used in the construction of phylogenetic trees. In its crudest form it is the percentage of nucleotide differences between the two DNAs. see also p-distance. alt. evolution­ary distance."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "genetic distance"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21622 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "GD"@en;
+  skos:broader et:21613;
+  skos:definition "[Henderson's] a measure of the difference between two DNAs from different species, which is used in the construction of phylogenetic trees. In its crudest form it is the percentage of nucleotide differences between the two DNAs. see also p-distance. alt. evolution­ary distance."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "genetic distance"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0785 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:21558;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "osmotic pressures"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] a measure of the osmotic activity of a solution, deﬁned as the minimum pressure that must be exerted to prevent the passage of pure solvent into the solution when the two are separated by a semipermeable membrane. Osmotic pressure is proportional to solute concentration."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "osmotic pressure"@en .
+
+et:21558 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-18T11:44:19.431+00:00"@en;
+  skos:broader et:20938;
+  skos:definition "[Henderson's] a measure of the osmotic activity of a solution, deﬁned as the minimum pressure that must be exerted to prevent the passage of pure solvent into the solution when the two are separated by a semipermeable membrane. Osmotic pressure is proportional to solute concentration."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "osmotic pressure"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21316 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T16:31:43.971+00:00"@en;
+  skos:altLabel "MR"@en;
+  skos:broader et:20940;
+  skos:definition "[Henderson's] a measure of the rate of metabolic activity in a living organism. It is the rate at which an organism uses energy to sustain essential life processes such as respiration, growth, reproduction and, in animals, processes such as blood circulation, muscle tone and activity. It can be determined in numerous ways: (i) as the total heat produced over a given period, (ii) as oxygen consumption (and sometimes also carbon dioxide production) over a given period, which although easier to measure, only gives the contribution of aerobic metabolism, (iii) as the energy content of the food eaten over a given period, and (iv) by the fate of isotopically labelled water. see average daily metabolic rate, basal metabolic rate, energy budget, ﬁeld metabolic rate, respiratory quotient, resting metabolic rate, standard metabolic rate."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "metabolic rate"@en;
+  skos:scopeNote "MS Academic Keyword"@en .
+
+et:msa0652 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:21316;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "metabolic rates,MR,metabolism rate,metabolism rates"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] a measure of the rate of metabolic activity in a living organism. It is the rate at which an organism uses energy to sustain essential life processes such as respiration, growth, reproduction and, in animals, processes such as blood circulation, muscle tone and activity. It can be determined in numerous ways: (i) as the total heat produced over a given period, (ii) as oxygen consumption (and sometimes also carbon dioxide production) over a given period, which although easier to measure, only gives the contribution of aerobic metabolism, (iii) as the energy content of the food eaten over a given period, and (iv) by the fate of isotopically labelled water. see average daily metabolic rate, basal metabolic rate, energy budget, ﬁeld metabolic rate, respiratory quotient, resting metabolic rate, standard metabolic rate."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "metabolic rate"@en .
+
+et:msa0707 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "neighbouring joining,neighbouring joined,NJ,neighbor join"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] a method of building a phylogenetic tree in which the two most similar sequences are connected together through a node, the two next through another node and so on and then the most similar pairs are connected through a further node, and so on. It produces an additive, non-ultrametric, unrooted tree."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "neighbour joining"@en .
+
+et:msa0480 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21736;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "games theories,game theories,games theories,game theories,games theory,gaming theory,gaming theory"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] mathematical theory con­cerned with determining the optimal strategy in situations of competition or conﬂict. This theory can be applied to the relationships within a community, and the computer simulation of such relationships to determine winning strategies can help to throw light on ecological and social relationships and their evolution."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "game theory"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21736 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:21769;
+  skos:definition "[Henderson's] mathematical theory con­cerned with determining the optimal strategy in situations of competition or conﬂict. This theory can be applied to the relationships within a community, and the computer simulation of such relationships to determine winning strategies can help to throw light on ecological and social relationships and their evolution."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "game theory"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:22068 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "BOD,demand amound of biological oxygen,BoD"@en;
+  skos:broader et:20940, et:20945;
+  skos:definition "[Henderson's] measurement of the amount of organic pollution in water, measured as the amount of oxygen taken up from a sample containing a known amount of dissolved oxygen kept at 20 &deg;C for 5 days. A low BOD indicates little pollution, a high BOD indicates increased activity of heterotrophic microorganisms and thus heavy pollution."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "biological oxygen demand"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0125 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22068;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] measurement of the amount of organic pollution in water, measured as the amount of oxygen taken up from a sample containing a known amount of dissolved oxygen kept at 20 &deg;C for 5 days. A low BOD indicates little pollution, a high BOD indicates increased activity of heterotrophic microorganisms and thus heavy pollution."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "biological oxygen demand"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0195 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21006;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "cells proliferating,cell proliferations,cell proliferations,cells proliferated,cells proliferation,cells proliferate,cells proliferating,cells proliferation,cells proliferated"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] multiplication of cells by division."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "cell proliferation"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21006 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "cells proliferate,cell proliferations,cells proliferated,cells proliferation,cells proliferating,cells proliferating,cells proliferated,cell proliferations,cells proliferation"@en;
+  skos:broader et:20982;
+  skos:definition "[Henderson's] multiplication of cells by division."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "cell proliferation"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21824 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "deciduous forests,decidual forests,decidual forest,decuduous forested"@en;
+  skos:broader et:21819;
+  skos:definition "[GEMET] The temperate forests comprised of trees that seasonally shed their leaves, located in the east of the USA, in Western Europe from the Alps to Scandinavia, and in the eastern Asia. The hardwood of these forests have been exploited since the 16th century.&nbsp"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "deciduous forest"@en;
+  skos:scopeNote "ILTER BIOME"@en .
+
+et:List_5 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21824;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "deciduous forests,decidual forest,decidual forests,decuduous forested"@en;
+  skos:broader et:1;
+  skos:definition "[GEMET] The temperate forests comprised of trees that seasonally shed their leaves, located in the east of the USA, in Western Europe from the Alps to Scandinavia, and in the eastern Asia. The hardwood of these forests have been exploited since the 16th century.&nbsp"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "deciduous forest"@en;
+  skos:scopeNote "ILTER BIOME"@en .
+
+et:20288 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-18T13:29:24.246+00:00"@en;
+  skos:broader et:20324;
+  skos:definition "[GEMET] Wildlife management is a large, complex, decisionoriented science. Information from research is needed to improve the decisions made by managers. The scope of the research needed to inform typical decisions far exceeds even the most optimistic assumptions about the available funds, time, or human resources..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "wildlife management"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa1099 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:20288;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[GEMET] Wildlife management is a large, complex, decisionoriented science. Information from research is\\r\\n needed to improve the decisions made by managers. The scope of the research needed to inform typical\\r\\n decisions far exceeds even the most optimistic assumptions about the available funds, time, or human\\r\\n resources..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "wildlife management"@en .
+
+et:msa0651 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:20231;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "meta analysi"@en;
+  skos:broader et:1;
+  skos:definition "[Geoff Cumming] Meta-analysis (MA) is the quantitative integration of empirical studies that address the same or\\n similar issues. It provides overall estimates of ef fect size, and can thus guide practical\\n application of research findings. It can also identify moderati ng variables, and thus contribute to\\n theorybuilding and research planning. It overcomes many o f the disadvantages of null hypothesis\\n significance testing... , \"[David B. Wilson] Meta-analysis is a statistical method of synthesizing quantitative results across studies examining\\n a common research question. This chapter discusses the logic and methods of meta-analysis with\\n specific application to the field of criminology and criminal justice. A key feature of\\n meta-analysis is the effect size, which encodes the study findings on a common index, such as the\\n standardized mean difference, correlation coefficient, or odds-ratio... , \"[Dean C. Adams] Meta-analysis is a statistical technique that allows one to combine the results from multiple\\n studies to glean inferences on the overall importance of various phenomena. This method can prove to\\n be more informative than common &#39;&#39;vote counting,&#39;&#39; in which the\\n number of significant results is compared to the number with nonsignificant results to determine\\n whether the phenomenon of interest is globally important. While the use of metaanalysis is\\n widespread in medicine and the social sciences, only recently has it been applied to ecological\\n questions... , \"[Paulo Alfonso Bracarense Costa] Meta-analysis is a statistical procedure to do syntheses of evidences. In the production of\\n scientific knowledge, in spite of paradigmatic skips of quality, the rising of the accumulation of\\n acquired knowledge (based in camed studies) is, in the general, the way as science moves forward to\\n accomplish new discoveries and to confirm other already obtained. The methods developed for the\\n attainment of the meta-analysis, analysis of analyses previously accomplished, have been developed\\n during this century... , \"[Mark W. Russo] Meta-analysis is a systematic review of a focused topic in the literature that provides a\\n quantitative estimate for the effect of a treatment intervention or exposure. The key to designing a\\n high quality meta-analysis is to identify an area where the effect of the treatment or exposure is\\n uncertain and where a relatively homogenous body of literature exists. The techniques used in\\n meta-analysis provide a structured and standardized approach for analyzing prior findings in a\\n specific topic in the literature..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "meta analysis"@en .
+
+et:21020 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "brains evolution"@en;
+  skos:broader et:20982;
+  skos:definition "[Georg F. Striedter] Brain evolution is a complex weave of species similarities and differences, bound by diverse rules and principles..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "brain evolution"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0152 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21020;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "brains evolution"@en;
+  skos:broader et:1;
+  skos:definition "[Georg F. Striedter] Brain evolution is a complex weave of species similarities and differences, bound by diverse rules and principles..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "brain evolution"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0567 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21607;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "irrigate agricultural,irrigation agricultural,irrigation agriculture,irrigation agriculture,irrigating agricultural,irrigating agricultural,irrigation agricultural,irrigate agricultural,irrigated agricultural"@en;
+  skos:broader et:1;
+  skos:definition "[Georg Holtz] Irrigated agriculture is a main user of groundwater. Achieving a sustainable use of groundwater willoften require agricultural land-use changes such as shifting to entirely different kinds of cropsand/or technologies. Enhanced understanding of land-use change is hence required for developingpolicies for a sustainable water future... , \"[Terry A. Howell] Irrigated agriculture is a vital component of total agriculture and supplies many of the fruits,vegetables, and cereal foods consumed by humans , \"[C. Ray] Irrigated agriculture is a major sector of agricultural economy where high value crops are grown with substantial input of fertilizers and pesticides. High concentrations of nitrate and pesticides have been observed in ground water beneath irrigated areas in humid regions, where irrigation is practiced on sandy soils that have low water-holding capacity. Data from these areas indicate that irrigation wells are typically screened in the bottom part of the aquifer (which contain coarser deposits) whereas the domestic wells are screened just below the water table..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "irrigated agriculture"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20206 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2019-02-18T13:34:35.987+00:00"@en;
+  skos:broader et:20324;
+  skos:definition "[Georgios E. Pavlikakis] Ecosystem Management (EM) is a new holistic approach to the management of natural resources. It integrates the scientificknowledge on ecological interrelationships and the complex socioeconomic and political frame of values, aiming at the long-term sustainability of a region, i.e., the ecosystem.&nbsp;"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "ecosystem management"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0315 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20197;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "DNA fingerprint,DNA fingerprinted,DNA fingerprinted,DNA fingerprints,DNA Fingerprint"@en;
+  skos:broader et:1;
+  skos:definition "[Glyn Stacey] DNA fingerprinting is an important new development for the authentication of cell lines. Multilocus methods such as those developed by Alec Jeffreys provide information on a wide range of genetic loci throughout the human genome and thus give a useful genetic Òsnap-shotÓ of a cell culture. Our work has shown that Jeffreys multilocus fingerprinting method can be applied to cell lines from a wide range of animals including reptiles, birds, fish and diverse mammals. It can also differentiate very closely related cell lines including those from the same mouse strain... , \"[W. B„r] DNA fingerprinting is a perfect tool for investigating the identity of disputed blood by alcoholsamples extracted. However, blood samples stored at an ambient temperature for longer periods canshow considerable degradation of high-molecular DNA, diminishing the value of fingerprintinvestigation because of loss of the less frequent bands formed by the longer DNA fragments.Addition of the complexing agent EDTA can retard this degradation. Determination of the sex with DNAprobes in the blood alcohol sample increases confidence in the investigation..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "DNA fingerprinting"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21059 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T16:23:55.221+00:00"@en;
+  skos:broader et:20982;
+  skos:definition "[Guang Chen] Mate choice is an essential process during sexual plant reproduction, in which self-incompatibility (SI) is widely adopted as an intraspecific reproductive barrier to inhibit self-fertilization by many flowering plants. Genetic studies show that a single polymorphic S-locus, encoding at least two components from both the pollen and pistil sides, controls the discrimination of self and non-self pollen..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mate choice"@en;
+  skos:scopeNote "MS Academic Keyword"@en .
+
+et:msa0639 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:21059;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "mates choice,mating choices,mate choices,Mating choice"@en;
+  skos:broader et:1;
+  skos:definition "[Guang Chen] Mate choice is an essential process during sexual plant reproduction, in which self-incompatibility\\n (SI) is widely adopted as an intraspecific reproductive barrier to inhibit self-fertilization by\\n many flowering plants. Genetic studies show that a single polymorphic S-locus, encoding at least two\\n components from both the pollen and pistil sides, controls the discrimination of self and non-self\\n pollen..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "mate choice"@en .
+
+et:msa0431 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20225;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "field surveys,fielding surveys,fields surveyed,field surveying,field surveyed,field surveying,fields surveyed,fielding surveys,field surveyed"@en;
+  skos:broader et:1;
+  skos:definition "[GUANGMING ZHU] Field survey is a traditional method in the process of land consolidation. But it has such as lowefficiency, long time, and some other shortcomings in measuring length, area and calculating theamount of small object, especially for the project area with more complex terrain. The paper putsforward using GPS/PDA to calculate progress for project of land consolidation, which propels theapplication of GPS/PDA in the fields of land consolidation..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "field survey"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:22261 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T20:28:11.265+00:00"@en;
+  skos:altLabel "amount of organic carbon in soil"@en;
+  skos:broader et:20944, et:20947;
+  skos:definition "[Gustavo M. Vasques] Soil organic carbon (SOC) is an indicator of ecosystem quality and plays a major role in the biogeochemical cycles of major nutrients and water."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "soil organic carbon"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20392 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-11-12T13:49:57.390+00:00"@en;
+  skos:altLabel "groundwater contaminants,groundwater contaminated,groundwater contaminated,groundwater contaminant,groundwater contaminanted,groundwaters contaminated,groundwaters contaminated,groundwater contaminants,ground water contaminantion"@en;
+  skos:broader et:20387;
+  skos:definition "[Hamid Reza Nassery] Groundwater contamination is a well-known phenomenon, which occurs on local and regional scales inIzeh polje..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "groundwater contamination"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0521 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:20392;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "groundwater contaminanted,groundwater contaminated,groundwater contaminant,groundwater contaminants,groundwaters contaminated,groundwater contaminants,groundwaters contaminated,groundwater contaminanted,groundwater contaminated"@en;
+  skos:broader et:1;
+  skos:definition "[Hamid Reza Nassery] Groundwater contamination is a well-known phenomenon, which occurs on local and regional scales inIzeh polje..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "groundwater contamination"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:20406 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:modified "2019-02-17T17:20:08.077+00:00"@en;
+  skos:altLabel "PDO"@en;
+  skos:broader et:10065, et:20950;
+  skos:definition "[HE Juanxiong] Pacific Decadal Oscillation (PDO) is a long-term ENSO-like variability of the North Pacific. It is the first principal component of EOF of the North Pacific SST. ENSO is the strongest signal of annular change of global climate system.&nbsp;"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "pacific decadal oscillation"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0883 a skos:Concept;
+  dct:created "2016-10-12T13:41:35.252+01:00"@en;
+  dct:creator "Barbara.magagna"@en;
+  dct:isReplacedBy et:21948;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "rainfall variabilities,rainfalls variability"@en;
+  skos:broader et:1;
+  skos:definition "[Heiko Paeth] Rainfall variability is a crucial factor in food production,water resource planning and ecosystems,\\r\\n especially in regions with scarce freshwaterresources. In West Africa rainfall has been subject to\\r\\n largedecadal and interdecadal variations during the 20th century. The most prominent feature is\\r\\n thereduction in rainfall amount throughout the second half of the century with somerecovery at the\\r\\n end... , \"[Philip A. Fay] Rainfall variability is a key driver of ecosystem structure and function in grasslands worldwide.\\r\\n Changes in rainfall patterns predicted by global climate models for the central United States are\\r\\n expected to cause lower and increasingly variable soil water availability, which may impact net\\r\\n primary production and plant species composition in native Great Plains grasslands..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "rainfall variability"@en .
+
+et:USLterCV_428 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21082;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's, modified] increase in mass and size of of plants"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "plant growth"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:USLterCV_526 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22260;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "soil nutrients"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's, modified] n. any soil substance used or required by an organism as food. see also macro­nutrients, micronutrients."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "soil nutrient"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:USLterCV_159 a skos:Concept;
+  dct:created "2016-03-31T00:00:00Z"@en;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22107;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "dissolved nutrients"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's, modified] n. any substance dissolved in water used or required by an organism as food. see also macro­nutrients, micronutrients."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "dissolved nutrient"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:msa0198 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21455;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "chemicals potentially,chemical potentials,chemicals potentially"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] activity or free energy of a substance."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "chemical potential"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21455 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "chemical potentials,chemicals potentially,chemicals potentially"@en;
+  skos:broader et:20947;
+  skos:definition "[Henderson's] activity or free energy of a substance."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "chemical potential"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0108 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22067;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "beta diversities,beta diverse,beta diverse"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] biological diversity result­ing from competition between species that produces a ﬁner adaptation of a species to the complete habitat, thus narrowing its range of tolerance to other environmental factors. Beta diversity is represented by the extent of change of species composi­tion along an environmental gradient, e.g. of altitude, from one habitat to another. The greater the change, the higher the beta diversity. alt. habitat diversiﬁcation. cf. alpha diversity."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "beta diversity"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:22067 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-20T08:40:30.893+01:00"@en;
+  skos:broader et:20939, et:20940;
+  skos:definition "[Henderson's] biological diversity result­ing from competition between species that produces a ﬁner adaptation of a species to the complete habitat, thus narrowing its range of tolerance to other environmental factors. Beta diversity is represented by the extent of change of species composi­tion along an environmental gradient, e.g. of altitude, from one habitat to another. The greater the change, the higher the beta diversity. alt. habitat diversiﬁcation. cf. alpha diversity."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "beta diversity"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0034 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22040;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "alpha diversities"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] ecological diversity within a habitat due to the coexistence of many subtly different ecological niches, each occupied by a different species. This type of diversity results from competition between species that tends to reduce the variation within species as each species becomes more ﬁnely adapted to its niche. alt. niche diversiﬁcation. cf. beta diversity, gamma diversity."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "alpha diversity"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:22040 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:22287;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] ecological diversity within a habitat due to the coexistence of many subtly different ecological niches, each occupied by a different species. This type of diversity results from competition between species that tends to reduce the variation within species as each species becomes more ﬁnely adapted to its niche. alt. niche diversiﬁcation. cf. beta diversity, gamma diversity."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "alpha diversity"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0158 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21373;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "breeding seasonality,breeding seasons,breeding seasonality"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] for animals that do not breed all the year round, the period each year in which animals court, mate and rear their young."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "breeding season"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21373 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "breeding seasonality"@en;
+  skos:broader et:10065;
+  skos:definition "[Henderson's] for animals that do not breed all the year round, the period each year in which animals court, mate and rear their young."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "breeding season"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0473 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21616;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "founders effect,founders effective,founders effective,founders effect,founder effects"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] genetic differences between an original population and an isolated off­shoot due to alleles in the small number of founder members of the new population being unrepresentative of the alleles in the original population as a whole."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "founder effect"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21616 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:broader et:21613;
+  skos:definition "[Henderson's] genetic differences between an original population and an isolated off­shoot due to alleles in the small number of founder members of the new population being unrepresentative of the alleles in the original population as a whole."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "founder effect"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21309 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  skos:altLabel "BMR"@en;
+  skos:broader et:20939;
+  skos:definition "[Henderson's] minimum metabolic rate required for survival, measured in humans at complete rest in a thermally neutral environment after fasting for 12 hours."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "basal metabolic rate"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0100 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:isReplacedBy et:21309;
+  dct:modified "2022-03-21T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "basal metabolic rates,BMR"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] minimum metabolic rate required for survival, measured in humans at complete rest in a thermally neutral environment after fasting for 12 hours."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "basal metabolic rate"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:msa0292 a skos:Concept;
+  dct:created "2016-08-03T00:00:00Z"@en;
+  dct:creator "barbara.magagna@umweltbundesamt.at"@en;
+  dct:modified "2018-06-18T12:34:46.136+01:00"@en;
+  owl:deprecated "true"@en;
+  skos:altLabel "degenerations,degenerate,degenerations,degenerates,degenerates,degenerated,degenerating,degenerated,degenerating"@en;
+  skos:broader et:1;
+  skos:definition "[Henderson's] n. (1) breakdown in structure; (2) change to a less specialized or func­tionally less active form; (3) evolutionary change resulting in change from a complex to a simpler form. a. degenerate."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:prefLabel "degeneration"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
 et:USLterCV_668 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -23713,8 +26032,8 @@ et:21552 a skos:Concept;
 
 et:21672 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:20518, et:21673, et:21689, et:21693, et:21703, et:21706, et:21710,
-    et:21724, et:71, et:80, et:82 .
+  skos:narrower et:20518, et:21673, et:21686, et:21689, et:21693, et:21703, et:21706,
+    et:21710, et:21720, et:21724, et:21899, et:71, et:80, et:82 .
 
 et:USLterCV_25 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -23786,8 +26105,8 @@ et:USLterCV_211 a skos:Concept;
 
 et:21819 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:21822, et:21823, et:21829, et:21834, et:21835, et:21838, et:21841,
-    et:21842, et:21845, et:21846, et:21850, et:21852 .
+  skos:narrower et:21772, et:21822, et:21823, et:21824, et:21829, et:21834, et:21835,
+    et:21838, et:21841, et:21842, et:21845, et:21846, et:21850, et:21852, et:53 .
 
 et:20914 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -23844,7 +26163,7 @@ et:USLterCV_236 a skos:Concept;
 
 et:21673 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:21679, et:75 .
+  skos:narrower et:21677, et:21679, et:75 .
 
 et:USLterCV_632 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -24271,8 +26590,8 @@ et:USLterCV_502 a skos:Concept;
 
 et:20717 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10055, et:20721, et:20723, et:20724, et:20727, et:20728, et:20735,
-    et:20739, et:20741, et:20742 .
+  skos:narrower et:10055, et:20563, et:20721, et:20723, et:20724, et:20727, et:20728,
+    et:20735, et:20739, et:20741, et:20742 .
 
 et:USLterCV_1 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -24945,7 +27264,7 @@ et:USLterCV_375 a skos:Concept;
 
 et:20961 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:20963, et:20966, et:20967, et:20971 .
+  skos:narrower et:20963, et:20966, et:20967, et:20971, et:20973 .
 
 et:USLterCV_383 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -25718,7 +28037,7 @@ et:USLterCV_173 a skos:Concept;
 
 et:20515 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10126, et:20702, et:21883, et:21893, et:21894, et:21926 .
+  skos:narrower et:10126, et:20702, et:21883, et:21893, et:21894, et:21926, et:54 .
 
 et:EnvEu_113 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -25933,7 +28252,7 @@ et:EnvEU_515 a skos:Concept;
 
 et:20118 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:20117, et:20142, et:20322 .
+  skos:narrower et:20117, et:20142, et:20143, et:20322 .
 
 et:EnvEu_115 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -25964,7 +28283,8 @@ et:21662 a skos:Concept;
 
 et:21613 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:21618, et:21620, et:21625, et:21626, et:21628, et:21634 .
+  skos:narrower et:21614, et:21616, et:21618, et:21619, et:21620, et:21622, et:21623,
+    et:21625, et:21626, et:21628, et:21634 .
 
 et:21326 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -26155,7 +28475,7 @@ et:10325 a skos:Concept;
 
 et:20324 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:20280, et:20287 .
+  skos:narrower et:20206, et:20279, et:20280, et:20287, et:20288 .
 
 et:10323 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -26223,8 +28543,8 @@ et:22230 a skos:Concept;
 et:10064 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10251, et:20070, et:20072, et:20086, et:20091, et:20101, et:20103,
-    et:20149, et:20150, et:20155, et:20210, et:20212, et:20213, et:20214, et:20215, et:20238,
-    et:20250, et:20257, et:20294, et:20297, et:20299, et:21328 .
+    et:20144, et:20149, et:20150, et:20155, et:20210, et:20212, et:20213, et:20214, et:20215,
+    et:20228, et:20238, et:20250, et:20257, et:20294, et:20297, et:20299, et:21328 .
 
 et:USLterCV_83 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -26546,7 +28866,7 @@ et:21775 a skos:Concept;
 et:21900 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20911, et:20912, et:21543, et:21901, et:21902, et:21903, et:21906,
-    et:21907, et:33, et:36, et:39 .
+    et:21907, et:33, et:36, et:37, et:39 .
 
 et:21877 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -26902,7 +29222,7 @@ et:22094 a skos:Concept;
 
 et:10198 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:21771, et:21775, et:21777, et:21779 .
+  skos:narrower et:21771, et:21773, et:21774, et:21775, et:21776, et:21777, et:21779 .
 
 et:bioGeo3 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -27110,10 +29430,10 @@ et:msa0618 a skos:Concept;
 
 et:20104 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10006, et:10064, et:12, et:20032, et:20041, et:20135, et:20175, et:20209,
-    et:20211, et:20222, et:20224, et:20270, et:20271, et:20276, et:20302, et:20303, et:20310,
-    et:20315, et:20316, et:20319, et:20324, et:21331, et:21332, et:21333, et:21335, et:21337,
-    et:21338, et:21340;
+  skos:narrower et:10006, et:10064, et:12, et:20032, et:20041, et:20135, et:20140, et:20169,
+    et:20175, et:20209, et:20211, et:20222, et:20224, et:20270, et:20271, et:20276, et:20285,
+    et:20302, et:20303, et:20310, et:20315, et:20316, et:20319, et:20324, et:21331, et:21332,
+    et:21333, et:21335, et:21337, et:21338, et:21340;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:EnvEU_500 a skos:Concept;
@@ -27951,7 +30271,7 @@ et:10127 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10129, et:10130, et:10131, et:10132, et:10134, et:10135, et:10137,
     et:10138, et:10139, et:10140, et:10141, et:10143, et:10144, et:10145, et:10146, et:10147,
-    et:10148, et:10149, et:10151 .
+    et:10148, et:10149, et:10151, et:20231 .
 
 et:20276 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -28150,63 +30470,83 @@ et:1 skos:narrower et:AF_c_1405669284328, et:EUDIM_018, et:EUUnits_149, et:EnvEU
     et:EUUnits_357, et:EUUnits_360, et:EUUnits_356, et:EUUnits_362, et:EUUnits_367, et:EUUnits_369,
     et:EUUnits_361, et:EUUnits_359, et:EUUnits_178, et:EUUnits_325, et:EUUnits_186, et:EUUnits_188,
     et:EUUnits_189, et:EUUnits_190, et:EUUnits_192, et:EUUnits_193, et:EUUnits_191, et:EUUnits_194,
-    et:EUUnits_195, et:USLterCV_4, et:20799, et:30009, et:USLterCV_76, et:msa0380, et:msa0381,
-    et:msa0382, et:msa0384, et:msa0385, et:msa0388, et:msa0389, et:msa0391, et:msa0393,
-    et:msa0396, et:msa0398, et:msa0399, et:msa0400, et:msa0402, et:msa0403, et:msa0405,
-    et:msa0406, et:msa0407, et:msa0408, et:msa0410, et:msa0411, et:msa0417, et:msa0421,
-    et:msa0423, et:msa0428, et:msa0430, et:msa0437, et:msa0444, et:msa0458, et:msa0465,
-    et:msa0496, et:msa0518, et:msa0523, et:msa0581, et:msa0601, et:msa0618, et:msa0627,
-    et:msa0628, et:msa0631, et:msa0632, et:msa0634, et:msa0635, et:msa0645, et:msa0648,
-    et:msa0663, et:msa0679, et:msa0686, et:msa0699, et:msa0703, et:msa0705, et:msa0706,
-    et:msa0732, et:msa0748, et:msa0750, et:msa0756, et:msa0764, et:msa0767, et:msa0780,
-    et:msa0810, et:msa0824, et:msa0825, et:msa0841, et:msa0842, et:msa0843, et:msa0844,
-    et:msa0855, et:msa0862, et:msa0864, et:msa0869, et:msa0879, et:msa0882, et:msa0888,
+    et:EUUnits_195, et:USLterCV_4, et:20799, et:30009, et:USLterCV_76, et:USLterCV_621,
+    et:msa0380, et:msa0363, et:msa0324, et:msa0381, et:msa0382, et:msa0384, et:msa0135,
+    et:msa0385, et:msa0388, et:msa0389, et:EnvEU_260, et:EnvEU_326, et:EnvEU_207, et:USLterCV_351,
+    et:USLterCV_304, et:USLterCV_105, et:EnvEU_320, et:msa0391, et:msa0393, et:msa0390,
+    et:msa0092, et:msa0321, et:msa0341, et:msa0396, et:msa0398, et:msa0209, et:msa0399,
+    et:msa0253, et:msa0203, et:msa0400, et:msa0402, et:msa0354, et:msa0403, et:msa0405,
+    et:msa0148, et:msa0406, et:msa0407, et:msa0005, et:msa0408, et:msa0338, et:msa0012,
+    et:msa0410, et:msa0348, et:msa0081, et:msa0411, et:msa0417, et:msa0421, et:msa0275,
+    et:msa0021, et:msa0423, et:msa0428, et:msa0430, et:msa0437, et:msa0442, et:msa0444,
+    et:msa0445, et:msa0450, et:msa0458, et:USLterCV_231, et:USLterCV_212, et:USLterCV_798,
+    et:USLterCV_40, et:EnvEU_261, et:EnvEU_263, et:EnvEU_262, et:AF_c3_2433, et:EnvEU_248,
+    et:AF_c3_2475, et:USLterCV_292, et:USLterCV_290, et:USLterCV_303, et:USLterCV_476,
+    et:USLterCV_5, et:USLterCV_53, et:msa0465, et:USLterCV_141, et:msa0145, et:msa0312,
+    et:msa0033, et:msa0470, et:msa0486, et:msa0491, et:msa0492, et:msa0480, et:msa0125,
+    et:msa0195, et:List_5, et:msa0496, et:msa0518, et:msa0152, et:msa0523, et:msa0315,
+    et:msa0534, et:msa0431, et:msa0521, et:msa0536, et:USLterCV_428, et:USLterCV_526,
+    et:USLterCV_159, et:msa0198, et:msa0108, et:msa0034, et:22040, et:msa0158, et:msa0473,
+    et:msa0100, et:msa0292, et:msa0557, et:msa0560, et:msa0567, et:msa0569, et:msa0574,
+    et:msa0577, et:msa0578, et:msa0581, et:msa0601, et:msa0606, et:msa0611, et:msa0615,
+    et:msa0618, et:msa0627, et:msa0628, et:msa0631, et:msa0632, et:msa0634, et:msa0635,
+    et:msa0639, et:msa0645, et:msa0648, et:msa0651, et:msa0652, et:msa0663, et:msa0676,
+    et:msa0679, et:msa0686, et:msa0699, et:msa0703, et:msa0705, et:msa0706, et:msa0707,
+    et:msa0729, et:msa0732, et:msa0746, et:msa0748, et:msa0750, et:msa0756, et:msa0759,
+    et:msa0764, et:msa0766, et:msa0767, et:msa0771, et:msa0773, et:msa0780, et:msa0785,
+    et:msa0788, et:msa0797, et:msa0810, et:msa0811, et:msa0824, et:msa0825, et:msa0841,
+    et:msa0842, et:msa0843, et:msa0844, et:msa0855, et:msa0857, et:msa0862, et:msa0864,
+    et:msa0869, et:msa0879, et:msa0882, et:msa0883, et:msa0888, et:msa0893, et:msa0906,
     et:msa0912, et:msa0913, et:msa0914, et:msa0921, et:msa0927, et:msa0933, et:msa0935,
-    et:msa0941, et:msa0947, et:msa0990, et:msa0993, et:msa0995, et:msa1019, et:msa1028,
-    et:msa1035, et:msa1041, et:msa1068, et:msa1069, et:msa1073, et:msa1075, et:msa1080,
-    et:msa1081, et:msa1084, et:msa1085, et:msa1087, et:msa1092, et:msa1097, et:msa1098 .
+    et:msa0941, et:msa0947, et:msa0963, et:msa0990, et:msa0993, et:msa0995, et:msa1019,
+    et:msa1028, et:msa1034, et:msa1035, et:msa1041, et:msa1068, et:msa1069, et:msa1071,
+    et:msa1073, et:msa1075, et:msa1080, et:msa1081, et:msa1084, et:msa1085, et:msa1087,
+    et:msa1092, et:msa1097, et:msa1098, et:msa1099 .
 
-et:20939 skos:narrower et:10058, et:10117, et:21473, et:21477, et:21487, et:21513,
-    et:22076, et:22077, et:22079, et:22086, et:22094, et:22107, et:22120, et:22131, et:22137,
-    et:22156, et:22157, et:22161, et:22162, et:22175, et:22181, et:22182, et:22183, et:22188,
-    et:22189, et:22195, et:22198, et:22199, et:22211, et:22216, et:22217, et:22219, et:22220,
-    et:22232, et:22285, et:22286, et:22287, et:22299, et:22301, et:22304 .
+et:20939 skos:narrower et:10018, et:10058, et:10117, et:21309, et:21473, et:21477,
+    et:21487, et:21489, et:21513, et:22067, et:22076, et:22077, et:22079, et:22082, et:22086,
+    et:22094, et:22107, et:22119, et:22120, et:22131, et:22137, et:22156, et:22157, et:22161,
+    et:22162, et:22175, et:22181, et:22182, et:22183, et:22188, et:22189, et:22195, et:22198,
+    et:22199, et:22211, et:22216, et:22217, et:22219, et:22220, et:22232, et:22285, et:22286,
+    et:22287, et:22291, et:22299, et:22300, et:22301, et:22304 .
 
 et:20945 skos:narrower et:10011, et:10125, et:10308, et:10390, et:20848, et:20863,
-    et:21303, et:21510, et:21511, et:21552, et:22029, et:22030, et:22089, et:22133, et:22141,
-    et:22174, et:22181, et:22224, et:22226, et:22240, et:22241, et:22242, et:22289, et:22290,
-    et:22293, et:22294, et:22297, et:22299, et:22309, et:22310, et:22312, et:22313, et:22315,
-    et:30025, et:30028 .
+    et:21303, et:21510, et:21511, et:21552, et:22029, et:22030, et:22068, et:22089, et:22133,
+    et:22141, et:22174, et:22181, et:22224, et:22225, et:22226, et:22240, et:22241, et:22242,
+    et:22289, et:22290, et:22293, et:22294, et:22297, et:22299, et:22309, et:22310, et:22312,
+    et:22313, et:22315, et:30025, et:30028 .
 
-et:20748 skos:narrower et:10040, et:10247, et:20769, et:20800, et:20801, et:20802,
-    et:20803, et:20804, et:20805, et:20806, et:20807, et:20808, et:20809, et:20810, et:20811,
-    et:20812, et:20813, et:20814, et:20816, et:20818, et:20819, et:20820, et:20821, et:20822,
-    et:20823, et:20824, et:20825, et:20826, et:20827, et:20828, et:20829, et:20830, et:20831,
-    et:20832, et:20834, et:20835, et:20836, et:20837, et:20838, et:20840, et:20842, et:20844,
-    et:20850, et:20851, et:20852, et:20853, et:20854, et:20860, et:20862, et:20864, et:20865,
-    et:20866, et:20867, et:20868, et:20869, et:20870, et:20871, et:20872, et:20874, et:20875,
-    et:20876, et:20877, et:20879, et:20880, et:20881, et:20882, et:20883, et:20884, et:20885,
-    et:20886, et:20890, et:21934 .
+et:20748 skos:narrower et:10040, et:10244, et:10247, et:20769, et:20800, et:20801,
+    et:20802, et:20803, et:20804, et:20805, et:20806, et:20807, et:20808, et:20809, et:20810,
+    et:20811, et:20812, et:20813, et:20814, et:20816, et:20818, et:20819, et:20820, et:20821,
+    et:20822, et:20823, et:20824, et:20825, et:20826, et:20827, et:20828, et:20829, et:20830,
+    et:20831, et:20832, et:20833, et:20834, et:20835, et:20836, et:20837, et:20838, et:20840,
+    et:20842, et:20844, et:20850, et:20851, et:20852, et:20853, et:20854, et:20860, et:20862,
+    et:20864, et:20865, et:20866, et:20867, et:20868, et:20869, et:20870, et:20871, et:20872,
+    et:20874, et:20875, et:20876, et:20877, et:20879, et:20880, et:20881, et:20882, et:20883,
+    et:20884, et:20885, et:20886, et:20890, et:20964, et:21934 .
 
 et:21767 skos:narrower et:21660, et:21661, et:21763 .
 
-et:20940 skos:narrower et:10031, et:20790, et:21050, et:21052, et:21065, et:21211,
-    et:21323, et:21363, et:21368, et:21369, et:21379, et:21396, et:21415, et:21419, et:21420,
-    et:21421, et:21422, et:21471, et:21472, et:21538, et:22073, et:22076, et:22079, et:22094,
-    et:22156, et:22161, et:22162, et:22174, et:22188, et:22189, et:22192, et:22198, et:22199,
-    et:22216, et:22217, et:22219, et:22229, et:22230, et:22232, et:22236, et:22301, et:22304 .
+et:20940 skos:narrower et:10031, et:20790, et:21031, et:21050, et:21052, et:21065,
+    et:21211, et:21221, et:21316, et:21323, et:21363, et:21365, et:21368, et:21369, et:21379,
+    et:21396, et:21415, et:21419, et:21420, et:21421, et:21422, et:21471, et:21472, et:21538,
+    et:22067, et:22068, et:22073, et:22076, et:22079, et:22094, et:22113, et:22156, et:22161,
+    et:22162, et:22174, et:22188, et:22189, et:22192, et:22198, et:22199, et:22216, et:22217,
+    et:22219, et:22229, et:22230, et:22232, et:22236, et:22300, et:22301, et:22304 .
 
 et:30030 skos:narrower et:21605, et:21608 .
 
 et:55 skos:narrower et:21817, et:21818 .
 
-et:20944 skos:narrower et:21552, et:21909, et:22038, et:22089, et:22181, et:22182,
-    et:22183, et:22200, et:22201, et:22214, et:22245, et:22259, et:22260, et:22267, et:22269,
-    et:22270, et:22278, et:22279, et:22281, et:22297, et:22299 .
+et:20944 skos:narrower et:21552, et:21909, et:22038, et:22045, et:22089, et:22181,
+    et:22182, et:22183, et:22200, et:22201, et:22214, et:22245, et:22259, et:22260, et:22261,
+    et:22267, et:22269, et:22270, et:22278, et:22279, et:22281, et:22297, et:22299 .
 
-et:20947 skos:narrower et:10125, et:10308, et:20848, et:20863, et:21454, et:22030,
-    et:22038, et:22084, et:22107, et:22137, et:22161, et:22174, et:22177, et:22181, et:22182,
-    et:22183, et:22259, et:22260, et:22270, et:22293, et:22297 .
+et:20947 skos:narrower et:10125, et:10308, et:20845, et:20848, et:20863, et:21216,
+    et:21454, et:21455, et:21933, et:22030, et:22038, et:22045, et:22082, et:22084, et:22107,
+    et:22137, et:22161, et:22174, et:22177, et:22181, et:22182, et:22183, et:22259, et:22260,
+    et:22261, et:22270, et:22293, et:22297 .
 
 et:20255 skos:narrower et:20102, et:20254 .
 
@@ -28222,27 +30562,29 @@ et:20943 skos:narrower et:21564, et:22142, et:22143, et:22146, et:22149 .
 et:21919 skos:narrower et:21920, et:21921, et:21922, et:21923, et:21924, et:21925,
     et:4 .
 
-et:10351 skos:narrower et:10016, et:10030, et:10033, et:10044, et:10046, et:10164,
-    et:10312, et:10353, et:10360, et:10382, et:10389, et:21423, et:21450, et:21456, et:21459,
-    et:21460, et:21507, et:21520, et:21521, et:21523, et:21524, et:21533, et:21541, et:21546,
-    et:21549, et:21550, et:21553, et:21554, et:21555, et:21557, et:21574, et:21578, et:21580 .
+et:10351 skos:narrower et:10016, et:10030, et:10033, et:10044, et:10046, et:10073,
+    et:10164, et:10312, et:10353, et:10360, et:10382, et:10389, et:21423, et:21450, et:21456,
+    et:21459, et:21460, et:21507, et:21520, et:21521, et:21523, et:21524, et:21533, et:21541,
+    et:21546, et:21549, et:21550, et:21553, et:21554, et:21555, et:21557, et:21574, et:21578,
+    et:21580 .
 
-et:21447 skos:narrower et:10023, et:10354, et:10358, et:20509, et:21411, et:21430,
-    et:21445, et:21502, et:21505, et:21508, et:21562, et:21568, et:21576, et:21942 .
+et:21447 skos:narrower et:10023, et:10354, et:10358, et:20509, et:21361, et:21411,
+    et:21430, et:21431, et:21445, et:21500, et:21502, et:21505, et:21508, et:21562, et:21568,
+    et:21576, et:21942 .
 
 et:20566 skos:narrower et:10108, et:10249, et:20573, et:20574, et:20575, et:20576,
     et:20577, et:20578, et:20579, et:20581, et:20583, et:20584, et:20585, et:20658, et:21403 .
 
 et:10065 skos:narrower et:10069, et:20373, et:20374, et:20375, et:20379, et:20383,
-    et:20384, et:20386, et:20396, et:20397, et:20401, et:20402, et:20405, et:20411, et:20412,
-    et:20414, et:21280, et:60037 .
+    et:20384, et:20386, et:20396, et:20397, et:20401, et:20402, et:20405, et:20406, et:20411,
+    et:20412, et:20414, et:21280, et:21373, et:60037 .
 
 et:30031 skos:narrower et:10217, et:21611, et:21656, et:21740, et:21742, et:21747,
     et:21749, et:21752, et:21759, et:21760, et:29 .
 
 et:21463 skos:narrower et:10013, et:10035, et:10087, et:10357, et:10363, et:10375,
     et:10381, et:21049, et:21131, et:21506, et:21518, et:21522, et:21534, et:21535, et:21536,
-    et:21537, et:21540, et:21556, et:21563, et:21566 .
+    et:21537, et:21539, et:21540, et:21556, et:21563, et:21566 .
 
 et:20934 skos:narrower et:10038, et:20878, et:20887 .
 
@@ -28257,12 +30599,13 @@ et:30000 skos:narrower et:21465, et:21565, et:21572 .
 et:10206 skos:narrower et:20424, et:20428 .
 
 et:20937 skos:narrower et:21529, et:21531, et:21532, et:21577, et:21579, et:22032,
-    et:22033, et:22035, et:22060, et:22104, et:22106, et:22130, et:22139, et:22140, et:22172,
-    et:22240, et:22241, et:22242, et:22284, et:22317, et:22319 .
+    et:22033, et:22035, et:22060, et:22082, et:22104, et:22106, et:22130, et:22139, et:22140,
+    et:22172, et:22178, et:22240, et:22241, et:22242, et:22284, et:22317, et:22319 .
 
 et:10152 skos:narrower et:10153, et:20159 .
 
-et:20946 skos:narrower et:21351, et:22106, et:22139, et:22140, et:22172, et:22284 .
+et:20946 skos:narrower et:21351, et:22106, et:22139, et:22140, et:22172, et:22178,
+    et:22284 .
 
 et:20670 skos:narrower et:20662, et:20672 .
 
@@ -28276,10 +30619,10 @@ et:45 skos:narrower et:21680, et:21681, et:21682 .
 et:30006 skos:narrower et:21670, et:21737, et:21743 .
 
 et:20138 skos:narrower et:10230, et:20022, et:20023, et:20024, et:20026, et:20028,
-    et:20092, et:20121, et:20137 .
+    et:20092, et:20121, et:20123, et:20137, et:20202 .
 
-et:20938 skos:narrower et:10370, et:21363, et:21368, et:21369, et:22074, et:22079,
-    et:22089, et:22130, et:22289 .
+et:20938 skos:narrower et:10370, et:21363, et:21368, et:21369, et:21558, et:22074,
+    et:22079, et:22089, et:22130, et:22289 .
 
 et:21603 skos:narrower et:10170, et:21604 .
 
@@ -28289,7 +30632,7 @@ et:20105 skos:narrower et:20118, et:20127, et:20147, et:20272, et:20318 .
 
 et:10161 skos:narrower et:20269 .
 
-et:20941 skos:narrower et:21527 .
+et:20941 skos:narrower et:21527, et:21528 .
 
 et:20073 skos:narrower et:20074 .
 
@@ -28297,10 +30640,8 @@ et:10223 skos:narrower et:20007 .
 
 et:10238 skos:narrower et:10240, et:20464 .
 
-et:10002 skos:narrower et:20948 .
-
 et:20936 skos:narrower et:10058, et:1320, et:21198, et:21407, et:21408, et:21461,
-    et:22177, et:22232 .
+    et:22045, et:22177, et:22232 .
 
 et:10221 skos:narrower et:20029, et:20233 .
 
@@ -28326,5 +30667,9 @@ et:10169 skos:narrower et:21786, et:21891 .
 
 et:10056 skos:narrower et:20408 .
 
+et:21769 skos:narrower et:21704, et:21736 .
+
+et:20942 skos:narrower et:22039 .
+
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
-  skos:hasTopConcept et:10195, et:10313, et:20104 .
+  skos:hasTopConcept et:10001, et:10002, et:10195, et:10313, et:20104 .
