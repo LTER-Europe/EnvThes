@@ -25491,8 +25491,7 @@ et:20935 a skos:Concept;
     et:30220, et:30221, et:30229, et:30230, et:30231, et:30232, et:30233, et:30234, et:30235,
     et:30236, et:30237, et:30238, et:30239, et:30240, et:30241, et:30242, et:30243, et:30244,
     et:30245, et:30246, et:30247, et:30248, et:30249, et:30250, et:30251, et:30252, et:30253,
-    et:30254, et:30255, et:30256, et:30257, et:30258, et:30259, et:30260, et:30261, et:30262,
-    et:30265;
+    et:30254, et:30255, et:30256, et:30257, et:30258, et:30259, et:30260, et:30261, et:30262;
   skos:prefLabel "variable"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -26038,11 +26037,6 @@ et:30264 a skos:Concept;
   skos:broader et:20538;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:prefLabel "surface water"@en .
-
-et:30265 a skos:Concept;
-  skos:broader et:20935;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:prefLabel "test variable"@en .
 
 et:10351 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
