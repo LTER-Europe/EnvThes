@@ -22,6 +22,7 @@ This repository hosts automatic workflow, executed by means of Github actions, a
 This workflow is an extension of [excel2rdf](https://github.com/fair-data-collective/excel2rdf-template).
 
 This work is licensed under [Apache 2.0 License](https://github.com/niva83/sheet2rdf/blob/main/License.md)
+
 Nikola Vasiljevic. (2021, January 11). sheet2rdf: First release (Version v0.1). Zenodo. http://doi.org/10.5281/zenodo.4432136
 
 For any other citation format visit http://doi.org/10.5281/zenodo.4432136
