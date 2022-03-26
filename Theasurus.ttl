@@ -28662,7 +28662,6 @@ et:21463 dct:created "2018-06-13 14:28:02"@en;
 et:20935 dct:created "2018-06-13 14:28:02"@en;
   dct:creator "Environment Agency Austria, envthes-support@umweltbundesamt.at"@en;
   dct:modified "2018-06-19T05:33:29.832+01:00"@en;
-  skos:altLabel "parameter"@en;
   skos:definition "In EnvThes a variable is defined aligned to the I-ADOPT Framework. It is a compound concept built by a property for an object of interest. For example, temperature (property) of air (the object of interest) results in the compound concept air temperature. As temperature can be measured in different media (e.g. water, soil, air), it is necessary to use compound concepts."@en;
   skos:prefLabel "variable"@en .
 
@@ -60315,21 +60314,21 @@ et:1 a skos:Concept;
     et:EUUnits_335, et:EUUnits_336, et:EUUnits_327, et:EUUnits_64, et:EUUnits_65, et:EUUnits_365,
     et:EUUnits_352, et:EUUnits_326, et:EUUnits_73, et:EUUnits_74, et:EUUnits_75, et:EUUnits_77,
     et:EUUnits_44, et:EUUnits_35, et:EUUnits_86, et:EUUnits_83, et:EUUnits_84, et:EUUnits_81,
-    et:EUUnits_319, et:EUUnits_318, et:msa0380, et:msa0381, et:msa0382, et:msa0384, et:msa0385,
-    et:msa0388, et:msa0389, et:msa0391, et:msa0393, et:msa0396, et:msa0398, et:msa0399,
-    et:msa0400, et:msa0402, et:msa0403, et:msa0405, et:msa0406, et:msa0407, et:msa0408,
-    et:msa0410, et:msa0411, et:msa0417, et:msa0421, et:msa0423, et:msa0428, et:msa0430,
-    et:msa0437, et:msa0444, et:msa0458, et:msa0465, et:msa0496, et:msa0518, et:msa0523,
-    et:msa0581, et:msa0601, et:msa0618, et:msa0627, et:msa0628, et:msa0631, et:msa0632,
-    et:msa0634, et:msa0635, et:msa0645, et:msa0648, et:msa0663, et:msa0679, et:msa0686,
-    et:msa0699, et:msa0703, et:msa0705, et:msa0706, et:msa0732, et:msa0748, et:msa0750,
-    et:msa0756, et:msa0764, et:msa0767, et:msa0780, et:msa0810, et:msa0824, et:msa0825,
-    et:msa0841, et:msa0842, et:msa0843, et:msa0844, et:msa0855, et:msa0862, et:msa0864,
-    et:msa0869, et:msa0879, et:msa0882, et:msa0888, et:msa0912, et:msa0913, et:msa0914,
-    et:msa0921, et:msa0927, et:msa0933, et:msa0935, et:msa0941, et:msa0947, et:msa0990,
-    et:msa0993, et:msa0995, et:msa1019, et:msa1028, et:msa1035, et:msa1041, et:msa1068,
-    et:msa1069, et:msa1073, et:msa1075, et:msa1080, et:msa1081, et:msa1084, et:msa1085,
-    et:msa1087, et:msa1092, et:msa1097, et:msa1098 .
+    et:EUUnits_319, et:EUUnits_318, et:EUUnits_88, et:msa0380, et:msa0381, et:msa0382,
+    et:msa0384, et:msa0385, et:msa0388, et:msa0389, et:msa0391, et:msa0393, et:msa0396,
+    et:msa0398, et:msa0399, et:msa0400, et:msa0402, et:msa0403, et:msa0405, et:msa0406,
+    et:msa0407, et:msa0408, et:msa0410, et:msa0411, et:msa0417, et:msa0421, et:msa0423,
+    et:msa0428, et:msa0430, et:msa0437, et:msa0444, et:msa0458, et:msa0465, et:msa0496,
+    et:msa0518, et:msa0523, et:msa0581, et:msa0601, et:msa0618, et:msa0627, et:msa0628,
+    et:msa0631, et:msa0632, et:msa0634, et:msa0635, et:msa0645, et:msa0648, et:msa0663,
+    et:msa0679, et:msa0686, et:msa0699, et:msa0703, et:msa0705, et:msa0706, et:msa0732,
+    et:msa0748, et:msa0750, et:msa0756, et:msa0764, et:msa0767, et:msa0780, et:msa0810,
+    et:msa0824, et:msa0825, et:msa0841, et:msa0842, et:msa0843, et:msa0844, et:msa0855,
+    et:msa0862, et:msa0864, et:msa0869, et:msa0879, et:msa0882, et:msa0888, et:msa0912,
+    et:msa0913, et:msa0914, et:msa0921, et:msa0927, et:msa0933, et:msa0935, et:msa0941,
+    et:msa0947, et:msa0990, et:msa0993, et:msa0995, et:msa1019, et:msa1028, et:msa1035,
+    et:msa1041, et:msa1068, et:msa1069, et:msa1073, et:msa1075, et:msa1080, et:msa1081,
+    et:msa1084, et:msa1085, et:msa1087, et:msa1092, et:msa1097, et:msa1098 .
 
 et:msa0713 a skos:Concept .
 
@@ -62492,15 +62491,15 @@ et:1 skos:narrower et:20799, et:30009, et:EUUnits_100, et:EUUnits_103, et:EUUnit
     et:EUUnits_168, et:EUUnits_169, et:EUUnits_172, et:EUUnits_178, et:EUUnits_186, et:EUUnits_188,
     et:EUUnits_189, et:EUUnits_190, et:EUUnits_191, et:EUUnits_192, et:EUUnits_193, et:EUUnits_194,
     et:EUUnits_195, et:EUUnits_301, et:EUUnits_302, et:EUUnits_303, et:EUUnits_304, et:EUUnits_308,
-    et:EUUnits_310, et:EUUnits_311, et:EUUnits_312, et:EUUnits_315, et:EUUnits_316, et:EUUnits_317,
-    et:AF_c3_2433, et:EUUnits_32, et:AF_c3_2475, et:EUUnits_320, et:EUUnits_321, et:EUUnits_322,
+    et:EUUnits_310, et:EUUnits_311, et:EUUnits_312, et:EUUnits_315, et:EUUnits_316, et:AF_c3_2433,
+    et:EUUnits_317, et:AF_c3_2475, et:EUUnits_32, et:EUUnits_320, et:EUUnits_321, et:EUUnits_322,
     et:EUUnits_323, et:EUUnits_324, et:EUUnits_325, et:EUUnits_328, et:EUUnits_329, et:EUUnits_338,
     et:EUUnits_353, et:EUUnits_356, et:EUUnits_357, et:EUUnits_358, et:EUUnits_359, et:EUUnits_360,
     et:EUUnits_361, et:EUUnits_362, et:EUUnits_363, et:EUUnits_364, et:EUUnits_366, et:EUUnits_367,
-    et:EUUnits_368, et:EUUnits_369, et:EUUnits_82, et:EUUnits_85, et:EUUnits_88, et:EUUnits_90,
-    et:EUUnits_91, et:EUUnits_92, et:EUUnits_94, et:EUUnits_99, et:EnvEU_207, et:EnvEU_248,
-    et:EnvEU_260, et:22040, et:EnvEU_261, et:EnvEU_262, et:EnvEU_263, et:EnvEU_320, et:EnvEU_326,
-    et:List_5, et:USLterCV_105, et:EnvEU_334, et:USLterCV_141, et:USLterCV_159, et:USLterCV_212,
+    et:EUUnits_368, et:EUUnits_369, et:EUUnits_82, et:EUUnits_85, et:EUUnits_90, et:EUUnits_91,
+    et:EUUnits_92, et:EUUnits_94, et:EUUnits_99, et:EnvEU_207, et:EnvEU_248, et:EnvEU_260,
+    et:22040, et:EnvEU_261, et:EnvEU_262, et:EnvEU_263, et:EnvEU_320, et:EnvEU_326, et:List_5,
+    et:USLterCV_105, et:EnvEU_334, et:USLterCV_141, et:USLterCV_159, et:USLterCV_212,
     et:USLterCV_231, et:USLterCV_290, et:USLterCV_292, et:USLterCV_303, et:USLterCV_304,
     et:USLterCV_351, et:USLterCV_4, et:USLterCV_40, et:USLterCV_428, et:USLterCV_476,
     et:USLterCV_5, et:USLterCV_526, et:USLterCV_494, et:USLterCV_53, et:USLterCV_621,
