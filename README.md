@@ -8,8 +8,10 @@ The current version is stored as EnvThes.ttl under this directory. EnvThes versi
 
 EnvThes is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-
 You can view EnvThes here: http://vocabs.lter-europe.net/EnvThes/
+
+# Contact
+Please use this GitHub repository's issue tracker to request new terms or report errors or specific concerns related to the vocabulary.
 
 # sheet2rdf
 
