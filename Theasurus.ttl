@@ -51103,29 +51103,25 @@ et:AF_c_1405593980858 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "piezometer"@en .
 
-et:30063 a skos:Concept;
-  dct:created "2018-11-21"@en;
+et:30063 dct:created "2018-11-21"@en;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2019-02-17"@en;
   skos:broader et:10024;
   skos:prefLabel "plant species trait"@en .
 
-et:10029 a skos:Concept;
-  dct:created "2014-11-10"@en;
+et:10029 dct:created "2014-11-10"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"@en;
   skos:broader et:82;
   skos:prefLabel "plants population changes over time"@en .
 
-et:10161 a skos:Concept;
-  dct:created "2015-03-12"@en;
+et:10161 dct:created "2015-03-12"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"@en;
   skos:broader et:20104;
   skos:prefLabel "measurement"@en .
 
-et:AF_c2_2723 a skos:Concept;
-  dct:created "2016-03-31"@en;
+et:AF_c2_2723 dct:created "2016-03-31"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"@en;
   owl:deprecated "true"@en;
@@ -54537,8 +54533,8 @@ et:30266 dct:created "2022-03-28"@en;
   skos:prefLabel "electricity consumption of building per month in kWh"@en;
   puv:uom <http://qudt.org/vocab/unit/KiloW-HR>;
   puv:usesStatistic et:30270;
-  iop:hasObjectOfInterest et:30269;
-  iop:hasProperty et:30268 .
+  iop:hasObjectOfInterest et:30268;
+  iop:hasProperty et:30267 .
 
 et:30267 dct:created "2022-03-28"@en;
   dct:creator "0000-0003-2195-3997"@en;
@@ -54665,6 +54661,7 @@ et:30282 dct:created "2022-03-28"@en;
   iop:hasProperty et:30281 .
 
 et:30283 dct:created "2022-03-30"@en;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-30"@en;
   skos:altLabel "mass density of dissolved lead in water"@en;
   skos:broader et:20935;
@@ -54675,11 +54672,13 @@ et:30283 dct:created "2022-03-30"@en;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassDensity> .
 
 et:30284 dct:created "2022-03-30"@en;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-30"@en;
   skos:broader et:20538;
   skos:prefLabel "river water"@en .
 
 et:30285 dct:created "2022-03-30"@en;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-30"@en;
   skos:altLabel "monthly mean mass density of dissolved lead in water in microgram per litre"@en;
   skos:broader et:30283;
@@ -54692,6 +54691,7 @@ et:30285 dct:created "2022-03-30"@en;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassDensity> .
 
 et:30286 dct:created "2022-03-30"@en;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-30"@en;
   skos:broader et:10127;
   skos:prefLabel "monthly mean"@en .
@@ -61830,6 +61830,19 @@ et:msa0555 a skos:Concept .
 
 et:EnvEU_244 a skos:Concept .
 
+et:30063 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10029 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10161 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:20011, et:20100, et:20134, et:20269 .
+
+et:AF_c2_2723 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
 et:AF_c2_2845 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -64296,9 +64309,6 @@ et:10006 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10372, et:30224 .
 
 et:10195 skos:narrower et:10157 .
-
-et:10161 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:20011, et:20100, et:20134, et:20269 .
 
 et:20103 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10066, et:10070, et:20052, et:20053, et:20054, et:20055, et:20056,
@@ -74689,12 +74699,6 @@ et:EnvEU_214 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:msa0895 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:AF_c_1405593980858 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30063 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10029 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2723 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
