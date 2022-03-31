@@ -50969,8 +50969,7 @@ et:20936 a skos:Concept;
   skos:broader et:20935;
   skos:prefLabel "agricultural parameter"@en .
 
-et:AF_c2_2984 a skos:Concept;
-  dct:created "2016-03-31"@en;
+et:AF_c2_2984 dct:created "2016-03-31"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:21377;
   dct:modified "2022-03-21"@en;
@@ -50978,22 +50977,19 @@ et:AF_c2_2984 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "canopy characteristics"@en .
 
-et:30051 a skos:Concept;
-  dct:created "2018-11-21"@en;
+et:30051 dct:created "2018-11-21"@en;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-11-21"@en;
   skos:broader et:22286;
   skos:prefLabel "lichens species list"@en .
 
-et:60001 a skos:Concept;
-  dct:created "2018-11-27"@en;
+et:60001 dct:created "2018-11-27"@en;
   dct:creator "0000-0003-0320-0692"@en;
   dct:modified "2018-11-30"@en;
   skos:broader et:20935;
   skos:prefLabel "prymnesiophyceae biomass"@en .
 
-et:EnvEU_211 a skos:Concept;
-  dct:created "2016-03-31"@en;
+et:EnvEU_211 dct:created "2016-03-31"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:21170;
   dct:modified "2022-03-21"@en;
@@ -51001,52 +50997,45 @@ et:EnvEU_211 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "energy_storage"@en .
 
-et:21965 a skos:Concept;
-  dct:created "2018-06-13"@en;
+et:21965 dct:created "2018-06-13"@en;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-06-18"@en;
   skos:broader et:10313;
   skos:prefLabel "clonal"@en .
 
-et:21954 a skos:Concept;
-  dct:created "2018-06-13"@en;
+et:21954 dct:created "2018-06-13"@en;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-06-18"@en;
   skos:broader et:10313;
   skos:prefLabel "adaptive"@en .
 
-et:60002 a skos:Concept;
-  dct:created "2018-11-27"@en;
+et:60002 dct:created "2018-11-27"@en;
   dct:creator "0000-0003-0320-0692"@en;
   dct:modified "2018-11-30"@en;
   skos:broader et:20935;
   skos:prefLabel "dinoflagellata biomass"@en .
 
-et:20456 a skos:Concept;
-  dct:created "2018-06-13"@en;
+et:20456 dct:created "2018-06-13"@en;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-06-18"@en;
   skos:broader et:20453;
   skos:prefLabel "large size lodging"@en .
 
-et:EnvEU_252 a skos:Concept;
-  dct:created "2016-03-31"@en;
+et:EnvEU_252 dct:created "2016-03-31"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"@en;
   owl:deprecated "true"@en;
   skos:broader et:1;
   skos:prefLabel "reflected radiation"@en .
 
-et:10184 a skos:Concept;
-  dct:created "2015-03-23"@en;
+et:10184 dct:created "2015-03-23"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"@en;
   owl:deprecated "true"@en;
   skos:broader et:1;
   skos:prefLabel "biological measure"@en .
 
-et:AF_c2_167 a skos:Concept;
-  dct:created "2016-03-31"@en;
+et:AF_c2_167 dct:created "2016-03-31"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20331;
   dct:modified "2022-03-21"@en;
@@ -51054,30 +51043,26 @@ et:AF_c2_167 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "experimental device"@en .
 
-et:AF_c3_2722 a skos:Concept;
-  dct:created "2016-03-31"@en;
+et:AF_c3_2722 dct:created "2016-03-31"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"@en;
   owl:deprecated "true"@en;
   skos:broader et:1;
   skos:prefLabel "year in the rotation or year since start of treatment application"@en .
 
-et:22046 a skos:Concept;
-  dct:created "2016-03-31"@en;
+et:22046 dct:created "2016-03-31"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"@en;
   skos:broader et:20935;
   skos:prefLabel "mineral nitrogen mineralised from humus"@en .
 
-et:60014 a skos:Concept;
-  dct:created "2018-11-27"@en;
+et:60014 dct:created "2018-11-27"@en;
   dct:creator "0000-0003-0320-0692"@en;
   dct:modified "2018-11-27"@en;
   skos:broader et:22286;
   skos:prefLabel "mollusca species list"@en .
 
-et:EnvEU_214 a skos:Concept;
-  dct:created "2016-03-31"@en;
+et:EnvEU_214 dct:created "2016-03-31"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:21176;
   dct:modified "2022-03-21"@en;
@@ -51085,8 +51070,7 @@ et:EnvEU_214 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "matter budget"@en .
 
-et:msa0895 a skos:Concept;
-  dct:created "2016-10-12"@en;
+et:msa0895 dct:created "2016-10-12"@en;
   dct:creator "0000-0003-2195-3997"@en;
   dct:isReplacedBy et:20266;
   dct:modified "2022-03-21"@en;
@@ -51094,8 +51078,7 @@ et:msa0895 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "remote sensing data"@en .
 
-et:AF_c_1405593980858 a skos:Concept;
-  dct:created "2016-03-31"@en;
+et:AF_c_1405593980858 dct:created "2016-03-31"@en;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20328;
   dct:modified "2022-03-21"@en;
@@ -54695,6 +54678,26 @@ et:30286 dct:created "2022-03-30"@en;
   dct:modified "2022-03-30"@en;
   skos:broader et:10127;
   skos:prefLabel "monthly mean"@en .
+
+et:30287 dct:created "2022-03-31"@en;
+  dct:modified "2022-03-31"@en;
+  skos:broader et:10351;
+  skos:prefLabel "solar energy consumption"@en .
+
+et:30288 dct:created "2022-03-31"@en;
+  dct:modified "2022-03-31"@en;
+  skos:broader et:20935;
+  skos:prefLabel "solar energy consumption of building"@en;
+  iop:hasObjectOfInterest et:20828;
+  iop:hasProperty et:30287 .
+
+et:30289 dct:modified "2022-03-31"@en;
+  skos:broader et:30289;
+  skos:prefLabel "solar energy consumption of building per month in kWh"@en;
+  puv:statistic et:30270;
+  puv:uom <http://qudt.org/vocab/unit/KiloW-HR>;
+  iop:hasObjectOfInterest et:20828;
+  iop:hasProperty et:30287 .
 
 et:USLterCV_668 a skos:Concept .
 
@@ -61830,6 +61833,57 @@ et:msa0555 a skos:Concept .
 
 et:EnvEU_244 a skos:Concept .
 
+et:AF_c2_2984 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30051 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:60001 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:EnvEU_211 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21965 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21954 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:60002 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20456 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:EnvEU_252 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10184 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_167 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c3_2722 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:22046 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:60014 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:EnvEU_214 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:msa0895 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c_1405593980858 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
 et:30063 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -63350,6 +63404,16 @@ et:30285 a skos:Concept;
 et:30286 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
+et:30287 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30288 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30289 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:30289 .
+
 et:1 skos:narrower et:AF_c_1405669284328, et:EUDIM_018, et:EUUnits_149, et:EnvEU_228,
     et:EnvEU_247, et:EnvEU_257, et:EnvEU_268, et:EnvEU_269, et:EnvEU_322, et:EnvEu_130,
     et:EnvEu_23, et:EnvEu_53, et:EnvEu_75, et:EnvEu_74, et:EnvEu_83, et:USLterCV_104,
@@ -63896,17 +63960,17 @@ et:20935 skos:narrower et:10011, et:10031, et:10058, et:10117, et:10308, et:1039
     et:30105, et:30106, et:30107, et:30109, et:30112, et:30113, et:30114, et:30115, et:30116,
     et:30117, et:30118, et:30119, et:30120, et:30121, et:30122, et:30123, et:30124, et:30125,
     et:30126, et:30127, et:30128, et:30129, et:30130, et:30131, et:30132, et:30133, et:30136,
-    et:30138;
+    et:30138, et:30139;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30139, et:30140, et:30141, et:30146, et:30147, et:30148, et:30149,
-    et:30150, et:30151, et:30152, et:30153, et:30154, et:30156, et:30160, et:30161, et:30162,
-    et:30163, et:30164, et:30169, et:30171, et:30173, et:30176, et:30177, et:30179, et:30180,
-    et:30181, et:30182, et:30183, et:30203, et:30206, et:30208, et:30212, et:30217, et:30218,
-    et:30219, et:30220, et:30221, et:30229, et:30230, et:30231, et:30232, et:30233, et:30234,
-    et:30235, et:30236, et:30237, et:30238, et:30239, et:30240, et:30241, et:30242, et:30243,
-    et:30244, et:30245, et:30246, et:30247, et:30248, et:30249, et:30250, et:30251, et:30252,
-    et:30253, et:30254, et:30255, et:30256, et:30257, et:30258, et:30259, et:30260, et:30261,
-    et:30262, et:30265, et:30272, et:30275, et:30278, et:30281, et:30283, et:60001, et:600019,
+  skos:narrower et:30140, et:30141, et:30146, et:30147, et:30148, et:30149, et:30150,
+    et:30151, et:30152, et:30153, et:30154, et:30156, et:30160, et:30161, et:30162, et:30163,
+    et:30164, et:30169, et:30171, et:30173, et:30176, et:30177, et:30179, et:30180, et:30181,
+    et:30182, et:30183, et:30203, et:30206, et:30208, et:30212, et:30217, et:30218, et:30219,
+    et:30220, et:30221, et:30229, et:30230, et:30231, et:30232, et:30233, et:30234, et:30235,
+    et:30236, et:30237, et:30238, et:30239, et:30240, et:30241, et:30242, et:30243, et:30244,
+    et:30245, et:30246, et:30247, et:30248, et:30249, et:30250, et:30251, et:30252, et:30253,
+    et:30254, et:30255, et:30256, et:30257, et:30258, et:30259, et:30260, et:30261, et:30262,
+    et:30265, et:30272, et:30275, et:30278, et:30281, et:30283, et:30288, et:60001, et:600019,
     et:60002, et:60003, et:60004, et:60005, et:60006, et:60007, et:60008, et:60009, et:60010,
     et:60011, et:60012, et:60023, et:60024, et:60025, et:60026, et:60027, et:60030, et:60031,
     et:60032, et:60033, et:60034;
@@ -64055,7 +64119,8 @@ et:10351 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
     et:21348, et:21423, et:21450, et:21456, et:21459, et:21460, et:21507, et:21519, et:21520,
     et:21521, et:21523, et:21524, et:21533, et:21534, et:21541, et:21546, et:21548, et:21549,
     et:21550, et:21553, et:21554, et:21555, et:21557, et:21574, et:21578, et:21580, et:21590,
-    et:21593, et:21595, et:21596, et:21599, et:30207, et:30274, et:30277, et:30280, et:60021 .
+    et:21593, et:21595, et:21596, et:21599, et:30207, et:30274, et:30277, et:30280, et:30287,
+    et:60021 .
 
 et:21447 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10023, et:10354, et:10355, et:10358, et:20508, et:20509, et:20988,
@@ -74665,40 +74730,6 @@ et:22006 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:20468 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20936 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2984 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30051 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:60001 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:EnvEU_211 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21965 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21954 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:60002 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20456 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:EnvEU_252 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10184 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_167 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c3_2722 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:22046 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:60014 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:EnvEU_214 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:msa0895 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c_1405593980858 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,

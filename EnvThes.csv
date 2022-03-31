@@ -5736,3 +5736,6 @@ et:30283,concentration of dissolved lead in river water,mass density of dissolve
 et:30284,river water,,,,et:20538,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-30,0000-0003-2195-3997,2022-03-30
 et:30285,monthly mean concentration of dissolved lead in river water in microgram per litre,monthly mean mass density of dissolved lead in water in microgram per litre,,,et:30283,,,,,,qudt:quantitykind/MassDensity,et:20828,et:30284,,et:10347,et:30286,,,qudt:unit/MicroGM-PER-L,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-30,0000-0003-2195-3997,2022-03-30
 et:30286,monthly mean,,,,et:10127,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-30,0000-0003-2195-3997,2022-03-30
+et:30287,solar energy consumption,,,,et:10351,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-31,,2022-03-31
+et:30288,solar energy consumption of building,,,,et:20935,,,,,,et:30287,et:20828,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-31,,2022-03-31
+et:30289,solar energy consumption of building per month in kWh,,,,et:30289,,,,,,et:30287,et:20828,,,,et:30270,,,qudt:unit/KiloW-HR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-31
