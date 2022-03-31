@@ -54531,8 +54531,8 @@ et:30266 dct:created "2022-03-28"@en;
   dct:modified "2022-03-30"@en;
   skos:broader et:30265;
   skos:prefLabel "electricity consumption of building per month in kWh"@en;
+  puv:statistic et:30270;
   puv:uom <http://qudt.org/vocab/unit/KiloW-HR>;
-  puv:usesStatistic et:30270;
   iop:hasObjectOfInterest et:30268;
   iop:hasProperty et:30267 .
 
@@ -54582,8 +54582,8 @@ et:30273 dct:created "2022-03-28"@en;
   dct:modified "2022-03-28"@en;
   skos:broader et:30272;
   skos:prefLabel "cold energy consumption of building per month in GJ"@en;
+  puv:statistic et:30270;
   puv:uom <http://qudt.org/vocab/unit/GigaJ>;
-  puv:usesStatistic et:30270;
   iop:hasObjectOfInterest et:30268;
   iop:hasProperty et:30271 .
 
@@ -54606,8 +54606,8 @@ et:30276 dct:created "2022-03-28"@en;
   dct:modified "2022-03-30"@en;
   skos:broader et:30275;
   skos:prefLabel "gas consumption of building per month in m3"@en;
+  puv:statistic et:30270;
   puv:uom <http://qudt.org/vocab/unit/M3>;
-  puv:usesStatistic et:30270;
   iop:hasObjectOfInterest et:30268;
   iop:hasProperty et:30274 .
 
@@ -54631,8 +54631,8 @@ et:30279 dct:created "2022-03-28"@en;
   dct:modified "2022-03-28"@en;
   skos:broader et:30278;
   skos:prefLabel "heat consumption of building per month in GJ"@en;
+  puv:statistic et:30270;
   puv:uom <http://qudt.org/vocab/unit/GigaJ>;
-  puv:usesStatistic et:30270;
   iop:hasObjectOfInterest et:30268;
   iop:hasProperty et:30277 .
 
@@ -54655,8 +54655,8 @@ et:30282 dct:created "2022-03-28"@en;
   dct:modified "2022-03-30"@en;
   skos:broader et:30281;
   skos:prefLabel "water consumption of building per month in m3"@en;
+  puv:statistic et:30270;
   puv:uom <http://qudt.org/vocab/unit/M3>;
-  puv:usesStatistic et:30270;
   iop:hasObjectOfInterest et:30268;
   iop:hasProperty et:30281 .
 
@@ -54683,8 +54683,8 @@ et:30285 dct:created "2022-03-30"@en;
   skos:altLabel "monthly mean mass density of dissolved lead in water in microgram per litre"@en;
   skos:broader et:30283;
   skos:prefLabel "monthly mean concentration of dissolved lead in river water in microgram per litre"@en;
+  puv:statistic et:30286;
   puv:uom <http://qudt.org/vocab/unit/MicroGM-PER-L>;
-  puv:usesStatistic et:30286;
   iop:hasConstraint et:10347;
   iop:hasMatrix et:30284;
   iop:hasObjectOfInterest et:20828;
