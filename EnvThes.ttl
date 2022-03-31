@@ -54688,7 +54688,7 @@ et:30288 dct:created "2022-03-31"@en;
   dct:modified "2022-03-31"@en;
   skos:broader et:20935;
   skos:prefLabel "solar energy consumption of building"@en;
-  iop:hasObjectOfInterest et:20828;
+  iop:hasObjectOfInterest et:30268;
   iop:hasProperty et:30287 .
 
 et:30289 dct:modified "2022-03-31"@en;
@@ -54696,7 +54696,7 @@ et:30289 dct:modified "2022-03-31"@en;
   skos:prefLabel "solar energy consumption of building per month in kWh"@en;
   puv:statistic et:30270;
   puv:uom <http://qudt.org/vocab/unit/KiloW-HR>;
-  iop:hasObjectOfInterest et:20828;
+  iop:hasObjectOfInterest et:30268;
   iop:hasProperty et:30287 .
 
 et:USLterCV_668 a skos:Concept .
