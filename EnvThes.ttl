@@ -8535,10 +8535,9 @@ et:22319 dct:created "2016-03-31"^^xsd:date;
   skos:prefLabel "wind speed"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
-<http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/28120,https://vocab.lternet.edu/vocab/vocab/?tema=235,http://aims.fao.org/aos/agrovoc/c_3391,http://en.wikipedia.org/wiki/groundwater,http://www.eionet.europa.eu/gemet/concept/3780,http://eurovoc.europa.eu/609>
-  dct:created "2016-03-31"^^xsd:date;
+et:20917 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2019-02-14"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
   skos:altLabel "ground water"@en;
   skos:broader et:20538;
   skos:definition "[Henderson's] n. (1) water that sinks down through soil and rock and collects in underground aquifers."@en;
@@ -13707,7 +13706,7 @@ et:USLterCV_682 dct:created "2016-03-31"^^xsd:date;
 
 et:21670 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-12-18"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:30006;
   skos:definition "[Henderson's] n. the study of numbers of organisms in a population and their vari­ation over time."@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_10328>, <http://en.wikipedia.org/wiki/demography>,
@@ -13717,8 +13716,8 @@ et:21670 dct:created "2016-03-31"^^xsd:date;
   skos:prefLabel "Demographie"@de, "demograafia, rahvastikuteadus"@et, "demografi"@da,
     "demografi"@no, "demografi"@sv, "demografia"@it, "demografia"@pl, "demografia"@pt,
     "demografia"@sk, "demografie"@cs, "demografie"@nl, "demografie"@ro, "demografija"@hr,
-    "demografija"@lt, "demografija"@sl, "demografía"@es, "demográfia"@hu, "demogrāfija"@lv,
-    "démographie"@fr, "et:21611"@en, "väestötiede"@fi, "δημογραφία"@el, "Демография"@bg,
+    "demografija"@lt, "demografija"@sl, "demografía"@es, "demography"@en, "demográfia"@hu,
+    "demogrāfija"@lv, "démographie"@fr, "väestötiede"@fi, "δημογραφία"@el, "Демография"@bg,
     "الديموجرافيا"@ar;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
@@ -49514,8 +49513,8 @@ et:18 a skos:Concept;
 et:20940 a skos:Concept;
   dct:created "2018-06-13"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2018-06-18"^^xsd:date;
-  skos:broader et:20935;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:1;
   skos:prefLabel "biological parameter"@en .
 
 et:AF_c_1401956299094 a skos:Concept;
@@ -54677,20 +54676,20 @@ et:30286 dct:created "2022-03-30"^^xsd:date;
   skos:prefLabel "monthly mean"@en .
 
 et:30287 dct:created "2022-03-31"^^xsd:date;
-  dct:modified "2022-03-31"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:10351;
-  skos:prefLabel "solar energy consumption"@en .
+  skos:prefLabel "solar energy production"@en .
 
 et:30288 dct:created "2022-03-31"^^xsd:date;
-  dct:modified "2022-03-31"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:20935;
-  skos:prefLabel "solar energy consumption of building"@en;
+  skos:prefLabel "solar energy production of building"@en;
   iop:hasObjectOfInterest et:30268;
   iop:hasProperty et:30287 .
 
-et:30289 dct:modified "2022-03-31"^^xsd:date;
+et:30289 dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:30289;
-  skos:prefLabel "solar energy consumption of building per month in kWh"@en;
+  skos:prefLabel "solar energy production of building per month in kWh"@en;
   puv:statistic et:30270;
   puv:uom <http://qudt.org/vocab/unit/KiloW-HR>;
   iop:hasObjectOfInterest et:30268;
@@ -56111,8 +56110,7 @@ et:USLterCV_503 a skos:Concept .
 
 et:22319 a skos:Concept .
 
-<http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/28120,https://vocab.lternet.edu/vocab/vocab/?tema=235,http://aims.fao.org/aos/agrovoc/c_3391,http://en.wikipedia.org/wiki/groundwater,http://www.eionet.europa.eu/gemet/concept/3780,http://eurovoc.europa.eu/609>
-  a skos:Concept .
+et:20917 a skos:Concept .
 
 et:USLterCV_481 a skos:Concept .
 
@@ -63763,7 +63761,7 @@ et:1 skos:narrower et:AF_c_1405669284328, et:EUDIM_018, et:EUUnits_149, et:EnvEU
     et:AF_c2_2745, et:AF_c2_2813, et:AF_c2_2846, et:AF_c2_3014, et:AF_c2_2528, et:AF_c2_2992,
     et:AF_c_1402385825816, et:AF_c_1403181514418, et:AF_c2_2554, et:AF_c2_3017, et:msa0995,
     et:EnvEU_215, et:10384, et:AF_c2_2988, et:AF_c2_2991, et:EnvEU_535, et:AF_c3_2362,
-    et:10159, et:msa0700, et:AF_c2_2836, et:18, et:AF_c_1401956299094, et:AF_c2_3013,
+    et:10159, et:msa0700, et:AF_c2_2836, et:18, et:20940, et:AF_c_1401956299094, et:AF_c2_3013,
     et:AF_c2_2660, et:AF_c2_2540, et:AF_c2_151, et:AF_c3_2579, et:AF_c2_2852, et:AF_c2_2575,
     et:AF_c2_2778, et:AF_c_1403181392341, et:AF_c2_2744, et:AF_c3_3178, et:AF_c_1405698371539,
     et:AF_c2_2751, et:AF_c_1405699276037, et:msa0680, et:msa0828, et:msa0953, et:10111,
@@ -63889,20 +63887,20 @@ et:20935 skos:narrower et:10011, et:10031, et:10058, et:10117, et:10308, et:1039
     et:22154, et:22275, et:21515, et:22278, et:22279, et:22280, et:21542, et:21173, et:21084,
     et:10036, et:22281, et:22282, et:22283, et:22284, et:22285, et:22286, et:10028, et:22287,
     et:22288, et:20942, et:10091, et:22289, et:21385, et:22290, et:10241, et:21457, et:20943,
-    et:21196, et:22213, et:10047, et:22291, et:22292, et:20940, et:22098, et:22109, et:22293,
-    et:22294, et:22295, et:21939, et:21476, et:22296, et:21174, et:22297, et:22298, et:22047,
-    et:22299, et:22300, et:22301, et:22277, et:22302, et:22303, et:21938, et:22304, et:20936,
-    et:22305, et:22306, et:22046, et:22307, et:21551, et:10115, et:22308, et:22309, et:22310,
-    et:22311, et:22312, et:22207, et:22313, et:22314, et:22315, et:22316, et:22317, et:22318,
-    et:22319, et:22099, et:20939, et:22320, et:21937, et:10051, et:22065, et:22325, et:22330,
-    et:21239, et:20947, et:22500, et:30017, et:30018, et:30019, et:30021, et:30022, et:30023,
-    et:30024, et:30025, et:30026, et:30027, et:30028, et:30029, et:30032, et:30034, et:30035,
-    et:30036, et:30037, et:30053, et:30055, et:30065, et:30066, et:30067, et:30068, et:30069,
-    et:30070, et:30071, et:30072, et:30073, et:30100, et:30101, et:30102, et:30103, et:30104,
-    et:30105, et:30106, et:30107, et:30109, et:30112, et:30113, et:30114, et:30115, et:30116,
-    et:30117, et:30118, et:30119, et:30120, et:30121, et:30122, et:30123, et:30124, et:30125,
-    et:30126, et:30127, et:30128, et:30129, et:30130, et:30131, et:30132, et:30133, et:30136,
-    et:30138, et:30139;
+    et:21196, et:22213, et:10047, et:22291, et:22292, et:22098, et:22109, et:22293, et:22294,
+    et:22295, et:21939, et:21476, et:22296, et:21174, et:22297, et:22298, et:22047, et:22299,
+    et:22300, et:22301, et:22277, et:22302, et:22303, et:21938, et:22304, et:20936, et:22305,
+    et:22306, et:22046, et:22307, et:21551, et:10115, et:22308, et:22309, et:22310, et:22311,
+    et:22312, et:22207, et:22313, et:22314, et:22315, et:22316, et:22317, et:22318, et:22319,
+    et:22099, et:20939, et:22320, et:21937, et:10051, et:22065, et:22325, et:22330, et:21239,
+    et:20947, et:22500, et:30017, et:30018, et:30019, et:30021, et:30022, et:30023, et:30024,
+    et:30025, et:30026, et:30027, et:30028, et:30029, et:30032, et:30034, et:30035, et:30036,
+    et:30037, et:30053, et:30055, et:30065, et:30066, et:30067, et:30068, et:30069, et:30070,
+    et:30071, et:30072, et:30073, et:30100, et:30101, et:30102, et:30103, et:30104, et:30105,
+    et:30106, et:30107, et:30109, et:30112, et:30113, et:30114, et:30115, et:30116, et:30117,
+    et:30118, et:30119, et:30120, et:30121, et:30122, et:30123, et:30124, et:30125, et:30126,
+    et:30127, et:30128, et:30129, et:30130, et:30131, et:30132, et:30133, et:30136, et:30138,
+    et:30139;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30140, et:30141, et:30146, et:30147, et:30148, et:30149, et:30150,
     et:30151, et:30152, et:30153, et:30154, et:30156, et:30160, et:30161, et:30162, et:30163,
@@ -64033,9 +64031,8 @@ et:21891 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:21819, et:21855, et:21861, et:55 .
 
 et:20538 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/28120,https://vocab.lternet.edu/vocab/vocab/?tema=235,http://aims.fao.org/aos/agrovoc/c_3391,http://en.wikipedia.org/wiki/groundwater,http://www.eionet.europa.eu/gemet/concept/3780,http://eurovoc.europa.eu/609>,
-    et:10376, et:20539, et:20540, et:20541, et:20542, et:20914, et:20918, et:20921, et:20923,
-    et:20924, et:30264, et:30284, et:31 .
+  skos:narrower et:10376, et:20539, et:20540, et:20541, et:20542, et:20914, et:20917,
+    et:20918, et:20921, et:20923, et:20924, et:30264, et:30284, et:31 .
 
 et:20504 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10003, et:20700, et:20746, et:26, et:30210, et:30269 .
@@ -65991,8 +65988,7 @@ et:USLterCV_503 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:22319 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-<http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/28120,https://vocab.lternet.edu/vocab/vocab/?tema=235,http://aims.fao.org/aos/agrovoc/c_3391,http://en.wikipedia.org/wiki/groundwater,http://www.eionet.europa.eu/gemet/concept/3780,http://eurovoc.europa.eu/609>
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+et:20917 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:USLterCV_481 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
