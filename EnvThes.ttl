@@ -24472,7 +24472,8 @@ et:USLterCV_26 dct:created "2016-03-31"^^xsd:date;
 
 et:47 dct:created "2013-02-21"^^xsd:date;
   dct:creator "0000-0003-0631-8231"@en;
-  dct:modified "2018-06-18"^^xsd:date;
+  dct:isReplacedBy <https://vocabs.lter-europe.net/elter_cl/10386>;
+  dct:modified "2022-04-15"^^xsd:date;
   owl:deprecated "true"@en;
   skos:broader et:1;
   skos:definition "[Henderson's] a. living or found on land, as opposed to in rivers, lakes or oceans or in the atmosphere."@en;
@@ -24482,7 +24483,8 @@ et:47 dct:created "2013-02-21"^^xsd:date;
 
 et:USLterCV_581 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-06-18"^^xsd:date;
+  dct:isReplacedBy <https://vocabs.lter-europe.net/elter_cl/10386>;
+  dct:modified "2022-04-15"^^xsd:date;
   owl:deprecated "true"@en;
   skos:broader et:1;
   skos:definition "[Henderson's] a. living or found on land, as opposed to in rivers, lakes or oceans or in the atmosphere."@en;
@@ -29248,14 +29250,14 @@ et:USLterCV_107 dct:contributor "0000-0002-3565-4624"@en;
 
 et:USLterCV_325 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:isReplacedBy et:21804;
-  dct:modified "2022-03-21"^^xsd:date;
+  dct:isReplacedBy <https://vocabs.lter-europe.net/elter_cl/10382>;
+  dct:modified "2022-04-15"^^xsd:date;
   owl:deprecated "true"@en;
   skos:broader et:1;
   skos:definition "As an adjective it is usually applicable to things relating to the sea or ocean, such as marine biology, marine ecology and marine geology"@en;
   skos:note "[source of definition ] wikipedia\" , \"[controlled by ] Mauro Bastianini 6.6.13"@en;
   skos:prefLabel "marine"@en;
-  skos:scopeNote "US LTER controlled vocabularybr /\\r\\ndiv class=\\\"swa-object-row\\\"\\r\\ndiv id=\\\"uniqueId35343\\\" class=\\\"swa-widget-row\\\"\\r\\ndiv class=\\\"swa-object-widget\\\"\\r\\ndiv class=\\\"swa-shifted-label\\\"GEO-BON Biome/div\\r\\n/div\\r\\n/div\\r\\n/div\\r\\nILTE"@en .
+  skos:scopeNote "US LTER controlled vocabulary"@en .
 
 et:21204 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
@@ -42924,8 +42926,8 @@ et:List_8 a skos:Concept;
 et:List_10 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:isReplacedBy et:21787;
-  dct:modified "2022-03-21"^^xsd:date;
+  dct:isReplacedBy <https://vocabs.lter-europe.net/elter_cl/10384>;
+  dct:modified "2022-04-15"^^xsd:date;
   owl:deprecated "true"@en;
   skos:broader et:1;
   skos:prefLabel "fresh water lake"@en;
@@ -42943,16 +42945,17 @@ et:List_13 a skos:Concept;
 et:21787 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-06-18"^^xsd:date;
-  skos:broader et:22;
+  dct:isReplacedBy <https://vocabs.lter-europe.net/elter_cl/10384>;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader et:1;
   skos:prefLabel "fresh water lake"@en;
   skos:scopeNote "ILTER BIOME , \"GEO-BON Biome"@en .
 
 et:List_11 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:isReplacedBy et:21789;
-  dct:modified "2022-03-21"^^xsd:date;
+  dct:isReplacedBy <https://vocabs.lter-europe.net/elter_cl/10385>;
+  dct:modified "2022-04-15"^^xsd:date;
   owl:deprecated "true"@en;
   skos:broader et:1;
   skos:prefLabel "fresh water river"@en;
@@ -42961,8 +42964,8 @@ et:List_11 a skos:Concept;
 et:List_4 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:isReplacedBy et:21812;
-  dct:modified "2022-03-21"^^xsd:date;
+  dct:isReplacedBy <https://vocabs.lter-europe.net/elter_cl/10382>;
+  dct:modified "2022-04-15"^^xsd:date;
   owl:deprecated "true"@en;
   skos:broader et:1;
   skos:prefLabel "Coastal"@en;
@@ -42971,23 +42974,25 @@ et:List_4 a skos:Concept;
 et:21812 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-06-18"^^xsd:date;
-  skos:broader et:21808;
+  dct:isReplacedBy <https://vocabs.lter-europe.net/elter_cl/10382>;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader et:1;
   skos:prefLabel "Coastal"@en;
   skos:scopeNote "ILTER BIOME , \"GEO-BON Biome"@en .
 
 et:21789 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-06-18"^^xsd:date;
-  skos:broader et:22;
+  dct:isReplacedBy <https://vocabs.lter-europe.net/elter_cl/10385>;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader et:1;
   skos:prefLabel "fresh water river"@en;
   skos:scopeNote "ILTER BIOME , \"GEO-BON Biome"@en .
 
 et:20645 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-06-18"^^xsd:date;
+  dct:modified "2022-04-15"^^xsd:date;
   skos:broader et:20591;
   skos:note "[controlled by ] Alessandro Oggioni 23.05.2013"@en;
   skos:prefLabel "zoobenthos"@en;
@@ -43269,7 +43274,8 @@ et:60 a skos:Concept;
 et:49 a skos:Concept;
   dct:created "2013-02-21"^^xsd:date;
   dct:creator "0000-0003-0631-8231"@en;
-  dct:modified "2018-06-18"^^xsd:date;
+  dct:isReplacedBy <https://vocabs.lter-europe.net/elter_cl/10382>;
+  dct:modified "2022-04-15"^^xsd:date;
   owl:deprecated "true"@en;
   skos:broader et:1;
   skos:prefLabel "marine"@en;
@@ -50556,22 +50562,19 @@ et:20938 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "physical parameter"@en .
 
-et:20095 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20095 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20105;
   skos:prefLabel "probe"@en .
 
-et:21271 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:21271 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20950;
   skos:prefLabel "pH deposition"@en .
 
-et:AF_c_1406134647980 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c_1406134647980 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20023;
   dct:modified "2022-03-21"^^xsd:date;
@@ -50579,22 +50582,19 @@ et:AF_c_1406134647980 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "enzyme activity"@en .
 
-et:21930 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:21930 dct:created "2018-06-13"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20700;
   skos:prefLabel "region"@en .
 
-et:10214 a skos:Concept;
-  dct:created "2015-06-02"^^xsd:date;
+et:10214 dct:created "2015-06-02"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-19"^^xsd:date;
   skos:broader et:10064;
   skos:prefLabel "application method"@en .
 
-et:EnvEU_510 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:EnvEU_510 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20114;
   dct:modified "2022-03-21"^^xsd:date;
@@ -61826,6 +61826,25 @@ et:msa0554 a skos:Concept .
 
 et:22135 a skos:Concept .
 
+et:20095 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21271 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c_1406134647980 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21930 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:10169, et:10198, et:21782, et:21783, et:21784, et:21864 .
+
+et:10214 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:EnvEU_510 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
 et:msa1001 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -63919,27 +63938,27 @@ et:1 skos:narrower et:AF_c_1405669284328, et:EUDIM_018, et:EUUnits_149, et:EnvEU
     et:List_21, et:EUUnits_161, et:EUUnits_164, et:EUUnits_61, et:EUUnits_162, et:EUUnits_160,
     et:EUUnits_163, et:EUUnits_159, et:EUUnits_185, et:List_34, et:List_37, et:List_35,
     et:List_36, et:List_18, et:List_15, et:List_3, et:List_6, et:List_9, et:List_1, et:List_16,
-    et:List_12, et:List_17, et:List_2, et:List_7, et:List_8, et:List_10, et:List_13, et:List_11,
-    et:List_4, et:EnvEu_55, et:EnvEu_116, et:EnvEu_108, et:EnvEu_101, et:EnvEu_125, et:EnvEu_24,
-    et:EnvEu_54, et:EnvEu_85, et:EnvEu_80, et:EnvEu_102, et:EnvEu_25, et:EnvEu_82, et:EnvEu_42,
-    et:EnvEu_22, et:EnvEu_99, et:List_29, et:List_27, et:List_28, et:List_25, et:List_26,
-    et:49, et:58, et:21484, et:msa0319, et:msa0062, et:msa0478, et:msa0330, et:msa0353,
-    et:msa0344, et:msa0392, et:msa0132, et:msa0058, et:msa0254, et:msa0031, et:msa0507,
-    et:msa0261, et:msa0379, et:msa0489, et:msa0285, et:msa0597, et:msa0013, et:msa0539,
-    et:msa0535, et:msa0537, et:msa0255, et:msa0106, et:msa0247, et:msa0133, et:msa0530,
-    et:msa0593, et:msa0432, et:21458, et:USLterCV_609, et:USLterCV_529, et:USLterCV_516,
-    et:USLterCV_712, et:USLterCV_274, et:USLterCV_220, et:USLterCV_338, et:USLterCV_175,
-    et:USLterCV_497, et:USLterCV_284, et:USLterCV_329, et:USLterCV_468, et:USLterCV_423,
-    et:USLterCV_42, et:USLterCV_250, et:USLterCV_165, et:USLterCV_603, et:USLterCV_339,
-    et:USLterCV_344, et:USLterCV_342, et:USLterCV_61, et:AF_c_1401958384374, et:EnvEU_332,
-    et:EnvEU_333, et:EnvEU_552, et:EnvEU_517, et:EnvEU_542, et:EnvEU_511, et:EnvEU_331,
-    et:EnvEU_516, et:EnvEU_323, et:EnvEU_222, et:EnvEU_318, et:AF_c3_2315, et:10366, et:EnvEU_280,
-    et:AF_c2_2577, et:AF_c2_2787, et:AF_c2_2816, et:AF_c2_3008, et:AF_c3_2706, et:20946,
-    et:msa0982, et:AF_c3_2847, et:AF_c_1403181553048, et:AF_c_1402047106685, et:AF_c3_2662,
-    et:EnvEU_522, et:AF_c_1406295830937, et:AF_c2_3006, et:AF_c3_2786, et:AF_c2_2473,
-    et:AF_c2_2469, et:10068, et:AF_c_1406295973243, et:AF_c3_2621, et:10110, et:AF_c3_2932,
-    et:msa0952, et:AF_c2_3018, et:EnvEU_303, et:AF_c3_2551, et:AF_c2_3002, et:AF_c3_2615,
-    et:AF_c2_2796, et:AF_c2_2898, et:AF_c3_2442, et:AF_c2_3010, et:AF_c_1406131190979,
+    et:List_12, et:List_17, et:List_2, et:List_7, et:List_8, et:List_10, et:List_13, et:21787,
+    et:List_11, et:List_4, et:21812, et:21789, et:EnvEu_55, et:EnvEu_116, et:EnvEu_108,
+    et:EnvEu_101, et:EnvEu_125, et:EnvEu_24, et:EnvEu_54, et:EnvEu_85, et:EnvEu_80, et:EnvEu_102,
+    et:EnvEu_25, et:EnvEu_82, et:EnvEu_42, et:EnvEu_22, et:EnvEu_99, et:List_29, et:List_27,
+    et:List_28, et:List_25, et:List_26, et:49, et:58, et:21484, et:msa0319, et:msa0062,
+    et:msa0478, et:msa0330, et:msa0353, et:msa0344, et:msa0392, et:msa0132, et:msa0058,
+    et:msa0254, et:msa0031, et:msa0507, et:msa0261, et:msa0379, et:msa0489, et:msa0285,
+    et:msa0597, et:msa0013, et:msa0539, et:msa0535, et:msa0537, et:msa0255, et:msa0106,
+    et:msa0247, et:msa0133, et:msa0530, et:msa0593, et:msa0432, et:21458, et:USLterCV_609,
+    et:USLterCV_529, et:USLterCV_516, et:USLterCV_712, et:USLterCV_274, et:USLterCV_220,
+    et:USLterCV_338, et:USLterCV_175, et:USLterCV_497, et:USLterCV_284, et:USLterCV_329,
+    et:USLterCV_468, et:USLterCV_423, et:USLterCV_42, et:USLterCV_250, et:USLterCV_165,
+    et:USLterCV_603, et:USLterCV_339, et:USLterCV_344, et:USLterCV_342, et:USLterCV_61,
+    et:AF_c_1401958384374, et:EnvEU_332, et:EnvEU_333, et:EnvEU_552, et:EnvEU_517, et:EnvEU_542,
+    et:EnvEU_511, et:EnvEU_331, et:EnvEU_516, et:EnvEU_323, et:EnvEU_222, et:EnvEU_318,
+    et:AF_c3_2315, et:10366, et:EnvEU_280, et:AF_c2_2577, et:AF_c2_2787, et:AF_c2_2816,
+    et:AF_c2_3008, et:AF_c3_2706, et:20946, et:msa0982, et:AF_c3_2847, et:AF_c_1403181553048,
+    et:AF_c_1402047106685, et:AF_c3_2662, et:EnvEU_522, et:AF_c_1406295830937, et:AF_c2_3006,
+    et:AF_c3_2786, et:AF_c2_2473, et:AF_c2_2469, et:10068, et:AF_c_1406295973243, et:AF_c3_2621,
+    et:10110, et:AF_c3_2932, et:msa0952, et:AF_c2_3018, et:EnvEU_303, et:AF_c3_2551, et:AF_c2_3002,
+    et:AF_c3_2615, et:AF_c2_2796, et:AF_c2_2898, et:AF_c3_2442, et:AF_c2_3010, et:AF_c_1406131190979,
     et:AF_c2_2662, et:EnvEU_300, et:AF_c3_2924, et:EnvEU_296, et:AF_c_1406295750194, et:AF_c2_2616,
     et:EnvEU_299, et:10232, et:msa0983, et:msa0984, et:10193, et:EUUnits_006, et:AF_c3_2516,
     et:msa0985, et:AF_c_1401973611883, et:10010, et:AF_c2_2924, et:AF_c_1405704849798,
@@ -64294,9 +64313,8 @@ et:10065 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
     et:20411, et:20412, et:20413, et:20414, et:21280, et:21342, et:21373, et:21485, et:60037 .
 
 et:22 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:21787, et:21788, et:21789, et:21790, et:21791, et:21792, et:21793,
-    et:21794, et:21795, et:21796, et:21797, et:21798, et:21799, et:21800, et:21801, et:21802,
-    et:21803 .
+  skos:narrower et:21788, et:21790, et:21791, et:21792, et:21793, et:21794, et:21795,
+    et:21796, et:21797, et:21798, et:21799, et:21800, et:21801, et:21802, et:21803 .
 
 et:30031 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10217, et:21611, et:21656, et:21740, et:21742, et:21747, et:21749,
@@ -64390,8 +64408,8 @@ et:21737 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:21738, et:21739, et:21762 .
 
 et:21808 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:21805, et:21806, et:21807, et:21811, et:21812, et:21813, et:21814,
-    et:21815, et:21816, et:59, et:60, et:61, et:62, et:63 .
+  skos:narrower et:21805, et:21806, et:21807, et:21811, et:21813, et:21814, et:21815,
+    et:21816, et:59, et:60, et:61, et:62, et:63 .
 
 et:20319 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20017, et:20161, et:20163, et:20223, et:20225, et:20247, et:20248,
@@ -64574,9 +64592,6 @@ et:10002 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 et:10221 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20004, et:20029, et:20030, et:20031, et:20232, et:20233, et:20234,
     et:20235, et:20236, et:20237 .
-
-et:21930 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10169, et:10198, et:21782, et:21783, et:21784, et:21864 .
 
 et:21861 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:21862, et:21863 .
@@ -74779,16 +74794,6 @@ et:22277 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:AF_c2_2713 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20938 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20095 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21271 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c_1406134647980 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10214 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:EnvEU_510 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
