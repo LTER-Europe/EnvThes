@@ -11399,7 +11399,8 @@ et:20906 dct:created "2016-10-12"^^xsd:date;
 
 et:21775 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl;10557"@en;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "MED"@en, "mediterranean"@en;
   skos:broader et:10198;
   skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01000207>;
@@ -12514,7 +12515,9 @@ et:22094 dct:created "2016-03-31"^^xsd:date;
 
 et:10198 dct:created "2015-05-18"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10546"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:broader et:21930;
   skos:definition "A designated area of the Earth determined by the distribution of flora and fauna. The concept has been adoped by the European Union, which has recognised nine terrestrial biogeographical regions, each with its own characteristic blend of vegetation, climate and geology. Marine regions were created for practical reasons for the Article 17 reporting and they are used also in the assessment of marine Natura 2000 sites during biogeographical seminars and associated bilateral meetings (EEA, 2002)."@en;
   skos:exactMatch <http://www.eea.europa.eu/data-and-maps/figures/biogeographical-regions-in-europe-1>;
@@ -12534,7 +12537,9 @@ et:bioGeo3 dct:created "2016-03-31"^^xsd:date;
 
 et:21771 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10547"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "ANA"@en, "anatolian"@en;
   skos:broader et:10198;
   skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/anatolian.pdf>;
@@ -12581,7 +12586,9 @@ et:bioGeo6 dct:created "2016-03-31"^^xsd:date;
 
 et:21821 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10548"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "BOR"@en, "boreal"@en;
   skos:broader et:10198;
   skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/Boreal_Region.pdf>;
@@ -12640,7 +12647,9 @@ et:bioGeo10 dct:created "2016-03-31"^^xsd:date;
 
 et:21777 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10549"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "STE"@en, "steppic"@en;
   skos:broader et:10198;
   skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/steppic.pdf>;
@@ -12659,7 +12668,9 @@ et:bioGeo11 dct:created "2016-03-31"^^xsd:date;
 
 et:21779 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10550"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "ATL"@en, "atlantic"@en;
   skos:broader et:10198;
   skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/the_atlantic_region.pdf>;
@@ -23102,7 +23113,9 @@ et:msa0569 dct:created "2016-08-03"^^xsd:date;
 
 et:21776 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10551"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "PAN"@en, "pannonian"@en;
   skos:broader et:10198;
   skos:prefLabel "Pannonian Bio-geographical Region"@en;
@@ -23129,7 +23142,9 @@ et:msa0534 dct:created "2016-08-03"^^xsd:date;
 
 et:21773 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10552"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "CON"@en, "continental"@en;
   skos:broader et:10198;
   skos:prefLabel "Continental Bio-geographical Region"@en;
@@ -23137,7 +23152,9 @@ et:21773 dct:created "2016-03-31"^^xsd:date;
 
 et:21774 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10553"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "MAC"@en, "macaronesian"@en;
   skos:broader et:10198;
   skos:prefLabel "Macaronesian Bio-geographical Region"@en;
@@ -36644,7 +36661,8 @@ et:EnvEU_244 dct:created "2016-03-31"^^xsd:date;
   skos:broader et:1;
   skos:prefLabel "inorganic nitrogen content"@en .
 
-et:msa0554 dct:created "2016-08-03"^^xsd:date;
+et:msa0554 a skos:Concept;
+  dct:created "2016-08-03"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:isReplacedBy et:20826;
   dct:modified "2022-03-21"^^xsd:date;
@@ -36654,7 +36672,8 @@ et:msa0554 dct:created "2016-08-03"^^xsd:date;
   skos:prefLabel "inorganic compound"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
-et:22135 dct:created "2016-03-31"^^xsd:date;
+et:22135 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-11-12"^^xsd:date;
   skos:altLabel "content of inorganic carbon"@en, "inorganic C content"@en;
@@ -50302,8 +50321,7 @@ et:20333 a skos:Concept;
   skos:broader et:10157;
   skos:prefLabel "time domain reflectometer"@en .
 
-et:AF_c2_153 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_153 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20586;
   dct:modified "2022-03-21"^^xsd:date;
@@ -50311,30 +50329,26 @@ et:AF_c2_153 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "plant morphology"@en .
 
-et:20452 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:20452 dct:created "2018-06-13"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:10240;
   skos:prefLabel "field laboratory"@en .
 
-et:AF_c2_2531 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2531 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:prefLabel "organic matter pool"@en .
 
-et:20054 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20054 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20103;
   skos:prefLabel "conservation tillage"@en .
 
-et:AF_c3_2647 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c3_2647 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20077;
   dct:modified "2022-03-21"^^xsd:date;
@@ -50342,80 +50356,69 @@ et:AF_c3_2647 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "experimental treatment"@en .
 
-et:21592 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:21592 dct:created "2018-06-13"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:21463;
   skos:prefLabel "trade-off"@en .
 
-et:21273 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:21273 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20950;
   skos:prefLabel "depostion of inorganic anions"@en .
 
-et:30155 a skos:Concept;
-  dct:created "2018-11-27"^^xsd:date;
+et:30155 dct:created "2018-11-27"^^xsd:date;
   dct:creator "0000-0003-1068-2394"@en;
   dct:modified "2018-11-27"^^xsd:date;
   skos:broader et:20952;
   skos:prefLabel "leaf-litter breakdown"@en .
 
-et:79 a skos:Concept;
-  dct:created "2013-06-20"^^xsd:date;
+et:79 dct:created "2013-06-20"^^xsd:date;
   dct:creator "0000-0002-3656-417X"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:21672;
   skos:prefLabel "terrestrial ecology"@en .
 
-et:AF_c_1405668340633 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c_1405668340633 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:prefLabel "potential nitrogen mineralization"@en .
 
-et:30010 a skos:Concept;
-  dct:created "2018-06-21"^^xsd:date;
+et:30010 dct:created "2018-06-21"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-06-21"^^xsd:date;
   skos:broader et:30006;
   skos:prefLabel "jurisprudence"@en .
 
-et:10233 a skos:Concept;
-  dct:created "2015-06-09"^^xsd:date;
+et:10233 dct:created "2015-06-09"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:prefLabel "measurement infrastructure"@en .
 
-et:60011 a skos:Concept;
-  dct:created "2018-11-27"^^xsd:date;
+et:60011 dct:created "2018-11-27"^^xsd:date;
   dct:creator "0000-0003-0320-0692"@en;
   dct:modified "2018-11-27"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "chlorophyta coverage"@en .
 
-et:22047 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:22047 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "mineral nitrogen mineralised from organic matter"@en .
 
-et:30026 a skos:Concept;
-  dct:created "2018-11-08"^^xsd:date;
+et:30026 dct:created "2018-11-08"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-11-08"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "current direction"@en .
 
-et:AF_c2_2534 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2534 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22248;
   dct:modified "2022-03-21"^^xsd:date;
@@ -50423,15 +50426,13 @@ et:AF_c2_2534 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "soil dry bulk density"@en .
 
-et:10090 a skos:Concept;
-  dct:created "2014-12-16"^^xsd:date;
+et:10090 dct:created "2014-12-16"^^xsd:date;
   dct:creator "0000-0003-1068-2394"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20591;
   skos:prefLabel "benthic invertebrates"@en .
 
-et:EnvEU_220 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:EnvEU_220 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:21203;
   dct:modified "2022-03-21"^^xsd:date;
@@ -50439,22 +50440,19 @@ et:EnvEU_220 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "water input"@en .
 
-et:30035 a skos:Concept;
-  dct:created "2018-11-14"^^xsd:date;
+et:30035 dct:created "2018-11-14"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-11-14"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "soil water retention curve"@en .
 
-et:60031 a skos:Concept;
-  dct:created "2018-11-29"^^xsd:date;
+et:60031 dct:created "2018-11-29"^^xsd:date;
   dct:creator "0000-0003-0320-0692"@en;
   dct:modified "2018-11-29"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "particulate organic matter content"@en .
 
-et:AF_c3_3107 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c3_3107 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22096;
   dct:modified "2022-03-21"^^xsd:date;
@@ -50462,23 +50460,20 @@ et:AF_c3_3107 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "date of flowering"@en .
 
-et:30006 a skos:Concept;
-  dct:created "2018-06-21"^^xsd:date;
+et:30006 dct:created "2018-06-21"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-06-21"^^xsd:date;
   skos:broader et:21604;
   skos:prefLabel "social science"@en .
 
-et:AF_c3_2743 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c3_2743 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:prefLabel "green house"@en .
 
-et:AF_c2_2800 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2800 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:21939;
   dct:modified "2022-03-21"^^xsd:date;
@@ -50486,8 +50481,7 @@ et:AF_c2_2800 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "soil carbon dioxyde flux"@en .
 
-et:EnvEU_285 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:EnvEU_285 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:21161;
   dct:modified "2022-03-21"^^xsd:date;
@@ -50495,15 +50489,13 @@ et:EnvEU_285 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "ANPP (Above-ground Net Primary Production)"@en .
 
-et:10106 a skos:Concept;
-  dct:created "2014-12-17"^^xsd:date;
+et:10106 dct:created "2014-12-17"^^xsd:date;
   dct:creator "0000-0003-1068-2394"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20717;
   skos:prefLabel "makrophyte"@en .
 
-et:AF_c3_3116 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c3_3116 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22099;
   dct:modified "2022-03-21"^^xsd:date;
@@ -50511,43 +50503,37 @@ et:AF_c3_3116 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "date of start of stem elongation"@en .
 
-et:20097 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20097 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20135;
   skos:prefLabel "process based model"@en .
 
-et:21589 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:21589 dct:created "2018-06-13"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:21463;
   skos:prefLabel "plasticity"@en .
 
-et:20945 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:20945 dct:created "2018-06-13"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:1;
   skos:prefLabel "water parameter"@en .
 
-et:21958 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:21958 dct:created "2018-06-13"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:10313;
   skos:prefLabel "bacterial"@en .
 
-et:22277 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:22277 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "soil suction"@en .
 
-et:AF_c2_2713 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2713 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22311;
   dct:modified "2022-03-21"^^xsd:date;
@@ -50555,8 +50541,7 @@ et:AF_c2_2713 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "water potential"@en .
 
-et:20938 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:20938 dct:created "2018-06-13"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:1;
@@ -54632,7 +54617,9 @@ et:30289 dct:modified "2022-04-11"^^xsd:date;
   iop:hasProperty et:30287 .
 
 et:30290 dct:created "2022-04-13"^^xsd:date;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10554"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "ALP"@en, "alpine"@en;
   skos:broader et:10198;
   skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/alpine.pdf>;
@@ -54640,7 +54627,9 @@ et:30290 dct:created "2022-04-13"^^xsd:date;
   skos:prefLabel "Alpine Bio-geographical Region"@en .
 
 et:30291 dct:created "2022-04-13"^^xsd:date;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10555"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "ARC"@en, "artic"@en;
   skos:broader et:10198;
   skos:exactMatch <https://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/arcticReg.pdf>;
@@ -54648,7 +54637,9 @@ et:30291 dct:created "2022-04-13"^^xsd:date;
   skos:prefLabel "Arctic Bio-geographical Region"@en .
 
 et:30292 dct:created "2022-04-13"^^xsd:date;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10556"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "BLS"@en, "blackSea"@en;
   skos:broader et:10198;
   skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/blackseareg.pdf>;
@@ -54656,34 +54647,45 @@ et:30292 dct:created "2022-04-13"^^xsd:date;
   skos:prefLabel "Black Sea Bio-geographical Region"@en .
 
 et:30293 dct:created "2022-04-13"^^xsd:date;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10558"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "MATL"@en, "marineAtlantic"@en;
   skos:broader et:10198;
   skos:note "Biogeographic Region EEA"@en;
   skos:prefLabel "Marine Atlantic Region"@en .
 
 et:30294 dct:created "2022-04-13"^^xsd:date;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10559"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "MBAL"@en, "marineBaltic"@en;
   skos:broader et:10198;
   skos:note "Biogeographic Region EEA"@en;
   skos:prefLabel "Marine Baltic Region"@en .
 
 et:30295 dct:created "2022-04-13"^^xsd:date;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10560"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "MBLS"@en, "marineBlackSea"@en;
   skos:broader et:10198;
   skos:note "Biogeographic Region EEA"@en;
   skos:prefLabel "Marine Region Black Sea"@en .
 
-et:30296 dct:modified "2022-04-13"^^xsd:date;
+et:30296 dct:created "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10561"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "MMAC"@en, "marineMacaronesian"@en;
   skos:broader et:10198;
   skos:note "Biogeographic Region EEA"@en;
   skos:prefLabel "Marine Macaronesian Region"@en .
 
 et:30297 dct:created "2022-04-13"^^xsd:date;
-  dct:modified "2022-04-13"^^xsd:date;
+  dct:isReplacedBy "cl:10562"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  owl:deprecated true;
   skos:altLabel "MMED"@en, "marineMediterranean"@en;
   skos:broader et:10198;
   skos:note "Biogeographic Region EEA"@en;
@@ -61822,9 +61824,109 @@ et:msa0555 a skos:Concept .
 
 et:EnvEU_244 a skos:Concept .
 
-et:msa0554 a skos:Concept .
+et:AF_c2_153 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-et:22135 a skos:Concept .
+et:20452 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2531 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20054 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c3_2647 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21592 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21273 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30155 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:79 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c_1405668340633 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30010 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10233 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:60011 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:22047 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30026 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2534 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10090 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:EnvEU_220 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30035 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:60031 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c3_3107 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30006 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:20514, et:21670, et:21737, et:21743, et:21766, et:21769, et:21770,
+    et:30007, et:30008, et:30010, et:30011, et:30012 .
+
+et:AF_c3_2743 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2800 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:EnvEU_285 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10106 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c3_3116 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20097 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21589 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20945 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21958 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:22277 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2713 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20938 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20095 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -64460,10 +64562,6 @@ et:67 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 
 et:45 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:21680, et:21681, et:21682, et:21683 .
-
-et:30006 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:20514, et:21670, et:21737, et:21743, et:21766, et:21769, et:21770,
-    et:30007, et:30008, et:30010, et:30011, et:30012 .
 
 et:20118 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20106, et:20115, et:20117, et:20119, et:20122, et:20141, et:20142,
@@ -74728,72 +74826,6 @@ et:10252 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:21983 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20333 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_153 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20452 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2531 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20054 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c3_2647 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21592 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21273 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30155 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:79 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c_1405668340633 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30010 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10233 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:60011 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:22047 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30026 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2534 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10090 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:EnvEU_220 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30035 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:60031 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c3_3107 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c3_2743 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2800 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:EnvEU_285 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10106 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c3_3116 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20097 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21589 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20945 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21958 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:22277 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2713 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20938 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
