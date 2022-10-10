@@ -2090,7 +2090,7 @@ et:21417 dct:created "2016-03-31"^^xsd:date;
 et:20637 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2022-10-10"^^xsd:date;
-  skos:broader et:20591, et:20635;
+  skos:broader et:20635;
   skos:definition "Rabbits are small mammals in the family Leporidae of the order Lagomorpha, found in several parts of the world. There are eight different genera in the family classified as rabbits, including the European rabbit (Oryctolagus cuniculus), cottontail rabbits (genus Sylvilagus; 13 species), and the Amami rabbit (Pentalagus furnessi, an endangered species on Amami Ōshima, Japan). There are many other species of rabbit, and these, along with pikas and hares, make up the order Lagomorpha. The male is called a buck and the female is a doe; a young rabbit is a kitten or kit. [DBPedia]"@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_6414>, <http://dbpedia.org/resource.Rabbits>,
     <http://en.wikipedia.org/wiki/rabbits>, <https://vocab.lternet.edu/vocab/vocab/?tema=453>;
@@ -3334,8 +3334,8 @@ et:USLterCV_59 dct:created "2016-03-31"^^xsd:date;
 
 et:20599 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-06-18"^^xsd:date;
-  skos:broader et:20591;
+  dct:modified "2022-10-10"^^xsd:date;
+  skos:broader et:20596;
   skos:definition "[Henderson's] n.plu. insects of the superfamily Apoidea of the order Hymenoptera, some of which are social and some solitary. They include the honey bees (Apis), bumblebees (Bombus) and ﬂower bees (Anthophora). Bees feed themselves and their young on pollen and nectar gathered from ﬂowers, and are important plant pollinators. The social bees form colonies with a single queen, males (drones) and workers."@en;
   skos:exactMatch <http://en.wikipedia.org/wiki/bees>;
   skos:note "[source of definition ] http://en.wikipedia.org/wiki/Bee"@en;
@@ -3357,7 +3357,7 @@ et:EnvEu_51 dct:created "2016-03-31"^^xsd:date;
 et:20600 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2022-10-10"^^xsd:date;
-  skos:broader et:20591, et:20593;
+  skos:broader et:20593;
   skos:definition "[Henderson's] n. common name for a member of the Coleoptera q.v."@en;
   skos:exactMatch <http://en.wikipedia.org/wiki/beetles>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/26360>,
     <https://vocab.lternet.edu/vocab/vocab/?tema=60>;
@@ -4312,7 +4312,7 @@ et:20753 dct:created "2016-03-31"^^xsd:date;
 et:20633 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2022-10-10"^^xsd:date;
-  skos:broader et:20591, et:30316;
+  skos:broader et:30316;
   skos:definition "[Henderson's] ﬂuoresence in situ hybridization q.v."@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_15903>, <http://en.wikipedia.org/wiki/fish>,
     <http://eurovoc.europa.eu/2435>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/42850>,
@@ -5214,8 +5214,8 @@ et:USLterCV_335 dct:created "2016-03-31"^^xsd:date;
 
 et:20609 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-12-18"^^xsd:date;
-  skos:broader et:20591;
+  dct:modified "2022-10-10"^^xsd:date;
+  skos:broader et:20591, et:20593;
   skos:definition "[Henderson's] n. arthropod of micro­scopic size. cf. macroarthropod."@en;
   skos:exactMatch <http://en.wikipedia.org/wiki/microarthropods>, <https://vocab.lternet.edu/vocab/vocab/?tema=335>;
   skos:prefLabel "microarthropods"@en;
@@ -10733,9 +10733,9 @@ et:21634 dct:created "2016-10-12"^^xsd:date;
 
 et:21114 dct:created "2016-08-03"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-10"^^xsd:date;
   skos:altLabel "bird of prey"@en;
-  skos:broader et:20591;
+  skos:broader et:20626;
   skos:definition "[MESH] BIRDS that hunt and kill other animals, especially higher vertebrates, for food. They include the FALCONIFORMES order, or diurnal birds of prey, comprised of EAGLES, falcons, HAWKS, and others, as well as the STRIGIFORMES order, or nocturnal birds of prey, which includes OWLS."@en;
   skos:exactMatch <http://purl.bioontology.org/ontology/MESH/D020304>;
   skos:prefLabel "birds of prey"@en;
@@ -10743,8 +10743,8 @@ et:21114 dct:created "2016-08-03"^^xsd:date;
 
 et:10099 dct:created "2014-12-17"^^xsd:date;
   dct:creator "0000-0003-1068-2394"@en;
-  dct:modified "2018-07-02"^^xsd:date;
-  skos:broader et:20591;
+  dct:modified "2022-10-10"^^xsd:date;
+  skos:broader et:20613;
   skos:definition "[MESH] A huge subclass of mostly marine CRUSTACEA, containing over 14,000 species. The 10 orders comprise both planktonic and benthic organisms, and include both free-living and parasitic forms. Planktonic copepods form the principle link between PHYTOPLANKTON and the higher trophic levels of the marine food chains."@en;
   skos:exactMatch <http://purl.bioontology.org/ontology/MESH/D033342>;
   skos:prefLabel "copepoda"@en .
@@ -11729,8 +11729,8 @@ et:20686 dct:created "2016-03-31"^^xsd:date;
 
 et:20556 dct:created "2016-10-12"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2019-02-18"^^xsd:date;
-  skos:broader et:20591;
+  dct:modified "2022-10-10"^^xsd:date;
+  skos:broader et:20633;
   skos:definition "[FOODON] Oceanodromous fish migrate within salt water only ("@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/FOODON_03413362>;
   skos:prefLabel "marine fish"@en;
@@ -20017,9 +20017,9 @@ et:22137 dct:created "2016-03-31"^^xsd:date;
 
 et:20597 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-12-18"^^xsd:date;
+  dct:modified "2022-10-10"^^xsd:date;
   skos:altLabel "insect"@en;
-  skos:broader et:20591;
+  skos:broader et:20596;
   skos:definition "[GEMET] A class of the Arthropoda typically having a segmented body with an external, chitinous covering, a pair of compound eyes, a pair of antennae, three pairs of mouthparts, and two pairs of wings."@en;
   skos:exactMatch <http://en.wikipedia.org/wiki/insects>, <https://vocab.lternet.edu/vocab/vocab/?tema=267>;
   skos:prefLabel "insects"@en;
@@ -36653,8 +36653,7 @@ et:msa0555 dct:created "2016-08-03"^^xsd:date;
   skos:prefLabel "insect herbivory"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
-et:EnvEU_244 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:EnvEU_244 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22136;
   dct:modified "2022-03-21"^^xsd:date;
@@ -41287,9 +41286,9 @@ et:msa0099 a skos:Concept;
 et:20601 a skos:Concept;
   dct:created "2016-08-03"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2018-06-20"^^xsd:date;
+  dct:modified "2022-10-10"^^xsd:date;
   skos:altLabel "bark beetle"@en;
-  skos:broader et:20591;
+  skos:broader et:20591, et:20593;
   skos:prefLabel "bark beetles"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
@@ -43722,8 +43721,8 @@ et:20632 a skos:Concept;
 et:20627 a skos:Concept;
   dct:created "2016-08-03"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2018-06-20"^^xsd:date;
-  skos:broader et:20591;
+  dct:modified "2022-10-10"^^xsd:date;
+  skos:broader et:20626;
   skos:prefLabel "breeding birds"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
@@ -44924,8 +44923,8 @@ et:21644 a skos:Concept;
 et:20551 a skos:Concept;
   dct:created "2016-08-03"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2018-06-20"^^xsd:date;
-  skos:broader et:20591;
+  dct:modified "2022-10-10"^^xsd:date;
+  skos:broader et:20593;
   skos:prefLabel "benthic macroinvertebrates"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
@@ -45022,8 +45021,8 @@ et:21649 a skos:Concept;
 et:20629 a skos:Concept;
   dct:created "2016-08-03"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2018-06-20"^^xsd:date;
-  skos:broader et:20591;
+  dct:modified "2022-10-10"^^xsd:date;
+  skos:broader et:20626;
   skos:prefLabel "forest birds"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
@@ -45202,8 +45201,8 @@ et:20281 a skos:Concept;
 et:20557 a skos:Concept;
   dct:created "2016-10-12"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2019-02-18"^^xsd:date;
-  skos:broader et:20591;
+  dct:modified "2022-10-10"^^xsd:date;
+  skos:broader et:20593;
   skos:prefLabel "marine invertebrate"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
@@ -45218,8 +45217,8 @@ et:21494 a skos:Concept;
 et:20630 a skos:Concept;
   dct:created "2016-08-03"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2018-06-20"^^xsd:date;
-  skos:broader et:20591;
+  dct:modified "2022-10-10"^^xsd:date;
+  skos:broader et:20626;
   skos:prefLabel "grassland birds"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
@@ -45545,8 +45544,8 @@ et:21014 a skos:Concept;
 et:20628 a skos:Concept;
   dct:created "2016-08-03"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2018-06-20"^^xsd:date;
-  skos:broader et:20591;
+  dct:modified "2022-10-10"^^xsd:date;
+  skos:broader et:20626;
   skos:prefLabel "cavity-nesting birds"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
@@ -49798,7 +49797,8 @@ et:AF_c_1405699276037 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "dissolved organic phosphorus"@en .
 
-et:msa0680 dct:created "2016-10-12"^^xsd:date;
+et:msa0680 a skos:Concept;
+  dct:created "2016-10-12"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:isReplacedBy et:21705;
   dct:modified "2022-03-21"^^xsd:date;
@@ -50363,8 +50363,8 @@ et:AF_c2_2534 dct:created "2016-03-31"^^xsd:date;
 
 et:10090 dct:created "2014-12-16"^^xsd:date;
   dct:creator "0000-0003-1068-2394"@en;
-  dct:modified "2018-06-18"^^xsd:date;
-  skos:broader et:20591;
+  dct:modified "2022-10-10"^^xsd:date;
+  skos:broader et:20593;
   skos:prefLabel "benthic invertebrates"@en .
 
 et:EnvEU_220 dct:created "2016-03-31"^^xsd:date;
@@ -51447,8 +51447,8 @@ et:20130 dct:created "2016-03-31"^^xsd:date;
 
 et:10098 dct:created "2014-12-17"^^xsd:date;
   dct:creator "0000-0003-1068-2394"@en;
-  dct:modified "2018-06-18"^^xsd:date;
-  skos:broader et:20591;
+  dct:modified "2022-10-10"^^xsd:date;
+  skos:broader et:20613;
   skos:prefLabel "cladocera"@en .
 
 et:30027 dct:created "2018-11-08"^^xsd:date;
@@ -61838,8 +61838,7 @@ et:21105 a skos:Concept .
 
 et:msa0555 a skos:Concept .
 
-et:msa0680 a skos:Concept;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+et:EnvEU_244 a skos:Concept .
 
 et:10334 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -64598,13 +64597,11 @@ et:20950 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
     et:22321, et:22323, et:30100, et:30111, et:30300, et:60036 .
 
 et:20591 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10090, et:10098, et:10099, et:10104, et:10160, et:20546, et:20551,
-    et:20553, et:20556, et:20557, et:20559, et:20560, et:20562, et:20592, et:20593, et:20594,
-    et:20595, et:20596, et:20597, et:20598, et:20599, et:20600, et:20601, et:20604, et:20605,
+  skos:narrower et:10104, et:10160, et:20546, et:20553, et:20559, et:20560, et:20562,
+    et:20592, et:20593, et:20594, et:20595, et:20596, et:20598, et:20601, et:20604, et:20605,
     et:20606, et:20608, et:20609, et:20610, et:20611, et:20612, et:20614, et:20615, et:20616,
-    et:20617, et:20620, et:20621, et:20622, et:20623, et:20625, et:20626, et:20627, et:20628,
-    et:20629, et:20630, et:20633, et:20634, et:20635, et:20636, et:20637, et:20638, et:20639,
-    et:20641, et:20645, et:20664, et:20665, et:20675, et:21114, et:30316 .
+    et:20617, et:20620, et:20621, et:20622, et:20623, et:20625, et:20626, et:20634, et:20635,
+    et:20636, et:20638, et:20639, et:20641, et:20645, et:20664, et:20665, et:20675, et:30316 .
 
 et:55 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:21817, et:21818 .
@@ -64784,9 +64781,12 @@ et:20387 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 et:20670 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10100, et:20555, et:20662, et:20663, et:20672 .
 
+et:20596 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:20597, et:20599 .
+
 et:20593 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:20600, et:20602, et:20603, et:20613, et:20619, et:30312, et:30313,
-    et:30314 .
+  skos:narrower et:10090, et:20551, et:20557, et:20600, et:20601, et:20602, et:20603,
+    et:20609, et:20613, et:20619, et:30312, et:30313, et:30314 .
 
 et:21737 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:21738, et:21739, et:21762 .
@@ -64924,6 +64924,13 @@ et:20103 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 et:20893 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20894, et:20895, et:20896, et:20897, et:20898 .
 
+et:20626 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:20627, et:20628, et:20629, et:20630, et:21114, et:30301, et:30302,
+    et:30303, et:30304 .
+
+et:20613 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:10098, et:10099 .
+
 et:10217 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:21764 .
 
@@ -64953,6 +64960,9 @@ et:21753 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 
 et:20379 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20380, et:20381, et:20382 .
+
+et:20633 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:20556 .
 
 et:10002 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20504, et:20948, et:30223;
@@ -65234,9 +65244,6 @@ et:22060 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 
 et:21534 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30267, et:30271 .
-
-et:20626 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30301, et:30302, et:30303, et:30304 .
 
 et:USLterCV_668 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -65888,8 +65895,6 @@ et:USLterCV_183 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:USLterCV_188 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:USLterCV_192 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20633 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:USLterCV_196 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -66688,8 +66693,6 @@ et:22038 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:20881 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:USLterCV_45 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20596 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:USLterCV_89 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -68542,8 +68545,6 @@ et:21472 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:21097 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20703 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20613 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:21225 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -74968,6 +74969,8 @@ et:21790 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:AF_c2_2751 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:AF_c_1405699276037 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:msa0680 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
