@@ -61,11 +61,11 @@ jobs:
           java -jar xls2rdf.jar convert -i $FILE_NAME.xlsx -o $FILE_NAME.ttl -l en
           mv xls2rdf.log ./logs/
 
-      - name: test
-        env:
-          FILE_NAME: ${{secrets.FILE_NAME}}
-        run: |
-          java -jar qSKOS.jar analyze -dc mil,bl $FILE_NAME.ttl -o ./logs/rdf-test.log
+     # - name: test
+     #   env:
+     #     FILE_NAME: ${{secrets.FILE_NAME}}
+     #   run: |
+     #     java -jar qSKOS.jar analyze -dc mil,bl $FILE_NAME.ttl -o ./logs/rdf-test.log
      
       - name: commit-artifacts
         env:
