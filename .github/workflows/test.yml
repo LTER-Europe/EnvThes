@@ -12,8 +12,8 @@ jobs:
           PGP_KEY: ${{vars.WILBOL_PGP}}
         run: |
           echo "testing testing testing" >> testfile
-          echo "$PGP_KEY" | gpg --import -
-          gpg --encrypt --armor --recipient wilbol@ceh.ac.uk testfile
+          echo "$PGP_KEY" | gpg --no-tty --import -
+          gpg --no-tty --encrypt --armor --recipient wilbol@ceh.ac.uk testfile
 
       - uses: actions/upload-artifact@v3
         with:
