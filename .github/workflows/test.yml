@@ -12,6 +12,7 @@ jobs:
           PGP_KEY: ${{vars.WILBOL_PGP}}
         run: |
           echo "testing testing testing" >> testfile
+          gpg --no-tty --trust-model always
           echo "$PGP_KEY" | gpg --no-tty --import -
           gpg --no-tty --encrypt --armor --recipient wilbol@ceh.ac.uk testfile
 
