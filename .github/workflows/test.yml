@@ -1,0 +1,25 @@
+name: "WillOnGit test workflow"
+on:
+  workflow_dispatch:
+jobs:
+  testjob:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: main
+        shell: bash -l {0}
+        env:
+          CLIENT: ${{secrets.CLIENT}}
+        run: |
+          if [[ -n "$CLIENT" ]]; then echo "OK"; fi
+          echo "testing testing testing" >> testfile
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: testname
+          path: testfile
+
+      - name: cleanup
+        shell: bash -l {0}
+        run: |
+          rm -f testfile
