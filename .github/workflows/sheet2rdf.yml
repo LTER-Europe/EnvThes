@@ -1,62 +1,47 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Sheet2RDF
-
-# Controls when the action will run.
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   sheet2rdf:
-    # The type of runner that the job will run on
-    
     name: Sheet2RDF
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
     steps:
-      - uses: actions/checkout@v2    
+      - uses: actions/checkout@v2
+
       - uses: conda-incubator/setup-miniconda@v2
         with:
           auto-update-conda: true
           python-version: "3.8"
+
       - name: Prepare
-        shell: bash -l {0}   
+        shell: bash -l {0}
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git pull        
+          git pull
           conda create -n sheet2rdf python=3.8 pandas openpyxl
           conda activate sheet2rdf
           pip install gsheets
-          curl -L https://github.com/cmader/qSKOS/releases/download/2.0.3/qSKOS-cmd.jar -o qSKOS.jar
-          curl -L https://github.com/sparna-git/xls2rdf/releases/download/2.1.1/xls2rdf-app-2.1.1-onejar.jar -o xls2rdf.jar          
-          
+          #curl -L https://github.com/cmader/qSKOS/releases/download/2.0.3/qSKOS-cmd.jar -o qSKOS.jar
+          curl -L https://github.com/sparna-git/xls2rdf/releases/download/2.1.1/xls2rdf-app-2.1.1-onejar.jar -o xls2rdf.jar
+
       - name: Fetch
         shell: bash -l {0}
         env:
           CLIENT: ${{secrets.CLIENT}}
           STORAGE: ${{secrets.STORAGE}}
           FILE_NAME: ${{secrets.FILE_NAME}}
-          SHEET_ID: ${{secrets.SHEET_ID}}        
+          SHEET_ID: ${{secrets.SHEET_ID}}
         run: |
-          conda activate sheet2rdf          
+          conda activate sheet2rdf
           python ./src/sheet2xls.py
-
 
       - name: conversion-xls2rdf
         env:
           FILE_NAME: ${{secrets.FILE_NAME}}
-          FDC_CFG: ${{secrets.FDC_CFG}}
         run: |
           java -jar xls2rdf.jar convert -i $FILE_NAME.xlsx -o $FILE_NAME.ttl -l en
           mv xls2rdf.log ./logs/
@@ -66,13 +51,13 @@ jobs:
      #     FILE_NAME: ${{secrets.FILE_NAME}}
      #   run: |
      #     java -jar qSKOS.jar analyze -dc mil,bl $FILE_NAME.ttl -o ./logs/rdf-test.log
-     
+
       - name: commit-artifacts
         env:
           FILE_NAME: ${{secrets.FILE_NAME}}
         run: |
-          rm qSKOS.jar
-          rm xls2rdf.jar
+          #rm qSKOS.jar
+          rm -f xls2rdf.jar
           git add .
           git diff-index --quiet HEAD || git commit -m "new .ttl from Google sheet has been generated"
           git push

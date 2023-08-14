@@ -9,17 +9,20 @@ jobs:
       - name: main
         shell: bash -l {0}
         env:
-          CLIENT: ${{secrets.CLIENT}}
+          PGP_KEY: ${{vars.WILBOL_PGP}}
         run: |
-          if [[ -n "$CLIENT" ]]; then echo "OK"; fi
           echo "testing testing testing" >> testfile
+          echo "$PGP_KEY" | gpg --import -
+          gpg --encrypt --armor --recipient wilbol@ceh.ac.uk testfile
 
       - uses: actions/upload-artifact@v3
         with:
-          name: testname
-          path: testfile
+          name: testname-encrypted
+          path: |
+            testfile
+            testfile.asc
 
       - name: cleanup
         shell: bash -l {0}
         run: |
-          rm -f testfile
+          rm -f testfile testfile.asc
