@@ -52271,10 +52271,10 @@ et:21953 a skos:Concept;
   skos:broader et:10313;
   skos:prefLabel "acid"@en .
 
-et:22065 a skos:Concept;
+et:22065 a iop:Variable;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-03-19"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935;
   skos:definition "Base saturation is a measure of the amount of basic nutrients in the soil, expressed as a percentage of the total cation exchange capacity."@en;
   skos:prefLabel "soil base saturation"@en;
@@ -53559,10 +53559,10 @@ et:30121 a skos:Concept;
   skos:broader et:20935;
   skos:prefLabel "dissolved organic carbon content"@en .
 
-et:30200 a skos:Concept;
+et:30200 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-27"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:30124;
   skos:definition "concentration of all phosphorus fractions (total soluble phosphorus and particulate phosphorus) in soil horizon A"@en;
   skos:prefLabel "concentration of total phoshorus in horizon A"@en;
@@ -53572,10 +53572,10 @@ et:30200 a skos:Concept;
   iop:hasObjectOfInterest et:20854;
   iop:hasProperty et:10073 .
 
-et:30201 a skos:Concept;
+et:30201 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-27"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:22060;
   skos:definition "The amount of force exerted over a surface area, caused by the weight of air molecules above it measured at the height of 2m above the ground level."@en;
   skos:prefLabel "atmospheric pressure at 2m height"@en;
@@ -53600,10 +53600,10 @@ et:30203 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
-et:30204 a skos:Concept;
+et:30204 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-27"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:30203;
   skos:definition "loss of the life-supporting land resource through soil erosion from arable land of a catchment with 4-8% slope"@en;
   skos:prefLabel "soil loss from 4-8% arable land"@en;
@@ -53620,10 +53620,10 @@ et:30205 a skos:Concept;
   skos:broader et:10313;
   skos:prefLabel "4-8% slope"@en .
 
-et:30206 a skos:Concept;
+et:30206 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-27"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935;
   skos:definition "Share of eroded sediment (soil loss) that is transported to the surface water (depends on slope, distance from Surface water, soil texture)"@en;
   skos:prefLabel "delivery ratio of soil erosion in sediment of catchment"@en;
@@ -53639,10 +53639,10 @@ et:30207 a skos:Concept;
   skos:broader et:10351;
   skos:prefLabel "portion"@en .
 
-et:30208 a skos:Concept;
+et:30208 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-27"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "concentration of substance in organism"@en;
   iop:hasMatrix et:26;
@@ -53711,10 +53711,10 @@ et:30217 a skos:Concept;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
   iop:hasProperty et:21533 .
 
-et:30218 a skos:Concept;
+et:30218 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "area of slope 1-2% arable land of catchment"@en;
   iop:hasConstraint et:30214;
@@ -53722,10 +53722,10 @@ et:30218 a skos:Concept;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
   iop:hasProperty et:21533 .
 
-et:30219 a skos:Concept;
+et:30219 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   rdfs:seeAlso "}"@en;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "area of slope 3-4% arable land of catchment"@en;
@@ -53734,10 +53734,10 @@ et:30219 a skos:Concept;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
   iop:hasProperty et:21533 .
 
-et:30220 a skos:Concept;
+et:30220 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "area of slope 4-8% arable land of catchment"@en;
   iop:hasConstraint et:30205;
@@ -53745,10 +53745,10 @@ et:30220 a skos:Concept;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
   iop:hasProperty et:21533 .
 
-et:30221 a skos:Concept;
+et:30221 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "area of slope 8% arable land of catchment"@en;
   iop:hasConstraint et:30216;
@@ -53756,10 +53756,10 @@ et:30221 a skos:Concept;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
   iop:hasProperty et:21533 .
 
-et:30222 a skos:Concept;
+et:30222 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:10313;
   skos:prefLabel "under conservation tillage"@en .
 
@@ -53805,59 +53805,59 @@ et:30228 a skos:Concept;
   skos:broader et:20746;
   skos:prefLabel "diffuse sources"@en .
 
-et:30229 a skos:Concept;
+et:30229 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "area of grassland of catchment"@en;
   iop:hasContextObject et:10092;
   iop:hasObjectOfInterest et:21855;
   iop:hasProperty et:21533 .
 
-et:30230 a skos:Concept;
+et:30230 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "area of woodland and forest of catchment"@en;
   iop:hasContextObject et:10092;
   iop:hasObjectOfInterest et:53;
   iop:hasProperty et:21533 .
 
-et:30231 a skos:Concept;
+et:30231 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "area of unvegetated land of catchment"@en;
   iop:hasContextObject et:10092;
   iop:hasObjectOfInterest et:55;
   iop:hasProperty et:21533 .
 
-et:30232 a skos:Concept;
+et:30232 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "area of glacier of catchment"@en;
   iop:hasContextObject et:10092;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_00000133>;
   iop:hasProperty et:21533 .
 
-et:30233 a skos:Concept;
+et:30233 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "slope of catchment"@en;
   iop:hasObjectOfInterest et:10092;
   iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_00002000> .
 
-et:30234 a skos:Concept;
+et:30234 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area per time of soil erosion in slope 1% arable land of catchment"@en;
   iop:hasConstraint et:30213;
@@ -53866,10 +53866,10 @@ et:30234 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
-et:30235 a skos:Concept;
+et:30235 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area per time of soil erosion in slope 1-2% arable land of catchment"@en;
   iop:hasConstraint et:30214;
@@ -53878,10 +53878,10 @@ et:30235 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
-et:30236 a skos:Concept;
+et:30236 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area per time of soil erosion in slope 3-4% arable land of catchment"@en;
   iop:hasConstraint et:30215;
@@ -53890,10 +53890,10 @@ et:30236 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
-et:30237 a skos:Concept;
+et:30237 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area per time of soil erosion in slope 4-8% arable land of catchment"@en;
   iop:hasConstraint et:30205;
@@ -53902,10 +53902,10 @@ et:30237 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
-et:30238 a skos:Concept;
+et:30238 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area per time of soil erosion in slope 8% arable land of catchment"@en;
   iop:hasConstraint et:30216;
@@ -53914,20 +53914,20 @@ et:30238 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
-et:30239 a skos:Concept;
+et:30239 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area per time of soil erosion of catchment"@en;
   iop:hasContextObject et:10092;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
-et:30240 a skos:Concept;
+et:30240 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area per time of soil erosion in grassland of catchment"@en;
   iop:hasContextObject et:10092;
@@ -53935,10 +53935,10 @@ et:30240 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
-et:30241 a skos:Concept;
+et:30241 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "area of with conservation tillage arable land of catchment"@en;
   iop:hasConstraint et:30222;
@@ -53946,10 +53946,10 @@ et:30241 a skos:Concept;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
   iop:hasProperty et:21533 .
 
-et:30242 a skos:Concept;
+et:30242 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:definition "different types of phosphorus: organic, inorganic, which is measured as Total Posphorus"@en;
   skos:prefLabel "mass per area of accumulated surplus total phosphorus of catchment"@en;
@@ -53958,20 +53958,20 @@ et:30242 a skos:Concept;
   iop:hasObjectOfInterest et:20863;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
-et:30243 a skos:Concept;
+et:30243 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "area of arable land of catchment"@en;
   iop:hasContextObject et:10092;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
   iop:hasProperty et:21533 .
 
-et:30244 a skos:Concept;
+et:30244 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area per time of soil erosion in arable land of catchment"@en;
   iop:hasContextObject et:10092;
@@ -53979,20 +53979,20 @@ et:30244 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
-et:30245 a skos:Concept;
+et:30245 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:definition "used for calculation of Im-BE; Current agricultural soil loss"@en;
   skos:prefLabel "correction of R-factor"@en;
   iop:hasObjectOfInterest et:30224;
   iop:hasProperty et:30225 .
 
-et:30246 a skos:Concept;
+et:30246 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:definition "used to calculate Im-BE; soil loss from arable land is modified by specific actual (2007-2013) R-factor (precipitation intensities and amounts, which are not described by long-year averages)"@en;
   skos:prefLabel "mass per area of actual soil erosion in arable land of catchment"@en;
@@ -54002,10 +54002,10 @@ et:30246 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
-et:30247 a skos:Concept;
+et:30247 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area of actual soil erosion in woodland and forest of catchment"@en;
   iop:hasConstraint et:10315;
@@ -54014,10 +54014,10 @@ et:30247 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
-et:30248 a skos:Concept;
+et:30248 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-01"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area of actual soil erosion in unvegetated land of catchment"@en;
   iop:hasConstraint et:10315;
@@ -54026,10 +54026,10 @@ et:30248 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
-et:30249 a skos:Concept;
+et:30249 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area of actual soil erosion in glacier of catchment"@en;
   iop:hasConstraint et:10315;
@@ -54038,10 +54038,10 @@ et:30249 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
-et:30250 a skos:Concept;
+et:30250 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area of actual soil erosion of catchment"@en;
   iop:hasConstraint et:10315;
@@ -54049,10 +54049,10 @@ et:30250 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
-et:30251 a skos:Concept;
+et:30251 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:definition "Share of eroded sediment (soil loss) that is transported to the surface water (depends on slope, distance from Surface water, soil texture)"@en;
   skos:prefLabel "portion of soil erosion in sediment of catchment"@en;
@@ -54061,10 +54061,10 @@ et:30251 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty et:30207 .
 
-et:30252 a skos:Concept;
+et:30252 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:definition "Amount of soils, which enter the surface water"@en;
   skos:prefLabel "mass per area of soil erosion in sediment of catchment"@en;
@@ -54073,10 +54073,10 @@ et:30252 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
-et:30253 a skos:Concept;
+et:30253 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "content of clay in topsoil of catchment"@en;
   iop:hasContextObject et:10092;
@@ -54084,7 +54084,7 @@ et:30253 a skos:Concept;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_00002982>;
   iop:hasProperty et:21546 .
 
-et:30254 a skos:Concept;
+et:30254 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
@@ -54096,7 +54096,7 @@ et:30254 a skos:Concept;
   iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21546 .
 
-et:30255 a skos:Concept;
+et:30255 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
@@ -54108,7 +54108,7 @@ et:30255 a skos:Concept;
   iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21546 .
 
-et:30256 a skos:Concept;
+et:30256 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
@@ -54118,7 +54118,7 @@ et:30256 a skos:Concept;
   iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:30226 .
 
-et:30257 a skos:Concept;
+et:30257 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
@@ -54130,7 +54130,7 @@ et:30257 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
-et:30258 a skos:Concept;
+et:30258 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
@@ -54142,7 +54142,7 @@ et:30258 a skos:Concept;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
-et:30259 a skos:Concept;
+et:30259 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
@@ -54153,7 +54153,7 @@ et:30259 a skos:Concept;
   iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21934 .
 
-et:30260 a skos:Concept;
+et:30260 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2023-10-01"^^xsd:date;
@@ -54164,7 +54164,7 @@ et:30260 a skos:Concept;
   iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21934 .
 
-et:30261 a skos:Concept;
+et:30261 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
@@ -54174,7 +54174,7 @@ et:30261 a skos:Concept;
   iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21934 .
 
-et:30262 a skos:Concept;
+et:30262 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2023-10-01"^^xsd:date;
@@ -54197,10 +54197,10 @@ et:30264 a skos:Concept;
   skos:broader et:20538;
   skos:prefLabel "surface water"@en .
 
-et:30265 a skos:Concept;
+et:30265 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "electricity consumption of building"@en;
   iop:hasObjectOfInterest et:30268;
@@ -54679,9 +54679,9 @@ et:30326 a skos:Concept;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/OMIT_0002433>;
   iop:hasProperty <http://purl.obolibrary.org/obo/NCIT_C16726> .
 
-et:30327 a skos:Concept;
+et:30327 a iop:Variable;
   dct:created "2023-05-25"^^xsd:date;
-  dct:modified "2023-05-25"^^xsd:date;
+  dct:modified "2023-10-15"^^xsd:date;
   skos:broader et:20591;
   skos:prefLabel "meadow proportion in a region with 250 m radius"@en;
   iop:hasConstraint et:30329;
@@ -63103,8 +63103,7 @@ et:10221 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 et:10152 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10155, et:10156, et:13, et:20159, et:20179, et:20243, et:20245 .
 
-et:30208 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30209 .
+et:30208 skos:narrower et:30209 .
 
 et:21861 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:21862, et:21863 .
@@ -63449,8 +63448,7 @@ cl:10187 skos:narrower et:30217, et:30218, et:30219, et:30220, et:30221, et:3022
     et:30248, et:30249, et:30250, et:30251, et:30252, et:30253, et:30254, et:30255, et:30256,
     et:30257, et:30258, et:30259, et:30260, et:30261, et:30262 .
 
-et:30265 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30266 .
+et:30265 skos:narrower et:30266 .
 
 et:21534 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30267, et:30271 .
@@ -74015,8 +74013,6 @@ et:10369 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:21953 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-et:22065 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
 et:AF_c2_2907 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:AF_c2_2704 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -74329,17 +74325,9 @@ et:AF_c2_2445 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30121 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-et:30200 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30201 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
 et:30202 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-et:30204 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
 et:30205 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30206 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30207 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -74357,16 +74345,6 @@ et:30216 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30217 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-et:30218 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30219 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30220 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30221 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30222 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
 et:30224 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30225 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -74376,74 +74354,6 @@ et:30226 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:30227 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30228 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30229 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30230 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30231 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30232 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30233 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30234 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30235 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30236 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30237 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30238 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30239 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30240 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30241 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30242 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30243 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30244 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30245 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30246 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30247 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30248 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30249 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30250 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30251 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30252 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30253 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30254 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30255 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30256 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30257 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30258 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30259 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30260 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30261 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30262 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30263 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -74554,8 +74464,6 @@ et:30324 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:30325 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30326 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30327 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30328 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
