@@ -53569,7 +53569,7 @@ et:30200 a iop:Variable;
   iop:hasConstraint et:22023;
   iop:hasContextObject et:30211;
   iop:hasMatrix et:41;
-  iop:hasObjectOfInterest et:20854;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/CHEBI_28659>;
   iop:hasProperty et:10073 .
 
 et:30201 a iop:Variable;
