@@ -53569,7 +53569,7 @@ et:30200 a iop:Variable;
   iop:hasContextObject et:30211;
   iop:hasMatrix et:41;
   iop:hasObjectOfInterest et:20854;
-  iop:hasProperty et:10073 .
+  iop:hasProperty qudt:MassConcentration .
 
 et:30201 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -53592,17 +53592,17 @@ et:30202 a skos:Concept;
 et:30203 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-27"^^xsd:date;
+  dct:modified "2023-10-16"^^xsd:date;
   skos:broader et:20935;
   skos:definition "loss of the life-supporting land resource though soil erosion"@en;
   skos:prefLabel "soil loss"@en;
   iop:hasObjectOfInterest et:21286;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+  iop:hasProperty qudt:MassPerAreaTime .
 
 et:30204 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-15"^^xsd:date;
+  dct:modified "2023-10-16"^^xsd:date;
   skos:broader et:30203;
   skos:definition "loss of the life-supporting land resource through soil erosion from arable land of a catchment with 4-8% slope"@en;
   skos:prefLabel "soil loss from 4-8% arable land"@en;
@@ -53610,7 +53610,7 @@ et:30204 a iop:Variable;
   iop:hasContextObject et:10092;
   iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
   iop:hasObjectOfInterest et:21286;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+  iop:hasProperty qudt:MassPerAreaTime .
 
 et:30205 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -53863,7 +53863,7 @@ et:30234 a iop:Variable;
   iop:hasContextObject et:10092;
   iop:hasMatrix et:30331;
   iop:hasObjectOfInterest et:24;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+  iop:hasProperty qudt:MassPerAreaTime .
 
 et:30235 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -53875,7 +53875,7 @@ et:30235 a iop:Variable;
   iop:hasContextObject et:10092;
   iop:hasMatrix et:30331;
   iop:hasObjectOfInterest et:24;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+  iop:hasProperty qudt:MassPerAreaTime .
 
 et:30236 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -53887,7 +53887,7 @@ et:30236 a iop:Variable;
   iop:hasContextObject et:10092;
   iop:hasMatrix et:30331;
   iop:hasObjectOfInterest et:24;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+  iop:hasProperty qudt:MassPerAreaTime .
 
 et:30237 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -53899,7 +53899,7 @@ et:30237 a iop:Variable;
   iop:hasContextObject et:10092;
   iop:hasMatrix et:30331;
   iop:hasObjectOfInterest et:24;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+  iop:hasProperty qudt:MassPerAreaTime .
 
 et:30238 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -53911,7 +53911,7 @@ et:30238 a iop:Variable;
   iop:hasContextObject et:10092;
   iop:hasMatrix et:30331;
   iop:hasObjectOfInterest et:24;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+  iop:hasProperty qudt:MassPerAreaTime .
 
 et:30239 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -53921,7 +53921,7 @@ et:30239 a iop:Variable;
   skos:prefLabel "mass per area per time of soil erosion of catchment"@en;
   iop:hasContextObject et:10092;
   iop:hasObjectOfInterest et:24;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+  iop:hasProperty qudt:MassPerAreaTime .
 
 et:30240 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -53932,7 +53932,7 @@ et:30240 a iop:Variable;
   iop:hasContextObject et:10092;
   iop:hasMatrix et:21855;
   iop:hasObjectOfInterest et:24;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+  iop:hasProperty qudt:MassPerAreaTime .
 
 et:30241 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -53948,14 +53948,14 @@ et:30241 a iop:Variable;
 et:30242 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-15"^^xsd:date;
+  dct:modified "2023-10-16"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:definition "different types of phosphorus: organic, inorganic, which is measured as Total Posphorus"@en;
   skos:prefLabel "mass per area of accumulated surplus total phosphorus of catchment"@en;
   iop:hasConstraint et:30263;
   iop:hasContextObject et:10092;
   iop:hasObjectOfInterest et:20863;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+  iop:hasProperty qudt:MassPerArea .
 
 et:30243 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -53970,13 +53970,13 @@ et:30243 a iop:Variable;
 et:30244 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-15"^^xsd:date;
+  dct:modified "2023-10-16"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area per time of soil erosion in arable land of catchment"@en;
   iop:hasContextObject et:10092;
   iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
   iop:hasObjectOfInterest et:21286;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
+  iop:hasProperty qudt:MassPerAreaTime .
 
 et:30245 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -53991,7 +53991,7 @@ et:30245 a iop:Variable;
 et:30246 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-15"^^xsd:date;
+  dct:modified "2023-10-16"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:definition "used to calculate Im-BE; soil loss from arable land is modified by specific actual (2007-2013) R-factor (precipitation intensities and amounts, which are not described by long-year averages)"@en;
   skos:prefLabel "mass per area of actual soil erosion in arable land of catchment"@en;
@@ -53999,7 +53999,7 @@ et:30246 a iop:Variable;
   iop:hasContextObject et:10092;
   iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
   iop:hasObjectOfInterest et:21286;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+  iop:hasProperty qudt:MassPerArea .
 
 et:30247 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -54011,7 +54011,7 @@ et:30247 a iop:Variable;
   iop:hasContextObject et:10092;
   iop:hasMatrix et:53;
   iop:hasObjectOfInterest et:21286;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+  iop:hasProperty qudt:MassPerArea .
 
 et:30248 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -54023,30 +54023,30 @@ et:30248 a iop:Variable;
   iop:hasContextObject et:10092;
   iop:hasMatrix et:55;
   iop:hasObjectOfInterest et:21286;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+  iop:hasProperty qudt:MassPerArea .
 
 et:30249 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-15"^^xsd:date;
+  dct:modified "2023-10-16"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area of actual soil erosion in glacier of catchment"@en;
   iop:hasConstraint et:10315;
   iop:hasContextObject et:10092;
   iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_00000133>;
   iop:hasObjectOfInterest et:21286;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+  iop:hasProperty qudt:MassPerArea .
 
 et:30250 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-15"^^xsd:date;
+  dct:modified "2023-10-16"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area of actual soil erosion of catchment"@en;
   iop:hasConstraint et:10315;
   iop:hasContextObject et:10092;
   iop:hasObjectOfInterest et:21286;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+  iop:hasProperty qudt:MassPerArea .
 
 et:30251 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -54063,14 +54063,14 @@ et:30251 a iop:Variable;
 et:30252 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-10-15"^^xsd:date;
+  dct:modified "2023-10-16"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:definition "Amount of soils, which enter the surface water"@en;
   skos:prefLabel "mass per area of soil erosion in sediment of catchment"@en;
   iop:hasContextObject et:10092;
   iop:hasMatrix et:20899;
   iop:hasObjectOfInterest et:21286;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+  iop:hasProperty qudt:MassPerArea .
 
 et:30253 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
@@ -54120,26 +54120,26 @@ et:30256 a iop:Variable;
 et:30257 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-16"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area of agricultural soil erosion in sediment of catchment"@en;
   iop:hasConstraint et:21873;
   iop:hasContextObject et:10092;
   iop:hasMatrix et:20899;
   iop:hasObjectOfInterest et:21286;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+  iop:hasProperty qudt:MassPerArea .
 
 et:30258 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2023-10-16"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:prefLabel "mass per area of natural soil erosion in sediment of catchment"@en;
   iop:hasConstraint et:30227;
   iop:hasContextObject et:10092;
   iop:hasMatrix et:20899;
   iop:hasObjectOfInterest et:21286;
-  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
+  iop:hasProperty qudt:MassPerArea .
 
 et:30259 a iop:Variable;
   dct:created "2022-03-28"^^xsd:date;
