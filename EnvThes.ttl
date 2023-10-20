@@ -54539,9 +54539,9 @@ et:30304 a skos:Concept;
   skos:prefLabel "near-passerines"@en .
 
 et:30305 a skos:Concept;
-  dct:modified "2022-10-10"^^xsd:date;
+  dct:modified "2023-10-20"^^xsd:date;
   skos:broader et:20635;
-  skos:prefLabel "terrestrial insectivors"@en .
+  skos:prefLabel "terrestrial insectivores"@en .
 
 et:30306 a skos:Concept;
   dct:modified "2022-10-10"^^xsd:date;
