@@ -74487,4 +74487,4 @@ et:30331 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
     et:21604 .
 <http://vocabs.lter-europe.net/EnvThes/>
 	a skos:ConceptScheme
-	a owl:Ontology
+	a owl:Ontology .
