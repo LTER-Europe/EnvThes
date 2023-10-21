@@ -45,8 +45,8 @@ jobs:
         run: |
           java -jar xls2rdf.jar convert -i $FILE_NAME.xlsx -o $FILE_NAME.ttl -l en
           echo "<http://vocabs.lter-europe.net/EnvThes/>" >> $FILE_NAME.ttl
-          echo "	a skos:ConceptScheme" >> $FILE_NAME.ttl
-          echo "	a owl:Ontology ." >> $FILE_NAME.ttl
+          echo "   rdf:type skos:ConceptScheme" ;>> $FILE_NAME.ttl
+          echo "	 rdf:type owl:Ontology ." >> $FILE_NAME.ttl
           mv xls2rdf.log ./logs/
 
      # - name: test
