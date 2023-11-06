@@ -22,17 +22,24 @@ omv:acronym,EnvThes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 omv:resourceLocator,https://raw.githubusercontent.com/LTER-Europe/EnvThes/main/EnvThes.ttl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
 omv:keywords,http://vocabs.lter-europe.net/EnvThes/21672,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
 dct:publisher,https://ror.org/00pggkr55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
-omv:knownUsage,metadata and keywords for ecological research,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
+omv:knownUsage,metadata and keywords for ecological research data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
 dct:audience,http://schema.org/Researcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
 doap:repository,https://ecoportal.lifewatch.eu/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
 doap:repository,https://bioportal.bioontology.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
 dct:subject,http://semanticscience.org/resource/SIO_001080,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
+schema:includedInDataCatalog,https://ecoportal.lifewatch.eu/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
+schema:includedInDataCatalog,https://bioportal.bioontology.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
 dct:description,EnvThes compiles a set of terms in order to describe in a harmonised way data resulting from observations and measurements of ecosystem processes across different domain specific sciences. It is used by DEIMS-SDR for common keywords for annotation and quering metadata purposes.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
 dct:creator,Ulf Grandin
 dct:creator,Miki Kertész,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
 dct:creator,Johannes Peterseil,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
 dct:creator,Mark Frenzel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
 dct:creator,Barbara Magagna,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
+voaf:hasEquivalencesWith,http://emily.lternet.edu/vocab/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
+voaf:hasEquivalencesWith,http://purl.obolibrary.org/obo/envo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
+voaf:hasEquivalencesWith,https://www.eionet.europa.eu/gemet/en/themes/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
+voaf:metadataVoc,http://www.isibang.ac.in/ns/mod/1.4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
+omv:usedOntologyEngineeringTool,https://github.com/fair-data-collective/sheet2rdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
 dct:license,https://creativecommons.org/licenses/by/4.0/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
 dct:language,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
 owl:versionInfo,5.0.4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
