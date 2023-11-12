@@ -8,13 +8,15 @@ PREFIX,xsd,http://www.w3.org/2001/XMLSchema#
 PREFIX,iop,https://w3id.org/iadopt/ont/
 PREFIX,puv,https://w3id.org/env/puv#
 PREFIX,sosa,http://www.w3.org/ns/sosa/
+PREFIX,vaof,http://purl.org/vocommons/voaf#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-12
 PREFIX,qudt,http://qudt.org/vocab/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
-PREFIX,cl,http://vocabs.lter-europe.net/elter_cl/
+PREFIX,doap,usefulinc.com/ns/doap#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-12
+PREFIX,cl,http://vocabs.lter-europe.net/elter_cl/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-12
 PREFIX,iop,https://w3id.org/iadopt/ont/
 PREFIX,rdf,http://www.w3.org/1999/02/22-rdf-syntax-ns#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-10-17
 PREFIX,rdfs,http://www.w3.org/2000/01/rdf-schema#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-10-17
 PREFIX,omv,http://omv.ontoware.org/2005/05/ontology,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
-owl:ontolgoyIRI,http://vocabs.lter-europe.net/EnvThes/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
+owl:ontologyIRI,http://vocabs.lter-europe.net/EnvThes/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
 dct:identifier,https://doi.org/10.48373/0PWD-C575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
 skos:prefLabel,EnvThes
 dct:title,Environmental Thesaurus
