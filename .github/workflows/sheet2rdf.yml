@@ -31,9 +31,8 @@ jobs:
       - name: Fetch
         shell: bash -l {0}
         env:
-          CLIENT: ${{secrets.CLIENT}}
-          STORAGE: ${{secrets.STORAGE}}
           FILE_NAME: ${{secrets.FILE_NAME}}
+          GOOGLE_API_KEY: ${{secrets.GOOGLE_API_KEY}}
           SHEET_ID: ${{secrets.SHEET_ID}}
         run: |
           conda activate sheet2rdf
