@@ -37,6 +37,7 @@ jobs:
         run: |
           conda activate sheet2rdf
           python ./src/sheet2xls.py
+          git rm $FILE_NAME.ttl
 
       - name: conversion-xls2rdf
         env:
