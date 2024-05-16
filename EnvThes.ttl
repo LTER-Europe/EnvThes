@@ -36,6 +36,7 @@
   a skos:Concept;
   dct:contributor "nsb@ceh.ac.uk@ceh.ac.uk"@en;
   dct:created "2012-06-21"^^xsd:date;
+  dct:creator "nsb@ceh.ac.uk"@en;
   dct:modified "2022-03-28"^^xsd:date;
   skos:altLabel "Happamoituminen"@fi, "Kwaśne opady"@pl, "Sur nedbør"@no, "chuvas ácidas"@pt;
   skos:broader "et:20387"@en;
