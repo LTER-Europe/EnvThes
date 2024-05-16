@@ -944,7 +944,7 @@ et:20294 dct:created "2016-03-31"^^xsd:date;
 et:USLterCV_195 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20379;
-  dct:modified "2023-01-13"^^xsd:date;
+  dct:modified "2024-05-16"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:definition "[GEMET] The state of combustion in which inflammable material burns, producing heat, flames and often smoke."@en;
@@ -54640,9 +54640,9 @@ et:30318 a skos:Concept;
   skos:definition "Flow rate per unit pressure is a measure of how much liquid or gas flows through a pipe or other passage when a certain pressure is applied. It is expressed as the volume of liquid or gas that flows through a passage per unit of pressure applied."@en;
   skos:prefLabel "flow rate per unit pressure"@en .
 
-et:30319 a skos:Concept;
+et:30319 a iop:Variable;
   dct:created "2023-02-26"^^xsd:date;
-  dct:modified "2023-02-26"^^xsd:date;
+  dct:modified "2024-05-16"^^xsd:date;
   skos:broader et:22133;
   skos:definition "Soil hydraulic conductivity is a measure of the efficiency of bulk flow through soil, and defined as the flow rate per unit pressure driving force."@en;
   skos:prefLabel "soil hydraulic conductivity"@en;
@@ -74552,8 +74552,6 @@ et:30316 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:30317 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30318 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30319 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30320 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
