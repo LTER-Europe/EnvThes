@@ -5816,4 +5816,4 @@ et:30340,surface air pressure,iop:Variable,suface atmospheric pressure,,,et:3033
 et:30341,near-surface wind speed,iop:Variable,,,,et:22319,,,,,,et:22319,et:30342,,,et:30334,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-05,,2024-06-06
 et:30342,wind,,,,,et:20504,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-05,,2024-05-16
 et:30343,pH in sediment,iop:Variable,,,,et:20935,,,,,,et:21459,et:20899,,et:30316,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-06,,2024-06-06
-et:30344,relative air quality,iop:Variable,,,,et:20935,,,,,,http://qudt.org/vocab/quantitykind/RelativeHumidity,et:23,,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-06
+et:30344,relative air humidity,iop:Variable,,,,et:20935,,,,,,http://qudt.org/vocab/quantitykind/RelativeHumidity,et:23,,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-06
