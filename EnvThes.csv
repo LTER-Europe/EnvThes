@@ -8,45 +8,45 @@ PREFIX,xsd,http://www.w3.org/2001/XMLSchema#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PREFIX,iop,https://w3id.org/iadopt/ont/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PREFIX,puv,https://w3id.org/env/puv#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PREFIX,sosa,http://www.w3.org/ns/sosa/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PREFIX,vaof,http://purl.org/vocommons/voaf#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-12,,
-PREFIX,qudt,http://qudt.org/vocab/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-PREFIX,doap,usefulinc.com/ns/doap#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-12,,
-PREFIX,cl,http://vocabs.lter-europe.net/elter_cl/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-12,,
+PREFIX,vaof,http://purl.org/vocommons/voaf#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,qudt,http://qudt.org/vocab/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,doap,usefulinc.com/ns/doap#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,cl,http://vocabs.lter-europe.net/elter_cl/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PREFIX,iop,https://w3id.org/iadopt/ont/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PREFIX,rdf,http://www.w3.org/1999/02/22-rdf-syntax-ns#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-10-17,,
-PREFIX,rdfs,http://www.w3.org/2000/01/rdf-schema#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-10-17,,
-PREFIX,omv,http://omv.ontoware.org/2005/05/ontology,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-owl:ontologyIRI,http://vocabs.lter-europe.net/EnvThes/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-dct:identifier,https://doi.org/10.48373/0PWD-C575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
+PREFIX,rdf,http://www.w3.org/1999/02/22-rdf-syntax-ns#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,rdfs,http://www.w3.org/2000/01/rdf-schema#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,omv,http://omv.ontoware.org/2005/05/ontology,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+owl:ontologyIRI,http://vocabs.lter-europe.net/EnvThes/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:identifier,https://doi.org/10.48373/0PWD-C575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 skos:prefLabel,EnvThes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 dct:title,Environmental Thesaurus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-omv:acronym,EnvThes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-omv:resourceLocator,https://raw.githubusercontent.com/LTER-Europe/EnvThes/main/EnvThes.ttl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-omv:keywords,http://vocabs.lter-europe.net/EnvThes/21672,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-dct:publisher,https://ror.org/00pggkr55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-omv:knownUsage,metadata and keywords for ecological research data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-dct:audience,http://schema.org/Researcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-doap:repository,https://ecoportal.lifewatch.eu/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-doap:repository,https://bioportal.bioontology.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-dct:subject,http://semanticscience.org/resource/SIO_001080,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-schema:includedInDataCatalog,https://ecoportal.lifewatch.eu/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
-schema:includedInDataCatalog,https://bioportal.bioontology.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
-dct:description,EnvThes compiles a set of terms in order to describe in a harmonised way data resulting from observations and measurements of ecosystem processes across different domain specific sciences. It is used by DEIMS-SDR for common keywords for annotation and quering metadata purposes.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,
+omv:acronym,EnvThes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+omv:resourceLocator,https://raw.githubusercontent.com/LTER-Europe/EnvThes/main/EnvThes.ttl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+omv:keywords,http://vocabs.lter-europe.net/EnvThes/21672,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:publisher,https://ror.org/00pggkr55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+omv:knownUsage,metadata and keywords for ecological research data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:audience,http://schema.org/Researcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+doap:repository,https://ecoportal.lifewatch.eu/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+doap:repository,https://bioportal.bioontology.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:subject,http://semanticscience.org/resource/SIO_001080,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+schema:includedInDataCatalog,https://ecoportal.lifewatch.eu/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+schema:includedInDataCatalog,https://bioportal.bioontology.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:description,EnvThes compiles a set of terms in order to describe in a harmonised way data resulting from observations and measurements of ecosystem processes across different domain specific sciences. It is used by DEIMS-SDR for common keywords for annotation and quering metadata purposes.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 dct:creator,Ulf Grandin,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-dct:creator,Miki Kertész,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05
-dct:creator,Johannes Peterseil,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
-dct:creator,Mark Frenzel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
-dct:creator,Barbara Magagna,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
-voaf:hasEquivalencesWith,http://emily.lternet.edu/vocab/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
-voaf:hasEquivalencesWith,http://purl.obolibrary.org/obo/envo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
-voaf:hasEquivalencesWith,https://www.eionet.europa.eu/gemet/en/themes/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
-voaf:metadataVoc,http://www.isibang.ac.in/ns/mod/1.4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
-omv:usedOntologyEngineeringTool,https://github.com/fair-data-collective/sheet2rdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
-dct:license,https://creativecommons.org/licenses/by/4.0/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
-dct:language,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
-owl:versionInfo,5.0.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-06
-dct:created,2013-01-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-05,,2023-11-05
-dct:modified,2024-06-05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+dct:creator,Miki Kertész,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:creator,Johannes Peterseil,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:creator,Mark Frenzel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:creator,Barbara Magagna,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+voaf:hasEquivalencesWith,http://emily.lternet.edu/vocab/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+voaf:hasEquivalencesWith,http://purl.obolibrary.org/obo/envo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+voaf:hasEquivalencesWith,https://www.eionet.europa.eu/gemet/en/themes/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+voaf:metadataVoc,http://www.isibang.ac.in/ns/mod/1.4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+omv:usedOntologyEngineeringTool,https://github.com/fair-data-collective/sheet2rdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:license,https://creativecommons.org/licenses/by/4.0/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:language,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+owl:versionInfo,5.0.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:created,2013-01-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:modified,2024-06-05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Identifier,skos:prefLabel@en,rdf:type,"skos:altLabel@en(separator="","")",skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:statistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,rdf:type,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:hiddenLabel,skos:prefLabel@de,skos:prefLabel@ar,skos:prefLabel@bg,skos:prefLabel@cs,skos:prefLabel@da,skos:prefLabel@el,skos:prefLabel@es,skos:prefLabel@et,skos:prefLabel@fi,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@hu,skos:prefLabel@it,skos:prefLabel@ja,skos:prefLabel@lt,skos:prefLabel@lv,skos:prefLabel@nl,skos:prefLabel@no,skos:prefLabel@pl,skos:prefLabel@pt,skos:prefLabel@ro,skos:prefLabel@sk,skos:prefLabel@sl,skos:prefLabel@sv,skos:prefLabel@zh,skos:altLabel@de,skos:altLabel@el,skos:altLabel@es,skos:altLabel@fi,skos:altLabel@fr,skos:altLabel@hu,skos:altLabel@it,skos:altLabel@ja,skos:altLabel@la,skos:altLabel@lt,skos:altLabel@no,skos:altLabel@pl,skos:altLabel@pt,skos:altLabel@sl,skos:altLabel@sv,skos:altLabel@zh,skos:altLabel@zh-tw,skos:definition@de,skos:definition@es,skos:definition@fi,skos:definition@fr,skos:definition@it,skos:definition@ja,skos:definition@no,skos:definition@pl,skos:definition@pt,skos:definition@zh,skos:definition@sv,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,dct:created^^xsd:date,dct:creator,dct:modified^^xsd:date
 et:USLterCV_668,physical property,,,a physical property (quantity) regardless of the object of interest or matrix,,et:1,http://en.wikipedia.org/wiki/physical_properties,,et:msa0221,,,,,,,,,,,,,,,,US LTER controlled vocabulary,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2013-07-12,herbert.schentz@umweltbundesamt.at,2023-01-13
 et:10117,bryophytes cover,,cover of bryophytes,,,et:20935,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2014-12-23,nsb@ceh.ac.uk,2022-03-28
@@ -5811,7 +5811,7 @@ et:30335,daily maximum near-surface air temperature,,,,,et:30333,,,,,,et:21524,e
 et:30336,daily,,,,,et:10313,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-05,,2024-05-16
 et:30337,daily minimium near-surface air temperature,,,,,et:30333,,,,,,et:21524,et:23,,,"et:30334,et:21994,et:30336",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-05,,2024-05-16
 et:30338,near-surface air relative humidity,,,,,et:21579,,,,,,et:21578,et:23,,,"et:30334,et:22010",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-05,,2024-05-16
-et:30339,air pressure,,,,,et:20935,,,,,,et:21557,et:23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-05,2024-06-05,2024-05-16
-et:30340,surface air pressure,,,,,et:30339,,,,,,et:21557,et:23,,,et:10316,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-05,2024-06-05,2024-05-16
+et:30339,air pressure,,,,,et:20935,,,,,,et:21557,et:23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-05,,2024-06-05
+et:30340,surface air pressure,,,,,et:30339,,,,,,et:21557,et:23,,,et:10316,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-05,,2024-05-16
 et:30341,near-surface wind speed,,,,,et:22319,,,,,,et:22319,et:30342,,,et:30334,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-05,,2024-05-16
 et:30342,wind,,,,,et:20504,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-05,,2024-05-16
