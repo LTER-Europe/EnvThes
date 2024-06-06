@@ -54635,9 +54635,9 @@ et:30318 a skos:Concept;
   skos:definition "Flow rate per unit pressure is a measure of how much liquid or gas flows through a pipe or other passage when a certain pressure is applied. It is expressed as the volume of liquid or gas that flows through a passage per unit of pressure applied."@en;
   skos:prefLabel "flow rate per unit pressure"@en .
 
-et:30319 a iop:Variable;
+et:30319 a skos:Concept;
   dct:created "2023-02-26"^^xsd:date;
-  dct:modified "2024-05-16"^^xsd:date;
+  dct:modified "2024-06-06"^^xsd:date;
   dct:source <https://prometheusprotocols.net/function/water-relations/hydraulic-conductance-and-conductivity/>;
   skos:broader et:22133;
   skos:definition "Soil hydraulic conductivity is a measure of the efficiency of bulk flow through soil, and defined as the flow rate per unit pressure driving force."@en;
@@ -54652,7 +54652,7 @@ et:30320 a skos:Concept;
   skos:broader et:22260;
   skos:prefLabel "basic nutrient"@en .
 
-et:30321 a iop:Variable;
+et:30321 a skos:Concept;
   dct:created "2023-02-26"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:20935;
@@ -54666,7 +54666,7 @@ et:30322 a skos:Concept;
   skos:broader et:10351;
   skos:prefLabel "classification"@en .
 
-et:30323 a iop:Variable;
+et:30323 a skos:Concept;
   dct:created "2023-02-26"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:20935;
@@ -54674,13 +54674,13 @@ et:30323 a iop:Variable;
   iop:hasObjectOfInterest et:10126;
   iop:hasProperty et:30322 .
 
-et:30324 a iop:Variable;
+et:30324 a skos:Concept;
   dct:created "2023-03-18"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "geological site characterization"@en .
 
-et:30325 a iop:Variable;
+et:30325 a skos:Concept;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "total organic carbon in soil"@en;
@@ -54733,7 +54733,7 @@ et:30331 a skos:Concept;
   skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01001177>;
   skos:prefLabel "arable land"@en .
 
-et:30332 a iop:Variable;
+et:30332 a skos:Concept;
   dct:created "2023-11-28"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:20935;
@@ -54741,7 +54741,7 @@ et:30332 a iop:Variable;
   iop:hasObjectOfInterest et:20542;
   iop:hasProperty et:21459 .
 
-et:30333 a iop:Variable;
+et:30333 a skos:Concept;
   dct:created "2024-04-05"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:22035;
@@ -54789,7 +54789,7 @@ et:30338 a skos:Concept;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty et:21578 .
 
-et:30339 a iop:Variable;
+et:30339 a skos:Concept;
   dct:created "2024-04-05"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:20935;
@@ -54797,7 +54797,7 @@ et:30339 a iop:Variable;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty et:21557 .
 
-et:30340 a iop:Variable;
+et:30340 a skos:Concept;
   dct:created "2024-04-05"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:altLabel "suface atmospheric pressure"@en;
@@ -54807,7 +54807,7 @@ et:30340 a iop:Variable;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty et:21557 .
 
-et:30341 a iop:Variable;
+et:30341 a skos:Concept;
   dct:created "2024-04-05"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:22319;
@@ -54822,7 +54822,7 @@ et:30342 a skos:Concept;
   skos:broader et:20504;
   skos:prefLabel "wind"@en .
 
-et:30343 a iop:Variable;
+et:30343 a skos:Concept;
   dct:created "2024-06-06"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:20935;
@@ -54831,7 +54831,7 @@ et:30343 a iop:Variable;
   iop:hasObjectOfInterest et:20899;
   iop:hasProperty et:21459 .
 
-et:30344 a iop:Variable;
+et:30344 a skos:Concept;
   dct:created "2024-05-16"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:20935;
@@ -54840,7 +54840,7 @@ et:30344 a iop:Variable;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/RelativeHumidity> .
 
-et:30345 a iop:Variable;
+et:30345 a skos:Concept;
   dct:created "2024-06-06"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:22313;
@@ -54857,7 +54857,7 @@ et:30346 a skos:Concept;
   skos:broader "et.10313"@en;
   skos:prefLabel "stagnant"@en .
 
-et:30347 a iop:Variable;
+et:30347 a skos:Concept;
   dct:created "2024-06-06"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:20504;
@@ -54868,7 +54868,7 @@ et:30347 a iop:Variable;
   iop:hasObjectOfInterest et:20538;
   iop:hasProperty et:21459 .
 
-et:30348 a iop:Variable;
+et:30348 a skos:Concept;
   dct:created "2024-06-06"^^xsd:date;
   dct:modified "2024-06-06"^^xsd:date;
   skos:broader et:20935;
@@ -63646,12 +63646,14 @@ et:22260 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 et:22035 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30333 .
 
-et:30333 skos:narrower et:30335, et:30337 .
+et:30333 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:30335, et:30337 .
 
 et:21579 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30338 .
 
-et:30339 skos:narrower et:30340 .
+et:30339 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:30340 .
 
 et:22319 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30341 .
@@ -74617,9 +74619,19 @@ et:30317 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30318 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
+et:30319 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
 et:30320 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
+et:30321 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
 et:30322 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30323 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30324 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30325 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30326 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -74631,6 +74643,8 @@ et:30330 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30331 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
+et:30332 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
 et:30334 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30335 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -74641,9 +74655,23 @@ et:30337 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30338 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
+et:30340 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30341 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
 et:30342 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
+et:30343 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30344 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30345 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
 et:30346 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30347 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30348 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
