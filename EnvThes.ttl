@@ -54743,17 +54743,17 @@ et:30331 a skos:Concept;
   skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01001177>;
   skos:prefLabel "arable land"@en .
 
-et:30332 a skos:Concept;
+et:30332 a iop:Variable;
   dct:created "2023-11-28"^^xsd:date;
-  dct:modified "2024-06-06"^^xsd:date;
+  dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "soil water pH"@en;
   iop:hasObjectOfInterest et:20542;
   iop:hasProperty et:21459 .
 
-et:30333 a skos:Concept;
+et:30333 a iop:Variable;
   dct:created "2024-04-05"^^xsd:date;
-  dct:modified "2024-06-06"^^xsd:date;
+  dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:22035;
   skos:prefLabel "near-surface air temperature"@en;
   iop:hasConstraint et:30334;
@@ -54766,9 +54766,9 @@ et:30334 a skos:Concept;
   skos:broader et:10313;
   skos:prefLabel "near-surface"@en .
 
-et:30335 a skos:Concept;
+et:30335 a iop:Variable;
   dct:created "2024-04-05"^^xsd:date;
-  dct:modified "2024-05-16"^^xsd:date;
+  dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:30333;
   skos:prefLabel "daily maximum near-surface air temperature"@en;
   iop:hasConstraint et:21993, et:30334, et:30336;
@@ -54781,33 +54781,33 @@ et:30336 a skos:Concept;
   skos:broader et:10313;
   skos:prefLabel "daily"@en .
 
-et:30337 a skos:Concept;
+et:30337 a iop:Variable;
   dct:created "2024-04-05"^^xsd:date;
-  dct:modified "2024-05-16"^^xsd:date;
+  dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:30333;
   skos:prefLabel "daily minimium near-surface air temperature"@en;
   iop:hasConstraint et:21994, et:30334, et:30336;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty et:21524 .
 
-et:30338 a skos:Concept;
+et:30338 a iop:Variable;
   dct:created "2024-04-05"^^xsd:date;
-  dct:modified "2024-05-16"^^xsd:date;
+  dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:21579;
   skos:prefLabel "near-surface air relative humidity"@en;
   iop:hasConstraint et:22010, et:30334;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty et:21578 .
 
-et:30339 a skos:Concept;
+et:30339 a iop:Variable;
   dct:created "2024-04-05"^^xsd:date;
-  dct:modified "2024-06-06"^^xsd:date;
+  dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "air pressure"@en;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty et:21557 .
 
-et:30340 a skos:Concept;
+et:30340 a iop:Variable;
   dct:created "2024-04-05"^^xsd:date;
   dct:modified "2024-06-07"^^xsd:date;
   skos:altLabel "suface atmospheric pressure"@en;
@@ -54818,7 +54818,7 @@ et:30340 a skos:Concept;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty et:21557 .
 
-et:30341 a skos:Concept;
+et:30341 a iop:Variable;
   dct:created "2024-04-05"^^xsd:date;
   dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:30342;
@@ -54827,25 +54827,25 @@ et:30341 a skos:Concept;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01000793>;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/Speed> .
 
-et:30343 a skos:Concept;
+et:30343 a iop:Variable;
   dct:created "2024-06-06"^^xsd:date;
-  dct:modified "2024-06-06"^^xsd:date;
+  dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "pH in sediment"@en;
   iop:hasContextObject et:30316;
   iop:hasObjectOfInterest et:20899;
   iop:hasProperty et:21459 .
 
-et:30344 a skos:Concept;
+et:30344 a iop:Variable;
   dct:created "2024-05-16"^^xsd:date;
-  dct:modified "2024-06-06"^^xsd:date;
+  dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "relative air humidity"@en;
   iop:hasConstraint et:21920;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/RelativeHumidity> .
 
-et:30345 a skos:Concept;
+et:30345 a iop:Variable;
   dct:created "2024-06-06"^^xsd:date;
   dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:22313;
@@ -54862,7 +54862,7 @@ et:30346 a skos:Concept;
   skos:broader et:10313;
   skos:prefLabel "stagnant"@en .
 
-et:30347 a skos:Concept;
+et:30347 a iop:Variable;
   dct:created "2024-06-06"^^xsd:date;
   dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:21218;
@@ -54873,7 +54873,7 @@ et:30347 a skos:Concept;
   iop:hasObjectOfInterest et:20914;
   iop:hasProperty et:21459 .
 
-et:30348 a skos:Concept;
+et:30348 a iop:Variable;
   dct:created "2024-06-06"^^xsd:date;
   dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:20935;
@@ -54884,7 +54884,7 @@ et:30348 a skos:Concept;
   iop:hasObjectOfInterest et:20914;
   iop:hasProperty et:21552 .
 
-et:30349 a skos:Concept;
+et:30349 a iop:Variable;
   dct:created "2024-06-06"^^xsd:date;
   dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:21217;
@@ -54895,7 +54895,7 @@ et:30349 a skos:Concept;
   iop:hasObjectOfInterest et:20914;
   iop:hasProperty et:10389 .
 
-et:30350 a skos:Concept;
+et:30350 a iop:Variable;
   dct:created "2024-06-07"^^xsd:date;
   dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:10308;
@@ -54906,7 +54906,7 @@ et:30350 a skos:Concept;
   iop:hasObjectOfInterest et:20914;
   iop:hasProperty et:10312 .
 
-et:30351 a skos:Concept;
+et:30351 a iop:Variable;
   dct:created "2024-06-07"^^xsd:date;
   dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:30025;
@@ -54917,7 +54917,7 @@ et:30351 a skos:Concept;
   iop:hasObjectOfInterest et:20914;
   iop:hasProperty et:10013 .
 
-et:30352 a skos:Concept;
+et:30352 a iop:Variable;
   dct:created "2024-06-07"^^xsd:date;
   dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:20935;
@@ -63685,14 +63685,12 @@ et:22260 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 et:22035 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30333 .
 
-et:30333 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30335, et:30337 .
+et:30333 skos:narrower et:30335, et:30337 .
 
 et:21579 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30338 .
 
-et:30339 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30340 .
+et:30339 skos:narrower et:30340 .
 
 et:30342 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30341 .
@@ -74686,41 +74684,11 @@ et:30330 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30331 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-et:30332 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
 et:30334 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30335 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30336 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-et:30337 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30338 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30340 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30341 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30343 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30344 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30345 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
 et:30346 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30347 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30348 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30349 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30350 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30351 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30352 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
