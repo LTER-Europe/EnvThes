@@ -41,7 +41,7 @@
   dct:identifier <https://doi.org/10.48373/0PWD-C575>;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "2024-06-07"@en;
+  dct:modified "2024-06-08"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "Environmental Thesaurus"@en;
@@ -54926,7 +54926,7 @@ et:30351 a iop:Variable;
 
 et:30352 a iop:Variable;
   dct:created "2024-06-07"^^xsd:date;
-  dct:modified "2024-06-07"^^xsd:date;
+  dct:modified "2024-06-08"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "ice cover"@en;
   iop:hasContextObject et:21922;
