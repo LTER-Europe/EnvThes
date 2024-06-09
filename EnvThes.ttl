@@ -54845,7 +54845,7 @@ et:30344 a skos:Concept, iop:Variable;
   dct:modified "2024-06-09"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "air relative humidity"@en;
-  iop:hasConstraint et:21920;
+  iop:hasContextObject et:21920;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/RelativeHumidity> .
 
