@@ -7963,7 +7963,8 @@ et:USLterCV_431 dct:created "2016-03-31"^^xsd:date;
   skos:exactMatch <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/16190>, <http://www.eionet.europa.eu/gemet/concept/10074>;
   skos:prefLabel "espèce végétale"@fr, "plant species"@en .
 
-et:22035 dct:created "2016-03-31"^^xsd:date;
+et:22035 a et:22035;
+  dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2024-06-08"^^xsd:date;
   skos:altLabel "temperature of air"@en;
@@ -7980,7 +7981,6 @@ et:22035 dct:created "2016-03-31"^^xsd:date;
     "teplota vzduchu"@sk, "õhu temperatuur"@et, "θερμοκρασία (του) αέρα"@el, "Температура на въздуха"@bg,
     "درجة حرارة الهواء"@ar;
   skos:scopeNote "US LTER controlled vocabulary"@en;
-  iop:Variable et:22035;
   iop:hasContextObject et:21920;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty et:21524 .
@@ -8440,7 +8440,8 @@ et:USLterCV_503 dct:created "2016-03-31"^^xsd:date;
   skos:prefLabel "shrubs"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
-et:30342 dct:created "2016-03-31"^^xsd:date;
+et:30342 a et:30342;
+  dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2024-06-08"^^xsd:date;
   skos:altLabel "speed of wind"@en;
@@ -8450,7 +8451,6 @@ et:30342 dct:created "2016-03-31"^^xsd:date;
     <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/27860>, <https://vocab.lternet.edu/vocab/vocab/?tema=635>;
   skos:prefLabel "wind speed"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en;
-  iop:Variable et:30342;
   iop:hasContextObject et:21920;
   iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01000793>;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/Speed> .
@@ -20490,7 +20490,8 @@ et:20949 dct:created "2016-03-31"^^xsd:date;
   skos:prefLabel "snow accumulation"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
-et:22240 dct:created "2016-03-31"^^xsd:date;
+et:22240 a et:22240;
+  dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2024-06-08"^^xsd:date;
   skos:broader et:20935;
@@ -20499,7 +20500,6 @@ et:22240 dct:created "2016-03-31"^^xsd:date;
   skos:note "[source of definition ] http://meteorology.geography-dictionary.org/Meteorology-and-Weather-Dictionary/\" , \"[controlled by ] Heikki Hamalainen"@en;
   skos:prefLabel "snow depth"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en;
-  iop:Variable et:22240;
   iop:hasContextObject et:21922;
   iop:hasObjectOfInterest et:20923;
   iop:hasProperty et:21549 .
@@ -42768,14 +42768,13 @@ et:20197 a skos:Concept;
   skos:prefLabel "DNA fingerprinting"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
-et:21559 a skos:Concept;
+et:21559 a iop:Variable;
   dct:created "2016-10-12"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "snow cover"@en;
   skos:scopeNote "MS Academic Keywords"@en;
-  iop:Variable iop:Variable;
   iop:hasContextObject et:21922;
   iop:hasObjectOfInterest et:20923;
   iop:hasProperty et:21519 .
@@ -54925,9 +54924,9 @@ et:30351 a skos:Concept;
   iop:hasObjectOfInterest et:20914;
   iop:hasProperty et:10013 .
 
-et:30352 a skos:Concept;
+et:30352 a skos:Concept, iop:Variable;
   dct:created "2024-06-07"^^xsd:date;
-  dct:modified "2024-06-08"^^xsd:date;
+  dct:modified "2024-06-09"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "ice cover"@en;
   iop:hasContextObject et:21922;
@@ -56272,8 +56271,6 @@ et:USLterCV_472 a skos:Concept .
 
 et:USLterCV_431 a skos:Concept .
 
-et:22035 a skos:Concept .
-
 et:USLterCV_200 a skos:Concept .
 
 et:20574 a skos:Concept .
@@ -56347,8 +56344,6 @@ et:20784 a skos:Concept .
 et:USLterCV_60 a skos:Concept .
 
 et:USLterCV_503 a skos:Concept .
-
-et:30342 a skos:Concept .
 
 et:20917 a skos:Concept .
 
@@ -56480,7 +56475,8 @@ et:USLterCV_137 a skos:Concept .
 
 et:USLterCV_394 a skos:Concept .
 
-et:20538 a skos:Concept .
+et:20538 a skos:Concept;
+  skos:narrower et:20914 .
 
 et:USLterCV_596 a skos:Concept .
 
@@ -57661,7 +57657,8 @@ et:20250 a skos:Concept .
 
 et:msa0780 a skos:Concept .
 
-et:26 a skos:Concept .
+et:26 a skos:Concept;
+  skos:narrower et:20650 .
 
 et:EnvEu_60 a skos:Concept .
 
@@ -58735,8 +58732,6 @@ et:20621 a skos:Concept .
 
 et:20949 a skos:Concept .
 
-et:22240 a skos:Concept .
-
 et:22241 a skos:Concept .
 
 et:20309 a skos:Concept .
@@ -58891,7 +58886,8 @@ et:21275 a skos:Concept .
 
 et:21280 a skos:Concept .
 
-et:21891 a skos:Concept .
+et:21891 a skos:Concept;
+  skos:narrower et:21819 .
 
 et:21308 a skos:Concept .
 
@@ -62308,17 +62304,6 @@ et:msa0436 a skos:Concept .
 
 et:msa0435 a skos:Concept .
 
-et:21891 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:21819, et:21855, et:21861, et:30331, et:55 .
-
-et:20538 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10376, et:20539, et:20540, et:20541, et:20542, et:20914, et:20917,
-    et:20918, et:20921, et:20923, et:20924, et:30264, et:30284, et:31 .
-
-et:26 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10101, et:20565, et:20566, et:20591, et:20650, et:20660, et:20661,
-    et:20670, et:20676 .
-
 et:1 skos:narrower et:EUUnits_140, et:EUUnits_149, et:EUUnits_174, et:EUUnits_43,
     et:EnvEU_221, et:EnvEU_228, et:EnvEU_270, et:EnvEU_322, et:EnvEu_130, et:EnvEu_23,
     et:EnvEu_29, et:EnvEu_37, et:EnvEu_45, et:EnvEu_49, et:EnvEu_51, et:EnvEu_56, et:EnvEu_57,
@@ -63021,6 +63006,10 @@ et:20676 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
     et:20688, et:20689, et:20690, et:20691, et:20692, et:20693, et:20694, et:20695, et:20696,
     et:20698, et:20699, et:21945, et:21946, et:21950, et:28, et:30315 .
 
+et:20538 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:10376, et:20539, et:20540, et:20541, et:20542, et:20917, et:20918,
+    et:20921, et:20923, et:20924, et:30264, et:30284, et:31 .
+
 et:21611 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10231, et:20505, et:21036, et:21371, et:21483, et:21612, et:21613,
     et:21640, et:21641, et:21642, et:21647, et:21651, et:21654, et:21663, et:21712, et:21713,
@@ -63028,6 +63017,9 @@ et:21611 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 
 et:20297 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20094, et:20291, et:20311 .
+
+et:21891 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:21855, et:21861, et:30331, et:55 .
 
 et:10003 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20535, et:20536, et:20537, et:20538, et:20543, et:20899, et:20907,
@@ -63152,6 +63144,10 @@ et:20515 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 
 et:20399 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10, et:20385, et:20726 .
+
+et:26 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:10101, et:20565, et:20566, et:20591, et:20660, et:20661, et:20670,
+    et:20676 .
 
 et:21855 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:21856, et:21857, et:21858, et:21859, et:21860 .
@@ -63686,8 +63682,7 @@ et:22133 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 et:22260 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30320 .
 
-et:22035 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30333 .
+et:22035 skos:narrower et:30333 .
 
 et:30333 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30335, et:30337 .
@@ -63698,8 +63693,7 @@ et:21579 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 et:30339 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30340 .
 
-et:30342 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30341 .
+et:30342 skos:narrower et:30341 .
 
 et:22313 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30345 .
@@ -63715,6 +63709,8 @@ et:10308 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 
 et:30025 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30351 .
+
+et:30352 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:USLterCV_668 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -67269,8 +67265,6 @@ et:10370 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:20621 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20949 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:22240 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:22241 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -71916,8 +71910,6 @@ et:21099 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20197 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-et:21559 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
 et:21666 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:21030 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -74723,8 +74715,6 @@ et:30349 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:30350 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30351 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30352 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
