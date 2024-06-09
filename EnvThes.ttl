@@ -5883,7 +5883,7 @@ et:21579 a skos:Concept, iop:Variable;
   dct:modified "2024-06-09"^^xsd:date;
   skos:altLabel "RH"@en;
   skos:broader et:22032;
-  skos:definition "Is the ratio of the partial pressure of water vapor in the air–water mixture to the saturated vapor pressure of water at those conditions. The relative humidity of air is a function of both its water content and temperature.It is normally expressed as a percentage"@en;
+  skos:definition "Is the ratio of the partial pressure of water vapor in the air–water mixture to the saturated vapor pressure of water at those conditions. The relative humidity of air is a function of both its water content and temperature. It is normally expressed as a percentage."@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_6496>, <http://en.wikipedia.org/wiki/relative_humidity>,
     <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/83700>, <https://vocab.lternet.edu/vocab/vocab/?tema=463>;
   skos:prefLabel "air relative humidity"@en, "相对湿度"@zh, "相対湿度"@ja;
