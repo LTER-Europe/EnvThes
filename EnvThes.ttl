@@ -19341,14 +19341,12 @@ et:22133 dct:created "2016-03-31"^^xsd:date;
   dct:modified "2024-09-10"^^xsd:date;
   dct:source <https://prometheusprotocols.net/function/water-relations/hydraulic-conductance-and-conductivity/>;
   skos:altLabel "hydraulic conductance"@en;
-  skos:broader et:1001;
+  skos:broader et:10351;
   skos:definition "Hydraulic conductance is a measure of the efficiency of bulk flow through a material, and defined as the flow rate per unit pressure driving force."@en;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=256>;
   skos:note "[source of definition ] http://prometheuswiki.publish.csiro.au/tiki-index.php?page=Hydraulic+conductance+and+conductivity#sthash.WiD2TWpg.dpuf\" , \"[controlled by ] S Stoll 2013-06-20"@en;
   skos:prefLabel "hydraulic conductivity"@en;
-  skos:scopeNote "US LTER controlled vocabulary"@en;
-  iop:hasObjectOfInterest et:20538;
-  iop:hasProperty et:30318 .
+  skos:scopeNote "US LTER controlled vocabulary"@en .
 
 et:20882 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
@@ -45934,7 +45932,7 @@ et:22221 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2024-09-10"^^xsd:date;
-  skos:broader et:10001;
+  skos:broader et:10351;
   skos:prefLabel "saturated hydraulic conductivity"@en .
 
 et:20021 a skos:Concept;
@@ -53213,7 +53211,8 @@ et:AF_c_1402384622521 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "treatment objective"@en .
 
-et:AF_c2_2546 dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2546 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22264;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53221,7 +53220,8 @@ et:AF_c2_2546 dct:created "2016-03-31"^^xsd:date;
   skos:broader et:1;
   skos:prefLabel "soil pH"@en .
 
-et:20138 dct:created "2016-03-31"^^xsd:date;
+et:20138 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2022-03-27"^^xsd:date;
   skos:broader et:20104;
@@ -54599,7 +54599,7 @@ et:30319 a skos:Concept, iop:Variable;
   dct:created "2023-02-26"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2024-09-10"^^xsd:date;
-  skos:broader et:22133;
+  skos:broader et:20935;
   skos:definition "Soil hydraulic conductivity is a measure of the efficiency of bulk flow through soil, and defined as the flow rate per unit pressure driving force."@en;
   skos:prefLabel "soil hydraulic conductivity"@en;
   iop:hasObjectOfInterest et:24;
@@ -62260,16 +62260,6 @@ et:msa0434 a skos:Concept .
 
 et:21398 a skos:Concept .
 
-et:AF_c2_2546 a skos:Concept;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20138 a skos:Concept;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10230, et:20015, et:20016, et:20021, et:20022, et:20023, et:20024,
-    et:20026, et:20027, et:20028, et:20033, et:20034, et:20040, et:20092, et:20121, et:20123,
-    et:20130, et:20131, et:20136, et:20137, et:20166, et:20167, et:20195, et:20196, et:20197,
-    et:20198, et:20199, et:20200, et:20201, et:20202 .
-
 et:10222 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -63200,16 +63190,16 @@ et:20935 skos:narrower et:10011, et:10031, et:10058, et:10117, et:10308, et:1039
     et:30120, et:30121, et:30122, et:30123, et:30124, et:30125, et:30126, et:30127, et:30128,
     et:30129, et:30130, et:30131, et:30132, et:30133, et:30136, et:30138, et:30139, et:30140,
     et:30141, et:30146, et:30147, et:30148, et:30149, et:30150, et:30151, et:30152, et:30153,
-    et:30154, et:30156, et:30160;
+    et:30154, et:30156, et:30160, et:30161;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30161, et:30162, et:30163, et:30164, et:30169, et:30171, et:30173,
-    et:30176, et:30177, et:30179, et:30180, et:30181, et:30182, et:30183, et:30203, et:30206,
-    et:30208, et:30212, et:30217, et:30218, et:30219, et:30220, et:30221, et:30229, et:30230,
-    et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238, et:30239,
-    et:30240, et:30241, et:30242, et:30243, et:30244, et:30245, et:30246, et:30247, et:30248,
-    et:30249, et:30250, et:30251, et:30252, et:30253, et:30254, et:30255, et:30256, et:30257,
-    et:30258, et:30259, et:30260, et:30261, et:30262, et:30265, et:30272, et:30275, et:30278,
-    et:30281, et:30283, et:30288, et:30298, et:30299, et:30321, et:30323, et:30324, et:30325,
+  skos:narrower et:30162, et:30163, et:30164, et:30169, et:30171, et:30173, et:30176,
+    et:30177, et:30179, et:30180, et:30181, et:30182, et:30183, et:30203, et:30206, et:30208,
+    et:30212, et:30217, et:30218, et:30219, et:30220, et:30221, et:30229, et:30230, et:30231,
+    et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238, et:30239, et:30240,
+    et:30241, et:30242, et:30243, et:30244, et:30245, et:30246, et:30247, et:30248, et:30249,
+    et:30250, et:30251, et:30252, et:30253, et:30254, et:30255, et:30256, et:30257, et:30258,
+    et:30259, et:30260, et:30261, et:30262, et:30265, et:30272, et:30275, et:30278, et:30281,
+    et:30283, et:30288, et:30298, et:30299, et:30319, et:30321, et:30323, et:30324, et:30325,
     et:30326, et:30332, et:30339, et:30342, et:30343, et:30348, et:30352, et:60001, et:600019,
     et:60002, et:60003, et:60004, et:60005, et:60006, et:60007, et:60008, et:60009, et:60010,
     et:60011, et:60012, et:60023, et:60024, et:60025, et:60026, et:60027, et:60030, et:60031,
@@ -63310,8 +63300,8 @@ et:10351 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
     et:21347, et:21348, et:21423, et:21450, et:21456, et:21459, et:21460, et:21507, et:21519,
     et:21520, et:21521, et:21523, et:21524, et:21533, et:21534, et:21541, et:21546, et:21548,
     et:21549, et:21550, et:21552, et:21553, et:21554, et:21555, et:21557, et:21574, et:21578,
-    et:21580, et:21590, et:21593, et:21595, et:21596, et:21599, et:22074, et:30207, et:30274,
-    et:30277, et:30280, et:30287, et:30322, et:30328, et:60021 .
+    et:21580, et:21590, et:21593, et:21595, et:21596, et:21599, et:22074, et:22133, et:22221,
+    et:30207, et:30274, et:30277, et:30280, et:30287, et:30322, et:30328, et:60021 .
 
 et:21611 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:10231, et:20505, et:21036, et:21371, et:21483, et:21612, et:21613,
@@ -63579,6 +63569,12 @@ et:10157 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
     et:20360, et:20361, et:20362, et:20364, et:20365, et:20366, et:20367, et:20487, et:20488,
     et:20489, et:20494, et:20495, et:20496, et:22326, et:22329 .
 
+et:20138 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:10230, et:20015, et:20016, et:20021, et:20022, et:20023, et:20024,
+    et:20026, et:20027, et:20028, et:20033, et:20034, et:20040, et:20092, et:20121, et:20123,
+    et:20130, et:20131, et:20136, et:20137, et:20166, et:20167, et:20195, et:20196, et:20197,
+    et:20198, et:20199, et:20200, et:20201, et:20202 .
+
 et:20361 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20341, et:20344, et:20347, et:20348, et:20349, et:20353, et:20356,
     et:20358, et:20359 .
@@ -63772,8 +63768,6 @@ et:20324 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 et:20408 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20409, et:20410, et:21949, et:5, et:6, et:7, et:8, et:9 .
 
-et:1001 skos:narrower et:22133 .
-
 et:21747 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:21748, et:30004 .
 
@@ -63855,7 +63849,7 @@ et:20376 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20377, et:20378, et:21381, et:21940, et:21944 .
 
 et:10001 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10351, et:21447, et:21463, et:22221;
+  skos:narrower et:10351, et:21447, et:21463;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20360 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
@@ -64006,9 +64000,6 @@ et:30265 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 
 et:21534 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30267, et:30271 .
-
-et:22133 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30319 .
 
 et:22260 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30320 .
@@ -67552,6 +67543,8 @@ et:20532 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:21151 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:21912 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:22133 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20882 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -74910,6 +74903,8 @@ et:20798 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:10089 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:AF_c_1402384622521 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2546 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
