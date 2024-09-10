@@ -47,7 +47,7 @@
   dct:title "Environmental Thesaurus"@en;
   schema:includedInDataCatalog <https://bioportal.bioontology.org/>, <https://ecoportal.lifewatch.eu/>;
   owl:ontologyIRI <http://vocabs.lter-europe.net/EnvThes/>;
-  owl:versionInfo "5.0.8"@en;
+  owl:versionInfo "5.0.9"@en;
   skos:prefLabel "EnvThes"@en;
   <voaf:hasEquivalencesWith> <http://emily.lternet.edu/vocab/>, <http://purl.obolibrary.org/obo/envo>,
     <https://www.eionet.europa.eu/gemet/en/themes/>;
@@ -54830,10 +54830,10 @@ et:30345 a skos:Concept, iop:Variable;
 et:30346 a skos:Concept, iop:Constraint;
   dct:created "2024-06-06"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2024-09-02"^^xsd:date;
+  dct:modified "2024-09-10"^^xsd:date;
   skos:broader et:10313;
   skos:prefLabel "stagnant"@en;
-  iop:constrains <http://vocab.nerc.ac.uk/collection/S26/current/MAT00640/> .
+  iop:constrains et:30264 .
 
 et:30347 a skos:Concept, iop:Variable;
   dct:created "2024-06-06"^^xsd:date;
