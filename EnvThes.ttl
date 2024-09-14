@@ -13315,8 +13315,7 @@ et:USLterCV_122 dct:contributor "0000-0003-0631-8231"@en;
 et:22089 dct:contributor "0000-0003-0631-8231"@en;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-12-18"^^xsd:date;
-  skos:altLabel "conductance"@en;
+  dct:modified "2024-09-14"^^xsd:date;
   skos:broader et:20935;
   skos:definition "[GEMET] The ratio of the electric current density to the electric field in a material. Also known as electrical conductivity."@en;
   skos:exactMatch <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/42710>, <http://www.eionet.europa.eu/gemet/concept/1686>,
@@ -53190,20 +53189,23 @@ et:21597 a skos:Concept;
   skos:broader et:21463;
   skos:prefLabel "limitation"@en .
 
-et:20798 dct:created "2016-03-31"^^xsd:date;
+et:20798 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20982;
   skos:prefLabel "yield"@en .
 
-et:10089 dct:created "2014-12-16"^^xsd:date;
+et:10089 a skos:Concept;
+  dct:created "2014-12-16"^^xsd:date;
   dct:creator "0000-0002-3518-8918"@en;
   dct:modified "2018-06-18"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:prefLabel "abundance of benthic invertebrates"@en .
 
-et:AF_c_1402384622521 dct:created "2016-03-31"^^xsd:date;
+et:AF_c_1402384622521 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20009;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53211,7 +53213,8 @@ et:AF_c_1402384622521 dct:created "2016-03-31"^^xsd:date;
   skos:broader et:1;
   skos:prefLabel "treatment objective"@en .
 
-et:AF_c2_2546 dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2546 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22264;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53219,7 +53222,8 @@ et:AF_c2_2546 dct:created "2016-03-31"^^xsd:date;
   skos:broader et:1;
   skos:prefLabel "soil pH"@en .
 
-et:20138 dct:created "2016-03-31"^^xsd:date;
+et:20138 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2022-03-27"^^xsd:date;
   skos:broader et:20104;
@@ -54643,13 +54647,9 @@ et:30324 a skos:Concept, iop:Variable;
 et:30325 a skos:Concept, iop:Variable;
   dct:created "2023-03-18"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2024-09-11"^^xsd:date;
+  dct:modified "2024-09-14"^^xsd:date;
   skos:broader et:20935;
-  skos:prefLabel "total organic carbon content in soil"@en;
-  iop:hasContextObject et:24;
-  iop:hasMatrix et:20887;
-  iop:hasObjectOfInterest et:20813;
-  iop:hasProperty et:21546 .
+  skos:prefLabel "total organic carbon content in soil"@en .
 
 et:30326 a skos:Concept, iop:Variable;
   dct:created "2023-05-25"^^xsd:date;
@@ -62255,25 +62255,6 @@ et:msa0434 a skos:Concept .
 
 et:21398 a skos:Concept .
 
-et:20798 a skos:Concept;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10089 a skos:Concept;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c_1402384622521 a skos:Concept;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2546 a skos:Concept;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20138 a skos:Concept;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10230, et:20015, et:20016, et:20021, et:20022, et:20023, et:20024,
-    et:20026, et:20027, et:20028, et:20033, et:20034, et:20040, et:20092, et:20121, et:20123,
-    et:20130, et:20131, et:20136, et:20137, et:20166, et:20167, et:20195, et:20196, et:20197,
-    et:20198, et:20199, et:20200, et:20201, et:20202 .
-
 et:10222 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -63582,6 +63563,12 @@ et:10157 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
     et:20330, et:20331, et:20332, et:20333, et:20334, et:20335, et:20336, et:20337, et:20338,
     et:20360, et:20361, et:20362, et:20364, et:20365, et:20366, et:20367, et:20487, et:20488,
     et:20489, et:20494, et:20495, et:20496, et:22326, et:22329 .
+
+et:20138 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:10230, et:20015, et:20016, et:20021, et:20022, et:20023, et:20024,
+    et:20026, et:20027, et:20028, et:20033, et:20034, et:20040, et:20092, et:20121, et:20123,
+    et:20130, et:20131, et:20136, et:20137, et:20166, et:20167, et:20195, et:20196, et:20197,
+    et:20198, et:20199, et:20200, et:20201, et:20202 .
 
 et:20361 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20341, et:20344, et:20347, et:20348, et:20349, et:20353, et:20356,
@@ -74905,6 +74892,14 @@ et:20329 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:20524 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:21597 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20798 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10089 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c_1402384622521 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2546 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
