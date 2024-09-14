@@ -41,7 +41,7 @@
   dct:identifier <https://doi.org/10.48373/0PWD-C575>;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "2024-09-10"@en;
+  dct:modified "2024-09-14"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "Environmental Thesaurus"@en;
@@ -749,10 +749,10 @@ et:20569 dct:created "2016-03-31"^^xsd:date;
 
 et:22084 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-06-18"^^xsd:date;
+  dct:modified "2024-09-12"^^xsd:date;
   skos:altLabel "exchange capacity of cations"@en;
   skos:broader et:20935;
-  skos:definition "[Henderson's] base exchange capacity q.v."@en;
+  skos:definition "A measure of the ability of a soil to hold the easily exchangeble cations, available for the plant roots. Cations are positively charged; they are held by negatively charged sites on clay and humus particles."@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_24981>;
   skos:prefLabel "cation exchange capacity"@en .
 
@@ -1916,11 +1916,12 @@ et:USLterCV_507 dct:created "2016-03-31"^^xsd:date;
 
 et:20887 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-12-18"^^xsd:date;
+  dct:modified "2024-09-11"^^xsd:date;
+  dct:source <http://purl.obolibrary.org/obo/ENVO_01000155>;
   skos:broader et:20934;
-  skos:definition "[GEMET] Plant and animal residue that decomposes and becomes a part of the soil."@en;
+  skos:definition "Refers to the large pool of carbon-based compounds found within natural and engineered, terrestrial and aquatic environments."@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_5387>, <http://en.wikipedia.org/wiki/organic_matter>,
-    <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/32620>, <http://www.eionet.europa.eu/gemet/concept/11227>,
+    <http://purl.obolibrary.org/obo/ENVO_01000155>, <http://www.eionet.europa.eu/gemet/concept/11227>,
     <https://vocab.lternet.edu/vocab/vocab/?tema=393>;
   skos:note "[controlled by ] Lars Lundin 20130614"@en;
   skos:prefLabel "Organische Substanz"@de, "látka organická"@cs, "materia organica"@it,
@@ -2301,15 +2302,16 @@ et:USLterCV_530 dct:created "2016-03-31"^^xsd:date;
   iop:hasObjectOfInterest et:24;
   iop:hasProperty et:21524 .
 
-et:22279 dct:created "2016-03-31"^^xsd:date;
+et:22279 a skos:Concept, iop:Variable;
+  dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-02-26"^^xsd:date;
+  dct:modified "2024-09-14"^^xsd:date;
   dct:source <http://www.eionet.europa.eu/gemet/concept/7898>;
   skos:altLabel "texture of soil"@en;
   skos:broader et:20935;
-  skos:definition "1) Refers to the relative proportions of the various size groups (sand, silt and clay) of the individual soil grains in a mass of soil. 2) Classification of soil by the proportion and graduations of the three size groups of soil grains, i.e., sand, silt and clay, present in the soil."@en;
+  skos:definition "Refers to the relative proportions of the various particle size groups (sand, silt and clay) of the individual soil grains in a mass of soil."@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_7199>, <http://en.wikipedia.org/wiki/soil_texture>,
-    <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/30390>, <http://www.eionet.europa.eu/gemet/concept/7898>,
+    <http://purl.dataone.org/odo/ECSO_00002703>, <http://www.eionet.europa.eu/gemet/concept/7898>,
     <https://vocab.lternet.edu/vocab/vocab/?tema=531>;
   skos:note "[controlled by ] Lars Lundin 20130614"@en;
   skos:prefLabel "Bodentextur"@de, "augsnes tekstūra"@lv, "bodemtextuur"@nl, "dirvožemio tekstūra"@lt,
@@ -8590,7 +8592,7 @@ et:USLterCV_563 dct:created "2016-03-31"^^xsd:date;
 et:USLterCV_393 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20887;
-  dct:modified "2022-03-21"^^xsd:date;
+  dct:modified "2024-09-11"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:definition "[GEMET] Plant and animal residue that decomposes and becomes a part of the soil."@en;
@@ -9913,13 +9915,15 @@ et:10382 dct:created "2017-12-05"^^xsd:date;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25208>;
   skos:prefLabel "weight"@en .
 
-et:10316 dct:created "2017-11-17"^^xsd:date;
+et:10316 a skos:Concept, iop:Constraint;
+  dct:created "2017-11-17"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2024-09-14"^^xsd:date;
   skos:broader et:10313;
   skos:definition "[NCIT] The extended two-dimensional outer boundary of a three-dimensional object."@en;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25245>;
-  skos:prefLabel "surface"@en .
+  skos:prefLabel "surface"@en;
+  iop:constrains et:23 .
 
 et:10314 dct:created "2017-11-17"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
@@ -10011,10 +10015,11 @@ et:10346 dct:created "2017-11-17"^^xsd:date;
 
 et:10363 dct:created "2017-12-03"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2018-07-02"^^xsd:date;
+  dct:modified "2024-09-14"^^xsd:date;
+  dct:source <http://purl.obolibrary.org/obo/PATO_0000150>;
   skos:broader et:21463;
-  skos:definition "[NCIT] A measure of the variation of the intensity of a surface, quantifying properties such as smoothness, coarseness, regularity, and resiliency. The term is often used as a descriptor for the structure or organization of a tissue or organ. The three principal approaches used to describe texture are statistical, structural and spectral."@en;
-  skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41144>;
+  skos:definition "A morphologic quality inhering in a bearer by virtue of the bearer's relative size, organization and distribution of its surface elements or the representation or invention of the appearance of its surface; visual and tactile surface characteristics."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/PATO_0000150>;
   skos:prefLabel "texture"@en .
 
 et:10143 dct:created "2015-02-27"^^xsd:date;
@@ -19338,11 +19343,9 @@ et:21912 dct:created "2016-03-31"^^xsd:date;
 
 et:22133 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2024-09-10"^^xsd:date;
-  dct:source <https://prometheusprotocols.net/function/water-relations/hydraulic-conductance-and-conductivity/>;
-  skos:altLabel "hydraulic conductance"@en;
+  dct:modified "2024-09-14"^^xsd:date;
   skos:broader et:10351;
-  skos:definition "Hydraulic conductance is a measure of the efficiency of bulk flow through a material, and defined as the flow rate per unit pressure driving force."@en;
+  skos:definition "The ability of a material to transmit water under saturated or nearly saturated conditions. Hydraulic conductivity is found by measuring the fluid flow through cross-sectional area over time and requires sampling by undisturbed soil cores"@en;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=256>;
   skos:note "[source of definition ] http://prometheuswiki.publish.csiro.au/tiki-index.php?page=Hydraulic+conductance+and+conductivity#sthash.WiD2TWpg.dpuf\" , \"[controlled by ] S Stoll 2013-06-20"@en;
   skos:prefLabel "hydraulic conductivity"@en;
@@ -20527,24 +20530,22 @@ et:20309 dct:created "2016-03-31"^^xsd:date;
 
 et:22245 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-02-26"^^xsd:date;
+  dct:modified "2024-09-14"^^xsd:date;
   skos:altLabel "bulk density in soil"@en;
   skos:broader et:20935;
   skos:definition "Soil bulk density is a measure of the mass of dry soil per unit volume, including the air between particles."@en;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=519>;
-  skos:note "[controlled by ] Lars Lundin 20130614\" , \"[source of definition ] Lars Lundin"@en;
+  skos:note "[controlled by ] Lars Lundin 20130614, [source of definition ] Lars Lundin"@en;
   skos:prefLabel "soil bulk density"@en;
-  skos:scopeNote "US LTER controlled vocabulary"@en;
-  iop:hasObjectOfInterest et:24;
-  iop:hasProperty et:22074 .
+  skos:scopeNote "US LTER controlled vocabulary"@en .
 
 et:21289 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-12-18"^^xsd:date;
+  dct:modified "2024-09-10"^^xsd:date;
   skos:broader et:20950;
   skos:definition "Soil may deteriorate either by physical movement of soil particles from a given site or by depletion of the water-soluble elements in the soil which contribute to the nourishment of crop, plants, grasses, trees, and other economically usable vegetation. The physical movement generally is referred to as erosion. Wind, water, glacial ice, animals and tools in use may be agents of erosion."@en;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=522>;
-  skos:note "[source of definition ] GEMET\" , \"[controlled by ] Tomas Staszevski , 2013-06-08"@en;
+  skos:note "[source of definition ] GEMET , [controlled by ] Tomas Staszevski , 2013-06-08"@en;
   skos:prefLabel "soil disturbance"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
@@ -20579,11 +20580,11 @@ et:22260 dct:created "2016-03-31"^^xsd:date;
 
 et:21661 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-01-13"^^xsd:date;
+  dct:modified "2024-09-10"^^xsd:date;
   skos:altLabel "soil solution chemistry"@en;
   skos:broader et:21656, et:21767;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=529>;
-  skos:note "[source of definition ] Lars Lundin\" , \"[controlled by ] Lars Lundin 20130611"@en;
+  skos:note "[source of definition ] Lars Lundin , [controlled by ] Lars Lundin 20130611"@en;
   skos:prefLabel "soil solution composition"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
@@ -20610,11 +20611,11 @@ et:22278 dct:created "2016-03-31"^^xsd:date;
 
 et:21290 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-12-18"^^xsd:date;
+  dct:modified "2024-09-10"^^xsd:date;
   skos:broader et:20950;
   skos:definition "Bottom heat provided by a Propagator or Soil Warming Cable improves germination of seedlings and rooting of cuttings by promoting healthy, vigorous root growth."@en;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=532>;
-  skos:note "[controlled by ] Tomas Staszevski , 2013-06-08\" , \"[source of definition ] http://www.simplycontrol.co.uk/shop/soil_warming/2_39_0_0/default.aspx"@en;
+  skos:note "[controlled by ] Tomas Staszevski , 2013-06-08 , [source of definition ] http://www.simplycontrol.co.uk/shop/soil_warming/2_39_0_0/default.aspx"@en;
   skos:prefLabel "soil warming"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
@@ -20627,7 +20628,7 @@ et:22281 a skos:Concept, iop:Variable;
   skos:definition "Volume of water of total soil volume"@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_7208>, <http://purl.dataone.org/odo/ECSO_00001704>,
     <https://vocab.lternet.edu/vocab/vocab/?tema=534>, <https://w3id.org/ozcar-theia/c_f3eff6a3>;
-  skos:note "[source of definition ] Lars Lundin\" , \"[controlled by ] Lars Lundin 20130614"@en;
+  skos:note "[source of definition ] Lars Lundin , [controlled by ] Lars Lundin 20130614"@en;
   skos:prefLabel "soil water content"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en;
   iop:hasMatrix et:24;
@@ -20646,29 +20647,29 @@ et:20862 dct:created "2016-03-31"^^xsd:date;
 
 et:21679 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-12-18"^^xsd:date;
+  dct:modified "2024-09-10"^^xsd:date;
   skos:broader et:21673;
   skos:definition "[Henderson's] the number and abund­ance of different species within a given area, which is one measure of biological diversity"@en;
   skos:exactMatch <http://en.wikipedia.org/wiki/species_diversity>, <https://vocab.lternet.edu/vocab/vocab/?tema=543>;
-  skos:note "[comments ] Shorter version than the full Hend definition\" , \"[controlled by ] U Grandin, 2013-08-22\" , \"[source of definition ] Hend"@en;
+  skos:note "[comments ] Shorter version than the full Hend definition , [controlled by ] U Grandin, 2013-08-22 , [source of definition ] Hend"@en;
   skos:prefLabel "species diversity"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
 et:21091 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-12-18"^^xsd:date;
+  dct:modified "2024-09-10"^^xsd:date;
   skos:broader et:20982;
   skos:definition "the effects organisms in a community have on one another"@en;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=544>;
-  skos:note "[source of definition ] http://en.wikipedia.org/wiki/Biological_interaction, 2013-08-22\" , \"[controlled by ] U Grandin, 2013-08-22"@en;
+  skos:note "[source of definition ] http://en.wikipedia.org/wiki/Biological_interaction, 2013-08-22 , [controlled by ] U Grandin, 2013-08-22"@en;
   skos:prefLabel "species interactions"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
 et:22286 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-01-13"^^xsd:date;
+  dct:modified "2024-09-10"^^xsd:date;
   skos:broader et:20935;
-  skos:definition "div class=\\\"swa-object-row\\\"\\r\\ndiv id=\\\"uniqueId141076\\\" class=\\\"swa-widget-row\\\"\\r\\ndiv class=\\\"swa-object-widget\\\"\\r\\ndiv class=\\\"swa-shifted-label\\\"A compilation of all found species in a given area or ecosystemspan class=\\\"swa-lang\\\"br //div\\r\\n/div\\r\\n/div\\r\\n/div\\r\\ndiv id=\\\"uniqueId141077\\\"&nbsp;/div"@en;
+  skos:definition "A compilation of all found species in a given area or ecosystem"@en;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=545>;
   skos:prefLabel "species list"@en .
 
@@ -27883,9 +27884,9 @@ et:20935 dct:created "2018-06-13"^^xsd:date;
 
 et:21447 dct:created "2018-06-13"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2018-06-19"^^xsd:date;
+  dct:modified "2024-09-10"^^xsd:date;
   skos:broader et:10001;
-  skos:definition "span lang=\\\"EN-GB\\\"The characteristic is a basket for more general properties of the objects of interests like empattern, composition, configuration/em, which can be approximated by several derived properties. They can be also qualitative properties, e.g. emnaturalness/em, which are assessed by expert decision."@en;
+  skos:definition "The characteristic is a basket for more general properties of the objects of interests like empattern, composition, configuration/em, which can be approximated by several derived properties. They can be also qualitative properties, e.g. emnaturalness/em, which are assessed by expert decision."@en;
   skos:prefLabel "characteristic"@en .
 
 et:20504 dct:created "2018-06-13"^^xsd:date;
@@ -27897,10 +27898,10 @@ et:20504 dct:created "2018-06-13"^^xsd:date;
 
 et:22075 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-06-18"^^xsd:date;
+  dct:modified "2024-09-10"^^xsd:date;
   skos:altLabel "aerodynamic resistance"@en, "aerodynamic resistance of canopy"@en;
   skos:broader et:20935;
-  skos:definition "span style=\\\"font-size: small;\\\"The transfer of heat and water vapour from the evaporating surface into the air above the canopy."@en;
+  skos:definition "The transfer of heat and water vapour from the evaporating surface into the air above the canopy."@en;
   skos:prefLabel "canopy aerodynamic resistance"@en .
 
 et:AF_c2_2727 dct:created "2016-03-31"^^xsd:date;
@@ -29267,9 +29268,9 @@ et:EnvEU_216 dct:created "2016-03-31"^^xsd:date;
 
 et:21194 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-06-18"^^xsd:date;
+  dct:modified "2024-09-10"^^xsd:date;
   skos:broader et:20950;
-  skos:definition "If the word \\\"Matter\\\" means “Soil organic matter\\\", the definition could be: the storage of Soil Organic Matter (SOM). \\\"SOM is a heterogeneus mixture consisting of plant, animal, and microbial materials in all stages of decay combined with a variety of decomposition products of different ages and levels of complexity\\\""@en;
+  skos:definition "Soil Organic Matter (SOM) is a heterogeneus mixture consisting of plant, animal, and microbial materials in all stages of decay combined with a variety of decomposition products of different ages and levels of complexity."@en;
   skos:prefLabel "matter storage"@en .
 
 et:20643 dct:created "2016-03-31"^^xsd:date;
@@ -47266,8 +47267,9 @@ et:60012 a skos:Concept;
 et:30067 a skos:Concept;
   dct:created "2018-11-22"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2023-02-26"^^xsd:date;
+  dct:modified "2024-09-12"^^xsd:date;
   skos:broader et:20935;
+  skos:definition "CEC is a measure of the ability of a soil to hold the easily exchangeble cations, available for the plant roots. Cations are positively charged; they are held by negatively charged sites on clay and humus particles."@en;
   skos:prefLabel "soil cation exchange capacity"@en;
   iop:hasMatrix et:24;
   iop:hasObjectOfInterest et:20881;
@@ -48934,12 +48936,13 @@ et:21243 a skos:Concept;
   skos:broader et:20948;
   skos:prefLabel "water cycle"@en .
 
-et:22109 a skos:Concept;
+et:22109 a skos:Concept, iop:Variable;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-06-18"^^xsd:date;
+  dct:modified "2024-09-14"^^xsd:date;
   owl:deprecated false;
   skos:broader et:20935;
+  skos:definition "The dry bulk density is the ratio between the mass of oven dry soil material (solid particles) and the volume of the undisturbed fresh sample"@en;
   skos:prefLabel "dry bulk density"@en .
 
 et:20839 a skos:Concept;
@@ -53187,23 +53190,20 @@ et:21597 a skos:Concept;
   skos:broader et:21463;
   skos:prefLabel "limitation"@en .
 
-et:20798 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20798 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20982;
   skos:prefLabel "yield"@en .
 
-et:10089 a skos:Concept;
-  dct:created "2014-12-16"^^xsd:date;
+et:10089 dct:created "2014-12-16"^^xsd:date;
   dct:creator "0000-0002-3518-8918"@en;
   dct:modified "2018-06-18"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:prefLabel "abundance of benthic invertebrates"@en .
 
-et:AF_c_1402384622521 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c_1402384622521 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20009;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53211,8 +53211,7 @@ et:AF_c_1402384622521 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "treatment objective"@en .
 
-et:AF_c2_2546 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2546 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22264;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53220,8 +53219,7 @@ et:AF_c2_2546 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "soil pH"@en .
 
-et:20138 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20138 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2022-03-27"^^xsd:date;
   skos:broader et:20104;
@@ -54598,9 +54596,9 @@ et:30318 dct:created "2023-02-26"^^xsd:date;
 et:30319 a skos:Concept, iop:Variable;
   dct:created "2023-02-26"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2024-09-10"^^xsd:date;
+  dct:modified "2024-09-12"^^xsd:date;
   skos:broader et:20935;
-  skos:definition "Soil hydraulic conductivity is a measure of the efficiency of bulk flow through soil, and defined as the flow rate per unit pressure driving force."@en;
+  skos:definition "The ability of a soil to transmit water under saturated or nearly saturated conditions."@en;
   skos:prefLabel "soil hydraulic conductivity"@en;
   iop:hasObjectOfInterest et:24;
   iop:hasProperty et:22133 .
@@ -54645,13 +54643,13 @@ et:30324 a skos:Concept, iop:Variable;
 et:30325 a skos:Concept, iop:Variable;
   dct:created "2023-03-18"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2024-09-02"^^xsd:date;
+  dct:modified "2024-09-11"^^xsd:date;
   skos:broader et:20935;
-  skos:prefLabel "total organic carbon in soil"@en;
+  skos:prefLabel "total organic carbon content in soil"@en;
   iop:hasContextObject et:24;
   iop:hasMatrix et:20887;
-  iop:hasObjectOfInterest et:20805;
-  iop:hasProperty et:21520 .
+  iop:hasObjectOfInterest et:20813;
+  iop:hasProperty et:21546 .
 
 et:30326 a skos:Concept, iop:Variable;
   dct:created "2023-05-25"^^xsd:date;
@@ -54924,7 +54922,8 @@ et:30354 a skos:Concept, iop:Variable;
   iop:hasProperty et:21524 .
 
 et:30355 dct:created "2024-09-10"^^xsd:date;
-  dct:modified "2024-09-10"^^xsd:date;
+  dct:creator <https://orcid.org/0000-0003-2195-3997>;
+  dct:modified "2024-09-14"^^xsd:date;
   skos:broader et:22313;
   skos:prefLabel "water temperature, stagnant surface water"@en;
   iop:hasConstraint et:30346;
@@ -55305,8 +55304,6 @@ et:EnvEu_74 a skos:Concept .
 et:21909 a skos:Concept .
 
 et:USLterCV_530 a skos:Concept .
-
-et:22279 a skos:Concept .
 
 et:20542 a skos:Concept .
 
@@ -56581,8 +56578,6 @@ et:21742 a skos:Concept .
 et:21713 a skos:Concept .
 
 et:10382 a skos:Concept .
-
-et:10316 a skos:Concept .
 
 et:10314 a skos:Concept .
 
@@ -62260,6 +62255,25 @@ et:msa0434 a skos:Concept .
 
 et:21398 a skos:Concept .
 
+et:20798 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10089 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c_1402384622521 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2546 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20138 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:10230, et:20015, et:20016, et:20021, et:20022, et:20023, et:20024,
+    et:20026, et:20027, et:20028, et:20033, et:20034, et:20040, et:20092, et:20121, et:20123,
+    et:20130, et:20131, et:20136, et:20137, et:20166, et:20167, et:20195, et:20196, et:20197,
+    et:20198, et:20199, et:20200, et:20201, et:20202 .
+
 et:10222 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -63569,12 +63583,6 @@ et:10157 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
     et:20360, et:20361, et:20362, et:20364, et:20365, et:20366, et:20367, et:20487, et:20488,
     et:20489, et:20494, et:20495, et:20496, et:22326, et:22329 .
 
-et:20138 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10230, et:20015, et:20016, et:20021, et:20022, et:20023, et:20024,
-    et:20026, et:20027, et:20028, et:20033, et:20034, et:20040, et:20092, et:20121, et:20123,
-    et:20130, et:20131, et:20136, et:20137, et:20166, et:20167, et:20195, et:20196, et:20197,
-    et:20198, et:20199, et:20200, et:20201, et:20202 .
-
 et:20361 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20341, et:20344, et:20347, et:20348, et:20349, et:20353, et:20356,
     et:20358, et:20359 .
@@ -64036,13 +64044,19 @@ et:22313 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 
 et:20637 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
+et:22279 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
 et:USLterCV_534 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10316 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30041 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:22281 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:22317 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:22109 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30121 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -64531,8 +64545,6 @@ et:EnvEu_74 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:21909 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:USLterCV_530 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:22279 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20542 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -65729,8 +65741,6 @@ et:21674 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:21713 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:10382 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10316 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:10314 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -73852,8 +73862,6 @@ et:30014 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:AF_c2_2778 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-et:22109 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
 et:20839 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:AF_c_1403181392341 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -74897,14 +74905,6 @@ et:20329 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:20524 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:21597 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20798 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10089 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c_1402384622521 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2546 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
