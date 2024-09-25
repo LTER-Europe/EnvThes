@@ -41,13 +41,13 @@
   dct:identifier <https://doi.org/10.48373/0PWD-C575>;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "2024-09-14"@en;
+  dct:modified "2024-09-25"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "Environmental Thesaurus"@en;
   schema:includedInDataCatalog <https://bioportal.bioontology.org/>, <https://ecoportal.lifewatch.eu/>;
   owl:ontologyIRI <http://vocabs.lter-europe.net/EnvThes/>;
-  owl:versionInfo "5.0.9"@en;
+  owl:versionInfo "5.0.10"@en;
   skos:prefLabel "EnvThes"@en;
   <voaf:hasEquivalencesWith> <http://emily.lternet.edu/vocab/>, <http://purl.obolibrary.org/obo/envo>,
     <https://www.eionet.europa.eu/gemet/en/themes/>;
@@ -749,8 +749,8 @@ et:20569 dct:created "2016-03-31"^^xsd:date;
 
 et:22084 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2024-09-12"^^xsd:date;
-  skos:altLabel "exchange capacity of cations"@en;
+  dct:modified "2024-09-25"^^xsd:date;
+  skos:altLabel "CEC"@en;
   skos:broader et:20935;
   skos:definition "A measure of the ability of a soil to hold the easily exchangeble cations, available for the plant roots. Cations are positively charged; they are held by negatively charged sites on clay and humus particles."@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_24981>;
@@ -16367,8 +16367,8 @@ et:msa1085 dct:created "2016-10-12"^^xsd:date;
 
 et:20537 dct:created "2016-10-12"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2023-01-13"^^xsd:date;
-  skos:broader et:10003;
+  dct:modified "2024-09-25"^^xsd:date;
+  skos:broader et:20935;
   skos:definition "[GEMET] Number of plants growing on a certain area of land."@en;
   skos:exactMatch <http://www.eionet.europa.eu/gemet/concept/8908>;
   skos:prefLabel "vegetation cover"@en;
@@ -20529,13 +20529,13 @@ et:20309 dct:created "2016-03-31"^^xsd:date;
 
 et:22245 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2024-09-14"^^xsd:date;
-  skos:altLabel "bulk density in soil"@en;
+  dct:modified "2024-09-15"^^xsd:date;
+  skos:altLabel "bulk density of fine earth"@en;
   skos:broader et:20935;
   skos:definition "Soil bulk density is a measure of the mass of dry soil per unit volume, including the air between particles."@en;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=519>;
   skos:note "[controlled by ] Lars Lundin 20130614, [source of definition ] Lars Lundin"@en;
-  skos:prefLabel "soil bulk density"@en;
+  skos:prefLabel "bulk density of the fine earth"@en;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
 et:21289 dct:created "2016-03-31"^^xsd:date;
@@ -28002,11 +28002,11 @@ et:10004 dct:created "2014-10-17"^^xsd:date;
 
 et:10088 dct:created "2014-12-16"^^xsd:date;
   dct:creator "0000-0002-3518-8918"@en;
-  dct:modified "2018-06-18"^^xsd:date;
+  dct:modified "2024-09-25"^^xsd:date;
   skos:altLabel "content of chlorophyll in water"@en;
   skos:broader et:20935;
   skos:definition "A measure of the chlorophyll content of a volume of water giving an indication of photosynthetic capability."@en;
-  skos:prefLabel "chlorophyll content of water"@en .
+  skos:prefLabel "chlorophyll a concentration in water"@en .
 
 et:EnvEU_295 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
@@ -29010,16 +29010,17 @@ et:20 dct:created "2013-02-14"^^xsd:date;
 
 et:20106 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-06-18"^^xsd:date;
-  skos:broader et:20118;
+  dct:isReplacedBy et:20139;
+  dct:modified "2024-09-25"^^xsd:date;
+  skos:broader et:1;
   skos:definition "each of a number of small plots of vegetation, analysed as a sample of a wider area"@en;
   skos:note "[controlled by ] U Grandin, 2013-08-22\" , \"[source of definition ] http://oxforddictionaries.com/definition/english/relevé, 2013-08-22"@en;
   skos:prefLabel "vegetation relevée"@en .
 
 et:EnvEU_502 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:isReplacedBy et:20106;
-  dct:modified "2022-03-21"^^xsd:date;
+  dct:isReplacedBy et:20139;
+  dct:modified "2024-09-25"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:definition "each of a number of small plots of vegetation, analysed as a sample of a wider area"@en;
@@ -29370,11 +29371,11 @@ et:EnvEU_327 dct:created "2016-03-31"^^xsd:date;
 
 et:21214 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2018-06-18"^^xsd:date;
+  dct:modified "2024-09-25"^^xsd:date;
   skos:broader et:20935;
   skos:definition "Leaf chlorophyll content provides valuable information about physiological status of plants"@en;
   skos:note "[controlled by ] Leca Stefan 14.06.2013\" , \"[source of definition ] ftp://ftp.cis.rit.edu/people/vanaardt/Vineyard_work/Vineyard_Papers/Chlorophyll_HSI.pdf"@en;
-  skos:prefLabel "chlorophyll a content in water"@en .
+  skos:prefLabel "chlorophyll a content in plant"@en .
 
 et:USLterCV_409 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
@@ -52318,10 +52319,10 @@ et:21953 a skos:Concept;
   skos:broader et:10313;
   skos:prefLabel "acid"@en .
 
-et:22065 a skos:concept, iop:Variable;
+et:22065 a skos:Concept, iop:Variable;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2024-09-10"^^xsd:date;
+  dct:modified "2024-09-25"^^xsd:date;
   skos:broader et:20935;
   skos:definition "Base saturation is a measure of the amount of basic nutrients in the soil, expressed as a percentage of the total cation exchange capacity."@en;
   skos:prefLabel "soil base saturation"@en;
@@ -53037,23 +53038,20 @@ et:AF_c3_2513 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "drained water"@en .
 
-et:21462 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:21462 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:21463;
   skos:prefLabel "turnover"@en .
 
-et:AF_c_1405698058988 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c_1405698058988 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:prefLabel "water filled pore space"@en .
 
-et:msa1077 a skos:Concept;
-  dct:created "2016-10-12"^^xsd:date;
+et:msa1077 dct:created "2016-10-12"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:isReplacedBy et:21853;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53061,29 +53059,25 @@ et:msa1077 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "tropical trees"@en .
 
-et:30071 a skos:Concept;
-  dct:created "2018-11-22"^^xsd:date;
+et:30071 dct:created "2018-11-22"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-11-22"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "habitat land cover"@en .
 
-et:30166 a skos:Concept;
-  dct:created "2018-11-30"^^xsd:date;
+et:30166 dct:created "2018-11-30"^^xsd:date;
   dct:creator "0000-0003-1068-2394"@en;
   dct:modified "2018-11-30"^^xsd:date;
   skos:broader et:22286;
   skos:prefLabel "microzooplankton species list"@en .
 
-et:20088 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20088 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:10215;
   skos:prefLabel "cutting height"@en .
 
-et:AF_c3_2641 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c3_2641 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22094;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53091,8 +53085,7 @@ et:AF_c3_2641 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "date of birth"@en .
 
-et:msa0918 a skos:Concept;
-  dct:created "2016-10-12"^^xsd:date;
+et:msa0918 dct:created "2016-10-12"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:isReplacedBy et:22215;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53100,24 +53093,21 @@ et:msa0918 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "root biomass"@en .
 
-et:30114 a skos:Concept;
-  dct:created "2018-11-27"^^xsd:date;
+et:30114 dct:created "2018-11-27"^^xsd:date;
   dct:creator "0000-0003-1068-2394"@en;
   dct:isReplacedBy et:21217;
   dct:modified "2024-06-07"^^xsd:date;
   skos:broader et:1;
   skos:prefLabel "water turbidity"@en .
 
-et:10397 a skos:Concept;
-  dct:created "2017-12-05"^^xsd:date;
+et:10397 dct:created "2017-12-05"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-06-18"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:prefLabel "residual"@en .
 
-et:AF_c2_2694 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2694 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20768;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53125,15 +53115,13 @@ et:AF_c2_2694 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "pesticide"@en, "pesticide"@fr .
 
-et:20136 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20136 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20138;
   skos:prefLabel "Venturi flume"@en .
 
-et:AF_c2_2829 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2829 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:21517;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53141,8 +53129,7 @@ et:AF_c2_2829 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "capillary rise"@en .
 
-et:AF_c_1403016009187 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c_1403016009187 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22257;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53150,8 +53137,7 @@ et:AF_c_1403016009187 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "soil microbial diversity"@en .
 
-et:msa0992 a skos:Concept;
-  dct:created "2016-10-12"^^xsd:date;
+et:msa0992 dct:created "2016-10-12"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:isReplacedBy et:21721;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53159,8 +53145,7 @@ et:msa0992 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "soil ecology"@en .
 
-et:AF_c2_3009 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_3009 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20843;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53168,44 +53153,38 @@ et:AF_c2_3009 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "nitrophosphate"@en .
 
-et:20329 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20329 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:10157;
   skos:prefLabel "tension lysimeter"@en .
 
-et:20524 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20524 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:10231;
   skos:prefLabel "bioindicator"@en .
 
-et:21597 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:21597 dct:created "2018-06-13"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:21463;
   skos:prefLabel "limitation"@en .
 
-et:20798 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20798 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20982;
   skos:prefLabel "yield"@en .
 
-et:10089 a skos:Concept;
-  dct:created "2014-12-16"^^xsd:date;
+et:10089 dct:created "2014-12-16"^^xsd:date;
   dct:creator "0000-0002-3518-8918"@en;
   dct:modified "2018-06-18"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:prefLabel "abundance of benthic invertebrates"@en .
 
-et:AF_c_1402384622521 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c_1402384622521 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20009;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53213,8 +53192,7 @@ et:AF_c_1402384622521 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "treatment objective"@en .
 
-et:AF_c2_2546 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2546 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22264;
   dct:modified "2022-03-21"^^xsd:date;
@@ -53222,8 +53200,7 @@ et:AF_c2_2546 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "soil pH"@en .
 
-et:20138 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20138 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2022-03-27"^^xsd:date;
   skos:broader et:20104;
@@ -54921,15 +54898,37 @@ et:30354 a skos:Concept, iop:Variable;
   iop:hasObjectOfInterest et:20542;
   iop:hasProperty et:21524 .
 
-et:30355 dct:created "2024-09-10"^^xsd:date;
+et:30355 a skos:Concept, iop:Variable;
+  dct:created "2024-09-10"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2024-09-14"^^xsd:date;
+  dct:modified "2024-09-25"^^xsd:date;
   skos:broader et:22313;
   skos:prefLabel "water temperature, stagnant surface water"@en;
   iop:hasConstraint et:30346;
   iop:hasContextObject et:30264;
   iop:hasObjectOfInterest <http://vocab.nerc.ac.uk/collection/S26/current/MAT00640/>;
   iop:hasProperty et:21524 .
+
+et:30356 a skos:Concept, iop:Variable;
+  dct:created "2024-09-25"^^xsd:date;
+  dct:creator <https://orcid.org/0000-0003-2195-3997>;
+  dct:modified "2024-09-25"^^xsd:date;
+  skos:broader et:20935;
+  skos:prefLabel "phycocyanin concentration in water"@en .
+
+et:30357 a skos:Concept, iop:Variable;
+  dct:created "2024-09-25"^^xsd:date;
+  dct:creator <https://orcid.org/0000-0003-2195-3997>;
+  dct:modified "2024-09-25"^^xsd:date;
+  skos:broader et:20935;
+  skos:prefLabel "phycoerythrin concentration in water"@en .
+
+et:30358 a skos:Concept, iop:Variable;
+  dct:created "2024-09-25"^^xsd:date;
+  dct:creator <https://orcid.org/0000-0003-2195-3997>;
+  dct:modified "2024-09-25"^^xsd:date;
+  skos:broader et:30179;
+  skos:prefLabel "oxygen concentration in water, stagnant surface water"@en .
 
 et:USLterCV_668 a skos:Concept .
 
@@ -62255,6 +62254,82 @@ et:msa0434 a skos:Concept .
 
 et:21398 a skos:Concept .
 
+et:21462 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c_1405698058988 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:msa1077 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30071 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30166 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20088 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c3_2641 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:msa0918 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30114 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10397 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2694 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20136 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2829 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c_1403016009187 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:msa0992 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_3009 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20329 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20524 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21597 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20798 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10089 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c_1402384622521 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2546 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20138 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:10230, et:20015, et:20016, et:20021, et:20022, et:20023, et:20024,
+    et:20026, et:20027, et:20028, et:20033, et:20034, et:20040, et:20092, et:20121, et:20123,
+    et:20130, et:20131, et:20136, et:20137, et:20166, et:20167, et:20195, et:20196, et:20197,
+    et:20198, et:20199, et:20200, et:20201, et:20202 .
+
 et:10222 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -62633,10 +62708,6 @@ et:30336 a skos:Concept;
 et:30353 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-et:30355 a skos:Concept;
-  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30344, et:30345 .
-
 et:1 skos:narrower et:AF_c_1405669284328, et:EUDIM_018, et:EUUnits_149, et:EnvEU_228,
     et:EnvEU_247, et:EnvEU_257, et:EnvEU_268, et:EnvEU_269, et:EnvEU_322, et:EnvEu_130,
     et:EnvEu_23, et:EnvEu_53, et:EnvEu_75, et:EnvEu_74, et:EnvEu_83, et:USLterCV_104,
@@ -62859,9 +62930,9 @@ et:1 skos:narrower et:AF_c_1405669284328, et:EUDIM_018, et:EUUnits_149, et:EnvEU
     et:USLterCV_658, et:EnvEU_231, et:EnvEu_58, et:10196, et:EnvEU_531, et:EnvEu_121,
     et:10186, et:EnvEU_506, et:USLterCV_255, et:03733596-c643-4c14-a7bc-3048591a3f2d,
     et:USLterCV_291, et:EnvEu_88, et:EnvEu_26, et:EnvEU_537, et:EnvEU_532, et:USLterCV_365,
-    et:EnvEU_254, et:USLterCV_331, et:USLterCV_660, et:EnvEU_502, et:46, et:76, et:EnvEU_526,
-    et:USLterCV_716, et:USLterCV_597, et:USLterCV_805, et:EnvEU_306, et:EnvEu_77, et:EnvEu_127,
-    et:30, et:EnvEu_105, et:EnvEU_319, et:USLterCV_790, et:EnvEU_305, et:USLterCV_256,
+    et:EnvEU_254, et:USLterCV_331, et:USLterCV_660, et:20106, et:EnvEU_502, et:46, et:76,
+    et:EnvEU_526, et:USLterCV_716, et:USLterCV_597, et:USLterCV_805, et:EnvEU_306, et:EnvEu_77,
+    et:EnvEu_127, et:30, et:EnvEu_105, et:EnvEU_319, et:USLterCV_790, et:EnvEU_305, et:USLterCV_256,
     et:EnvEU_271, et:EnvEU_216, et:EnvEu_41, et:USLterCV_266, et:USLterCV_650, et:USLterCV_257,
     et:EnvEU_264, et:EnvEU_265, et:EnvEU_266, et:EnvEU_327, et:USLterCV_409, et:EnvEU_307,
     et:15, et:USLterCV_77, et:USLterCV_519, et:10078, et:EnvEU_525, et:AF_c3_2748, et:USLterCV_90,
@@ -63118,84 +63189,84 @@ et:1 skos:narrower et:AF_c_1405669284328, et:EUDIM_018, et:EUUnits_149, et:EnvEU
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20935 skos:narrower et:10011, et:10031, et:10058, et:10117, et:10308, et:10390,
-    et:1320, et:20790, et:20792, et:20793, et:20794, et:20926, et:21050, et:21065, et:21198,
-    et:20796, et:21211, et:21303, et:21323, et:21363, et:21368, et:21369, et:21379, et:10370,
-    et:21396, et:21407, et:21408, et:21415, et:21419, et:21420, et:21421, et:21422, et:21454,
-    et:21461, et:21471, et:20848, et:20863, et:21052, et:21472, et:21473, et:21477, et:20925,
-    et:20928, et:21487, et:21510, et:10125, et:21511, et:21351, et:21513, et:21527, et:10018,
-    et:21529, et:21531, et:20845, et:21532, et:21216, et:21538, et:21221, et:21031, et:21528,
-    et:21489, et:21564, et:21577, et:21909, et:21933, et:21365, et:22025, et:21558, et:21316,
-    et:22029, et:22030, et:21455, et:22032, et:21309, et:21402, et:20786, et:21043, et:21391,
-    et:20969, et:21435, et:21400, et:21177, et:21355, et:21434, et:21353, et:10307, et:21075,
-    et:21442, et:22035, et:21438, et:10060, et:21482, et:22038, et:22039, et:21242, et:20707,
-    et:21215, et:22045, et:21393, et:22060, et:21397, et:21948, et:21474, et:22063, et:22067,
-    et:10321, et:22068, et:22072, et:10088, et:22073, et:21587, et:22075, et:21475, et:22076,
-    et:20927, et:21478, et:22044, et:21399, et:22077, et:22079, et:21214, et:10072, et:10071,
-    et:10086, et:10082, et:10081, et:22082, et:22084, et:22085, et:22086, et:21480, et:21265,
-    et:10083, et:22089, et:21266, et:22094, et:22101, et:22102, et:10076, et:22104, et:22106,
-    et:10017, et:21270, et:21320, et:22107, et:22113, et:10085, et:21218, et:22114, et:21217,
-    et:22116, et:22103, et:21213, et:21222, et:22119, et:22120, et:22122, et:22123, et:22125,
-    et:22126, et:21481, et:22130, et:22081, et:22131, et:10392, et:22137, et:22139, et:22140,
-    et:20817, et:22141, et:22142, et:10015, et:22092, et:22080, et:22091, et:22143, et:22144,
-    et:22146, et:22148, et:22034, et:10024, et:22149, et:22152, et:22156, et:22157, et:22158,
-    et:22159, et:22161, et:22090, et:22162, et:22172, et:21560, et:20904, et:10387, et:22173,
-    et:21444, et:22163, et:21366, et:22031, et:22174, et:22175, et:22177, et:22178, et:21569,
-    et:22179, et:22180, et:22110, et:21575, et:22181, et:21409, et:21429, et:21428, et:10048,
-    et:10391, et:10118, et:22182, et:22183, et:22170, et:22115, et:22066, et:22164, et:22185,
-    et:21166, et:22037, et:22188, et:22189, et:10341, et:10340, et:22192, et:10123, et:10122,
-    et:10121, et:22195, et:22059, et:10343, et:21405, et:22191, et:21210, et:22127, et:22151,
-    et:22145, et:22196, et:21404, et:22197, et:22198, et:22194, et:22049, et:22171, et:21165,
-    et:21201, et:22199, et:22200, et:22201, et:22202, et:22205, et:22168, et:21199, et:22206,
-    et:21364, et:22071, et:22166, et:22209, et:21530, et:22100, et:21516, et:21941, et:22153,
-    et:22211, et:22214, et:21395, et:21394, et:22210, et:22204, et:22186, et:22135, et:22118,
-    et:22134, et:22216, et:22150, et:21526, et:22217, et:22078, et:22218, et:21164, et:22219,
-    et:22083, et:22220, et:22129, et:10388, et:22223, et:21398, et:10396, et:22224, et:22225,
-    et:21160, et:21352, et:22226, et:22111, et:22227, et:22228, et:22229, et:22169, et:22124,
-    et:22062, et:21039, et:21388, et:22190, et:22230, et:22184, et:22097, et:22096, et:22093,
-    et:22055, et:22042, et:22231, et:22064, et:21384, et:22232, et:22233, et:22234, et:22235,
-    et:22222, et:22165, et:22212, et:22236, et:22237, et:22138, et:22136, et:22238, et:22239,
-    et:22240, et:22147, et:22036, et:22241, et:22193, et:22187, et:22160, et:22088, et:22087,
-    et:22167, et:22242, et:21380, et:22245, et:22246, et:22247, et:10394, et:21446, et:21452,
-    et:21367, et:22248, et:22249, et:22250, et:22251, et:22070, et:22252, et:22253, et:22254,
-    et:22215, et:22255, et:22256, et:10124, et:22257, et:10380, et:10120, et:22258, et:22259,
-    et:21360, et:21359, et:21544, et:22061, et:22132, et:22261, et:22058, et:22057, et:22056,
-    et:22262, et:22054, et:22053, et:22052, et:22051, et:22050, et:22048, et:22108, et:22041,
-    et:10303, et:10304, et:10302, et:22243, et:10310, et:10300, et:10338, et:10021, et:10335,
-    et:22263, et:22028, et:10337, et:22264, et:22112, et:10020, et:22027, et:22026, et:10336,
-    et:21448, et:10043, et:21514, et:21492, et:21559, et:21374, et:20632, et:20968, et:21120,
-    et:20873, et:21354, et:21443, et:21486, et:22121, et:22203, et:21437, et:20849, et:21449,
-    et:22105, et:21080, et:20846, et:21426, et:21493, et:21392, et:20970, et:21433, et:21451,
-    et:21479, et:21525, et:22155, et:21488, et:20847, et:21436, et:22176, et:20153, et:21439,
-    et:22128, et:21051, et:21362, et:21208, et:21512, et:22265, et:22266, et:22267, et:21935,
-    et:22268, et:10042, et:22269, et:22270, et:22271, et:22272, et:21936, et:10037, et:22273,
-    et:22274, et:22154, et:22275, et:21515, et:22278, et:22279, et:22280, et:21542, et:21173,
-    et:21084, et:22281, et:22282, et:22283, et:22284, et:22285, et:22286, et:10028, et:22287,
-    et:22288, et:20942, et:10091, et:22289, et:21385, et:22290, et:10241, et:21457, et:20943,
-    et:21196, et:22213, et:10047, et:22291, et:22292, et:22098, et:22109, et:22293, et:22294,
-    et:22295, et:21939, et:21476, et:22296, et:21174, et:22297, et:22298, et:22047, et:22299,
-    et:22300, et:22301, et:22277, et:22302, et:22303, et:21938, et:22304, et:20936, et:22305,
-    et:22306, et:22046, et:22307, et:21551, et:10115, et:22308, et:22309, et:22310, et:22311,
-    et:22312, et:22207, et:22313, et:22314, et:22315, et:22316, et:22317, et:22318, et:22320,
-    et:22099, et:20939, et:22325, et:21937, et:10051, et:22065, et:22330, et:22500, et:21239,
-    et:20947, et:30017, et:30018, et:30019, et:30021, et:30022, et:30023, et:30024, et:30025,
-    et:30026, et:30027, et:30028, et:30029, et:30032, et:30034, et:30035, et:30036, et:30037,
-    et:30053, et:30055, et:30065, et:30066, et:30067, et:30068, et:30069, et:30070, et:30071,
-    et:30072, et:30073, et:30100, et:30101, et:30102, et:30103, et:30104, et:30105, et:30106,
-    et:30107, et:30109, et:30112, et:30113, et:30115, et:30116, et:30117, et:30118, et:30119,
-    et:30120, et:30121, et:30122, et:30123, et:30124, et:30125, et:30126, et:30127, et:30128,
-    et:30129, et:30130, et:30131, et:30132, et:30133, et:30136, et:30138, et:30139, et:30140,
-    et:30141, et:30146, et:30147, et:30148, et:30149, et:30150, et:30151, et:30152, et:30153,
-    et:30154, et:30156, et:30160, et:30161;
+    et:1320, et:20537, et:20790, et:20792, et:20793, et:20794, et:20926, et:21050, et:21065,
+    et:21198, et:20796, et:21211, et:21303, et:21323, et:21363, et:21368, et:21369, et:21379,
+    et:10370, et:21396, et:21407, et:21408, et:21415, et:21419, et:21420, et:21421, et:21422,
+    et:21454, et:21461, et:21471, et:20848, et:20863, et:21052, et:21472, et:21473, et:21477,
+    et:20925, et:20928, et:21487, et:21510, et:10125, et:21511, et:21351, et:21513, et:21527,
+    et:10018, et:21529, et:21531, et:20845, et:21532, et:21216, et:21538, et:21221, et:21031,
+    et:21528, et:21489, et:21564, et:21577, et:21909, et:21933, et:21365, et:22025, et:21558,
+    et:21316, et:22029, et:22030, et:21455, et:22032, et:21309, et:21402, et:20786, et:21043,
+    et:21391, et:20969, et:21435, et:21400, et:21177, et:21355, et:21434, et:21353, et:10307,
+    et:21075, et:21442, et:22035, et:21438, et:10060, et:21482, et:22038, et:22039, et:21242,
+    et:20707, et:21215, et:22045, et:21393, et:22060, et:21397, et:21948, et:21474, et:22063,
+    et:22067, et:10321, et:22068, et:22072, et:10088, et:22073, et:21587, et:22075, et:21475,
+    et:22076, et:20927, et:21478, et:22044, et:21399, et:22077, et:22079, et:21214, et:10072,
+    et:10071, et:10086, et:10082, et:10081, et:22082, et:22084, et:22085, et:22086, et:21480,
+    et:21265, et:10083, et:22089, et:21266, et:22094, et:22101, et:22102, et:10076, et:22104,
+    et:22106, et:10017, et:21270, et:21320, et:22107, et:22113, et:10085, et:21218, et:22114,
+    et:21217, et:22116, et:22103, et:21213, et:21222, et:22119, et:22120, et:22122, et:22123,
+    et:22125, et:22126, et:21481, et:22130, et:22081, et:22131, et:10392, et:22137, et:22139,
+    et:22140, et:20817, et:22141, et:22142, et:10015, et:22092, et:22080, et:22091, et:22143,
+    et:22144, et:22146, et:22148, et:22034, et:10024, et:22149, et:22152, et:22156, et:22157,
+    et:22158, et:22159, et:22161, et:22090, et:22162, et:22172, et:21560, et:20904, et:10387,
+    et:22173, et:21444, et:22163, et:21366, et:22031, et:22174, et:22175, et:22177, et:22178,
+    et:21569, et:22179, et:22180, et:22110, et:21575, et:22181, et:21409, et:21429, et:21428,
+    et:10048, et:10391, et:10118, et:22182, et:22183, et:22170, et:22115, et:22066, et:22164,
+    et:22185, et:21166, et:22037, et:22188, et:22189, et:10341, et:10340, et:22192, et:10123,
+    et:10122, et:10121, et:22195, et:22059, et:10343, et:21405, et:22191, et:21210, et:22127,
+    et:22151, et:22145, et:22196, et:21404, et:22197, et:22198, et:22194, et:22049, et:22171,
+    et:21165, et:21201, et:22199, et:22200, et:22201, et:22202, et:22205, et:22168, et:21199,
+    et:22206, et:21364, et:22071, et:22166, et:22209, et:21530, et:22100, et:21516, et:21941,
+    et:22153, et:22211, et:22214, et:21395, et:21394, et:22210, et:22204, et:22186, et:22135,
+    et:22118, et:22134, et:22216, et:22150, et:21526, et:22217, et:22078, et:22218, et:21164,
+    et:22219, et:22083, et:22220, et:22129, et:10388, et:22223, et:21398, et:10396, et:22224,
+    et:22225, et:21160, et:21352, et:22226, et:22111, et:22227, et:22228, et:22229, et:22169,
+    et:22124, et:22062, et:21039, et:21388, et:22190, et:22230, et:22184, et:22097, et:22096,
+    et:22093, et:22055, et:22042, et:22231, et:22064, et:21384, et:22232, et:22233, et:22234,
+    et:22235, et:22222, et:22165, et:22212, et:22236, et:22237, et:22138, et:22136, et:22238,
+    et:22239, et:22240, et:22147, et:22036, et:22241, et:22193, et:22187, et:22160, et:22088,
+    et:22087, et:22167, et:22242, et:21380, et:22245, et:22246, et:22247, et:10394, et:21446,
+    et:21452, et:21367, et:22248, et:22249, et:22250, et:22251, et:22070, et:22252, et:22253,
+    et:22254, et:22215, et:22255, et:22256, et:10124, et:22257, et:10380, et:10120, et:22258,
+    et:22259, et:21360, et:21359, et:21544, et:22061, et:22132, et:22261, et:22058, et:22057,
+    et:22056, et:22262, et:22054, et:22053, et:22052, et:22051, et:22050, et:22048, et:22108,
+    et:22041, et:10303, et:10304, et:10302, et:22243, et:10310, et:10300, et:10338, et:10021,
+    et:10335, et:22263, et:22028, et:10337, et:22264, et:22112, et:10020, et:22027, et:22026,
+    et:10336, et:21448, et:10043, et:21514, et:21492, et:21559, et:21374, et:20632, et:20968,
+    et:21120, et:20873, et:21354, et:21443, et:21486, et:22121, et:22203, et:21437, et:20849,
+    et:21449, et:22105, et:21080, et:20846, et:21426, et:21493, et:21392, et:20970, et:21433,
+    et:21451, et:21479, et:21525, et:22155, et:21488, et:20847, et:21436, et:22176, et:20153,
+    et:21439, et:22128, et:21051, et:21362, et:21208, et:21512, et:22265, et:22266, et:22267,
+    et:21935, et:22268, et:10042, et:22269, et:22270, et:22271, et:22272, et:21936, et:10037,
+    et:22273, et:22274, et:22154, et:22275, et:21515, et:22278, et:22279, et:22280, et:21542,
+    et:21173, et:21084, et:22281, et:22282, et:22283, et:22284, et:22285, et:22286, et:10028,
+    et:22287, et:22288, et:20942, et:10091, et:22289, et:21385, et:22290, et:10241, et:21457,
+    et:20943, et:21196, et:22213, et:10047, et:22291, et:22292, et:22098, et:22109, et:22293,
+    et:22294, et:22295, et:21939, et:21476, et:22296, et:21174, et:22297, et:22298, et:22047,
+    et:22299, et:22300, et:22301, et:22277, et:22302, et:22303, et:21938, et:22304, et:20936,
+    et:22305, et:22306, et:22046, et:22307, et:21551, et:10115, et:22308, et:22309, et:22310,
+    et:22311, et:22312, et:22207, et:22313, et:22314, et:22315, et:22316, et:22317, et:22318,
+    et:22320, et:22099, et:20939, et:22325, et:21937, et:10051, et:22065, et:22330, et:22500,
+    et:21239, et:20947, et:30017, et:30018, et:30019, et:30021, et:30022, et:30023, et:30024,
+    et:30025, et:30026, et:30027, et:30028, et:30029, et:30032, et:30034, et:30035, et:30036,
+    et:30037, et:30053, et:30055, et:30065, et:30066, et:30067, et:30068, et:30069, et:30070,
+    et:30071, et:30072, et:30073, et:30100, et:30101, et:30102, et:30103, et:30104, et:30105,
+    et:30106, et:30107, et:30109, et:30112, et:30113, et:30115, et:30116, et:30117, et:30118,
+    et:30119, et:30120, et:30121, et:30122, et:30123, et:30124, et:30125, et:30126, et:30127,
+    et:30128, et:30129, et:30130, et:30131, et:30132, et:30133, et:30136, et:30138, et:30139,
+    et:30140, et:30141, et:30146, et:30147, et:30148, et:30149, et:30150, et:30151, et:30152,
+    et:30153, et:30154, et:30156, et:30160, et:30161, et:30162, et:30163;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30162, et:30163, et:30164, et:30169, et:30171, et:30173, et:30176,
-    et:30177, et:30179, et:30180, et:30181, et:30182, et:30183, et:30203, et:30206, et:30208,
-    et:30212, et:30217, et:30218, et:30219, et:30220, et:30221, et:30229, et:30230, et:30231,
-    et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238, et:30239, et:30240,
-    et:30241, et:30242, et:30243, et:30244, et:30245, et:30246, et:30247, et:30248, et:30249,
-    et:30250, et:30251, et:30252, et:30253, et:30254, et:30255, et:30256, et:30257, et:30258,
-    et:30259, et:30260, et:30261, et:30262, et:30265, et:30272, et:30275, et:30278, et:30281,
-    et:30283, et:30288, et:30298, et:30299, et:30319, et:30321, et:30323, et:30324, et:30325,
-    et:30326, et:30332, et:30339, et:30342, et:30343, et:30348, et:30352, et:60001, et:600019,
+  skos:narrower et:30164, et:30169, et:30171, et:30173, et:30176, et:30177, et:30179,
+    et:30180, et:30181, et:30182, et:30183, et:30203, et:30206, et:30208, et:30212, et:30217,
+    et:30218, et:30219, et:30220, et:30221, et:30229, et:30230, et:30231, et:30232, et:30233,
+    et:30234, et:30235, et:30236, et:30237, et:30238, et:30239, et:30240, et:30241, et:30242,
+    et:30243, et:30244, et:30245, et:30246, et:30247, et:30248, et:30249, et:30250, et:30251,
+    et:30252, et:30253, et:30254, et:30255, et:30256, et:30257, et:30258, et:30259, et:30260,
+    et:30261, et:30262, et:30265, et:30272, et:30275, et:30278, et:30281, et:30283, et:30288,
+    et:30298, et:30299, et:30319, et:30321, et:30323, et:30324, et:30325, et:30326, et:30332,
+    et:30339, et:30342, et:30343, et:30348, et:30352, et:30356, et:30357, et:60001, et:600019,
     et:60002, et:60003, et:60004, et:60005, et:60006, et:60007, et:60008, et:60009, et:60010,
     et:60011, et:60012, et:60023, et:60024, et:60025, et:60026, et:60027, et:60030, et:60031,
     et:60032, et:60033, et:60034;
@@ -63417,8 +63488,8 @@ et:20635 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20558, et:20637, et:30041, et:30305, et:30306, et:30307, et:30308 .
 
 et:10003 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:20535, et:20536, et:20537, et:20538, et:20543, et:20899, et:20907,
-    et:20909, et:21900, et:21919, et:23, et:24, et:30184, et:30330 .
+  skos:narrower et:20535, et:20536, et:20538, et:20543, et:20899, et:20907, et:20909,
+    et:21900, et:21919, et:23, et:24, et:30184, et:30330 .
 
 et:21243 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20949, et:21202, et:21203, et:21204, et:21205, et:21206, et:21209,
@@ -63545,8 +63616,8 @@ et:30006 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 cl:10189 skos:narrower et:21747 .
 
 et:20118 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:20106, et:20115, et:20117, et:20119, et:20122, et:20141, et:20142,
-    et:20143, et:20160, et:20203, et:20226, et:20322 .
+  skos:narrower et:20115, et:20117, et:20119, et:20122, et:20141, et:20142, et:20143,
+    et:20160, et:20203, et:20226, et:20322 .
 
 et:21752 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:21753, et:21951 .
@@ -63563,12 +63634,6 @@ et:10157 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
     et:20330, et:20331, et:20332, et:20333, et:20334, et:20335, et:20336, et:20337, et:20338,
     et:20360, et:20361, et:20362, et:20364, et:20365, et:20366, et:20367, et:20487, et:20488,
     et:20489, et:20494, et:20495, et:20496, et:22326, et:22329 .
-
-et:20138 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10230, et:20015, et:20016, et:20021, et:20022, et:20023, et:20024,
-    et:20026, et:20027, et:20028, et:20033, et:20034, et:20040, et:20092, et:20121, et:20123,
-    et:20130, et:20131, et:20136, et:20137, et:20166, et:20167, et:20195, et:20196, et:20197,
-    et:20198, et:20199, et:20200, et:20201, et:20202 .
 
 et:20361 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20341, et:20344, et:20347, et:20348, et:20349, et:20353, et:20356,
@@ -64014,6 +64079,9 @@ et:30339 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 et:30342 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30341 .
 
+et:30355 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:30344, et:30345 .
+
 et:21218 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30347 .
 
@@ -64028,6 +64096,9 @@ et:30025 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 
 et:22313 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30354, et:30355 .
+
+et:30179 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:30358 .
 
 et:20637 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -64044,6 +64115,8 @@ et:22281 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:22317 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:22109 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:22065 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30121 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -64190,6 +64263,12 @@ et:30351 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:30352 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30354 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30356 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30357 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30358 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:USLterCV_668 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -74249,8 +74328,6 @@ et:21232 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:10115 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-et:30179 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
 et:AF_c_1402384751787 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20019 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -74854,52 +74931,6 @@ et:AF_c3_2493 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:22008 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:AF_c3_2513 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21462 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c_1405698058988 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:msa1077 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30071 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30166 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20088 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c3_2641 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:msa0918 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30114 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10397 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2694 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20136 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2829 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c_1403016009187 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:msa0992 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_3009 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20329 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20524 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21597 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20798 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10089 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c_1402384622521 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2546 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
