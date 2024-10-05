@@ -41,13 +41,13 @@
   dct:identifier <https://doi.org/10.48373/0PWD-C575>;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "2024-09-25"@en;
+  dct:modified "2024-10-05"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "Environmental Thesaurus"@en;
   schema:includedInDataCatalog <https://bioportal.bioontology.org/>, <https://ecoportal.lifewatch.eu/>;
   owl:ontologyIRI <http://vocabs.lter-europe.net/EnvThes/>;
-  owl:versionInfo "5.0.10"@en;
+  owl:versionInfo "5.0.11"@en;
   skos:prefLabel "EnvThes"@en;
   <voaf:hasEquivalencesWith> <http://emily.lternet.edu/vocab/>, <http://purl.obolibrary.org/obo/envo>,
     <https://www.eionet.europa.eu/gemet/en/themes/>;
@@ -7971,7 +7971,7 @@ et:USLterCV_431 dct:created "2016-03-31"^^xsd:date;
 et:22035 a skos:Concept, iop:Variable;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2024-06-09"^^xsd:date;
+  dct:modified "2024-10-05"^^xsd:date;
   skos:altLabel "temperature of air"@en;
   skos:broader et:20935;
   skos:definition "[GEMET] The temperature of the atmosphere which represents the average kinetic energy of the molecular motion in a small region and is defined in terms of a standard or calibrated thermometer in thermal equilibrium with the air."@en;
@@ -7986,7 +7986,7 @@ et:22035 a skos:Concept, iop:Variable;
     "teplota vzduchu"@sk, "õhu temperatuur"@et, "θερμοκρασία (του) αέρα"@el, "Температура на въздуха"@bg,
     "درجة حرارة الهواء"@ar;
   skos:scopeNote "US LTER controlled vocabulary"@en;
-  iop:hasContextObject et:21920;
+  iop:hasMatrix et:21920;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty et:21524 .
 
