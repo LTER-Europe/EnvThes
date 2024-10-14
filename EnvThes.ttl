@@ -52114,15 +52114,13 @@ et:30107 a skos:Concept;
   skos:broader et:20935;
   skos:prefLabel "transpiration to evaporation ratio"@en .
 
-et:20066 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20066 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20294;
   skos:prefLabel "magnesium fertiliser"@en .
 
-et:21937 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:21937 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20935;
@@ -54765,7 +54763,7 @@ et:30352 a skos:Concept, iop:Variable;
   dct:modified "2024-10-14"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "ice cover"@en;
-  iop:hasConstraint et:30365;
+  iop:hasMatrix et:30365;
   iop:hasObjectOfInterest et:20918;
   iop:hasProperty et:21519 .
 
@@ -54945,7 +54943,9 @@ et:30378 a skos:Concept, iop:Variable;
   iop:hasProperty <http://www.ontology-of-units-of-measure.org/resource/om-2/AreaFraction> .
 
 et:30379 dct:created "2024-10-14"^^xsd:date;
-  dct:modified "2024-10-14"^^xsd:date .
+  dct:modified "2024-10-14"^^xsd:date;
+  skos:definition "Maximum height of char imprinted on a tree trunk by fire as measured from the base of the tree trunk to the highest vertical extent using a 360° sweep at each sampling location."@en;
+  skos:prefLabel "maximum trunk char height"@en .
 
 et:USLterCV_668 a skos:Concept .
 
@@ -62270,6 +62270,12 @@ et:60018 a skos:Concept .
 et:msa0434 a skos:Concept .
 
 et:21398 a skos:Concept .
+
+et:20066 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21937 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20008 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -75122,10 +75128,6 @@ et:20939 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:21172 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30107 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20066 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21937 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
