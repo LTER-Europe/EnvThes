@@ -54797,7 +54797,7 @@ et:30364 dct:created "2024-10-13"^^xsd:date;
   dct:modified "2024-10-14"^^xsd:date;
   skos:broader et:10313;
   skos:prefLabel "affected by fire"@en;
-  iop:constrains et:30379 .
+  iop:constrains <http://purl.jp/bio/4/id/200906090403689217> .
 
 et:30365 dct:created "2024-10-13"^^xsd:date;
   dct:modified "2024-10-14"^^xsd:date;
@@ -54895,9 +54895,9 @@ et:30379 a skos:Concept, iop:Variable;
   dct:source <https://linked.data.gov.au/def/nrm/3a2b344c-07b5-4536-8db3-06b73bc0e263>;
   skos:altLabel "height of tree trunk affected by fire"@en;
   skos:broader et:20935;
-  skos:definition "Maximum height of char imprinted on a tree trunk by fire as measured from the base of the tree trunk to the highest vertical extent using a 360° sweep at each sampling location."@en;
+  skos:definition "Height of char imprinted on a tree trunk by fire as measured from the base of the tree trunk to the highest vertical extent using a 360° sweep at each sampling location."@en;
   skos:exactMatch <https://linked.data.gov.au/def/nrm/3a2b344c-07b5-4536-8db3-06b73bc0e263>;
-  skos:prefLabel "maximum trunk char height"@en;
+  skos:prefLabel "tree trunk char height"@en;
   iop:hasConstraint et:30364;
   iop:hasObjectOfInterest <http://purl.jp/bio/4/id/200906090403689217>;
   iop:hasProperty <http://www.ontology-of-units-of-measure.org/resource/om-2/Height> .
