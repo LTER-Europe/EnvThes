@@ -52732,15 +52732,13 @@ et:AF_c2_2783 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "gravimetric method for soil water content"@en .
 
-et:30029 a skos:Concept;
-  dct:created "2018-11-12"^^xsd:date;
+et:30029 dct:created "2018-11-12"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-11-13"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "perched water table"@en .
 
-et:msa0626 a skos:Concept;
-  dct:created "2016-10-12"^^xsd:date;
+et:msa0626 dct:created "2016-10-12"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:isReplacedBy et:21678;
   dct:modified "2022-03-21"^^xsd:date;
@@ -52748,15 +52746,13 @@ et:msa0626 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "marine biodiversity"@en .
 
-et:30150 a skos:Concept;
-  dct:created "2018-11-27"^^xsd:date;
+et:30150 dct:created "2018-11-27"^^xsd:date;
   dct:creator "0000-0003-1068-2394"@en;
   dct:modified "2018-11-27"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "sediment mass"@en .
 
-et:21960 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:21960 dct:created "2018-06-13"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:10313;
@@ -54935,6 +54931,11 @@ et:30365 dct:created "2024-10-13"^^xsd:date;
   dct:modified "2024-10-13"^^xsd:date;
   skos:broader et:10003;
   skos:prefLabel "ground"@en .
+
+et:30366 dct:created "2024-10-13"^^xsd:date;
+  dct:modified "2024-10-13"^^xsd:date;
+  skos:broader et:10313;
+  skos:prefLabel "fera-free"@en .
 
 et:USLterCV_668 a skos:Concept .
 
@@ -62260,6 +62261,18 @@ et:msa0434 a skos:Concept .
 
 et:21398 a skos:Concept .
 
+et:30029 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:msa0626 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30150 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21960 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
 et:10235 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -62836,6 +62849,9 @@ et:30364 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30365 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30366 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:1 skos:narrower et:AF_c_1405669284328, et:EUDIM_018, et:EUUnits_149, et:EnvEU_228,
@@ -63800,20 +63816,20 @@ et:21642 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 
 et:10313 skos:narrower et:10062, et:10229, et:10314, et:10315, et:10316, et:10317,
     et:10318, et:10319, et:10320, et:10322, et:10323, et:10324, et:10325, et:10326, et:10328,
-    et:10329, et:10330, et:10331, et:10334, et:10339, et:10342, et:10345, et:10346;
+    et:10329, et:10330, et:10331, et:10334, et:10339, et:10342, et:10345, et:10346, et:10347;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:10347, et:10348, et:10349, et:10367, et:10371, et:10378, et:10383,
-    et:10398, et:10399, et:21785, et:21804, et:21873, et:21880, et:21952, et:21953, et:21954,
-    et:21955, et:21956, et:21957, et:21958, et:21959, et:21960, et:21961, et:21962, et:21963,
-    et:21964, et:21965, et:21966, et:21967, et:21968, et:21969, et:21970, et:21971, et:21972,
-    et:21973, et:21974, et:21975, et:21976, et:21977, et:21978, et:21979, et:21980, et:21981,
-    et:21982, et:21983, et:21984, et:21985, et:21986, et:21987, et:21988, et:21989, et:21990,
-    et:21991, et:21992, et:21993, et:21994, et:21995, et:21996, et:21997, et:21998, et:21999,
-    et:22000, et:22001, et:22002, et:22003, et:22004, et:22005, et:22006, et:22007, et:22008,
-    et:22009, et:22010, et:22011, et:22012, et:22013, et:22014, et:22015, et:22016, et:22017,
-    et:22018, et:22019, et:22020, et:22022, et:22023, et:22024, et:30202, et:30205, et:30213,
-    et:30214, et:30215, et:30216, et:30222, et:30227, et:30263, et:30329, et:30334, et:30336,
-    et:30346, et:30353, et:30364;
+  skos:narrower et:10348, et:10349, et:10367, et:10371, et:10378, et:10383, et:10398,
+    et:10399, et:21785, et:21804, et:21873, et:21880, et:21952, et:21953, et:21954, et:21955,
+    et:21956, et:21957, et:21958, et:21959, et:21960, et:21961, et:21962, et:21963, et:21964,
+    et:21965, et:21966, et:21967, et:21968, et:21969, et:21970, et:21971, et:21972, et:21973,
+    et:21974, et:21975, et:21976, et:21977, et:21978, et:21979, et:21980, et:21981, et:21982,
+    et:21983, et:21984, et:21985, et:21986, et:21987, et:21988, et:21989, et:21990, et:21991,
+    et:21992, et:21993, et:21994, et:21995, et:21996, et:21997, et:21998, et:21999, et:22000,
+    et:22001, et:22002, et:22003, et:22004, et:22005, et:22006, et:22007, et:22008, et:22009,
+    et:22010, et:22011, et:22012, et:22013, et:22014, et:22015, et:22016, et:22017, et:22018,
+    et:22019, et:22020, et:22022, et:22023, et:22024, et:30202, et:30205, et:30213, et:30214,
+    et:30215, et:30216, et:30222, et:30227, et:30263, et:30329, et:30334, et:30336, et:30346,
+    et:30353, et:30364, et:30366;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:10006 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
@@ -74986,14 +75002,6 @@ et:AF_c2_2995 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:AF_c2_2871 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:AF_c2_2783 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30029 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:msa0626 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30150 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21960 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
