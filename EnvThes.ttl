@@ -54869,9 +54869,9 @@ et:30377 a skos:Concept, iop:Variable;
   dct:created "2024-10-14"^^xsd:date;
   dct:modified "2024-10-14"^^xsd:date;
   skos:altLabel "temperature of air at 1.7 meter"@en;
-  skos:broader et:20935;
+  skos:broader et:30333;
   skos:definition "Temperature of the air in a height of 1.7 meter"@en;
-  skos:prefLabel "air temperature"@en;
+  skos:prefLabel "air temperature at 1.7 meter"@en;
   iop:hasConstraint et:30375;
   iop:hasMatrix <http://vocab.nerc.ac.uk/collection/P38/current/troposphere/>;
   iop:hasObjectOfInterest et:23;
@@ -63832,17 +63832,17 @@ et:20935 skos:narrower et:10011, et:10031, et:10058, et:10117, et:10308, et:1039
     et:30128, et:30129, et:30130, et:30131, et:30132, et:30133, et:30136, et:30138, et:30139,
     et:30140, et:30141, et:30146, et:30147, et:30148, et:30149, et:30150, et:30151, et:30152,
     et:30153, et:30154, et:30156, et:30160, et:30161, et:30162, et:30163, et:30164, et:30169,
-    et:30171, et:30173, et:30176, et:30177, et:30179, et:30180;
+    et:30171, et:30173, et:30176, et:30177, et:30179;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30181, et:30182, et:30183, et:30203, et:30206, et:30208, et:30212,
-    et:30217, et:30218, et:30219, et:30220, et:30221, et:30229, et:30230, et:30231, et:30232,
-    et:30233, et:30234, et:30235, et:30236, et:30237, et:30238, et:30239, et:30240, et:30241,
-    et:30242, et:30243, et:30244, et:30245, et:30246, et:30247, et:30248, et:30249, et:30250,
-    et:30251, et:30252, et:30253, et:30254, et:30255, et:30256, et:30257, et:30258, et:30259,
-    et:30260, et:30261, et:30262, et:30265, et:30272, et:30275, et:30278, et:30281, et:30283,
-    et:30288, et:30298, et:30299, et:30319, et:30321, et:30323, et:30324, et:30325, et:30326,
-    et:30332, et:30339, et:30342, et:30343, et:30348, et:30352, et:30356, et:30357, et:30376,
-    et:30377, et:30378, et:30379, et:30380, et:30381, et:30382, et:30383, et:60001, et:600019,
+  skos:narrower et:30180, et:30181, et:30182, et:30183, et:30203, et:30206, et:30208,
+    et:30212, et:30217, et:30218, et:30219, et:30220, et:30221, et:30229, et:30230, et:30231,
+    et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238, et:30239, et:30240,
+    et:30241, et:30242, et:30243, et:30244, et:30245, et:30246, et:30247, et:30248, et:30249,
+    et:30250, et:30251, et:30252, et:30253, et:30254, et:30255, et:30256, et:30257, et:30258,
+    et:30259, et:30260, et:30261, et:30262, et:30265, et:30272, et:30275, et:30278, et:30281,
+    et:30283, et:30288, et:30298, et:30299, et:30319, et:30321, et:30323, et:30324, et:30325,
+    et:30326, et:30332, et:30339, et:30342, et:30343, et:30348, et:30352, et:30356, et:30357,
+    et:30376, et:30378, et:30379, et:30380, et:30381, et:30382, et:30383, et:60001, et:600019,
     et:60002, et:60003, et:60004, et:60005, et:60006, et:60007, et:60008, et:60009, et:60010,
     et:60011, et:60012, et:60023, et:60024, et:60025, et:60026, et:60027, et:60030, et:60031,
     et:60032, et:60033, et:60034;
@@ -64628,7 +64628,7 @@ et:22035 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30333 .
 
 et:30333 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30335, et:30337 .
+  skos:narrower et:30335, et:30337, et:30377 .
 
 et:21579 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30338 .
