@@ -41,7 +41,7 @@
   dct:identifier <https://doi.org/10.48373/0PWD-C575>;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "2024-10-13"@en;
+  dct:modified "2024-10-14"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "Environmental Thesaurus"@en;
@@ -52446,8 +52446,7 @@ et:21984 a skos:Concept;
   skos:broader et:10313;
   skos:prefLabel "intraspecific"@en .
 
-et:AF_c3_2545 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c3_2545 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:21243;
   dct:modified "2022-03-21"^^xsd:date;
@@ -54674,12 +54673,12 @@ et:30339 a skos:Concept, iop:Variable;
 et:30340 a skos:Concept, iop:Variable;
   dct:created "2024-04-05"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2024-06-09"^^xsd:date;
+  dct:modified "2024-10-14"^^xsd:date;
   skos:altLabel "suface atmospheric pressure"@en;
   skos:broader et:30339;
   skos:prefLabel "surface air pressure"@en;
   iop:hasConstraint et:10316;
-  iop:hasContextObject et:21920;
+  iop:hasContextObject et:21925;
   iop:hasObjectOfInterest et:23;
   iop:hasProperty et:21557 .
 
@@ -54801,10 +54800,10 @@ et:30351 a skos:Concept, iop:Variable;
 et:30352 a skos:Concept, iop:Variable;
   dct:created "2024-06-07"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2024-06-09"^^xsd:date;
+  dct:modified "2024-10-14"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "ice cover"@en;
-  iop:hasContextObject et:21922;
+  iop:hasConstraint et:30365;
   iop:hasObjectOfInterest et:20918;
   iop:hasProperty et:21519 .
 
@@ -54893,9 +54892,10 @@ et:30364 dct:created "2024-10-13"^^xsd:date;
   skos:prefLabel "affected by fire"@en .
 
 et:30365 dct:created "2024-10-13"^^xsd:date;
-  dct:modified "2024-10-13"^^xsd:date;
+  dct:modified "2024-10-14"^^xsd:date;
   skos:broader et:10003;
-  skos:prefLabel "ground"@en .
+  skos:prefLabel "ground"@en;
+  iop:constrains et:30352 .
 
 et:30366 dct:created "2024-10-13"^^xsd:date;
   dct:modified "2024-10-13"^^xsd:date;
@@ -62269,6 +62269,9 @@ et:60018 a skos:Concept .
 et:msa0434 a skos:Concept .
 
 et:21398 a skos:Concept .
+
+et:AF_c3_2545 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:21184 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
@@ -75073,8 +75076,6 @@ et:AF_c3_2572 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:EnvEU_301 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:21984 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c3_2545 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
