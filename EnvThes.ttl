@@ -41,7 +41,7 @@
   dct:identifier <https://doi.org/10.48373/0PWD-C575>;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "2024-10-31"@en;
+  dct:modified "2024-12-20"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "Environmental Thesaurus"@en;
@@ -12043,9 +12043,9 @@ et:21423 dct:created "2016-10-27"^^xsd:date;
 
 et:10378 dct:created "2017-12-05"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2018-07-02"^^xsd:date;
+  dct:modified "2024-12-20"^^xsd:date;
   skos:broader et:10313;
-  skos:definition "[SP]* The property of a substance of changing readily from a solid or liquid to a vapor."@en;
+  skos:definition "[SP] The property of a substance of changing readily from a solid or liquid to a vapor."@en;
   skos:exactMatch <http://purl.org/net/SMARTprotocol#Volatile>;
   skos:prefLabel "volatile"@en .
 
