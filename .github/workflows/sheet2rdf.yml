@@ -2,6 +2,11 @@ name: Sheet2RDF
 on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+# Add this to prevent concurrent runs
+concurrency:
+  group: sheet2rdf
+  cancel-in-progress: true
+
 jobs:
   sheet2rdf:
     name: Sheet2RDF
