@@ -54470,7 +54470,7 @@ et:30366 a skos:Concept, iop:Constraint;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2025-05-23"^^xsd:date;
   skos:broader et:10313;
-  skos:prefLabel "feral free"@en;
+  skos:prefLabel "feral-free"@en;
   iop:constrains <http://opendata.inrae.fr/thesaurusINRAE/c_1152> .
 
 et:30367 a skos:Concept, iop:Constraint;
