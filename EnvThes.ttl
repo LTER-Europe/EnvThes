@@ -41,7 +41,7 @@
   dct:identifier <https://doi.org/10.48373/0PWD-C575>;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "2025-05-23"@en;
+  dct:modified "2025-05-26"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "Environmental Thesaurus"@en;
@@ -54468,9 +54468,9 @@ et:30365 dct:created "2024-10-13"^^xsd:date;
 et:30366 a skos:Concept, iop:Constraint;
   dct:created "2024-10-13"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2025-05-23"^^xsd:date;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:10313;
-  skos:prefLabel "feral-free"@en;
+  skos:prefLabel "feral free"@en;
   iop:constrains <http://opendata.inrae.fr/thesaurusINRAE/c_1152> .
 
 et:30367 a skos:Concept, iop:Constraint;
@@ -54644,11 +54644,11 @@ et:30383 a skos:Concept, iop:Variable;
 et:30384 a skos:Concept, iop:Variable;
   dct:created "2024-10-14"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
-  dct:modified "2024-10-14"^^xsd:date;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:altLabel "area of feral-free enclosure"@en;
   skos:broader et:20935;
   skos:definition "Area of land enclosure within which no feral predators are present."@en;
-  skos:prefLabel "feral-free enclosure area"@en;
+  skos:prefLabel "feral free enclosure area"@en;
   iop:hasConstraint et:30366;
   iop:hasObjectOfInterest <http://opendata.inrae.fr/thesaurusINRAE/c_1152>;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/Area> .
