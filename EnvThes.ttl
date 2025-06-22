@@ -34,9 +34,10 @@
   <http://omv.ontoware.org/2005/05/ontologyresourceLocator> <https://raw.githubusercontent.com/LTER-Europe/EnvThes/main/EnvThes.ttl>;
   <http://omv.ontoware.org/2005/05/ontologyusedOntologyEngineeringTool> <https://github.com/fair-data-collective/sheet2rdf>;
   dct:audience schema:Researcher;
+  dct:contributors <https://orcid.org/0000-0002-7997-219X>, <https://orcid.org/0000-0003-3422-7230>;
   dct:created "2013-01-01"@en;
-  dct:creator "Barbara Magagna"@en, "Johannes Peterseil"@en, "Mark Frenzel"@en, "Miki Kertész"@en,
-    "Ulf Grandin"@en;
+  dct:creator <https://orcid.org/0000-0002-3565-4624>, <https://orcid.org/0000-0003-0320-0692>,
+    <https://orcid.org/0000-0003-0631-8231>, <https://orcid.org/0000-0003-1068-2394>;
   dct:description "EnvThes compiles a set of terms in order to describe in a harmonised way data resulting from observations and measurements of ecosystem processes across different domain specific sciences. It is used by DEIMS-SDR for common keywords for annotation and quering metadata purposes."@en;
   dct:identifier <https://doi.org/10.48373/0PWD-C575>;
   dct:language "en"@en;
@@ -47,7 +48,7 @@
   dct:title "Environmental Thesaurus"@en;
   schema:includedInDataCatalog <https://bioportal.bioontology.org/>, <https://ecoportal.lifewatch.eu/>;
   owl:ontologyIRI <http://vocabs.lter-europe.net/EnvThes/>;
-  owl:versionInfo "5.0.14"@en;
+  owl:versionInfo "5.0.15"@en;
   skos:prefLabel "EnvThes"@en;
   <voaf:hasEquivalencesWith> <http://emily.lternet.edu/vocab/>, <http://purl.obolibrary.org/obo/envo>,
     <https://www.eionet.europa.eu/gemet/en/themes/>;
@@ -48662,8 +48663,7 @@ et:22023 a skos:Concept;
   skos:broader et:10313;
   skos:prefLabel "total"@en .
 
-et:20025 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20025 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20105;
@@ -62255,6 +62255,9 @@ et:30132 a skos:Concept .
 
 et:60018 a skos:Concept .
 
+et:20025 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
 et:AF_c2_2988 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -75613,8 +75616,6 @@ et:10384 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:20094 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:22023 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20025 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
