@@ -41,13 +41,13 @@
   dct:identifier <https://doi.org/10.48373/0PWD-C575>;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "2025-05-26"@en;
+  dct:modified "2025-06-22"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "Environmental Thesaurus"@en;
   schema:includedInDataCatalog <https://bioportal.bioontology.org/>, <https://ecoportal.lifewatch.eu/>;
   owl:ontologyIRI <http://vocabs.lter-europe.net/EnvThes/>;
-  owl:versionInfo "5.0.13"@en;
+  owl:versionInfo "5.0.14"@en;
   skos:prefLabel "EnvThes"@en;
   <voaf:hasEquivalencesWith> <http://emily.lternet.edu/vocab/>, <http://purl.obolibrary.org/obo/envo>,
     <https://www.eionet.europa.eu/gemet/en/themes/>;
@@ -3019,6 +3019,7 @@ et:22140 dct:created "2016-03-31"^^xsd:date;
 
 et:21521 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:altLabel "L"@en;
   skos:broader et:10351;
   skos:definition "[ECSO]* The linear extent in space from one end to the other; the longest dimension of something that is fixed in place"@en;
@@ -10438,6 +10439,7 @@ et:20678 dct:created "2016-03-31"^^xsd:date;
 
 et:20681 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:20676;
   skos:definition "[CRISP] any of numerous cultivated forms of a widely grown, usually tall annual cereal grass (Zea mays) bearing grains or kernels on large ears; the grains or kernels of this plant, used as food for humans and livestock or for the extraction of an edible oil or starch; also called Indian corn, maize."@en;
   skos:exactMatch <http://purl.bioontology.org/ontology/CSP/2340-8793>;
@@ -10504,6 +10506,7 @@ et:20679 dct:created "2016-03-31"^^xsd:date;
 
 et:21370 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:20982;
   skos:definition "[MESH] The production of offspring by selective mating or HYBRIDIZATION, GENETIC in animals or plants."@en;
   skos:exactMatch <http://purl.bioontology.org/ontology/MESH/D001947>, <http://www.eionet.europa.eu/gemet/concept/994>;
@@ -10586,6 +10589,7 @@ et:20683 dct:created "2016-03-31"^^xsd:date;
 
 et:10044 dct:created "2014-11-10"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:10351;
   skos:definition "[MESH] The dimension of the physical universe which, at a given place, orders the sequence of events. (McGraw-Hill Dictionary of Scientific and Technical Terms, 6th ed)"@en;
   skos:exactMatch <http://purl.bioontology.org/ontology/MESH/D013995>, <http://www.eionet.europa.eu/gemet/concept/8487>;
@@ -10650,6 +10654,7 @@ et:20215 dct:created "2016-08-03"^^xsd:date;
 
 et:21764 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:10217;
   skos:definition "[MESH] The study of ENVIRONMENTAL POLLUTION and the toxic effects of ENVIRONMENTAL POLLUTANTS on the ECOSYSTEM. The term was coined by Truhaut in 1969."@en;
   skos:exactMatch <http://purl.bioontology.org/ontology/MESH/D054750>, <http://www.eionet.europa.eu/gemet/concept/2530>;
@@ -10718,6 +10723,7 @@ et:10389 dct:created "2017-12-05"^^xsd:date;
 
 et:10251 dct:created "2015-06-10"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:10064;
   skos:definition "[NPO] A scientific procedure which is a process of conducting a test under controlled conditions to make a discovery, test a hypothesis, or demonstrate a known truth"@en;
   skos:exactMatch <http://purl.bioontology.org/ontology/npo#NPO_1407>, <http://www.eionet.europa.eu/gemet/concept/3050>;
@@ -10915,6 +10921,7 @@ et:20767 dct:created "2016-03-31"^^xsd:date;
 
 et:20768 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:10218;
   skos:definition "[CHEBI] Strictly, a substance intended to kill pests. In common usage, any substance used for controlling, preventing, or destroying animal, microbiological or plant pests."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/CHEBI_25944>, <http://www.eionet.europa.eu/gemet/concept/6140>;
@@ -10935,6 +10942,7 @@ et:20875 dct:created "2016-08-03"^^xsd:date;
 
 et:21932 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:21611;
   skos:definition "[CHEBI] A substance used as an indicator of a biological state."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/CHEBI_59163>, <http://www.eionet.europa.eu/gemet/concept/11672>;
@@ -11155,6 +11163,7 @@ et:20539 dct:created "2016-03-31"^^xsd:date;
 
 et:20701 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:20521;
   skos:definition "[IDODEN]* A spatial region having environmental qualities which may sustain an organism or a community of organisms."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_00002036>, <http://www.eionet.europa.eu/gemet/concept/901>;
@@ -11715,6 +11724,7 @@ et:10131 dct:created "2015-02-27"^^xsd:date;
 
 et:20032 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:20104;
   skos:definition "[OBI] A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/OBI_0000272>, <http://www.eionet.europa.eu/gemet/concept/6758>;
@@ -11735,6 +11745,7 @@ et:21065 dct:created "2016-10-12"^^xsd:date;
 
 et:20041 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:20104;
   skos:definition "[OBI] A planned process with the objective to 1) establish the relationship between data produced by a measurement device and physical qualities. This is done by using the measurement device under defined conditions, and either tuning it to adjust the measured output, or record the output and use it as a reference in future measurements 2) instruct field staff for field sampling techniques."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/OBI_0000818>, <http://www.eionet.europa.eu/gemet/concept/1114>;
@@ -12822,6 +12833,7 @@ et:msa0941 dct:created "2016-10-12"^^xsd:date;
 
 et:20762 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:20753;
   skos:definition "[ANAEETHES] a chemical fertilizer containing potassium potassium (k) is required by all plant and animal life plants require potassium for photosynthesis osmotic regulation and the activation of enzyme systems"@en;
   skos:exactMatch <http://opendata.inra.fr/anaeeThes/c2_2909>, <http://www.eionet.europa.eu/gemet/concept/11212>;
@@ -12979,6 +12991,7 @@ et:USLterCV_624 dct:created "2016-03-31"^^xsd:date;
 
 et:10092 dct:created "2014-12-16"^^xsd:date;
   dct:creator "0000-0003-1068-2394"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:32;
   skos:definition "[ENVO] An extent or area of land where surface water from rain and melting snow or ice converges to a single point at lower elevation, usually the exit of the basin, where the waters join another waterbody."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_00000291>, <http://www.eionet.europa.eu/gemet/concept/12231>;
@@ -13137,6 +13150,7 @@ et:msa0200 dct:created "2016-08-03"^^xsd:date;
 
 et:20042 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:12;
   skos:definition "[FBCV] The exposure to one or more forms of chemical agent."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/FBcv_0003167>, <http://www.eionet.europa.eu/gemet/concept/1336>;
@@ -14240,6 +14254,7 @@ et:22 dct:created "2013-02-14"^^xsd:date;
 
 et:20763 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:10218;
   skos:definition "[CHEBI] A substance used to destroy fungal pests."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/CHEBI_24127>, <http://www.eionet.europa.eu/gemet/concept/3530>;
@@ -14384,6 +14399,7 @@ et:20086 dct:created "2016-03-31"^^xsd:date;
 
 et:20764 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:10218;
   skos:definition "[CHEBI] A substance used to destroy plant pests."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/CHEBI_24527>, <http://www.eionet.europa.eu/gemet/concept/3933>;
@@ -14468,6 +14484,7 @@ et:21092 dct:created "2016-08-03"^^xsd:date;
 
 et:10231 dct:created "2015-06-08"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:21611;
   skos:definition "[NCIT] An event, entity or condition that typically characterizes a prescribed environment or situation and determines or aids in determining whether certain stated circumstances exist or criteria are satisfied."@en;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25180>, <http://www.eionet.europa.eu/gemet/concept/4196>;
@@ -15524,6 +15541,7 @@ et:20578 dct:created "2016-03-31"^^xsd:date;
 
 et:20893 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2025-05-26"^^xsd:date;
   skos:broader et:20746;
   skos:definition "[NCIT] Any chemical compound, biological object, physical factor in a concentration or amount that adversely alters the physical, chemical, or biological properties of the environment. The term includes pathogens, toxic metals, carcinogens, oxygen-demanding materials, radiation, natural substances, synthetic industrial chemicals, biocides and all other harmful substances and factors. (NCI)"@en;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1751>, <http://www.eionet.europa.eu/gemet/concept/6395>;
@@ -36991,7 +37009,8 @@ et:60018 dct:created "2018-11-27"^^xsd:date;
   skos:broader et:10018;
   skos:prefLabel "fish species abundance"@en .
 
-et:msa0434 dct:created "2016-08-03"^^xsd:date;
+et:msa0434 a skos:Concept;
+  dct:created "2016-08-03"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-06-18"^^xsd:date;
   owl:deprecated true;
@@ -37000,7 +37019,8 @@ et:msa0434 dct:created "2016-08-03"^^xsd:date;
   skos:prefLabel "fire history"@en;
   skos:scopeNote "MS Academic Keywords"@en .
 
-et:21398 dct:created "2016-08-03"^^xsd:date;
+et:21398 a skos:Concept;
+  dct:created "2016-08-03"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-06-18"^^xsd:date;
   skos:altLabel "fire resistances"@en, "fire resistant"@en, "fire resisting"@en, "fire resistive"@en,
@@ -48649,8 +48669,7 @@ et:20025 a skos:Concept;
   skos:broader et:20105;
   skos:prefLabel "saturation extract method"@en .
 
-et:AF_c2_2988 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2988 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20053;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48658,15 +48677,13 @@ et:AF_c2_2988 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "harrowing"@en .
 
-et:20758 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20758 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20753;
   skos:prefLabel "nitrogen fertiliser"@en .
 
-et:AF_c2_2991 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2991 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20054;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48674,15 +48691,13 @@ et:AF_c2_2991 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "conservation tillage"@en .
 
-et:10331 a skos:Concept;
-  dct:created "2017-11-17"^^xsd:date;
+et:10331 dct:created "2017-11-17"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:10313;
   skos:prefLabel "reflected"@en .
 
-et:EnvEU_535 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:EnvEU_535 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20130;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48690,8 +48705,7 @@ et:EnvEU_535 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "static chamber design"@en .
 
-et:AF_c3_2362 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c3_2362 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20696;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48699,16 +48713,14 @@ et:AF_c3_2362 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "mauvaise herbe"@fr, "weed"@en .
 
-et:10159 a skos:Concept;
-  dct:created "2015-03-11"^^xsd:date;
+et:10159 dct:created "2015-03-11"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   owl:deprecated true;
   skos:broader et:1;
   skos:prefLabel "phenological measure"@en .
 
-et:msa0700 a skos:Concept;
-  dct:created "2016-10-12"^^xsd:date;
+et:msa0700 dct:created "2016-10-12"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:isReplacedBy et:20737;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48716,29 +48728,25 @@ et:msa0700 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "native plant"@en .
 
-et:30116 a skos:Concept;
-  dct:created "2018-11-27"^^xsd:date;
+et:30116 dct:created "2018-11-27"^^xsd:date;
   dct:creator "0000-0003-1068-2394"@en;
   dct:modified "2018-11-27"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "water gauge level"@en .
 
-et:20463 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:20463 dct:created "2018-06-13"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:10239;
   skos:prefLabel "no staff room"@en .
 
-et:21757 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:21757 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:21753;
   skos:prefLabel "climate monitoring"@en .
 
-et:AF_c2_2836 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2836 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22081;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48746,36 +48754,31 @@ et:AF_c2_2836 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "canopy transpiration"@en .
 
-et:20492 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:20492 dct:created "2018-06-13"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:10234;
   skos:prefLabel "atmospheric measurement tower"@en .
 
-et:22009 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:22009 dct:created "2018-06-13"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:10313;
   skos:prefLabel "primary"@en .
 
-et:21767 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:21767 dct:created "2018-06-13"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-11-12"^^xsd:date;
   skos:broader et:30031;
   skos:prefLabel "soil science"@en .
 
-et:20098 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20098 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20135;
   skos:prefLabel "weather generator"@en .
 
-et:18 a skos:Concept;
-  dct:contributor "0000-0003-0631-8231"@en;
+et:18 dct:contributor "0000-0003-0631-8231"@en;
   dct:created "2013-02-14"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
@@ -48783,15 +48786,13 @@ et:18 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "landscape measure"@en .
 
-et:20940 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:20940 dct:created "2018-06-13"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:1;
   skos:prefLabel "biological parameter"@en .
 
-et:AF_c_1401956299094 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c_1401956299094 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:21652;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48799,22 +48800,19 @@ et:AF_c_1401956299094 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "ecophysiology"@en, "écophysiologie"@fr .
 
-et:10107 a skos:Concept;
-  dct:created "2014-12-17"^^xsd:date;
+et:10107 dct:created "2014-12-17"^^xsd:date;
   dct:creator "0000-0003-1068-2394"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20717;
   skos:prefLabel "epiphyte"@en .
 
-et:21228 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:21228 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20950;
   skos:prefLabel "ammonia volatilization"@en .
 
-et:AF_c2_3013 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_3013 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20757;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48822,22 +48820,19 @@ et:AF_c2_3013 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "nitrate fertiliser"@en .
 
-et:22098 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:22098 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20935;
   skos:prefLabel "date of start of physiological maturity"@en .
 
-et:20131 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20131 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20138;
   skos:prefLabel "Dynamic chamber design"@en .
 
-et:AF_c2_2660 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2660 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20861;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48845,8 +48840,7 @@ et:AF_c2_2660 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "phosphorus forms"@en .
 
-et:AF_c2_2540 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2540 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22276;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48854,8 +48848,7 @@ et:AF_c2_2540 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "soil solution pH"@en .
 
-et:AF_c2_151 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_151 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22192;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48863,29 +48856,25 @@ et:AF_c2_151 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "plant height"@en .
 
-et:21136 a skos:Concept;
-  dct:created "2016-09-07"^^xsd:date;
+et:21136 dct:created "2016-09-07"^^xsd:date;
   dct:creator "0000-0002-3690-2941"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20950;
   skos:prefLabel "chemical process"@en .
 
-et:60036 a skos:Concept;
-  dct:created "2018-11-29"^^xsd:date;
+et:60036 dct:created "2018-11-29"^^xsd:date;
   dct:creator "0000-0003-0320-0692"@en;
   dct:modified "2018-11-29"^^xsd:date;
   skos:broader et:20950;
   skos:prefLabel "sediment accumulation"@en .
 
-et:20038 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:20038 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20294;
   skos:prefLabel "mineral fertilisation"@en .
 
-et:AF_c3_2579 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c3_2579 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:20070;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48893,8 +48882,7 @@ et:AF_c3_2579 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "pruning"@en, "élagage"@fr .
 
-et:AF_c2_2852 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2852 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:21238;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48902,8 +48890,7 @@ et:AF_c2_2852 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "soil nitrate flow"@en .
 
-et:AF_c2_2575 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2575 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:isReplacedBy et:22280;
   dct:modified "2022-03-21"^^xsd:date;
@@ -48911,22 +48898,19 @@ et:AF_c2_2575 a skos:Concept;
   skos:broader et:1;
   skos:prefLabel "soil volumetric water content"@en .
 
-et:20930 a skos:Concept;
-  dct:created "2018-06-13"^^xsd:date;
+et:20930 dct:created "2018-06-13"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-06-18"^^xsd:date;
   skos:broader et:20717;
   skos:prefLabel "host"@en .
 
-et:30014 a skos:Concept;
-  dct:created "2018-06-22"^^xsd:date;
+et:30014 dct:created "2018-06-22"^^xsd:date;
   dct:creator <https://orcid.org/0000-0003-2195-3997>;
   dct:modified "2018-06-22"^^xsd:date;
   skos:broader et:21760;
   skos:prefLabel "astrophysics"@en .
 
-et:AF_c2_2778 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
+et:AF_c2_2778 dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2018-06-18"^^xsd:date;
   owl:deprecated true;
@@ -54934,6 +54918,24 @@ et:30410 dct:created "2025-02-13"^^xsd:date;
   skos:broader et:20316;
   skos:definition "GNSS systems provide positioning, navigation, and timing (PNT) services."@en;
   skos:prefLabel "global navigation satellite system"@en .
+
+et:30411 a skos:Concept, iop:Variable;
+  dct:created "2025-06-22"^^xsd:date;
+  dct:modified "2025-06-22"^^xsd:date;
+  skos:broader et:30025;
+  skos:definition "Level of water of lake using the lake floor as baseline."@en;
+  skos:prefLabel "water level of lake"@en;
+  iop:hasConstraint et:30412;
+  iop:hasContextObject et:20914;
+  iop:hasObjectOfInterest et:20538;
+  iop:hasProperty et:10013 .
+
+et:30412 a skos:Concept, iop:Constraint;
+  dct:created "2025-06-22"^^xsd:date;
+  dct:modified "2025-06-22"^^xsd:date;
+  skos:broader et:10313;
+  skos:prefLabel "baseline is lake floor"@en;
+  iop:constrains et:30411 .
 
 et:USLterCV_668 a skos:Concept .
 
@@ -62253,9 +62255,114 @@ et:30132 a skos:Concept .
 
 et:60018 a skos:Concept .
 
-et:msa0434 a skos:Concept .
+et:AF_c2_2988 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
-et:21398 a skos:Concept .
+et:20758 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2991 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10331 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:EnvEU_535 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c3_2362 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10159 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:msa0700 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30116 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20463 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21757 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2836 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20492 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:22009 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21767 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
+  skos:narrower et:21660, et:21661, et:21763 .
+
+et:20098 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:18 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20940 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c_1401956299094 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:10107 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21228 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_3013 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:22098 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20131 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2660 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2540 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_151 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:21136 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:60036 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20038 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c3_2579 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2852 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2575 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:20930 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30014 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:AF_c2_2778 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:21243 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
@@ -64947,9 +65054,6 @@ et:20982 skos:narrower et:20561, et:20564, et:20797, et:20952, et:21003, et:2100
 et:20297 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:20094, et:20291, et:20305, et:20311 .
 
-et:21767 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:21660, et:21661, et:21763 .
-
 et:21760 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:21763, et:30014, et:30015, et:30016 .
 
@@ -65268,20 +65372,20 @@ et:21642 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
 et:10313 skos:narrower et:10062, et:10229, et:10314, et:10315, et:10316, et:10317,
     et:10318, et:10319, et:10320, et:10322, et:10323, et:10324, et:10325, et:10326, et:10328,
     et:10329, et:10330, et:10331, et:10334, et:10339, et:10342, et:10345, et:10346, et:10347,
-    et:10348, et:10349, et:10367, et:10371, et:10378, et:10383, et:10398, et:10399;
+    et:10348, et:10349, et:10367, et:10371, et:10378, et:10383, et:10398, et:10399, et:21785;
   skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:21785, et:21804, et:21873, et:21880, et:21952, et:21953, et:21954,
-    et:21955, et:21956, et:21957, et:21958, et:21959, et:21960, et:21961, et:21962, et:21963,
-    et:21964, et:21965, et:21966, et:21967, et:21968, et:21969, et:21970, et:21971, et:21972,
-    et:21973, et:21974, et:21975, et:21976, et:21977, et:21978, et:21979, et:21980, et:21981,
-    et:21982, et:21983, et:21984, et:21985, et:21986, et:21987, et:21988, et:21989, et:21990,
-    et:21991, et:21992, et:21993, et:21994, et:21995, et:21996, et:21997, et:21998, et:21999,
-    et:22000, et:22001, et:22002, et:22003, et:22004, et:22005, et:22006, et:22007, et:22008,
-    et:22009, et:22010, et:22011, et:22012, et:22013, et:22014, et:22015, et:22016, et:22017,
-    et:22018, et:22019, et:22020, et:22022, et:22023, et:22024, et:30202, et:30205, et:30213,
-    et:30214, et:30215, et:30216, et:30222, et:30227, et:30263, et:30329, et:30334, et:30336,
-    et:30346, et:30353, et:30364, et:30366, et:30367, et:30370, et:30371, et:30372, et:30373,
-    et:30374, et:30375, et:30401;
+  skos:narrower et:21804, et:21873, et:21880, et:21952, et:21953, et:21954, et:21955,
+    et:21956, et:21957, et:21958, et:21959, et:21960, et:21961, et:21962, et:21963, et:21964,
+    et:21965, et:21966, et:21967, et:21968, et:21969, et:21970, et:21971, et:21972, et:21973,
+    et:21974, et:21975, et:21976, et:21977, et:21978, et:21979, et:21980, et:21981, et:21982,
+    et:21983, et:21984, et:21985, et:21986, et:21987, et:21988, et:21989, et:21990, et:21991,
+    et:21992, et:21993, et:21994, et:21995, et:21996, et:21997, et:21998, et:21999, et:22000,
+    et:22001, et:22002, et:22003, et:22004, et:22005, et:22006, et:22007, et:22008, et:22009,
+    et:22010, et:22011, et:22012, et:22013, et:22014, et:22015, et:22016, et:22017, et:22018,
+    et:22019, et:22020, et:22022, et:22023, et:22024, et:30202, et:30205, et:30213, et:30214,
+    et:30215, et:30216, et:30222, et:30227, et:30263, et:30329, et:30334, et:30336, et:30346,
+    et:30353, et:30364, et:30366, et:30367, et:30370, et:30371, et:30372, et:30373, et:30374,
+    et:30375, et:30401, et:30412;
   skos:topConceptOf <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:10006 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
@@ -65666,7 +65770,7 @@ et:22313 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
   skos:narrower et:30354, et:30355 .
 
 et:30025 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/>;
-  skos:narrower et:30359 .
+  skos:narrower et:30359, et:30411 .
 
 et:20637 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -65923,6 +66027,10 @@ et:30404 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:30405 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:30406 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30411 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
+
+et:30412 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:USLterCV_668 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
@@ -75507,76 +75615,6 @@ et:20094 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 et:22023 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 et:20025 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2988 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20758 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2991 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10331 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:EnvEU_535 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c3_2362 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10159 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:msa0700 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30116 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20463 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21757 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2836 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20492 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:22009 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20098 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:18 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20940 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c_1401956299094 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:10107 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21228 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_3013 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:22098 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20131 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2660 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2540 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_151 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:21136 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:60036 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20038 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c3_2579 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2852 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2575 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:20930 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:30014 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
-
-et:AF_c2_2778 skos:inScheme <http://vocabs.lter-europe.net/EnvThes/> .
 
 <http://vocabs.lter-europe.net/EnvThes/> a skos:ConceptScheme;
   skos:hasTopConcept et:1, et:10001, et:10002, et:10127, et:10313, et:20104, et:20935,
