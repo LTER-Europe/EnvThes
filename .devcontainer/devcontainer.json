@@ -1,0 +1,13 @@
+{
+  "name": "Vocabulary Preview",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/anaconda:1": {}
+  },
+  "containerEnv": {
+    "CODESPACE_NAME": "${{ codespace.name }}"
+  },
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
+  "postAttachCommand": "bash .devcontainer/postAttach.sh"
+
+  }
