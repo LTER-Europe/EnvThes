@@ -1,6 +1,6 @@
 name: 🧭 Clarification or comment
 description: Ask a question or discuss a term
-labels: ["clarification"]
+labels: ["type: clarification", "status: triage"]
 assignees:
   - OggioniAle
   - mabablue
