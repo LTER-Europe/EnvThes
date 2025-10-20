@@ -1,0 +1,69 @@
+# =========================================================
+# 🏷️ Standard labels configuration for EnvThes repository
+# This file can be used with crazy-max/ghaction-github-labeler
+# to automatically create and sync all labels in this repo.
+# =========================================================
+
+# === Type labels (classify the kind of issue/request) ===
+- name: "type: new term"
+  color: "0075ca"
+  description: "Request for a new concept or addition to the vocabulary."
+
+- name: "type: modification"
+  color: "fbca04"
+  description: "Proposal to modify or update an existing concept."
+
+- name: "type: clarification"
+  color: "0e8a16"
+  description: "General question, clarification or comment."
+
+- name: "type: deletion"
+  color: "5319e7"
+  description: "Proposal to remove a deprecated or duplicate concept."
+
+# === Status labels (indicate review stage) ===
+- name: "status: needs review"
+  color: "d73a4a"
+  description: "Awaiting review from maintainers."
+
+- name: "status: under discussion"
+  color: "cfd3d7"
+  description: "Currently being discussed by the maintainers."
+
+- name: "status: approved"
+  color: "0e8a16"
+  description: "Approved and ready for implementation."
+
+- name: "status: rejected"
+  color: "b60205"
+  description: "Declined proposal."
+
+- name: "status: implemented"
+  color: "5319e7"
+  description: "Changes already reflected in the vocabulary."
+
+# === Priority labels (used for triage or urgency) ===
+- name: "priority: high"
+  color: "b60205"
+  description: "Urgent or high-impact issue."
+
+- name: "priority: medium"
+  color: "fbca04"
+  description: "Moderate priority issue."
+
+- name: "priority: low"
+  color: "0e8a16"
+  description: "Low priority issue."
+
+# === Meta / contribution guidance ===
+- name: "good first issue"
+  color: "7057ff"
+  description: "Good starting point for new contributors."
+
+- name: "help wanted"
+  color: "008672"
+  description: "Maintainers are seeking input or support from the community."
+
+- name: "needs more info"
+  color: "e4e669"
+  description: "Additional information required from the reporter."
