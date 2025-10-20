@@ -51,7 +51,8 @@ This workflow extends [**excel2rdf**](https://github.com/fair-data-collective/ex
 If you wish to propose new terms or suggest modifications to existing ones:
 
 - Please create a [GitHub account](https://github.com/signup)  
-- Open a new [issue](https://github.com/LTER-Europe/EnvThes/issues) describing your proposal  
+- Open a new [issue](https://github.com/LTER-Europe/EnvThes/issues) describing your proposal
+- Consult the project [Wiki page](https://github.com/LTER-Europe/EnvThes/wiki) for detailed instructions
 
 EnvThes vocabulary is licensed under [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/).
 
