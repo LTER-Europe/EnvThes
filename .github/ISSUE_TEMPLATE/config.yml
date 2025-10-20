@@ -10,7 +10,7 @@ issue_templates:
     labels: ["new term"]
   - name: "✏️ Modify existing term"
     description: "Propose a modification to an existing EnvThes term."
-    file: modify_term.yml
+    file: modification.yml
     labels: ["modification"]
   - name: "🧭 Clarification or comment"
     description: "Request clarification or comment on a term or definition."
