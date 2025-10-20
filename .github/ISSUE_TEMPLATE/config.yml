@@ -2,17 +2,3 @@
 # Only shows the 3 predefined types of issues (no blank or external links)
 
 blank_issues_enabled: false
-
-issue_templates:
-  - name: "🆕 New term proposal"
-    description: "Suggest a new term to be added to EnvThes."
-    file: new_term.yml
-    labels: ["new term"]
-  - name: "✏️ Modify existing term"
-    description: "Propose a modification to an existing EnvThes term."
-    file: modification.yml
-    labels: ["modification"]
-  - name: "🧭 Clarification or comment"
-    description: "Request clarification or comment on a term or definition."
-    file: clarification.yml
-    labels: ["clarification"]
