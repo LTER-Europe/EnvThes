@@ -12,4 +12,4 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           yaml-file: .github/labels.yml
-          skip-delete: true     # set to false if you want to remove obsolete labels
+          skip-delete: false     # set to false if you want to remove obsolete labels
