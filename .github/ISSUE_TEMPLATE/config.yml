@@ -1,4 +1,18 @@
-# Configuration file for GitHub issue templates
-# This controls how issue templates appear when users click "New issue" in the repository
+# Configuration for available issue templates in EnvThes repository
+# Only shows the 3 predefined types of issues (no blank or external links)
 
-blank_issues_enabled: false   # Prevent users from opening blank issues without a template
+blank_issues_enabled: false
+
+issue_templates:
+  - name: "🆕 New term proposal"
+    description: "Suggest a new term to be added to EnvThes."
+    file: new_term.yml
+    labels: ["new term"]
+  - name: "✏️ Modify existing term"
+    description: "Propose a modification to an existing EnvThes term."
+    file: modify_term.yml
+    labels: ["modification"]
+  - name: "🧭 Clarification or comment"
+    description: "Request clarification or comment on a term or definition."
+    file: clarification.yml
+    labels: ["clarification"]
