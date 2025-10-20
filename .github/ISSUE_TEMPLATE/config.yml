@@ -1,0 +1,17 @@
+# Configuration file for GitHub issue templates
+# This controls how issue templates appear when users click "New issue" in the repository
+
+blank_issues_enabled: false   # Prevent users from opening blank issues without a template
+
+contact_links:
+  - name: 💬 Ask a question or request help
+    url: https://github.com/LTER-Europe/EnvThes/discussions
+    about: Start a discussion instead of opening an issue — ideal for general questions or clarifications.
+
+  - name: 🌍 EnvThes Wiki – Contribution guidelines
+    url: https://github.com/LTER-Europe/EnvThes/wiki
+    about: Read the instructions for proposing new terms, editing existing ones, or understanding how EnvThes is maintained.
+
+  - name: 🧠 Learn more about eLTER-RI vocabularies
+    url: https://vocabs.lter-europe.net
+    about: Explore the eLTER-RI controlled vocabularies and thesauri hosted in Skosmos.
