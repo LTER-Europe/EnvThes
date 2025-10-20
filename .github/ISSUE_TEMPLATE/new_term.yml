@@ -1,5 +1,5 @@
 name: 🆕 New term proposal
-description: Propose a new term to be added to the eLTER SOs vocabulary
+description: Suggest a new concept or term to be added to the EnvThes vocabulary.
 labels: ["type: new term", "status: needs review"]
 assignees:
   - oggioniale
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ✏️ Thank you for contributing! Please provide the details of your new term proposal below.
+        🧩 Thank you for contributing! Please describe your proposed new term below.
         ---
         👥 **Maintainers reviewing new term proposals:**
         - [@OggioniAle](https://github.com/OggioniAle)
