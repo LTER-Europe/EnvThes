@@ -1,6 +1,6 @@
 name: 🆕 New term proposal
 description: Propose a new term to be added to the eLTER SOs vocabulary
-labels: ["new term"]
+labels: ["type: new term", "status: needs review"]
 assignees:
   - oggioniale
   - mabablue
