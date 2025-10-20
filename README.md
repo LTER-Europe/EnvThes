@@ -1,6 +1,7 @@
 # 🧩 eLTER-RI Controlled Vocabulary – Environmental Thesaurus (EnvThes)
 
 [![FAIR RDF Generation](https://github.com/LTER-Europe/EnvThes/actions/workflows/sheet2rdf.yml/badge.svg?branch=main)](https://github.com/LTER-Europe/EnvThes/actions/workflows/sheet2rdf.yml)
+[![DOI](https://img.shields.io/badge/DOI-10.48373%2F0PWD--C575-blue.svg)](https://doi.org/10.48373/0PWD-C575)
 
 The **Environmental Thesaurus (EnvThes)** is the controlled vocabulary of the [eLTER-RI](https://www.elter-ri.eu/) Research Infrastructure.  
 It is coordinated by **Umweltbundesamt GmbH (Austria)** and provides a common semantic framework for describing environmental data and observations across European Long-Term Ecosystem Research (eLTER) sites.  
