@@ -1,0 +1,15 @@
+name: "Sync GitHub labels"
+on:
+  workflow_dispatch:    # run manually when needed
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sync labels
+        uses: crazy-max/ghaction-github-labeler@v5
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          yaml-file: .github/labels.yml
+          skip-delete: true     # set to false if you want to remove obsolete labels
