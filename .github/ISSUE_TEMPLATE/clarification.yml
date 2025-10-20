@@ -1,0 +1,27 @@
+name: 🧭 Clarification or comment
+description: Ask a question or discuss a term
+labels: ["type: clarification", "status: triage"]
+assignees:
+  - OggioniAle
+  - mabablue
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ✏️ Use this template if you want to ask a question or suggest clarification about a term.
+        ---
+        👥 **Maintainers for clarification or comment:**
+        - [@OggioniAle](https://github.com/OggioniAle)
+        - [@mabablue](https://github.com/mabablue)
+  - type: input
+    id: term
+    attributes:
+      label: Term (prefLabel or URI)
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or comment
+  - type: textarea
+    id: context
+    attributes:
+      label: Context or example of usage (optional)
