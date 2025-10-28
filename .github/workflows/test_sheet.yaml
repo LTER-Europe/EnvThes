@@ -1,0 +1,49 @@
+# This is a basic workflow to help you get started with Actions
+name: Sheet2RDF
+# Controls when the action will run.
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  sheet2rdf:
+    # The type of runner that the job will run on
+
+    name: Sheet2RDF
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.8"
+      - name: Prepare
+        shell: bash -l {0}
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git pull        
+          conda create -n sheet2rdf python=3.8 pandas openpyxl requests
+          conda activate sheet2rdf
+          curl -L https://github.com/sparna-git/xls2rdf/releases/download/2.1.1/xls2rdf-app-2.1.1-onejar.jar -o xls2rdf.jar
+
+      - name: Fetch
+        shell: bash -l {0}
+        env:
+          FILE_NAME: ${{secrets.FILE_NAME}}
+          SHEET_ID: ${{secrets.SHEET_ID}}
+        run: |
+          conda activate sheet2rdf          
+          python ./src/sheet2xls.py
+
+      - name: conversion-xls2rdf
+        env:
+          FILE_NAME: ${{secrets.FILE_NAME}}
+        run: |
+          java -jar xls2rdf.jar convert -i $FILE_NAME.xlsx -o $FILE_NAME.ttl -l en
+          mv xls2rdf.log ./logs/
+          python ./src/update.py
