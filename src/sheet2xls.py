@@ -3,9 +3,12 @@ import requests
 import sys
 import pandas as pd
 
-def getGoogleSeet(spreadsheet_id, outDir, outFile):
+def getGoogleSheet(spreadsheet_id, spreadsheet_gid, outDir, outFile):
   
-  url = f'https://docs.google.com/spreadsheets/d/{spreadsheet_id}/export?format=csv'
+  if spreadsheet_gid is None:
+    url = f'https://docs.google.com/spreadsheets/d/{spreadsheet_id}/export?format=csv'
+  else:
+    url = f'https://docs.google.com/spreadsheets/d/{spreadsheet_id}/export?format=csv&gid={spreadsheet_gid}'
   response = requests.get(url)
   if response.status_code == 200:
     filepath = os.path.join(outDir, outFile)
@@ -21,11 +24,12 @@ def getGoogleSeet(spreadsheet_id, outDir, outFile):
 
 file_name = os.environ['FILE_NAME']
 sheet_id = os.environ["SHEET_ID"]
+sheet_gid = os.getenv("SHEET_GID")
 
 outDir = './'
 
 os.makedirs(outDir, exist_ok = True)
-filepath = getGoogleSeet(sheet_id, outDir, file_name + ".csv")
+filepath = getGoogleSheet(sheet_id, sheet_gid, outDir, file_name + ".csv")
 
 txt_delimiter = ","
 
