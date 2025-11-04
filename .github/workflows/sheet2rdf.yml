@@ -58,12 +58,4 @@ jobs:
           git diff-index --quiet HEAD || git commit -m "new .ttl from Google sheet has been generated"
           git push
 
-      - name: deploy
-        env:
-          FILE_NAME: ${{secrets.FILE_NAME}}
-          GRAPH: ${{secrets.GRAPH}}
-          DB_PASS: ${{secrets.DB_PASS}}
-          DB_USER: ${{secrets.DB_USER}}
-          SPARQL_ENDPOINT: ${{secrets.SPARQL_ENDPOINT}}
-        run: |
-          ./src/deploy2db.sh
+  
