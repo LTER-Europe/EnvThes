@@ -1,46 +1,168 @@
 name: ✏️ Modify existing term
-description: Suggest a change or correction to an existing term in EnvThes.
+description: Suggest a change or correction to an existing term in the vocabulary.
 labels: ["type: modification", "status: needs review"]
 assignees:
   - oggioniale
   - mabablue
+
 body:
   - type: markdown
     attributes:
       value: |
-        ✏️ Please describe your proposed modification below.
+        ✏️ Use this form to request a **modification to an existing term** (not to propose a new one).
         ---
         👥 **Maintainers reviewing modifications:**
         - [@OggioniAle](https://github.com/OggioniAle)
         - [@mabablue](https://github.com/mabablue)
+
+  # 1) Identify the existing term
   - type: input
-    id: term
+    id: term_uri
     attributes:
-      label: Proposed term (prefLabel)
+      label: Term URI (required)
+      description: Paste the URI of the term you want to modify.
+      placeholder: e.g. https://vocabs.lter-europe.net/EnvThes/12345
+    validations:
+      required: true
+
+  - type: input
+    id: term_prefLabel_current
+    attributes:
+      label: Current prefLabel (as shown in Skosmos)
+      description: Copy/paste the current label to avoid ambiguity.
       placeholder: e.g. "Groundwater level"
-  - type: textarea
-    id: definition
-    attributes:
-      label: Definition (English)
-      description: Provide a clear and concise definition of the new term.
+    validations:
+      required: true
+
   - type: input
-    id: broader
+    id: skosmos_link
     attributes:
-      label: Broader concept (if applicable)
+      label: Skosmos link (optional but recommended)
+      description: Link to the term page in Skosmos (if available).
+      placeholder: e.g. https://vocabs.lter-europe.net/en/page/EnvThes?uri=...
+    validations:
+      required: false
+
+  # 2) What kind of change?
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: Type of requested change
+      description: Select the main type(s) of change.
+      multiple: true
+      options:
+        - PrefLabel / label change
+        - Definition change
+        - Broader / hierarchy change
+        - Notation / identifier change
+        - Add / change mappings (exactMatch, closeMatch, etc.)
+        - Add / change notes (scopeNote, editorialNote, historyNote)
+        - Deprecation / replacement (isReplacedBy)
+        - Other (describe below)
+    validations:
+      required: true
+
+  # 3) Proposed modifications (structured)
   - type: textarea
-    id: reference
+    id: proposed_changes
     attributes:
-      label: Source or reference (optional)
+      label: Proposed modification(s)
+      description: |
+        Describe exactly what should change. If possible, use a "Before → After" format.
+        Example:
+        - prefLabel (en): "Old label" → "New label"
+        - definition (en): "Old definition" → "New definition"
+        - broader: so:oldParent → so:newParent
+      placeholder: |
+        - prefLabel (en): "..." → "..."
+        - definition (en): "..." → "..."
+        - broader: <...> → <...>
+        - mapping: skos:exactMatch <...> add/remove
+    validations:
+      required: true
+
+  # Optional dedicated fields (handy for filtering/automation)
+  - type: input
+    id: new_prefLabel_en
+    attributes:
+      label: New prefLabel (en) (optional)
+      placeholder: e.g. "Groundwater level (aquifer)"
+    validations:
+      required: false
+
   - type: textarea
-    id: reason
+    id: new_definition_en
     attributes:
-      label: Reason for inclusion
-      description: Explain why this term should be added to the vocabulary.
+      label: New definition (en) (optional)
+      description: Provide the proposed updated definition in English.
+    validations:
+      required: false
+
+  - type: input
+    id: new_broader
+    attributes:
+      label: New broader concept URI (optional)
+      description: If the broader concept should change, provide the new broader URI.
+      placeholder: e.g. https://vocabs.lter-europe.net/EnvThes/67890
+    validations:
+      required: false
+
+  # 4) Why + evidence
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale (why this change is needed)
+      description: Explain the problem with the current term and why the proposed change improves it.
+      placeholder: e.g. "The current definition is ambiguous because..., in eLTER WP... we need..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Sources / references
+      description: Provide links, standards, papers, guidelines, or domain references supporting the change.
+      placeholder: |
+        - https://...
+        - Citation...
+    validations:
+      required: false
+
+  # 5) Impact (optional but useful)
+  - type: dropdown
+    id: breaking_change
+    attributes:
+      label: Could this be a breaking change?
+      description: For example, label/notation changes may affect downstream systems or mappings.
+      options:
+        - "No"
+        - "Not sure"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: downstream_impact
+    attributes:
+      label: Downstream impact / affected systems (optional)
+      description: If known, list datasets, services, mappings, or users affected by this change.
+      placeholder: e.g. "Used in dataset X, mapped in project Y, referenced by..."
+    validations:
+      required: false
+
+  # 6) Contributor details (optional)
   - type: input
     id: contributor
     attributes:
       label: Contributor ORCID (optional)
+      placeholder: e.g. https://orcid.org/0000-0002-1825-0097
+    validations:
+      required: false
+
   - type: input
     id: affiliation
     attributes:
       label: Affiliation or project (optional)
+      placeholder: e.g. eLTER, ITINERIS, DANUBIUS, CNR-IREA
+    validations:
+      required: false
